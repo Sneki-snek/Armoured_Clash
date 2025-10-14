@@ -61,6 +61,10 @@
     <categoryEntry name="Engine" id="8f52-9854-2299-cf1b" hidden="false"/>
     <categoryEntry name="Fireteam" id="6f0b-d922-bf14-12ec" hidden="false"/>
     <categoryEntry name="Carriage" id="d388-ba92-2ee2-c8cc" hidden="false"/>
+    <categoryEntry name="Faithful" id="3694-9392-62f4-1c1d" hidden="false"/>
+    <categoryEntry name="Legionnaire" id="8485-3df2-61f6-b093" hidden="false"/>
+    <categoryEntry name="Armour/Fortification" id="0ff1-ceab-b6f4-ce15" hidden="false"/>
+    <categoryEntry name="Cavalry/Fortification" id="dcf5-85cc-8ebc-e6c4" hidden="false"/>
   </categoryEntries>
   <selectionEntries>
     <selectionEntry type="upgrade" import="false" name="Default Root Entry" hidden="false" id="default-entry">
@@ -351,6 +355,17 @@
       </characteristicTypes>
       <comment>weapons 1</comment>
     </profileType>
+    <profileType name="Type" id="2168-d664-9ff5-f41e" hidden="false" sortIndex="9">
+      <characteristicTypes>
+        <characteristicType name="Range" id="a93b-2f17-358e-cf1e"/>
+        <characteristicType name="10-14" id="d6d2-0ade-fe00-9b79"/>
+        <characteristicType name="5-9" id="f2b4-e4ea-b118-b975"/>
+        <characteristicType name="0-4" id="6cee-a120-eea9-d47b"/>
+        <characteristicType name="Qualities" id="6f44-e99f-a993-281a"/>
+      </characteristicTypes>
+      <comment>weapons Behemoth 0-14</comment>
+    </profileType>
+    <profileType name="Command" id="005b-4054-e3d0-6001" hidden="false"/>
   </profileTypes>
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Basic" hidden="false" id="f088-e6d4-8fe3-0f3e"/>

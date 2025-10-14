@@ -3157,6 +3157,10 @@ Do not count units that are Suppressed or Embarked on Transport units.</characte
       <categoryLinks>
         <categoryLink name="Boons" hidden="false" id="3957-34b9-6ad0-26a0" targetId="9588-4200-697f-615f" primary="true"/>
       </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="7d45-ff19-e010-a484" includeChildSelections="false" automatic="true"/>
+        <constraint type="min" value="1" field="selections" scope="force" shared="true" id="f527-dcaa-d864-fd74" includeChildSelections="false" automatic="false"/>
+      </constraints>
     </selectionEntry>
   </selectionEntries>
   <forceEntries>
