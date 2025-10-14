@@ -65,6 +65,8 @@
     <categoryEntry name="Legionnaire" id="8485-3df2-61f6-b093" hidden="false"/>
     <categoryEntry name="Armour/Fortification" id="0ff1-ceab-b6f4-ce15" hidden="false"/>
     <categoryEntry name="Cavalry/Fortification" id="dcf5-85cc-8ebc-e6c4" hidden="false"/>
+    <categoryEntry name="Inhuman" id="4b6c-a0fd-a97c-5d8b" hidden="false"/>
+    <categoryEntry name="Containment Chambers" id="1bf1-0765-ea0f-ffde" hidden="false"/>
   </categoryEntries>
   <selectionEntries>
     <selectionEntry type="upgrade" import="false" name="Default Root Entry" hidden="false" id="default-entry">

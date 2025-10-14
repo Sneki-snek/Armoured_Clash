@@ -239,7 +239,7 @@ If there is still a unit Garrisoning the building, it must make an immediate Exi
 
 While this unit has the Reloading status, this attack cannot be used.
 
-In addition, this attack cannot be used to make Opportunity Fire. (This line is currently ignored for the Commonwealth&apos;s Cossack Ovcharka War Dogs, due to a rules oversight)</description>
+In addition, this attack cannot be used to make Opportunity Fire.</description>
     </rule>
     <rule name="Turret" id="176d-0eb5-b9ad-ee9d" hidden="false">
       <description>When checking Target Acquisition for this attack, the attacking unit can confirm Visibility on an enemy unit which is outside its Officer’s Front Arc. 
@@ -422,9 +422,6 @@ The full rules for Heavy Rail Land Trains are given on page 40 of the Union ORB
     </rule>
     <rule name="Hunter" id="ca50-b021-6014-aa20" hidden="false">
       <description>This unit’s General scores 1 Victory Point whenever this unit wins a Close Quarters Combat.</description>
-    </rule>
-    <rule name="Inhuman" id="ea9a-3e7a-0e28-6651" hidden="false">
-      <description>This unit may not occupy Transport units and is not affected by the Hazardous Aura special rule.</description>
     </rule>
     <rule name="Interceptor" id="6e03-6b96-04f2-38bb" hidden="false">
       <description>Instead of declaring Opportunity Fire during the first Reaction Step of an enemy Aerial unit’s Activation, a General can issue an Intercept special command to one of their Incoming units with this Special Rule.
@@ -625,7 +622,9 @@ This is a powerful effect, but with the potential for a lot of self-inflicted 
 If the target unit is a Behemoth, a model is not Destroyed, and the accumulated Damage is not reset to zero; instead, the unit suffers one additional point of Damage.</description>
     </rule>
     <rule name="Reactive" id="c207-2ad0-ab50-bd0d" hidden="false">
-      <description>This attack can only be made when the unit’s General declares Opportunity Fire.</description>
+      <description>This attack can only be made when the unit’s General declares Opportunity Fire.
+After this attack has been resolved, the attacking unit gains the Reloading status.
+While this unit has the Reloading status, this attack cannot be used again.</description>
     </rule>
     <rule name="Seismic" id="c020-e208-ac28-cc78" hidden="false">
       <description>If the target becomes Suppressed as a result of this attack, it immediately gains the Disordered status as well.
@@ -695,6 +694,15 @@ In this step, units with Rapid Response may be deployed.
 
 
 Additionally, units with Rapid Response ignore the Lost Opportunity rule, and may be deployed in the final round of a Clash.</description>
+    </rule>
+    <rule name="Hoarfrost Aura" id="2746-cfe2-ae12-314e" hidden="false">
+      <description>All units within X” of this unit count as being in Difficult Terrain for the purposes of Movement.
+
+
+Units with the Inhuman trait are unaffected by this Special Rule.
+
+
+*Note: Units that usually ignore Difficult Terrain, such as those with the Hover, Pioneers or Stilted special rules, are still affected by this Special Rule.*</description>
     </rule>
   </sharedRules>
 </catalogue>
