@@ -637,5 +637,64 @@ Aircraft, Rotorcraft and units with the Hover special rule are immune to the ef
     <rule name="Suppressive" id="55ad-e68a-c008-45de" hidden="false">
       <description>If a Suppression Test is made as the result of this attack, the target has a -1 Discipline modifier.</description>
     </rule>
+    <rule name="Rabble" id="d554-4673-dda6-ba59" hidden="false">
+      <description>If this unit Falls Back as the result of a failed Suppression Test, it immediately assumes Open Formation.
+While it is in Open Formation, this unit cannot control Strategic Objectives, though it can prevent enemy units from controlling them.
+At the end of this unit’s next Movement Step, it must reassume Close Formation. Any models that are unable to move within Unit Coherency are Abandoned.</description>
+    </rule>
+    <rule name="Trap" id="905d-bd51-4498-d8cf" hidden="false">
+      <description>Rather than drawing Line of Sight from this unit’s Officer, this attack can be made against an enemy unit that has at least one model in Difficult Terrain.
+This attack is always Improved regardless of any Combat Rating Bonuses or Penalties that may apply.
+Additionally, once this attack has been resolved, the target unit must take a Suppression Test, even if it would not otherwise need to.</description>
+    </rule>
+    <rule name="Pathfinders" id="faa0-964c-a5e5-bd36" hidden="false">
+      <description>Any friendly Infantry, Cavalry, or Field Gun unit that starts its Activation within 6” of this unit treats Difficult Terrain or Dense Terrain as Open Terrain during their Movement Step.
+This friendly unit must end its Movement Step within 6” of this unit.</description>
+    </rule>
+    <rule name="Melee Masters" id="1787-edda-1f5b-8ff1" hidden="false">
+      <description>Melee attacks against this unit always suffer from a Combat Rating Penalty.</description>
+    </rule>
+    <rule name="Shrine of the Faithful" id="320d-89a8-405b-94c7" hidden="false">
+      <description>Friendly units within X” of this unit gain +1 Discipline and the Faithful trait.
+Units with the Behemoth trait cannot gain the Faithful trait.</description>
+    </rule>
+    <rule name="Restricted Access" id="8c10-7c9a-b41e-8e70" hidden="false">
+      <description>This unit can only carry units with the X trait.</description>
+    </rule>
+    <rule name="Aerial Assault" id="3626-33ea-b3b7-7b7d" hidden="false">
+      <description>This unit must be Deployed In Reserve.
+It does not arrive in the Deploy Reserves step as normal, however, and is instead deployed as follows:
+
+
+From Round 2 onwards, instead of Activating a unit on the Battlefield, a General may issue a Special Command to Activate this unit while it is in Reserve. If this Special Command is unsuccessful, the General may Activate a unit on the Battlefield as normal.
+
+
+If this Special Command is issued successfully, this unit is immediately Deployed anywhere on the Battlefield, so long as it is not within the opposing General’s Deployment Zone, or within 1” of any enemy units, Defensible Buildings or Strategic Objective Markers.
+
+
+This unit can never suffer from Lost Opportunity.
+
+
+If this Special Command is not successfully issued by the final round of the Clash, the General must Activate this unit in their first turn, and deploy the unit as outlined above. They do not need to issue a Special Command to do so and the opposing General does not get an opportunity to Interfere.</description>
+    </rule>
+    <rule name="Lost Opportunity" id="eac1-c8d4-4496-97aa" hidden="false">
+      <description>In the final round of a Clash, Reserves cannot be deployed. Any units that are still in Reserve at this point will take no part in the battle.</description>
+    </rule>
+    <rule name="Jamming" id="97a0-d10e-5792-ca65" hidden="false">
+      <description>The opposing General cannot issue Commands to units within X” of this unit.</description>
+    </rule>
+    <rule name="Trail" id="0b88-7d3a-55b5-de7a" hidden="false">
+      <description>Rather than drawing Line of Sight from this unit’s Officer, this attack can be made against a single enemy unit that this unit moved through during its Movement Step or Approach Step.
+The attack is always Neutral regardless of any Combat Rating Bonuses or Penalties that may apply.</description>
+    </rule>
+    <rule name="Rapid Response" id="36e9-aaed-43db-8e9e" hidden="false">
+      <description>If, at the start of the Clash, either General has any units in Reserve with this special rule, then do not skip the Deploy Reserves step of the first round Ready Phase.
+
+
+In this step, units with Rapid Response may be deployed.
+
+
+Additionally, units with Rapid Response ignore the Lost Opportunity rule, and may be deployed in the final round of a Clash.</description>
+    </rule>
   </sharedRules>
 </catalogue>

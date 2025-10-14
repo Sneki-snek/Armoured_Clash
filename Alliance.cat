@@ -193,7 +193,7 @@
                     <characteristic name="10-14" typeId="d6d2-0ade-fe00-9b79">4</characteristic>
                     <characteristic name="5-9" typeId="f2b4-e4ea-b118-b975">8</characteristic>
                     <characteristic name="0-4" typeId="6cee-a120-eea9-d47b">12</characteristic>
-                    <characteristic name="Qualities" typeId="6f44-e99f-a993-281a">Turret</characteristic>
+                    <characteristic name="Qualities" typeId="6f44-e99f-a993-281a">-</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2551,7 +2551,7 @@
         </modifierGroup>
       </modifierGroups>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Malinois Interdictor Squadron" hidden="false" id="b32b-f579-5b54-83cb" sortIndex="18">
+    <selectionEntry type="unit" import="true" name="Malinois Interdictor Squadron" hidden="false" id="be14-5f02-cba2-5c3f" sortIndex="18">
       <categoryLinks>
         <categoryLink name="Alliance" hidden="false" id="14c3-5322-9c3d-ab60" targetId="db41-3349-0ff7-53da" primary="false"/>
         <categoryLink name="Aircraft" hidden="false" id="9582-dbd3-ac5a-ed80" targetId="554f-0054-70cc-dc43" primary="true"/>
@@ -2560,7 +2560,7 @@
       <profiles>
         <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="1353-d0c6-9470-b2d2" noindex="false">
           <characteristics>
-            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">All-Out-Attack (2), Fiery Demise (4), Flying, Rapid Response</characteristic>
+            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">All-Out Attack (2), Fiery Demise (4), Flying, Rapid Response</characteristic>
           </characteristics>
         </profile>
       </profiles>
