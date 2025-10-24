@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="true" id="4257-4b3f-e0ad-dea3" name="Rules Glossary" gameSystemId="sys-e850-e7dd-b6e5-f6c0" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="true" id="4257-4b3f-e0ad-dea3" name="Rules Glossary" gameSystemId="sys-e850-e7dd-b6e5-f6c0" gameSystemRevision="1" revision="2" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedRules>
     <rule name="All-Out Attack" id="71e9-1759-fb9b-a065" hidden="false">
       <description>In this unit’s Attack Step, it can make an All-Out Attack instead of attacking normally. If it does, it makes up to X Attacks, each one using a different row on the unit’s Armaments Grid.
@@ -371,10 +371,14 @@ Both Generals then deploy their forces, following the usual rules. Selected For
 Note: Transport units with the Forward special rule can be deployed with Embarked units as usual. These Embarked units must be declared before Deployment.
 
 
-Miss: within this General’s Deployment Zone.
-Blank: anywhere on the battlefield, but takes 1 Damage. It cannot be Deployed within the opposing General’s Deployment Zone.
-Glancing: anywhere up to 5” outside this General’s Deployment Zone. It cannot be Deployed within the opposing General’s Deployment Zone, or within 3” of a Strategic Objective Marker or Defensible   Building.
-Strike: anywhere up to 10” outside of this General’s Deployment Zone. It cannot be Deployed within the opposing General’s Deployment Zone, or within 3” of a Strategic Objective Marker or Defensible   Building.
+Blank: within this General’s Deployment Zone.
+
+Miss (X) : anywhere on the battlefield, but takes 1 Damage. It cannot be Deployed within the opposing General’s Deployment Zone.
+
+Glancing (**^**): anywhere up to 5” outside this General’s Deployment Zone. It cannot be Deployed within the opposing General’s Deployment Zone, or within 3” of a Strategic Objective Marker or Defensible Building.
+
+Strike: anywhere up to 10” outside of this General’s Deployment Zone. It cannot be Deployed within the opposing General’s Deployment Zone, or within 3” of a Strategic Objective Marker or Defensible Building.
+
 Heroic Strike: anywhere on the battlefield. It cannot be Deployed within the opposing General’s Deployment Zone.</description>
     </rule>
     <rule name="Hazardous Aura" id="193d-d3bd-ad09-7fa5" hidden="false">
