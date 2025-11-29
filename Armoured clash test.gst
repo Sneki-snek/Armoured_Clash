@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="sys-e850-e7dd-b6e5-f6c0" name="Armoured_Clash-Main-Snek" battleScribeVersion="2.03" revision="3" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="sys-e850-e7dd-b6e5-f6c0" name="Armoured_Clash-Main-Snek" battleScribeVersion="2.03" revision="4" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <categoryEntries>
     <categoryEntry name="Light" id="default-category"/>
     <categoryEntry name="Heavy" id="6aad-4085-608f-dc2f" hidden="false"/>
@@ -69,7 +69,7 @@
     <categoryEntry name="Containment Chambers" id="1bf1-0765-ea0f-ffde" hidden="false"/>
   </categoryEntries>
   <selectionEntries>
-    <selectionEntry type="upgrade" import="false" name="Default Root Entry" hidden="false" id="default-entry">
+    <selectionEntry type="upgrade" import="false" name="Default Root Entry" hidden="true" id="default-entry">
       <categoryLinks>
         <categoryLink targetId="default-category" id="default-category-link" primary="true" name="Light" hidden="false"/>
       </categoryLinks>
@@ -380,4 +380,46 @@
   <publications>
     <publication name="Sneki_Snek" id="9bca-dc9c-555f-6458" hidden="false" publisherUrl="https://github.com/Sneki-snek/Armoured_Clash" publisher="snekI_Snek"/>
   </publications>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup name="Weapons" id="90d4-bf3f-b4ee-58f1" hidden="false">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Ranged (Light)" hidden="false" id="52fb-c2ee-538d-2155" sortIndex="1">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="95b6-aae0-4af3-e6aa" automatic="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4bc3-6981-3d3d-8514" automatic="true"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Melee" hidden="false" id="be3b-ccfb-408a-66d2" sortIndex="5">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8f04-2659-c8ae-a8c4" automatic="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0148-a285-d74e-bc07" automatic="true"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Ranged (Light/Heavy)" hidden="false" id="6e44-84fe-2d4f-9153" sortIndex="3">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4705-9fcd-043d-2b96" automatic="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="efe4-ffd6-772e-df5d" automatic="true"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Ranged (Heavy)" hidden="false" id="a038-b3e0-ba0e-6c35" sortIndex="2">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e486-dd06-4188-629a" automatic="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="40f2-d3a9-08e4-29b4" automatic="true"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Ranged (Aerial)" hidden="false" id="cc52-8716-b7fa-b484" sortIndex="4">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d671-4aa3-915c-b064" automatic="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="eae3-2c94-147f-562b" automatic="true"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Impact" hidden="false" id="1898-8580-b957-fe4a" sortIndex="6">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5907-23ca-8b64-2bad" automatic="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5fa6-6197-d302-73ee" automatic="true"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
 </gameSystem>
