@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="7a50-eb9a-095f-b57d" name="Imperium" gameSystemId="sys-e850-e7dd-b6e5-f6c0" gameSystemRevision="1" revision="1" authorName="Sneki_snek" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="7a50-eb9a-095f-b57d" name="Imperium" gameSystemId="sys-e850-e7dd-b6e5-f6c0" gameSystemRevision="1" revision="2" authorName="Sneki_snek" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry type="unit" import="false" name="Scion Grenadier Command Platoon" hidden="false" id="7ae4-c55a-744f-f4c8" sortIndex="1">
       <categoryLinks>
@@ -39,7 +39,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="90"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="70"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Full Strength" hidden="false" id="bbf2-7bd2-2f97-3b77" type="selectionEntry" targetId="e86e-71e1-9396-5526" sortIndex="3" flatten="false">
@@ -63,7 +63,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="245"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="130"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Reinforced" hidden="false" id="5d02-722b-9475-f88a" type="selectionEntry" targetId="85c2-43ee-a668-834f" sortIndex="2" flatten="false">
@@ -87,7 +87,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="160"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="100"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -1352,7 +1352,7 @@
       <profiles>
         <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="58d2-403b-5794-fac3" noindex="true">
           <characteristics>
-            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Emplacement, Limber, Shrouded, Static</characteristic>
+            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Emplacement, Shrouded, Static</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1507,7 +1507,7 @@
       <profiles>
         <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="41a8-7e23-892d-90c7" noindex="true">
           <characteristics>
-            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Emplacement, Limber, Shrouded, Static</characteristic>
+            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Emplacement, Shrouded, Static</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1639,7 +1639,7 @@
                     <characteristic name="Range" typeId="db9e-9452-9fc5-3877">10&quot;/26&quot;</characteristic>
                     <characteristic name="1-4" typeId="94b3-2e14-1b71-6757">6</characteristic>
                     <characteristic name="5-8" typeId="f891-f62d-9222-6a4f">10</characteristic>
-                    <characteristic name="9-12" typeId="df36-9d51-a316-8d54">12</characteristic>
+                    <characteristic name="9-12" typeId="df36-9d51-a316-8d54">14</characteristic>
                     <characteristic name="Qualities" typeId="9a3f-8a28-e735-e1eb">-</characteristic>
                   </characteristics>
                 </profile>
@@ -1671,7 +1671,7 @@
       <profiles>
         <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="7afa-049b-d1df-f5a8" noindex="true">
           <characteristics>
-            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Emplacement, Limber, Shrouded, Static</characteristic>
+            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Emplacement, Shrouded, Static</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1723,7 +1723,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="225"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="255"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Reinforced" hidden="false" id="681f-97e0-a3ba-00f1" type="selectionEntry" targetId="85c2-43ee-a668-834f" sortIndex="2" flatten="false">
@@ -2779,7 +2779,7 @@
       <profiles>
         <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="bcb0-2f11-7673-a398" noindex="false">
           <characteristics>
-            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Assault Ramp, Capacity (2), Tow (1)</characteristic>
+            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Assault Ramp, Capacity (2), Tow</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2906,7 +2906,7 @@
       <profiles>
         <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="7d54-5f06-3500-c729" noindex="false">
           <characteristics>
-            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Fiery Demise (3), Flying, Interceptor</characteristic>
+            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Fiery Demise (3), Flying, Interceptor, Rapid Response</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2934,7 +2934,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="115"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="90"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Full Strength" hidden="false" id="c7d4-5eed-d137-f714" type="selectionEntry" targetId="e86e-71e1-9396-5526" sortIndex="3" flatten="false">
@@ -2958,7 +2958,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="310"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="200"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Reinforced" hidden="false" id="ce9b-1160-55f7-c252" type="selectionEntry" targetId="85c2-43ee-a668-834f" sortIndex="2" flatten="false">
@@ -2982,7 +2982,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="205"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="145"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -3090,7 +3090,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="450"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="420"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -3221,7 +3221,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="430"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="400"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -3309,24 +3309,6 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Boons and bonuses" hidden="false" id="c8bb-73f6-699f-9fe6" sortIndex="0">
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Forlorn Hope" hidden="false" id="5f9c-7bb3-18ff-e915" sortIndex="2">
-          <profiles>
-            <profile name="Forlorn Hope" typeId="3f77-4198-5794-9684" typeName="Boons" hidden="false" id="1342-699e-7f26-cebc">
-              <characteristics>
-                <characteristic name="Effect" typeId="b7f2-49d8-a49a-0b0f">A single unit in the General’s Force that has been deployed at the start of the Clash gains the Vanguard (10”) special rule.
-
-
-A unit that already has the Vanguard (X”) special rule uses the highest (X) value of the two available.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="Points" typeId="e58e-982d-7630-5342" value="15"/>
-          </costs>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7120-6b88-fdd6-1d36" automatic="false"/>
-          </constraints>
-        </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Ready For Anything" hidden="false" id="ac56-f683-9aee-43cd" sortIndex="3">
           <costs>
             <cost name="Points" typeId="e58e-982d-7630-5342" value="20"/>
@@ -3368,24 +3350,6 @@ If the unit is unable to end its Charge manoeuvre in contact with the active en
           </costs>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a567-3690-b992-2d63" automatic="false"/>
-          </constraints>
-        </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Tactical Brilliance" hidden="false" id="26d6-00f2-267c-a7d6" sortIndex="7">
-          <costs>
-            <cost name="Points" typeId="e58e-982d-7630-5342" value="45"/>
-          </costs>
-          <profiles>
-            <profile name="Tactical Brilliance" typeId="3f77-4198-5794-9684" typeName="Boons" hidden="false" id="25ee-1948-92ca-eef7">
-              <characteristics>
-                <characteristic name="Effect" typeId="b7f2-49d8-a49a-0b0f">During the first Round of the Clash, the General increases their Hand Limit by 1 for the duration of the Round. 
-
-
-If the General begins the second Round with too many cards in their hand, they must discard the extra card before drawing any more in the Ready Phase.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="afda-16c9-2d92-3a1b" automatic="false"/>
           </constraints>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Grappling With Giants" hidden="false" id="c45b-573e-a85e-91ef" sortIndex="5">
@@ -3510,6 +3474,38 @@ Do not count units that are Suppressed or Embarked on Transport units.</characte
               </conditions>
             </modifier>
           </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Headstrong Commander" hidden="false" id="daf8-a0d1-90a7-c27a" sortIndex="7">
+          <costs>
+            <cost name="Points" typeId="e58e-982d-7630-5342" value="45"/>
+          </costs>
+          <profiles>
+            <profile name="Headstrong Commander" typeId="3f77-4198-5794-9684" typeName="Boons" hidden="false" id="1cf3-659b-2875-76a3">
+              <characteristics>
+                <characteristic name="Effect" typeId="b7f2-49d8-a49a-0b0f">During the Draw Cards step of each Ready Phase, after drawing cards from their Command &amp; Conquest deck, the General can choose to draw one additional card and add it to their Hand.
+If they do, they must then discard one card from their Hand. </characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="586d-56b6-3b18-2e51" automatic="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Forlorn Hope" hidden="false" id="c438-fdf8-db0c-8c57" sortIndex="2">
+          <profiles>
+            <profile name="Forlorn Hope" typeId="3f77-4198-5794-9684" typeName="Boons" hidden="false" id="d676-6a34-d84c-d2ee">
+              <characteristics>
+                <characteristic name="Effect" typeId="b7f2-49d8-a49a-0b0f">A single unit in the General’s Force that has been deployed at the start of the Clash gains the Vanguard (X”) special rule, with an (X) value 2” higher than its Speed. (For example, a unit with Speed 6” would gain the Vanguard (8”) special rule.)
+If the chosen unit already has the Vanguard (X ) special rule it uses the highest (X) value of the two available.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Points" typeId="e58e-982d-7630-5342" value="15"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="de86-4449-3de1-270d" automatic="false"/>
+          </constraints>
         </selectionEntry>
       </selectionEntries>
       <categoryLinks>

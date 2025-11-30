@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="sys-e850-e7dd-b6e5-f6c0" name="Armoured_Clash-Main-Snek" battleScribeVersion="2.03" revision="4" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="sys-e850-e7dd-b6e5-f6c0" name="Armoured_Clash-Main-Snek" battleScribeVersion="2.03" revision="5" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <categoryEntries>
     <categoryEntry name="Light" id="default-category"/>
     <categoryEntry name="Heavy" id="6aad-4085-608f-dc2f" hidden="false"/>
@@ -368,6 +368,16 @@
       <comment>weapons Behemoth 0-14</comment>
     </profileType>
     <profileType name="Command" id="005b-4054-e3d0-6001" hidden="false"/>
+    <profileType name="Type" id="e230-522c-9c1c-b6c3" hidden="false">
+      <comment>Weapons Behemoth 1-18</comment>
+      <characteristicTypes>
+        <characteristicType name="Range" id="7385-1013-e06a-3c64"/>
+        <characteristicType name="16-17" id="3e72-48b6-96fe-f1ef"/>
+        <characteristicType name="7-15" id="1762-66d0-5133-73cd"/>
+        <characteristicType name="1-6" id="dedc-b012-91db-99d5"/>
+        <characteristicType name="Qualities" id="e5c1-9b5c-88b4-f622"/>
+      </characteristicTypes>
+    </profileType>
   </profileTypes>
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Basic" hidden="false" id="f088-e6d4-8fe3-0f3e"/>

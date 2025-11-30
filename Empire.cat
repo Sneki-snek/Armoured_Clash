@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="4071-b855-7a04-d76d" name="Empire" gameSystemId="sys-e850-e7dd-b6e5-f6c0" gameSystemRevision="2" revision="1" authorName="Sneki_snek" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="4071-b855-7a04-d76d" name="Empire" gameSystemId="sys-e850-e7dd-b6e5-f6c0" gameSystemRevision="2" revision="2" authorName="Sneki_snek" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry name="Empire Faction Battlegroup" id="02e1-b891-584c-0c8e" hidden="false" sortIndex="1">
       <categoryLinks>
@@ -109,10 +109,8 @@
           <profiles>
             <profile name="Forlorn Hope" typeId="3f77-4198-5794-9684" typeName="Boons" hidden="false" id="2812-af87-d0dd-6722">
               <characteristics>
-                <characteristic name="Effect" typeId="b7f2-49d8-a49a-0b0f">A single unit in the General’s Force that has been deployed at the start of the Clash gains the Vanguard (10”) special rule.
-
-
-A unit that already has the Vanguard (X”) special rule uses the highest (X) value of the two available.</characteristic>
+                <characteristic name="Effect" typeId="b7f2-49d8-a49a-0b0f">A single unit in the General’s Force that has been deployed at the start of the Clash gains the Vanguard (X”) special rule, with an (X) value 2” higher than its Speed. (For example, a unit with Speed 6” would gain the Vanguard (8”) special rule.)
+If the chosen unit already has the Vanguard (X ) special rule it uses the highest (X) value of the two available.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -166,17 +164,15 @@ If the unit is unable to end its Charge manoeuvre in contact with the active en
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d234-abb2-8945-39fd" automatic="false"/>
           </constraints>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Tactical Brilliance" hidden="false" id="f721-cf09-644b-68ee" sortIndex="6">
+        <selectionEntry type="upgrade" import="true" name="Headstrong Commander" hidden="false" id="f721-cf09-644b-68ee" sortIndex="6">
           <costs>
             <cost name="Points" typeId="e58e-982d-7630-5342" value="45"/>
           </costs>
           <profiles>
-            <profile name="Tactical Brilliance" typeId="3f77-4198-5794-9684" typeName="Boons" hidden="false" id="cbfa-f477-dad4-494b">
+            <profile name="Headstrong Commander" typeId="3f77-4198-5794-9684" typeName="Boons" hidden="false" id="cbfa-f477-dad4-494b">
               <characteristics>
-                <characteristic name="Effect" typeId="b7f2-49d8-a49a-0b0f">During the first Round of the Clash, the General increases their Hand Limit by 1 for the duration of the Round. 
-
-
-If the General begins the second Round with too many cards in their hand, they must discard the extra card before drawing any more in the Ready Phase.</characteristic>
+                <characteristic name="Effect" typeId="b7f2-49d8-a49a-0b0f">During the Draw Cards step of each Ready Phase, after drawing cards from their Command &amp; Conquest deck, the General can choose to draw one additional card and add it to their Hand.
+If they do, they must then discard one card from their Hand. </characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -342,12 +338,12 @@ This is intentional!</characteristic>
                   </characteristics>
                   <modifiers>
                     <modifier type="set" value="8" field="3e5d-fadc-d9fb-6570"/>
-                    <modifier type="set" value="3" field="bb79-114d-2dc7-ca18"/>
+                    <modifier type="set" value="2" field="bb79-114d-2dc7-ca18"/>
                   </modifiers>
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="75"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="65"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Full Strength" hidden="false" id="0487-66c0-dfca-7387" type="selectionEntry" targetId="e86e-71e1-9396-5526" sortIndex="3" flatten="false">
@@ -366,12 +362,12 @@ This is intentional!</characteristic>
                   </characteristics>
                   <modifiers>
                     <modifier type="set" value="24" field="3e5d-fadc-d9fb-6570"/>
-                    <modifier type="set" value="5" field="bb79-114d-2dc7-ca18"/>
+                    <modifier type="set" value="4" field="bb79-114d-2dc7-ca18"/>
                   </modifiers>
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="195"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="120"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Reinforced" hidden="false" id="7083-0abe-d96e-0c88" type="selectionEntry" targetId="85c2-43ee-a668-834f" sortIndex="2" flatten="false">
@@ -390,12 +386,12 @@ This is intentional!</characteristic>
                   </characteristics>
                   <modifiers>
                     <modifier type="set" value="16" field="3e5d-fadc-d9fb-6570"/>
-                    <modifier type="set" value="4" field="bb79-114d-2dc7-ca18"/>
+                    <modifier type="set" value="3" field="bb79-114d-2dc7-ca18"/>
                   </modifiers>
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="130"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="90"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -404,35 +400,45 @@ This is intentional!</characteristic>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="492c-6a5d-878f-7a74"/>
           </constraints>
         </selectionEntryGroup>
+        <selectionEntryGroup name="Weapons" id="c9b6-4771-8630-a121" hidden="false" sortIndex="1">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Ranged (Light)" hidden="false" id="e87e-3482-af1c-af66" sortIndex="1">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5642-5c65-675b-0fbf" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="67bc-8168-a9e2-99c7" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Ranged (Light)" typeId="94d7-2200-00d2-ae3f" typeName="Type" hidden="false" id="11d5-39ef-eaa4-77c9">
+                  <characteristics>
+                    <characteristic name="Range" typeId="0faf-08e4-43a5-722d">6&quot;/10&quot;</characteristic>
+                    <characteristic name="1-6" typeId="1dd1-b0ef-2521-5815">4</characteristic>
+                    <characteristic name="7-12" typeId="1fbf-39ae-6b9b-6e84">8</characteristic>
+                    <characteristic name="13-18" typeId="73e4-df9f-6b10-d276">12</characteristic>
+                    <characteristic name="Qualities" typeId="8c1e-b7a3-2830-9b8b">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Melee" hidden="false" id="6d5f-1fa1-219c-cd05" sortIndex="5">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f3da-ea92-256a-431b" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c0bf-70f0-cd98-d606" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Melee" typeId="ab7a-1a7e-f58b-4565" typeName="Type" hidden="false" id="707b-0619-9842-9ff0">
+                  <characteristics>
+                    <characteristic name="Range" typeId="ae86-2a51-4bd0-5c8c">-</characteristic>
+                    <characteristic name="1-8" typeId="a2ba-36af-bed3-a679">4</characteristic>
+                    <characteristic name="9-16" typeId="085d-3a50-7d10-ef1b">8</characteristic>
+                    <characteristic name="17-24" typeId="b6be-29a6-8c04-d4a7">12</characteristic>
+                    <characteristic name="Qualities" typeId="ea86-3bb1-4fea-6f13">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
       </selectionEntryGroups>
-      <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name=" Weapons" hidden="false" id="dc98-82ec-8a9a-25b9" flatten="true" collective="false" sortIndex="1" collapsible="true">
-          <profiles>
-            <profile name="Ranged (Light)" typeId="94d7-2200-00d2-ae3f" typeName="Type" hidden="false" id="11d5-39ef-eaa4-77c9">
-              <characteristics>
-                <characteristic name="Range" typeId="0faf-08e4-43a5-722d">6&quot;/10&quot;</characteristic>
-                <characteristic name="1-6" typeId="1dd1-b0ef-2521-5815">4</characteristic>
-                <characteristic name="7-12" typeId="1fbf-39ae-6b9b-6e84">8</characteristic>
-                <characteristic name="13-18" typeId="73e4-df9f-6b10-d276">12</characteristic>
-                <characteristic name="Qualities" typeId="8c1e-b7a3-2830-9b8b">-</characteristic>
-              </characteristics>
-            </profile>
-            <profile name="Melee" typeId="ab7a-1a7e-f58b-4565" typeName="Type" hidden="false" id="707b-0619-9842-9ff0">
-              <characteristics>
-                <characteristic name="Range" typeId="ae86-2a51-4bd0-5c8c">-</characteristic>
-                <characteristic name="1-8" typeId="a2ba-36af-bed3-a679">4</characteristic>
-                <characteristic name="9-16" typeId="085d-3a50-7d10-ef1b">8</characteristic>
-                <characteristic name="17-24" typeId="b6be-29a6-8c04-d4a7">12</characteristic>
-                <characteristic name="Qualities" typeId="ea86-3bb1-4fea-6f13">-</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6343-557c-a461-fcdb" automatic="true"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ee0a-7087-da44-9dbd" automatic="true"/>
-          </constraints>
-        </selectionEntry>
-      </selectionEntries>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="5486-85df-e33b-e6ce" includeChildSelections="true"/>
       </constraints>
@@ -531,35 +537,45 @@ This is intentional!</characteristic>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b076-d5ce-e8ec-9c39"/>
           </constraints>
         </selectionEntryGroup>
+        <selectionEntryGroup name="Weapons" id="9eb1-7d04-5e9a-a09a" hidden="false" sortIndex="1">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Ranged (Light)" hidden="false" id="d5c6-15cf-7a8f-8206" sortIndex="1">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8909-9838-715a-93e1" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fd13-e56d-e09c-a740" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Ranged (Light)" typeId="94d7-2200-00d2-ae3f" typeName="Type" hidden="false" id="90b2-ee88-5413-610d">
+                  <characteristics>
+                    <characteristic name="Range" typeId="0faf-08e4-43a5-722d">6&quot;/10&quot;</characteristic>
+                    <characteristic name="1-6" typeId="1dd1-b0ef-2521-5815">4</characteristic>
+                    <characteristic name="7-12" typeId="1fbf-39ae-6b9b-6e84">8</characteristic>
+                    <characteristic name="13-18" typeId="73e4-df9f-6b10-d276">12</characteristic>
+                    <characteristic name="Qualities" typeId="8c1e-b7a3-2830-9b8b">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Melee" hidden="false" id="54bc-b960-d5cf-952f" sortIndex="5">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="39d9-1e5c-aa8f-1d59" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="58d4-9ab7-59b2-dd37" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Melee" typeId="ab7a-1a7e-f58b-4565" typeName="Type" hidden="false" id="f402-b786-1c43-7547">
+                  <characteristics>
+                    <characteristic name="Range" typeId="ae86-2a51-4bd0-5c8c">-</characteristic>
+                    <characteristic name="1-8" typeId="a2ba-36af-bed3-a679">4</characteristic>
+                    <characteristic name="9-16" typeId="085d-3a50-7d10-ef1b">8</characteristic>
+                    <characteristic name="17-24" typeId="b6be-29a6-8c04-d4a7">12</characteristic>
+                    <characteristic name="Qualities" typeId="ea86-3bb1-4fea-6f13">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
       </selectionEntryGroups>
-      <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name=" Weapons" hidden="false" id="0456-eb9f-1e48-ccf5" flatten="true" collective="false" sortIndex="1" collapsible="true">
-          <profiles>
-            <profile name="Ranged (Light)" typeId="94d7-2200-00d2-ae3f" typeName="Type" hidden="false" id="90b2-ee88-5413-610d">
-              <characteristics>
-                <characteristic name="Range" typeId="0faf-08e4-43a5-722d">6&quot;/10&quot;</characteristic>
-                <characteristic name="1-6" typeId="1dd1-b0ef-2521-5815">4</characteristic>
-                <characteristic name="7-12" typeId="1fbf-39ae-6b9b-6e84">8</characteristic>
-                <characteristic name="13-18" typeId="73e4-df9f-6b10-d276">12</characteristic>
-                <characteristic name="Qualities" typeId="8c1e-b7a3-2830-9b8b">-</characteristic>
-              </characteristics>
-            </profile>
-            <profile name="Melee" typeId="ab7a-1a7e-f58b-4565" typeName="Type" hidden="false" id="f402-b786-1c43-7547">
-              <characteristics>
-                <characteristic name="Range" typeId="ae86-2a51-4bd0-5c8c">-</characteristic>
-                <characteristic name="1-8" typeId="a2ba-36af-bed3-a679">4</characteristic>
-                <characteristic name="9-16" typeId="085d-3a50-7d10-ef1b">8</characteristic>
-                <characteristic name="17-24" typeId="b6be-29a6-8c04-d4a7">12</characteristic>
-                <characteristic name="Qualities" typeId="ea86-3bb1-4fea-6f13">-</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="93b4-0d5c-00fa-70dc" automatic="true"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cafd-a819-9dee-ffb9" automatic="true"/>
-          </constraints>
-        </selectionEntry>
-      </selectionEntries>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="38d0-08d5-96bd-0c43" includeChildSelections="true"/>
       </constraints>
@@ -585,7 +601,7 @@ This is intentional!</characteristic>
       <profiles>
         <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="af0e-9999-6a76-607d" noindex="true">
           <characteristics>
-            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Pavises, Pioneers, Storming Party</characteristic>
+            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Pavises, Pioneers, Occupy</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -670,35 +686,45 @@ This is intentional!</characteristic>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8487-e637-4841-ce11"/>
           </constraints>
         </selectionEntryGroup>
+        <selectionEntryGroup name="Weapons" id="68d5-ecd5-c0a9-03ca" hidden="false" sortIndex="1">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Ranged (Light)" hidden="false" id="d4fb-d0a6-e150-b089" sortIndex="1">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a97e-8de4-15d4-3c1a" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8137-806b-de33-1ddd" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Ranged (Light)" typeId="344a-022d-aebf-7e7a" typeName="Type" hidden="false" id="da04-5a10-6282-eb6d">
+                  <characteristics>
+                    <characteristic name="Range" typeId="db9e-9452-9fc5-3877">3&quot;/6&quot;</characteristic>
+                    <characteristic name="1-4" typeId="94b3-2e14-1b71-6757">7</characteristic>
+                    <characteristic name="5-8" typeId="f891-f62d-9222-6a4f">11</characteristic>
+                    <characteristic name="9-12" typeId="df36-9d51-a316-8d54">15</characteristic>
+                    <characteristic name="Qualities" typeId="9a3f-8a28-e735-e1eb">Torrent, Suppressive</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Melee" hidden="false" id="9e56-c8b0-bbf2-3171" sortIndex="5">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1514-fceb-aa2f-c2b4" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1dca-f869-46ae-3422" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Melee" typeId="344a-022d-aebf-7e7a" typeName="Type" hidden="false" id="6c34-d60e-ecbb-4bca">
+                  <characteristics>
+                    <characteristic name="Range" typeId="db9e-9452-9fc5-3877">-</characteristic>
+                    <characteristic name="1-4" typeId="94b3-2e14-1b71-6757">3</characteristic>
+                    <characteristic name="5-8" typeId="f891-f62d-9222-6a4f">5</characteristic>
+                    <characteristic name="9-12" typeId="df36-9d51-a316-8d54">7</characteristic>
+                    <characteristic name="Qualities" typeId="9a3f-8a28-e735-e1eb">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
       </selectionEntryGroups>
-      <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name=" Weapons" hidden="false" id="87a2-48f4-203f-6966" flatten="true" collective="false" sortIndex="1" collapsible="true">
-          <profiles>
-            <profile name="Ranged (Light)" typeId="344a-022d-aebf-7e7a" typeName="Type" hidden="false" id="da04-5a10-6282-eb6d">
-              <characteristics>
-                <characteristic name="Range" typeId="db9e-9452-9fc5-3877">3&quot;/6&quot;</characteristic>
-                <characteristic name="1-4" typeId="94b3-2e14-1b71-6757">7</characteristic>
-                <characteristic name="5-8" typeId="f891-f62d-9222-6a4f">11</characteristic>
-                <characteristic name="9-12" typeId="df36-9d51-a316-8d54">15</characteristic>
-                <characteristic name="Qualities" typeId="9a3f-8a28-e735-e1eb">Torrent, Suppressive</characteristic>
-              </characteristics>
-            </profile>
-            <profile name="Melee" typeId="344a-022d-aebf-7e7a" typeName="Type" hidden="false" id="6c34-d60e-ecbb-4bca">
-              <characteristics>
-                <characteristic name="Range" typeId="db9e-9452-9fc5-3877">-</characteristic>
-                <characteristic name="1-4" typeId="94b3-2e14-1b71-6757">3</characteristic>
-                <characteristic name="5-8" typeId="f891-f62d-9222-6a4f">5</characteristic>
-                <characteristic name="9-12" typeId="df36-9d51-a316-8d54">7</characteristic>
-                <characteristic name="Qualities" typeId="9a3f-8a28-e735-e1eb">-</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c114-db7b-a3f7-61e9" automatic="true"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="65b5-ca07-f20a-85b3" automatic="true"/>
-          </constraints>
-        </selectionEntry>
-      </selectionEntries>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="baaf-2794-fcd8-f757" includeChildSelections="true"/>
       </constraints>
@@ -797,53 +823,79 @@ This is intentional!</characteristic>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a1ce-5f96-0706-3fce"/>
           </constraints>
         </selectionEntryGroup>
+        <selectionEntryGroup name="Weapons" id="d81b-d426-bdfa-3b40" hidden="false" sortIndex="1">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Ranged (Light)" hidden="false" id="5d88-9221-5ed7-bced" sortIndex="1">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0f37-7263-2e95-0de8" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4fec-0f70-a2a1-7079" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Ranged (Light)" typeId="344a-022d-aebf-7e7a" typeName="Type" hidden="false" id="7bdd-8321-af38-bb9e">
+                  <characteristics>
+                    <characteristic name="Range" typeId="db9e-9452-9fc5-3877">6&quot;/30&quot;</characteristic>
+                    <characteristic name="1-4" typeId="94b3-2e14-1b71-6757">3</characteristic>
+                    <characteristic name="5-8" typeId="f891-f62d-9222-6a4f">6</characteristic>
+                    <characteristic name="9-12" typeId="df36-9d51-a316-8d54">9</characteristic>
+                    <characteristic name="Qualities" typeId="9a3f-8a28-e735-e1eb">Indirect, Suppressive</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Melee" hidden="false" id="ed49-a3ee-f8b0-b27a" sortIndex="5">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a8af-1463-0aa6-6c74" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f3ec-0b4e-30f8-dda6" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Melee" typeId="344a-022d-aebf-7e7a" typeName="Type" hidden="false" id="15c4-dffe-1ea0-059b">
+                  <characteristics>
+                    <characteristic name="Range" typeId="db9e-9452-9fc5-3877">-</characteristic>
+                    <characteristic name="1-4" typeId="94b3-2e14-1b71-6757">2</characteristic>
+                    <characteristic name="5-8" typeId="f891-f62d-9222-6a4f">4</characteristic>
+                    <characteristic name="9-12" typeId="df36-9d51-a316-8d54">6</characteristic>
+                    <characteristic name="Qualities" typeId="9a3f-8a28-e735-e1eb">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Ranged (Heavy)" hidden="false" id="84f2-6164-9b6f-d8c5" sortIndex="2">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d952-cf1d-ab0c-c0d4" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b258-178d-f1d3-b555" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Ranged (Heavy)" typeId="344a-022d-aebf-7e7a" typeName="Type" hidden="false" id="c0bd-7193-78c2-bf93">
+                  <characteristics>
+                    <characteristic name="Range" typeId="db9e-9452-9fc5-3877">6&quot;/30&quot;</characteristic>
+                    <characteristic name="1-4" typeId="94b3-2e14-1b71-6757">4</characteristic>
+                    <characteristic name="5-8" typeId="f891-f62d-9222-6a4f">8</characteristic>
+                    <characteristic name="9-12" typeId="df36-9d51-a316-8d54">12</characteristic>
+                    <characteristic name="Qualities" typeId="9a3f-8a28-e735-e1eb">Indirect</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Ranged (Aerial)" hidden="false" id="e200-a504-7465-04f8" sortIndex="4">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="29e7-8791-b78f-d7ee" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0d5b-3c31-467f-c536" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Ranged (Aerial)" typeId="344a-022d-aebf-7e7a" typeName="Type" hidden="false" id="5e31-e713-a805-dd42">
+                  <characteristics>
+                    <characteristic name="Range" typeId="db9e-9452-9fc5-3877">10&quot;/20&quot;</characteristic>
+                    <characteristic name="1-4" typeId="94b3-2e14-1b71-6757">3</characteristic>
+                    <characteristic name="5-8" typeId="f891-f62d-9222-6a4f">6</characteristic>
+                    <characteristic name="9-12" typeId="df36-9d51-a316-8d54">9</characteristic>
+                    <characteristic name="Qualities" typeId="9a3f-8a28-e735-e1eb">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
       </selectionEntryGroups>
-      <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name=" Weapons" hidden="false" id="5542-2489-dc50-2871" flatten="true" collective="false" sortIndex="1" collapsible="true">
-          <profiles>
-            <profile name="Ranged (Light)" typeId="344a-022d-aebf-7e7a" typeName="Type" hidden="false" id="7bdd-8321-af38-bb9e">
-              <characteristics>
-                <characteristic name="Range" typeId="db9e-9452-9fc5-3877">6&quot;/30&quot;</characteristic>
-                <characteristic name="1-4" typeId="94b3-2e14-1b71-6757">3</characteristic>
-                <characteristic name="5-8" typeId="f891-f62d-9222-6a4f">6</characteristic>
-                <characteristic name="9-12" typeId="df36-9d51-a316-8d54">9</characteristic>
-                <characteristic name="Qualities" typeId="9a3f-8a28-e735-e1eb">Indirect, Suppressive</characteristic>
-              </characteristics>
-            </profile>
-            <profile name="Melee" typeId="344a-022d-aebf-7e7a" typeName="Type" hidden="false" id="15c4-dffe-1ea0-059b">
-              <characteristics>
-                <characteristic name="Range" typeId="db9e-9452-9fc5-3877">-</characteristic>
-                <characteristic name="1-4" typeId="94b3-2e14-1b71-6757">2</characteristic>
-                <characteristic name="5-8" typeId="f891-f62d-9222-6a4f">4</characteristic>
-                <characteristic name="9-12" typeId="df36-9d51-a316-8d54">6</characteristic>
-                <characteristic name="Qualities" typeId="9a3f-8a28-e735-e1eb">-</characteristic>
-              </characteristics>
-            </profile>
-            <profile name="Ranged (Heavy)" typeId="344a-022d-aebf-7e7a" typeName="Type" hidden="false" id="c0bd-7193-78c2-bf93">
-              <characteristics>
-                <characteristic name="Range" typeId="db9e-9452-9fc5-3877">6&quot;/30&quot;</characteristic>
-                <characteristic name="1-4" typeId="94b3-2e14-1b71-6757">4</characteristic>
-                <characteristic name="5-8" typeId="f891-f62d-9222-6a4f">8</characteristic>
-                <characteristic name="9-12" typeId="df36-9d51-a316-8d54">12</characteristic>
-                <characteristic name="Qualities" typeId="9a3f-8a28-e735-e1eb">Indirect</characteristic>
-              </characteristics>
-            </profile>
-            <profile name="Ranged (Aerial)" typeId="344a-022d-aebf-7e7a" typeName="Type" hidden="false" id="5e31-e713-a805-dd42">
-              <characteristics>
-                <characteristic name="Range" typeId="db9e-9452-9fc5-3877">10&quot;/20&quot;</characteristic>
-                <characteristic name="1-4" typeId="94b3-2e14-1b71-6757">3</characteristic>
-                <characteristic name="5-8" typeId="f891-f62d-9222-6a4f">6</characteristic>
-                <characteristic name="9-12" typeId="df36-9d51-a316-8d54">9</characteristic>
-                <characteristic name="Qualities" typeId="9a3f-8a28-e735-e1eb">-</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f23f-c01c-a216-1efb" automatic="true"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d0ea-e6d3-47c9-fbd2" automatic="true"/>
-          </constraints>
-        </selectionEntry>
-      </selectionEntries>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="3bc0-5ad8-bbaf-49ac" includeChildSelections="true"/>
       </constraints>
@@ -857,12 +909,12 @@ This is intentional!</characteristic>
       <profiles>
         <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="87f3-5a34-fd4e-2012" noindex="true">
           <characteristics>
-            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Bulky, Corrosive Fumes (2”), Hit &amp; Run (6”), Irregular, Shrouded, Soar (8”), Vanguard (8”)</characteristic>
+            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Bulky, Corrosive Fumes (3”), Hit &amp; Run (6”), Irregular, Shrouded, Soar (8”), Stalker, Vanguard (8”)</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Bolstering" id="3f91-7aa2-7cba-7058" hidden="false" sortIndex="2">
+        <selectionEntryGroup name="Bolstering" id="3f91-7aa2-7cba-7058" hidden="false" sortIndex="3">
           <entryLinks>
             <entryLink import="true" name="Basic" hidden="false" id="71dd-e39b-c29b-ea4e" type="selectionEntry" targetId="f088-e6d4-8fe3-0f3e" sortIndex="1">
               <profiles>
@@ -942,44 +994,62 @@ This is intentional!</characteristic>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7c46-e587-a70c-ac29"/>
           </constraints>
         </selectionEntryGroup>
+        <selectionEntryGroup name="Weapons" id="5586-a1cd-4abc-fa60" hidden="false" sortIndex="2">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Ranged (Light)" hidden="false" id="da74-d498-a31c-1187" sortIndex="1">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f4cd-73dc-1d99-9129" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="360d-834d-6937-fc50" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Ranged (Light)" typeId="344a-022d-aebf-7e7a" typeName="Type" hidden="false" id="07ba-e524-ae43-40a6">
+                  <characteristics>
+                    <characteristic name="Range" typeId="db9e-9452-9fc5-3877">3&quot;/6&quot;</characteristic>
+                    <characteristic name="1-4" typeId="94b3-2e14-1b71-6757">3</characteristic>
+                    <characteristic name="5-8" typeId="f891-f62d-9222-6a4f">5</characteristic>
+                    <characteristic name="9-12" typeId="df36-9d51-a316-8d54">7</characteristic>
+                    <characteristic name="Qualities" typeId="9a3f-8a28-e735-e1eb">Suppressive</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Melee" hidden="false" id="c520-889e-75ad-26bc" sortIndex="5">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1372-ae12-1097-665e" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e0a3-9a5b-0b93-c89b" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Melee" typeId="344a-022d-aebf-7e7a" typeName="Type" hidden="false" id="6172-b484-ec60-c59f">
+                  <characteristics>
+                    <characteristic name="Range" typeId="db9e-9452-9fc5-3877">-</characteristic>
+                    <characteristic name="1-4" typeId="94b3-2e14-1b71-6757">4</characteristic>
+                    <characteristic name="5-8" typeId="f891-f62d-9222-6a4f">8</characteristic>
+                    <characteristic name="9-12" typeId="df36-9d51-a316-8d54">12</characteristic>
+                    <characteristic name="Qualities" typeId="9a3f-8a28-e735-e1eb">Suppressive</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Ranged (Aerial)" hidden="false" id="f89f-60af-1d70-dc3c" sortIndex="4">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3315-723e-3967-960b" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1636-7e20-41ad-de2c" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Ranged (Aerial)" typeId="344a-022d-aebf-7e7a" typeName="Type" hidden="false" id="5954-f511-fda5-fe17">
+                  <characteristics>
+                    <characteristic name="Range" typeId="db9e-9452-9fc5-3877">3&quot;/6&quot;</characteristic>
+                    <characteristic name="1-4" typeId="94b3-2e14-1b71-6757">4(6)</characteristic>
+                    <characteristic name="5-8" typeId="f891-f62d-9222-6a4f">6(8)</characteristic>
+                    <characteristic name="9-12" typeId="df36-9d51-a316-8d54">8(10)</characteristic>
+                    <characteristic name="Qualities" typeId="9a3f-8a28-e735-e1eb">Point Blank</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
       </selectionEntryGroups>
-      <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name=" Weapons" hidden="false" id="a422-3c0e-ea68-2421" flatten="true" collective="false" sortIndex="1" collapsible="true">
-          <profiles>
-            <profile name="Ranged (Light)" typeId="344a-022d-aebf-7e7a" typeName="Type" hidden="false" id="07ba-e524-ae43-40a6">
-              <characteristics>
-                <characteristic name="Range" typeId="db9e-9452-9fc5-3877">3&quot;/6&quot;</characteristic>
-                <characteristic name="1-4" typeId="94b3-2e14-1b71-6757">3</characteristic>
-                <characteristic name="5-8" typeId="f891-f62d-9222-6a4f">5</characteristic>
-                <characteristic name="9-12" typeId="df36-9d51-a316-8d54">7</characteristic>
-                <characteristic name="Qualities" typeId="9a3f-8a28-e735-e1eb">Suppressive</characteristic>
-              </characteristics>
-            </profile>
-            <profile name="Melee" typeId="344a-022d-aebf-7e7a" typeName="Type" hidden="false" id="6172-b484-ec60-c59f">
-              <characteristics>
-                <characteristic name="Range" typeId="db9e-9452-9fc5-3877">-</characteristic>
-                <characteristic name="1-4" typeId="94b3-2e14-1b71-6757">4</characteristic>
-                <characteristic name="5-8" typeId="f891-f62d-9222-6a4f">8</characteristic>
-                <characteristic name="9-12" typeId="df36-9d51-a316-8d54">12</characteristic>
-                <characteristic name="Qualities" typeId="9a3f-8a28-e735-e1eb">Suppressive</characteristic>
-              </characteristics>
-            </profile>
-            <profile name="Ranged (Aerial)" typeId="344a-022d-aebf-7e7a" typeName="Type" hidden="false" id="5954-f511-fda5-fe17">
-              <characteristics>
-                <characteristic name="Range" typeId="db9e-9452-9fc5-3877">3&quot;/6&quot;</characteristic>
-                <characteristic name="1-4" typeId="94b3-2e14-1b71-6757">4(6)</characteristic>
-                <characteristic name="5-8" typeId="f891-f62d-9222-6a4f">6(8)</characteristic>
-                <characteristic name="9-12" typeId="df36-9d51-a316-8d54">8(10)</characteristic>
-                <characteristic name="Qualities" typeId="9a3f-8a28-e735-e1eb">Point Blank</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6f79-d2eb-d7ee-d833" automatic="true"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ddec-4f20-c8f6-668e" automatic="true"/>
-          </constraints>
-        </selectionEntry>
-      </selectionEntries>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="1a59-57f5-bc20-55e7" includeChildSelections="true"/>
       </constraints>
@@ -1005,7 +1075,7 @@ This is intentional!</characteristic>
         </profile>
       </profiles>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Bolstering" id="2870-ee1a-794d-b5e0" hidden="false" sortIndex="2">
+        <selectionEntryGroup name="Bolstering" id="2870-ee1a-794d-b5e0" hidden="false" sortIndex="3">
           <entryLinks>
             <entryLink import="true" name="Basic" hidden="false" id="8685-f5ae-3cc4-fffd" type="selectionEntry" targetId="f088-e6d4-8fe3-0f3e" sortIndex="1">
               <profiles>
@@ -1085,26 +1155,28 @@ This is intentional!</characteristic>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d755-e89a-0790-2db6"/>
           </constraints>
         </selectionEntryGroup>
+        <selectionEntryGroup name="Weapons" id="36bf-1a7b-8909-cf68" hidden="false" sortIndex="2">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Melee" hidden="false" id="8770-92dd-4016-1aa6" sortIndex="5">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1f9c-a246-9174-5b66" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b684-6070-de19-0188" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Melee" typeId="344a-022d-aebf-7e7a" typeName="Type" hidden="false" id="2763-7a1e-1776-2e33">
+                  <characteristics>
+                    <characteristic name="Range" typeId="db9e-9452-9fc5-3877">-</characteristic>
+                    <characteristic name="1-4" typeId="94b3-2e14-1b71-6757">6(8)</characteristic>
+                    <characteristic name="5-8" typeId="f891-f62d-9222-6a4f">12(14)</characteristic>
+                    <characteristic name="9-12" typeId="df36-9d51-a316-8d54">18(20)</characteristic>
+                    <characteristic name="Qualities" typeId="9a3f-8a28-e735-e1eb">Shock</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
       </selectionEntryGroups>
-      <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name=" Weapons" hidden="false" id="2b43-d1a4-0adc-4945" flatten="true" collective="false" sortIndex="1" collapsible="true">
-          <profiles>
-            <profile name="Melee" typeId="344a-022d-aebf-7e7a" typeName="Type" hidden="false" id="2763-7a1e-1776-2e33">
-              <characteristics>
-                <characteristic name="Range" typeId="db9e-9452-9fc5-3877">-</characteristic>
-                <characteristic name="1-4" typeId="94b3-2e14-1b71-6757">6(8)</characteristic>
-                <characteristic name="5-8" typeId="f891-f62d-9222-6a4f">12(14)</characteristic>
-                <characteristic name="9-12" typeId="df36-9d51-a316-8d54">18(20)</characteristic>
-                <characteristic name="Qualities" typeId="9a3f-8a28-e735-e1eb">Shock</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ca25-f59b-e9e6-805a" automatic="true"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="343f-1421-e210-d078" automatic="true"/>
-          </constraints>
-        </selectionEntry>
-      </selectionEntries>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="75a6-1ae9-e2b6-15de" includeChildSelections="true"/>
       </constraints>
@@ -1124,7 +1196,7 @@ This is intentional!</characteristic>
         </profile>
       </profiles>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Bolstering" id="2e94-59a4-432d-b2ed" hidden="false" sortIndex="2">
+        <selectionEntryGroup name="Bolstering" id="2e94-59a4-432d-b2ed" hidden="false" sortIndex="3">
           <entryLinks>
             <entryLink import="true" name="Basic" hidden="false" id="24dd-f77c-0bd4-4b0b" type="selectionEntry" targetId="f088-e6d4-8fe3-0f3e" sortIndex="1">
               <profiles>
@@ -1204,44 +1276,62 @@ This is intentional!</characteristic>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2470-7209-ecea-8abf"/>
           </constraints>
         </selectionEntryGroup>
+        <selectionEntryGroup name="Weapons" id="36b2-5ee1-5b0a-1ff1" hidden="false" sortIndex="2">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Ranged (Light)" hidden="false" id="65aa-41d0-16d3-b57e" sortIndex="1">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e09b-9cb7-c5cb-74a7" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4ae1-3753-d0b7-3257" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Ranged (Light)" typeId="055e-da65-5a34-6a56" typeName="Type" hidden="false" id="8724-dc00-6683-c380">
+                  <characteristics>
+                    <characteristic name="Range" typeId="a4be-e6da-e81e-0ee5">7&quot;/16&quot;</characteristic>
+                    <characteristic name="1-5" typeId="6c2b-399d-3913-0c86">5</characteristic>
+                    <characteristic name="6-10" typeId="e030-39ed-b345-ffd8">10</characteristic>
+                    <characteristic name="11-15" typeId="3341-bdc5-ce8f-a06f">15</characteristic>
+                    <characteristic name="Qualities" typeId="e5a1-fc2f-d8b2-79b3">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Melee" hidden="false" id="91bb-608e-3aa7-f748" sortIndex="5">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="52c8-d7c9-ffd8-76cc" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f544-6bd7-a41c-125f" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Melee" typeId="055e-da65-5a34-6a56" typeName="Type" hidden="false" id="15fd-905b-25ce-7bf3">
+                  <characteristics>
+                    <characteristic name="Range" typeId="a4be-e6da-e81e-0ee5">-</characteristic>
+                    <characteristic name="1-5" typeId="6c2b-399d-3913-0c86">3</characteristic>
+                    <characteristic name="6-10" typeId="e030-39ed-b345-ffd8">6</characteristic>
+                    <characteristic name="11-15" typeId="3341-bdc5-ce8f-a06f">9</characteristic>
+                    <characteristic name="Qualities" typeId="e5a1-fc2f-d8b2-79b3">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Ranged (Heavy)" hidden="false" id="3c38-33eb-fd1f-bf0f" sortIndex="2">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1153-4749-c014-e74b" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7b94-00b2-fef8-8ff0" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Ranged (Heavy)" typeId="055e-da65-5a34-6a56" typeName="Type" hidden="false" id="ae0f-6c3e-7832-0677">
+                  <characteristics>
+                    <characteristic name="Range" typeId="a4be-e6da-e81e-0ee5">7&quot;/16&quot;</characteristic>
+                    <characteristic name="1-5" typeId="6c2b-399d-3913-0c86">3</characteristic>
+                    <characteristic name="6-10" typeId="e030-39ed-b345-ffd8">5</characteristic>
+                    <characteristic name="11-15" typeId="3341-bdc5-ce8f-a06f">7</characteristic>
+                    <characteristic name="Qualities" typeId="e5a1-fc2f-d8b2-79b3">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
       </selectionEntryGroups>
-      <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name=" Weapons" hidden="false" id="6a1b-1b71-a227-5025" flatten="true" collective="false" sortIndex="1" collapsible="true">
-          <profiles>
-            <profile name="Ranged (Light)" typeId="055e-da65-5a34-6a56" typeName="Type" hidden="false" id="8724-dc00-6683-c380">
-              <characteristics>
-                <characteristic name="Range" typeId="a4be-e6da-e81e-0ee5">7&quot;/16&quot;</characteristic>
-                <characteristic name="1-5" typeId="6c2b-399d-3913-0c86">5</characteristic>
-                <characteristic name="6-10" typeId="e030-39ed-b345-ffd8">10</characteristic>
-                <characteristic name="11-15" typeId="3341-bdc5-ce8f-a06f">15</characteristic>
-                <characteristic name="Qualities" typeId="e5a1-fc2f-d8b2-79b3">-</characteristic>
-              </characteristics>
-            </profile>
-            <profile name="Melee" typeId="055e-da65-5a34-6a56" typeName="Type" hidden="false" id="15fd-905b-25ce-7bf3">
-              <characteristics>
-                <characteristic name="Range" typeId="a4be-e6da-e81e-0ee5">-</characteristic>
-                <characteristic name="1-5" typeId="6c2b-399d-3913-0c86">3</characteristic>
-                <characteristic name="6-10" typeId="e030-39ed-b345-ffd8">6</characteristic>
-                <characteristic name="11-15" typeId="3341-bdc5-ce8f-a06f">9</characteristic>
-                <characteristic name="Qualities" typeId="e5a1-fc2f-d8b2-79b3">-</characteristic>
-              </characteristics>
-            </profile>
-            <profile name="Ranged (Heavy)" typeId="055e-da65-5a34-6a56" typeName="Type" hidden="false" id="ae0f-6c3e-7832-0677">
-              <characteristics>
-                <characteristic name="Range" typeId="a4be-e6da-e81e-0ee5">7&quot;/16&quot;</characteristic>
-                <characteristic name="1-5" typeId="6c2b-399d-3913-0c86">3</characteristic>
-                <characteristic name="6-10" typeId="e030-39ed-b345-ffd8">5</characteristic>
-                <characteristic name="11-15" typeId="3341-bdc5-ce8f-a06f">7</characteristic>
-                <characteristic name="Qualities" typeId="e5a1-fc2f-d8b2-79b3">-</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="98da-c2c0-e645-af29" automatic="true"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="70db-6c8f-7fd3-ebd5" automatic="true"/>
-          </constraints>
-        </selectionEntry>
-      </selectionEntries>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="996f-740d-ee9b-313d" includeChildSelections="true"/>
       </constraints>
@@ -1273,7 +1363,7 @@ This is intentional!</characteristic>
         </profile>
       </profiles>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Bolstering" id="4b86-60ca-cb1e-bba1" hidden="false" sortIndex="2">
+        <selectionEntryGroup name="Bolstering" id="4b86-60ca-cb1e-bba1" hidden="false" sortIndex="3">
           <entryLinks>
             <entryLink import="true" name="Basic" hidden="false" id="f68d-560c-2acf-91ee" type="selectionEntry" targetId="f088-e6d4-8fe3-0f3e" sortIndex="1">
               <profiles>
@@ -1353,44 +1443,62 @@ This is intentional!</characteristic>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e5b3-1f75-7982-d0f7"/>
           </constraints>
         </selectionEntryGroup>
+        <selectionEntryGroup name="Weapons" id="abf0-845c-7d00-b63e" hidden="false" sortIndex="2">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Ranged (Light)" hidden="false" id="505b-b3cf-adba-5fb5" sortIndex="1">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9b00-3e29-e8dc-652d" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8a94-a5fc-d026-e38e" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Ranged (Light)" typeId="344a-022d-aebf-7e7a" typeName="Type" hidden="false" id="d4f2-b9f0-5ce8-3f18">
+                  <characteristics>
+                    <characteristic name="Range" typeId="db9e-9452-9fc5-3877">4&quot;/26&quot;</characteristic>
+                    <characteristic name="1-4" typeId="94b3-2e14-1b71-6757">4</characteristic>
+                    <characteristic name="5-8" typeId="f891-f62d-9222-6a4f">8</characteristic>
+                    <characteristic name="9-12" typeId="df36-9d51-a316-8d54">12</characteristic>
+                    <characteristic name="Qualities" typeId="9a3f-8a28-e735-e1eb">Indirect</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Ranged (Heavy)" hidden="false" id="1410-9d9e-3738-7213" sortIndex="2">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d687-ad30-5cd9-63a7" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="12ea-815a-49a6-1828" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Ranged (Heavy)" typeId="344a-022d-aebf-7e7a" typeName="Type" hidden="false" id="9320-fd97-8c53-ff9e">
+                  <characteristics>
+                    <characteristic name="Range" typeId="db9e-9452-9fc5-3877">4&quot;/26&quot;</characteristic>
+                    <characteristic name="1-4" typeId="94b3-2e14-1b71-6757">3</characteristic>
+                    <characteristic name="5-8" typeId="f891-f62d-9222-6a4f">6</characteristic>
+                    <characteristic name="9-12" typeId="df36-9d51-a316-8d54">9</characteristic>
+                    <characteristic name="Qualities" typeId="9a3f-8a28-e735-e1eb">Indirect</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Impact" hidden="false" id="5ed7-150f-5ce6-00b3" sortIndex="6">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2646-43b9-9f1d-17ae" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7ac4-7658-cdba-d338" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Impact" typeId="344a-022d-aebf-7e7a" typeName="Type" hidden="false" id="ab67-566c-0829-2e69">
+                  <characteristics>
+                    <characteristic name="Range" typeId="db9e-9452-9fc5-3877">-</characteristic>
+                    <characteristic name="1-4" typeId="94b3-2e14-1b71-6757">3(6)</characteristic>
+                    <characteristic name="5-8" typeId="f891-f62d-9222-6a4f">5(8)</characteristic>
+                    <characteristic name="9-12" typeId="df36-9d51-a316-8d54">8(11)</characteristic>
+                    <characteristic name="Qualities" typeId="9a3f-8a28-e735-e1eb">Shock</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
       </selectionEntryGroups>
-      <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name=" Weapons" hidden="false" id="a438-9efb-1c0c-5394" flatten="true" collective="false" sortIndex="1" collapsible="true">
-          <profiles>
-            <profile name="Ranged (Light)" typeId="344a-022d-aebf-7e7a" typeName="Type" hidden="false" id="d4f2-b9f0-5ce8-3f18">
-              <characteristics>
-                <characteristic name="Range" typeId="db9e-9452-9fc5-3877">4&quot;/26&quot;</characteristic>
-                <characteristic name="1-4" typeId="94b3-2e14-1b71-6757">4</characteristic>
-                <characteristic name="5-8" typeId="f891-f62d-9222-6a4f">8</characteristic>
-                <characteristic name="9-12" typeId="df36-9d51-a316-8d54">12</characteristic>
-                <characteristic name="Qualities" typeId="9a3f-8a28-e735-e1eb">Indirect</characteristic>
-              </characteristics>
-            </profile>
-            <profile name="Impact" typeId="344a-022d-aebf-7e7a" typeName="Type" hidden="false" id="ab67-566c-0829-2e69">
-              <characteristics>
-                <characteristic name="Range" typeId="db9e-9452-9fc5-3877">-</characteristic>
-                <characteristic name="1-4" typeId="94b3-2e14-1b71-6757">3(6)</characteristic>
-                <characteristic name="5-8" typeId="f891-f62d-9222-6a4f">5(8)</characteristic>
-                <characteristic name="9-12" typeId="df36-9d51-a316-8d54">8(11)</characteristic>
-                <characteristic name="Qualities" typeId="9a3f-8a28-e735-e1eb">Shock</characteristic>
-              </characteristics>
-            </profile>
-            <profile name="Ranged (Heavy)" typeId="344a-022d-aebf-7e7a" typeName="Type" hidden="false" id="9320-fd97-8c53-ff9e">
-              <characteristics>
-                <characteristic name="Range" typeId="db9e-9452-9fc5-3877">4&quot;/26&quot;</characteristic>
-                <characteristic name="1-4" typeId="94b3-2e14-1b71-6757">3</characteristic>
-                <characteristic name="5-8" typeId="f891-f62d-9222-6a4f">6</characteristic>
-                <characteristic name="9-12" typeId="df36-9d51-a316-8d54">9</characteristic>
-                <characteristic name="Qualities" typeId="9a3f-8a28-e735-e1eb">Indirect</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b1e0-cd02-cf30-ebe5" automatic="true"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fb12-7c41-d22a-a076" automatic="true"/>
-          </constraints>
-        </selectionEntry>
-      </selectionEntries>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="a8bf-d097-1f8b-100b" includeChildSelections="true"/>
       </constraints>
@@ -1497,44 +1605,62 @@ This is intentional!</characteristic>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f234-96a6-077e-a440"/>
           </constraints>
         </selectionEntryGroup>
+        <selectionEntryGroup name="Weapons" id="b7ae-0603-fd96-dc67" hidden="false" sortIndex="1">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Ranged (Light)" hidden="false" id="1026-de7c-9e3d-58fa" sortIndex="1">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a217-07b9-39ec-d20f" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4702-df90-b64c-fefa" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Ranged (Light)" typeId="344a-022d-aebf-7e7a" typeName="Type" hidden="false" id="edbd-b282-077a-4fae">
+                  <characteristics>
+                    <characteristic name="Range" typeId="db9e-9452-9fc5-3877">10&quot;/24&quot;</characteristic>
+                    <characteristic name="1-4" typeId="94b3-2e14-1b71-6757">4</characteristic>
+                    <characteristic name="5-8" typeId="f891-f62d-9222-6a4f">6</characteristic>
+                    <characteristic name="9-12" typeId="df36-9d51-a316-8d54">8</characteristic>
+                    <characteristic name="Qualities" typeId="9a3f-8a28-e735-e1eb">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Ranged (Aerial)" hidden="false" id="91f8-6ce5-71aa-2cc5" sortIndex="4">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b809-6278-a87a-c215" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7ab6-e7e8-c076-6e4f" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Ranged (Aerial)" typeId="344a-022d-aebf-7e7a" typeName="Type" hidden="false" id="64a9-7ca5-cd84-8b2f">
+                  <characteristics>
+                    <characteristic name="Range" typeId="db9e-9452-9fc5-3877">8&quot;/14&quot;</characteristic>
+                    <characteristic name="1-4" typeId="94b3-2e14-1b71-6757">6</characteristic>
+                    <characteristic name="5-8" typeId="f891-f62d-9222-6a4f">10</characteristic>
+                    <characteristic name="9-12" typeId="df36-9d51-a316-8d54">14</characteristic>
+                    <characteristic name="Qualities" typeId="9a3f-8a28-e735-e1eb">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Impact" hidden="false" id="a6af-48e4-9953-ed87" sortIndex="6">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1aa4-782c-439c-ade2" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0b7c-6545-969a-e283" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Impact" typeId="344a-022d-aebf-7e7a" typeName="Type" hidden="false" id="77e2-9a25-3983-a661">
+                  <characteristics>
+                    <characteristic name="Range" typeId="db9e-9452-9fc5-3877">-</characteristic>
+                    <characteristic name="1-4" typeId="94b3-2e14-1b71-6757">3(6)</characteristic>
+                    <characteristic name="5-8" typeId="f891-f62d-9222-6a4f">5(8)</characteristic>
+                    <characteristic name="9-12" typeId="df36-9d51-a316-8d54">8(11)</characteristic>
+                    <characteristic name="Qualities" typeId="9a3f-8a28-e735-e1eb">Shock</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
       </selectionEntryGroups>
-      <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name=" Weapons" hidden="false" id="fca7-1c52-5798-5301" flatten="true" collective="false" sortIndex="1" collapsible="true">
-          <profiles>
-            <profile name="Ranged (Light)" typeId="344a-022d-aebf-7e7a" typeName="Type" hidden="false" id="edbd-b282-077a-4fae">
-              <characteristics>
-                <characteristic name="Range" typeId="db9e-9452-9fc5-3877">10&quot;/24&quot;</characteristic>
-                <characteristic name="1-4" typeId="94b3-2e14-1b71-6757">4</characteristic>
-                <characteristic name="5-8" typeId="f891-f62d-9222-6a4f">6</characteristic>
-                <characteristic name="9-12" typeId="df36-9d51-a316-8d54">8</characteristic>
-                <characteristic name="Qualities" typeId="9a3f-8a28-e735-e1eb">-</characteristic>
-              </characteristics>
-            </profile>
-            <profile name="Impact" typeId="344a-022d-aebf-7e7a" typeName="Type" hidden="false" id="77e2-9a25-3983-a661">
-              <characteristics>
-                <characteristic name="Range" typeId="db9e-9452-9fc5-3877">-</characteristic>
-                <characteristic name="1-4" typeId="94b3-2e14-1b71-6757">3(6)</characteristic>
-                <characteristic name="5-8" typeId="f891-f62d-9222-6a4f">5(8)</characteristic>
-                <characteristic name="9-12" typeId="df36-9d51-a316-8d54">8(11)</characteristic>
-                <characteristic name="Qualities" typeId="9a3f-8a28-e735-e1eb">Shock</characteristic>
-              </characteristics>
-            </profile>
-            <profile name="Ranged (Aerial)" typeId="344a-022d-aebf-7e7a" typeName="Type" hidden="false" id="64a9-7ca5-cd84-8b2f">
-              <characteristics>
-                <characteristic name="Range" typeId="db9e-9452-9fc5-3877">8&quot;/14&quot;</characteristic>
-                <characteristic name="1-4" typeId="94b3-2e14-1b71-6757">6</characteristic>
-                <characteristic name="5-8" typeId="f891-f62d-9222-6a4f">10</characteristic>
-                <characteristic name="9-12" typeId="df36-9d51-a316-8d54">14</characteristic>
-                <characteristic name="Qualities" typeId="9a3f-8a28-e735-e1eb">-</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c097-92a6-871c-a822" automatic="true"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="adff-e8d0-07ea-888d" automatic="true"/>
-          </constraints>
-        </selectionEntry>
-      </selectionEntries>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="a9e8-c8cb-4aec-334a" includeChildSelections="true"/>
       </constraints>
@@ -1641,35 +1767,45 @@ This is intentional!</characteristic>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2e16-e5a6-cb27-fd8e"/>
           </constraints>
         </selectionEntryGroup>
+        <selectionEntryGroup name="Weapons" id="792d-eda9-d1f5-2dc5" hidden="false" sortIndex="1">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Ranged (Light)" hidden="false" id="81fb-e3b7-f624-ac17" sortIndex="1">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7f2f-2297-6729-aff9" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="aeee-93a7-ac1e-5e6d" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Ranged (Light)" typeId="344a-022d-aebf-7e7a" typeName="Type" hidden="false" id="6d86-0c11-4aab-bb2f">
+                  <characteristics>
+                    <characteristic name="Range" typeId="db9e-9452-9fc5-3877">3&quot;/6&quot;</characteristic>
+                    <characteristic name="1-4" typeId="94b3-2e14-1b71-6757">6</characteristic>
+                    <characteristic name="5-8" typeId="f891-f62d-9222-6a4f">10</characteristic>
+                    <characteristic name="9-12" typeId="df36-9d51-a316-8d54">14</characteristic>
+                    <characteristic name="Qualities" typeId="9a3f-8a28-e735-e1eb">Torrent, Suppressive</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Melee" hidden="false" id="2c2c-f4dd-e175-ac72" sortIndex="5">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b205-26c1-187b-a5cc" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="30d9-e2a0-ef35-61a5" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Melee" typeId="344a-022d-aebf-7e7a" typeName="Type" hidden="false" id="6613-f6a3-d599-ab8b">
+                  <characteristics>
+                    <characteristic name="Range" typeId="db9e-9452-9fc5-3877">-</characteristic>
+                    <characteristic name="1-4" typeId="94b3-2e14-1b71-6757">5(7)</characteristic>
+                    <characteristic name="5-8" typeId="f891-f62d-9222-6a4f">10(12)</characteristic>
+                    <characteristic name="9-12" typeId="df36-9d51-a316-8d54">15(17)</characteristic>
+                    <characteristic name="Qualities" typeId="9a3f-8a28-e735-e1eb">Wreckers</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
       </selectionEntryGroups>
-      <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name=" Weapons" hidden="false" id="f110-a4db-59ef-f85d" flatten="true" collective="false" sortIndex="1" collapsible="true">
-          <profiles>
-            <profile name="Ranged (Light)" typeId="344a-022d-aebf-7e7a" typeName="Type" hidden="false" id="6d86-0c11-4aab-bb2f">
-              <characteristics>
-                <characteristic name="Range" typeId="db9e-9452-9fc5-3877">3&quot;/6&quot;</characteristic>
-                <characteristic name="1-4" typeId="94b3-2e14-1b71-6757">6</characteristic>
-                <characteristic name="5-8" typeId="f891-f62d-9222-6a4f">10</characteristic>
-                <characteristic name="9-12" typeId="df36-9d51-a316-8d54">14</characteristic>
-                <characteristic name="Qualities" typeId="9a3f-8a28-e735-e1eb">Torrent, Suppressive</characteristic>
-              </characteristics>
-            </profile>
-            <profile name="Melee" typeId="344a-022d-aebf-7e7a" typeName="Type" hidden="false" id="6613-f6a3-d599-ab8b">
-              <characteristics>
-                <characteristic name="Range" typeId="db9e-9452-9fc5-3877">-</characteristic>
-                <characteristic name="1-4" typeId="94b3-2e14-1b71-6757">5(7)</characteristic>
-                <characteristic name="5-8" typeId="f891-f62d-9222-6a4f">10(12)</characteristic>
-                <characteristic name="9-12" typeId="df36-9d51-a316-8d54">15(17)</characteristic>
-                <characteristic name="Qualities" typeId="9a3f-8a28-e735-e1eb">Wreckers</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0354-178e-6b71-0214" automatic="true"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8d6a-f72f-a714-ac79" automatic="true"/>
-          </constraints>
-        </selectionEntry>
-      </selectionEntries>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="f0e9-1df8-3d3e-5b81" includeChildSelections="true"/>
       </constraints>
@@ -1776,44 +1912,62 @@ This is intentional!</characteristic>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3ece-9a7c-54ff-44a5"/>
           </constraints>
         </selectionEntryGroup>
+        <selectionEntryGroup name="Weapons" id="1918-3a7c-1f6b-0dd0" hidden="false" sortIndex="1">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Ranged (Light)" hidden="false" id="d9a1-3cda-25a9-003c" sortIndex="1">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9483-fc03-9cb8-24fd" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="518f-c010-26cf-94a7" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Ranged (Light)" typeId="344a-022d-aebf-7e7a" typeName="Type" hidden="false" id="223a-274b-adf1-406f">
+                  <characteristics>
+                    <characteristic name="Range" typeId="db9e-9452-9fc5-3877">12&quot;/24&quot;</characteristic>
+                    <characteristic name="1-4" typeId="94b3-2e14-1b71-6757">2</characteristic>
+                    <characteristic name="5-8" typeId="f891-f62d-9222-6a4f">4</characteristic>
+                    <characteristic name="9-12" typeId="df36-9d51-a316-8d54">6</characteristic>
+                    <characteristic name="Qualities" typeId="9a3f-8a28-e735-e1eb">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Melee" hidden="false" id="f2cd-1fd3-9298-9908" sortIndex="5">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fdc1-6f7f-53b3-5b61" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c860-cea4-110b-e9ab" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Melee" typeId="344a-022d-aebf-7e7a" typeName="Type" hidden="false" id="3413-41cc-4eca-124b">
+                  <characteristics>
+                    <characteristic name="Range" typeId="db9e-9452-9fc5-3877">-</characteristic>
+                    <characteristic name="1-4" typeId="94b3-2e14-1b71-6757">5</characteristic>
+                    <characteristic name="5-8" typeId="f891-f62d-9222-6a4f">10</characteristic>
+                    <characteristic name="9-12" typeId="df36-9d51-a316-8d54">15</characteristic>
+                    <characteristic name="Qualities" typeId="9a3f-8a28-e735-e1eb">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Ranged (Aerial)" hidden="false" id="a0d2-e342-40d1-84b2" sortIndex="4">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9647-f4a3-a308-9971" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a705-88c6-654f-af35" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Ranged (Aerial)" typeId="344a-022d-aebf-7e7a" typeName="Type" hidden="false" id="13a8-c1ae-26d6-76c4">
+                  <characteristics>
+                    <characteristic name="Range" typeId="db9e-9452-9fc5-3877">14&quot;/10&quot;</characteristic>
+                    <characteristic name="1-4" typeId="94b3-2e14-1b71-6757">5</characteristic>
+                    <characteristic name="5-8" typeId="f891-f62d-9222-6a4f">8</characteristic>
+                    <characteristic name="9-12" typeId="df36-9d51-a316-8d54">11</characteristic>
+                    <characteristic name="Qualities" typeId="9a3f-8a28-e735-e1eb">Lock On</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
       </selectionEntryGroups>
-      <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name=" Weapons" hidden="false" id="f8fc-d209-ef70-ec4d" flatten="true" collective="false" sortIndex="1" collapsible="true">
-          <profiles>
-            <profile name="Ranged (Aerial)" typeId="344a-022d-aebf-7e7a" typeName="Type" hidden="false" id="13a8-c1ae-26d6-76c4">
-              <characteristics>
-                <characteristic name="Range" typeId="db9e-9452-9fc5-3877">14&quot;/10&quot;</characteristic>
-                <characteristic name="1-4" typeId="94b3-2e14-1b71-6757">5</characteristic>
-                <characteristic name="5-8" typeId="f891-f62d-9222-6a4f">8</characteristic>
-                <characteristic name="9-12" typeId="df36-9d51-a316-8d54">11</characteristic>
-                <characteristic name="Qualities" typeId="9a3f-8a28-e735-e1eb">Lock On</characteristic>
-              </characteristics>
-            </profile>
-            <profile name="Melee" typeId="344a-022d-aebf-7e7a" typeName="Type" hidden="false" id="3413-41cc-4eca-124b">
-              <characteristics>
-                <characteristic name="Range" typeId="db9e-9452-9fc5-3877">-</characteristic>
-                <characteristic name="1-4" typeId="94b3-2e14-1b71-6757">5</characteristic>
-                <characteristic name="5-8" typeId="f891-f62d-9222-6a4f">10</characteristic>
-                <characteristic name="9-12" typeId="df36-9d51-a316-8d54">15</characteristic>
-                <characteristic name="Qualities" typeId="9a3f-8a28-e735-e1eb">-</characteristic>
-              </characteristics>
-            </profile>
-            <profile name="Ranged (Light)" typeId="344a-022d-aebf-7e7a" typeName="Type" hidden="false" id="223a-274b-adf1-406f">
-              <characteristics>
-                <characteristic name="Range" typeId="db9e-9452-9fc5-3877">12&quot;/24&quot;</characteristic>
-                <characteristic name="1-4" typeId="94b3-2e14-1b71-6757">2</characteristic>
-                <characteristic name="5-8" typeId="f891-f62d-9222-6a4f">4</characteristic>
-                <characteristic name="9-12" typeId="df36-9d51-a316-8d54">6</characteristic>
-                <characteristic name="Qualities" typeId="9a3f-8a28-e735-e1eb">-</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="cfe4-5072-c19c-a85b" automatic="true"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2086-d35d-7e24-d7ce" automatic="true"/>
-          </constraints>
-        </selectionEntry>
-      </selectionEntries>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="4167-64fb-d2e0-dd7a" includeChildSelections="true"/>
       </constraints>
@@ -1919,44 +2073,62 @@ This is intentional!</characteristic>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="55a4-c262-6384-11dd"/>
           </constraints>
         </selectionEntryGroup>
+        <selectionEntryGroup name="Weapons" id="d0a6-6f0c-75f2-1c3d" hidden="false" sortIndex="1">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Ranged (Light)" hidden="false" id="2f8a-1539-f9ba-6df7" sortIndex="1">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="203c-f620-c38c-9690" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6a42-0f73-02bf-0b70" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Ranged (Light)" typeId="344a-022d-aebf-7e7a" typeName="Type" hidden="false" id="d992-7530-262d-18ea">
+                  <characteristics>
+                    <characteristic name="Range" typeId="db9e-9452-9fc5-3877">14&quot;/36&quot;</characteristic>
+                    <characteristic name="1-4" typeId="94b3-2e14-1b71-6757">3</characteristic>
+                    <characteristic name="5-8" typeId="f891-f62d-9222-6a4f">5</characteristic>
+                    <characteristic name="9-12" typeId="df36-9d51-a316-8d54">7</characteristic>
+                    <characteristic name="Qualities" typeId="9a3f-8a28-e735-e1eb">Move or Fire, Penetrating, Precision</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Melee" hidden="false" id="fc03-818e-81dd-748a" sortIndex="5">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c3a5-6f55-e9ba-374b" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f46d-bda8-5a2f-2ebd" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Melee" typeId="344a-022d-aebf-7e7a" typeName="Type" hidden="false" id="54cc-8816-e31f-f760">
+                  <characteristics>
+                    <characteristic name="Range" typeId="db9e-9452-9fc5-3877">-</characteristic>
+                    <characteristic name="1-4" typeId="94b3-2e14-1b71-6757">2</characteristic>
+                    <characteristic name="5-8" typeId="f891-f62d-9222-6a4f">4</characteristic>
+                    <characteristic name="9-12" typeId="df36-9d51-a316-8d54">6</characteristic>
+                    <characteristic name="Qualities" typeId="9a3f-8a28-e735-e1eb">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Ranged (Heavy)" hidden="false" id="de90-03fd-21a2-612d" sortIndex="2">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9214-8ec7-5cdd-4cec" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4851-4445-b237-9fb1" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Ranged (Heavy)" typeId="344a-022d-aebf-7e7a" typeName="Type" hidden="false" id="1a11-df99-10b6-564a">
+                  <characteristics>
+                    <characteristic name="Range" typeId="db9e-9452-9fc5-3877">14&quot;/36&quot;</characteristic>
+                    <characteristic name="1-4" typeId="94b3-2e14-1b71-6757">3</characteristic>
+                    <characteristic name="5-8" typeId="f891-f62d-9222-6a4f">5</characteristic>
+                    <characteristic name="9-12" typeId="df36-9d51-a316-8d54">7</characteristic>
+                    <characteristic name="Qualities" typeId="9a3f-8a28-e735-e1eb">Move or Fire, Penetrating, Precision</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
       </selectionEntryGroups>
-      <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name=" Weapons" hidden="false" id="c0ae-ce70-b735-ac8f" flatten="true" collective="false" sortIndex="1" collapsible="true">
-          <profiles>
-            <profile name="Ranged (Heavy)" typeId="344a-022d-aebf-7e7a" typeName="Type" hidden="false" id="1a11-df99-10b6-564a">
-              <characteristics>
-                <characteristic name="Range" typeId="db9e-9452-9fc5-3877">14&quot;/36&quot;</characteristic>
-                <characteristic name="1-4" typeId="94b3-2e14-1b71-6757">3</characteristic>
-                <characteristic name="5-8" typeId="f891-f62d-9222-6a4f">5</characteristic>
-                <characteristic name="9-12" typeId="df36-9d51-a316-8d54">7</characteristic>
-                <characteristic name="Qualities" typeId="9a3f-8a28-e735-e1eb">Move or Fire, Penetrating, Precision</characteristic>
-              </characteristics>
-            </profile>
-            <profile name="Melee" typeId="344a-022d-aebf-7e7a" typeName="Type" hidden="false" id="54cc-8816-e31f-f760">
-              <characteristics>
-                <characteristic name="Range" typeId="db9e-9452-9fc5-3877">-</characteristic>
-                <characteristic name="1-4" typeId="94b3-2e14-1b71-6757">2</characteristic>
-                <characteristic name="5-8" typeId="f891-f62d-9222-6a4f">4</characteristic>
-                <characteristic name="9-12" typeId="df36-9d51-a316-8d54">6</characteristic>
-                <characteristic name="Qualities" typeId="9a3f-8a28-e735-e1eb">-</characteristic>
-              </characteristics>
-            </profile>
-            <profile name="Ranged (Light)" typeId="344a-022d-aebf-7e7a" typeName="Type" hidden="false" id="d992-7530-262d-18ea">
-              <characteristics>
-                <characteristic name="Range" typeId="db9e-9452-9fc5-3877">14&quot;/36&quot;</characteristic>
-                <characteristic name="1-4" typeId="94b3-2e14-1b71-6757">3</characteristic>
-                <characteristic name="5-8" typeId="f891-f62d-9222-6a4f">5</characteristic>
-                <characteristic name="9-12" typeId="df36-9d51-a316-8d54">7</characteristic>
-                <characteristic name="Qualities" typeId="9a3f-8a28-e735-e1eb">Move or Fire, Penetrating, Precision</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8c00-8ef1-c74b-7c34" automatic="true"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1c76-0a3d-dd77-5be5" automatic="true"/>
-          </constraints>
-        </selectionEntry>
-      </selectionEntries>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="1b3c-df29-f57d-ed2d" includeChildSelections="true"/>
       </constraints>
@@ -2056,44 +2228,62 @@ This is intentional!</characteristic>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b4de-614a-aecd-9882"/>
           </constraints>
         </selectionEntryGroup>
+        <selectionEntryGroup name="Weapons" id="a66a-1456-ae49-e06a" hidden="false" sortIndex="1">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Ranged (Light)" hidden="false" id="03d3-8b9c-ac96-aa7a" sortIndex="1">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="be0c-3d8f-e336-be78" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1d32-0f53-7abf-1c8c" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Ranged (Light)" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="cd93-626c-9801-2a60">
+                  <characteristics>
+                    <characteristic name="Range" typeId="0d60-0078-7134-d302">10&quot;/30&quot;</characteristic>
+                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585">4</characteristic>
+                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c">8</characteristic>
+                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d">12</characteristic>
+                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Ranged (Heavy)" hidden="false" id="977a-1f82-a6b6-4801" sortIndex="2">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="efb4-566d-9de8-2943" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6550-e18e-3251-d12f" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Ranged (Heavy)" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="42f1-4dfd-cd97-0fda">
+                  <characteristics>
+                    <characteristic name="Range" typeId="0d60-0078-7134-d302">10&quot;/30&quot;</characteristic>
+                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585">5</characteristic>
+                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c">10</characteristic>
+                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d">15</characteristic>
+                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Impact" hidden="false" id="f548-8c8d-14d5-3962" sortIndex="6">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3dc7-c285-064e-3439" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5a0d-4d19-d0dc-0cd4" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Impact" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="d0d0-9cc9-54ae-f7af">
+                  <characteristics>
+                    <characteristic name="Range" typeId="0d60-0078-7134-d302">-</characteristic>
+                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585">3</characteristic>
+                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c">6</characteristic>
+                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d">9</characteristic>
+                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
       </selectionEntryGroups>
-      <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name=" Weapons" hidden="false" id="db98-300d-3de1-b49d" flatten="true" collective="false" sortIndex="1" collapsible="true">
-          <profiles>
-            <profile name="Ranged (Heavy)" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="42f1-4dfd-cd97-0fda">
-              <characteristics>
-                <characteristic name="Range" typeId="0d60-0078-7134-d302">10&quot;/30&quot;</characteristic>
-                <characteristic name="1-2" typeId="5043-ac06-9bc2-0585">5</characteristic>
-                <characteristic name="3-4" typeId="8394-18d6-22d8-e03c">10</characteristic>
-                <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d">15</characteristic>
-                <characteristic name="Qualities" typeId="1569-2922-0e92-737b">-</characteristic>
-              </characteristics>
-            </profile>
-            <profile name="Impact" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="d0d0-9cc9-54ae-f7af">
-              <characteristics>
-                <characteristic name="Range" typeId="0d60-0078-7134-d302">-</characteristic>
-                <characteristic name="1-2" typeId="5043-ac06-9bc2-0585">3</characteristic>
-                <characteristic name="3-4" typeId="8394-18d6-22d8-e03c">6</characteristic>
-                <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d">9</characteristic>
-                <characteristic name="Qualities" typeId="1569-2922-0e92-737b">-</characteristic>
-              </characteristics>
-            </profile>
-            <profile name="Ranged (Light)" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="cd93-626c-9801-2a60">
-              <characteristics>
-                <characteristic name="Range" typeId="0d60-0078-7134-d302">10&quot;/30&quot;</characteristic>
-                <characteristic name="1-2" typeId="5043-ac06-9bc2-0585">4</characteristic>
-                <characteristic name="3-4" typeId="8394-18d6-22d8-e03c">8</characteristic>
-                <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d">12</characteristic>
-                <characteristic name="Qualities" typeId="1569-2922-0e92-737b">-</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="37ae-e49b-644a-e2c2" automatic="true"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ddfa-e09a-3e8d-2723" automatic="true"/>
-          </constraints>
-        </selectionEntry>
-      </selectionEntries>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="3d6e-2ca6-43c3-eb66" includeChildSelections="true"/>
       </constraints>
@@ -2115,7 +2305,7 @@ This is intentional!</characteristic>
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="false" name="Yan Shou Tanks" hidden="false" id="7e17-d516-3506-2986" sortIndex="15">
+    <selectionEntry type="unit" import="false" name="Yan Shou Flame Tanks" hidden="false" id="7e17-d516-3506-2986" sortIndex="15">
       <categoryLinks>
         <categoryLink targetId="4ac3-36d9-e25e-4ba3" id="5c70-4753-2154-8b2b" primary="false" name="Empire"/>
         <categoryLink targetId="6aad-4085-608f-dc2f" id="06a1-965b-2d56-a9f9" primary="false" name="Heavy"/>
@@ -2130,11 +2320,11 @@ This is intentional!</characteristic>
         </profile>
       </profiles>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Bolstering" id="f4e2-8166-36fa-a8dd" hidden="false" sortIndex="2">
+        <selectionEntryGroup name="Bolstering" id="f4e2-8166-36fa-a8dd" hidden="false" sortIndex="3">
           <entryLinks>
             <entryLink import="true" name="Basic" hidden="false" id="99f9-43e3-f507-bd8c" type="selectionEntry" targetId="f088-e6d4-8fe3-0f3e" sortIndex="1">
               <profiles>
-                <profile name="Yan Shou Tanks" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="e4a2-b183-7623-0fb9">
+                <profile name="Yan Shou Flame Tanks" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="e4a2-b183-7623-0fb9">
                   <characteristics>
                     <characteristic name="Target type" typeId="de47-7191-892f-3c71">Heavy</characteristic>
                     <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">2</characteristic>
@@ -2158,7 +2348,7 @@ This is intentional!</characteristic>
             </entryLink>
             <entryLink import="true" name="Full Strength" hidden="false" id="809c-cfc5-fb72-6390" type="selectionEntry" targetId="e86e-71e1-9396-5526" sortIndex="3" flatten="false">
               <profiles>
-                <profile name="Yan Shou Tanks" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="9086-5eb0-450e-d86a">
+                <profile name="Yan Shou Flame Tanks" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="9086-5eb0-450e-d86a">
                   <characteristics>
                     <characteristic name="Target type" typeId="de47-7191-892f-3c71">Heavy</characteristic>
                     <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">2</characteristic>
@@ -2182,7 +2372,7 @@ This is intentional!</characteristic>
             </entryLink>
             <entryLink import="true" name="Reinforced" hidden="false" id="6d18-f7d1-d1ed-68b4" type="selectionEntry" targetId="85c2-43ee-a668-834f" sortIndex="2" flatten="false">
               <profiles>
-                <profile name="Yan Shou Tanks" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="699c-4ff7-d5ed-a326">
+                <profile name="Yan Shou Flame Tanks" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="699c-4ff7-d5ed-a326">
                   <characteristics>
                     <characteristic name="Target type" typeId="de47-7191-892f-3c71">Heavy</characteristic>
                     <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">2</characteristic>
@@ -2210,44 +2400,62 @@ This is intentional!</characteristic>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fc22-e865-454c-1fd9"/>
           </constraints>
         </selectionEntryGroup>
+        <selectionEntryGroup name="Weapons" id="9334-8a34-a8ff-6126" hidden="false" sortIndex="2">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Ranged (Light)" hidden="false" id="7294-e3f2-5bdb-c60c" sortIndex="1">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c902-bf57-83a6-0c61" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cda2-14b3-16f2-8f2a" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Ranged (Light)" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="1189-eebc-fbad-f6fd">
+                  <characteristics>
+                    <characteristic name="Range" typeId="0d60-0078-7134-d302">4&quot;/8&quot;</characteristic>
+                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585">7</characteristic>
+                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c">11</characteristic>
+                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d">15</characteristic>
+                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b">Torrent, Siegebreaker, Suppressive</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Melee" hidden="false" id="1476-9c39-23cb-473c" sortIndex="5">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="91bf-78ef-0ee0-69d5" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4481-d773-df1f-23d9" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Melee" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="1ccc-b560-e282-c315">
+                  <characteristics>
+                    <characteristic name="Range" typeId="0d60-0078-7134-d302">-</characteristic>
+                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585">3</characteristic>
+                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c">6</characteristic>
+                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d">9</characteristic>
+                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Ranged (Heavy)" hidden="false" id="5a8a-942d-ca3a-a979" sortIndex="2">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c973-b95d-2422-ac16" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e352-3b9a-d41f-70c5" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Ranged (Heavy)" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="3384-a0f7-ea49-a607">
+                  <characteristics>
+                    <characteristic name="Range" typeId="0d60-0078-7134-d302">4&quot;/8&quot;</characteristic>
+                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585">3</characteristic>
+                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c">6</characteristic>
+                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d">9</characteristic>
+                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b">Torrent, Suppressive</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
       </selectionEntryGroups>
-      <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name=" Weapons" hidden="false" id="8204-fd92-e0af-0817" flatten="true" collective="false" sortIndex="1" collapsible="true">
-          <profiles>
-            <profile name="Ranged (Heavy)" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="3384-a0f7-ea49-a607">
-              <characteristics>
-                <characteristic name="Range" typeId="0d60-0078-7134-d302">4&quot;/8&quot;</characteristic>
-                <characteristic name="1-2" typeId="5043-ac06-9bc2-0585">3</characteristic>
-                <characteristic name="3-4" typeId="8394-18d6-22d8-e03c">6</characteristic>
-                <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d">9</characteristic>
-                <characteristic name="Qualities" typeId="1569-2922-0e92-737b">Torrent, Suppressive</characteristic>
-              </characteristics>
-            </profile>
-            <profile name="Melee" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="1ccc-b560-e282-c315">
-              <characteristics>
-                <characteristic name="Range" typeId="0d60-0078-7134-d302">-</characteristic>
-                <characteristic name="1-2" typeId="5043-ac06-9bc2-0585">3</characteristic>
-                <characteristic name="3-4" typeId="8394-18d6-22d8-e03c">6</characteristic>
-                <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d">9</characteristic>
-                <characteristic name="Qualities" typeId="1569-2922-0e92-737b">-</characteristic>
-              </characteristics>
-            </profile>
-            <profile name="Ranged (Light)" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="1189-eebc-fbad-f6fd">
-              <characteristics>
-                <characteristic name="Range" typeId="0d60-0078-7134-d302">4&quot;/8&quot;</characteristic>
-                <characteristic name="1-2" typeId="5043-ac06-9bc2-0585">7</characteristic>
-                <characteristic name="3-4" typeId="8394-18d6-22d8-e03c">11</characteristic>
-                <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d">15</characteristic>
-                <characteristic name="Qualities" typeId="1569-2922-0e92-737b">Torrent, Suppressive</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0373-0016-b66e-cc7a" automatic="true"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5acd-24f1-5b48-d01a" automatic="true"/>
-          </constraints>
-        </selectionEntry>
-      </selectionEntries>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="e2ca-3483-b396-19b5" includeChildSelections="true"/>
       </constraints>
@@ -2273,7 +2481,7 @@ This is intentional!</characteristic>
         </profile>
       </profiles>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Bolstering" id="c5a9-4e0b-ef90-b082" hidden="false" sortIndex="2">
+        <selectionEntryGroup name="Bolstering" id="c5a9-4e0b-ef90-b082" hidden="false" sortIndex="3">
           <entryLinks>
             <entryLink import="true" name="Basic" hidden="false" id="658a-c2c7-c5fd-a0b4" type="selectionEntry" targetId="f088-e6d4-8fe3-0f3e" sortIndex="1">
               <profiles>
@@ -2353,49 +2561,67 @@ This is intentional!</characteristic>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7eac-4285-64ee-5a5f"/>
           </constraints>
         </selectionEntryGroup>
+        <selectionEntryGroup name="Weapons" id="f6eb-38fd-ef81-91d7" hidden="false" sortIndex="2">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Ranged (Light)" hidden="false" id="5d7a-c3ab-be4c-9ec6" sortIndex="1">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ffb0-b139-2be5-d423" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5f58-98a6-58c1-0b3c" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Ranged (Light)" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="3547-2ccb-6794-4e83">
+                  <characteristics>
+                    <characteristic name="Range" typeId="0d60-0078-7134-d302">10&quot;/30&quot;</characteristic>
+                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585">6</characteristic>
+                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c">10</characteristic>
+                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d">14</characteristic>
+                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b">Indirect, Torrent, Suppressive</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Melee" hidden="false" id="371c-633d-85b6-c5b8" sortIndex="5">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="cf98-d316-5c9f-9686" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ad48-3b14-e657-837a" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Melee" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="327b-e196-18e4-d59f">
+                  <characteristics>
+                    <characteristic name="Range" typeId="0d60-0078-7134-d302">-</characteristic>
+                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585">2</characteristic>
+                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c">4</characteristic>
+                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d">6</characteristic>
+                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Ranged (Heavy)" hidden="false" id="5f34-76fa-9eff-ad07" sortIndex="2">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="877d-8743-4ca4-61a1" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3b3e-29eb-5c56-151d" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Ranged (Heavy)" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="3735-1bfd-41e2-0c0c">
+                  <characteristics>
+                    <characteristic name="Range" typeId="0d60-0078-7134-d302">10&quot;/30&quot;</characteristic>
+                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585">4</characteristic>
+                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c">6</characteristic>
+                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d">8</characteristic>
+                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b">Indirect, Torrent, Suppressive</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
       </selectionEntryGroups>
-      <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name=" Weapons" hidden="false" id="2200-ff26-28aa-3db3" flatten="true" collective="false" sortIndex="1" collapsible="true">
-          <profiles>
-            <profile name="Ranged (Heavy)" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="3735-1bfd-41e2-0c0c">
-              <characteristics>
-                <characteristic name="Range" typeId="0d60-0078-7134-d302">10&quot;/30&quot;</characteristic>
-                <characteristic name="1-2" typeId="5043-ac06-9bc2-0585">4</characteristic>
-                <characteristic name="3-4" typeId="8394-18d6-22d8-e03c">6</characteristic>
-                <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d">8</characteristic>
-                <characteristic name="Qualities" typeId="1569-2922-0e92-737b">Indirect, Torrent, Suppressive</characteristic>
-              </characteristics>
-            </profile>
-            <profile name="Melee" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="327b-e196-18e4-d59f">
-              <characteristics>
-                <characteristic name="Range" typeId="0d60-0078-7134-d302">-</characteristic>
-                <characteristic name="1-2" typeId="5043-ac06-9bc2-0585">2</characteristic>
-                <characteristic name="3-4" typeId="8394-18d6-22d8-e03c">4</characteristic>
-                <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d">6</characteristic>
-                <characteristic name="Qualities" typeId="1569-2922-0e92-737b">-</characteristic>
-              </characteristics>
-            </profile>
-            <profile name="Ranged (Light)" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="3547-2ccb-6794-4e83">
-              <characteristics>
-                <characteristic name="Range" typeId="0d60-0078-7134-d302">10&quot;/30&quot;</characteristic>
-                <characteristic name="1-2" typeId="5043-ac06-9bc2-0585">6</characteristic>
-                <characteristic name="3-4" typeId="8394-18d6-22d8-e03c">10</characteristic>
-                <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d">14</characteristic>
-                <characteristic name="Qualities" typeId="1569-2922-0e92-737b">Indirect, Torrent, Suppressive</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="eb2f-e346-5341-c4f5" automatic="true"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d0fc-32e2-8b5a-b32b" automatic="true"/>
-          </constraints>
-        </selectionEntry>
-      </selectionEntries>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="cb93-9a54-a237-9d44" includeChildSelections="true"/>
       </constraints>
     </selectionEntry>
-    <selectionEntry type="unit" import="false" name="San Lei Heavy Launchers" hidden="false" id="a805-76b5-7850-31aa" sortIndex="17">
+    <selectionEntry type="unit" import="false" name="San Lei Heavy Artillery" hidden="false" id="a805-76b5-7850-31aa" sortIndex="17">
       <categoryLinks>
         <categoryLink targetId="4ac3-36d9-e25e-4ba3" id="d376-d8c1-af23-83d6" primary="false" name="Empire"/>
         <categoryLink targetId="6aad-4085-608f-dc2f" id="a352-2d3d-a7c1-4e79" primary="false" name="Heavy"/>
@@ -2409,11 +2635,11 @@ This is intentional!</characteristic>
         </profile>
       </profiles>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Bolstering" id="b981-b30f-53c0-6b46" hidden="false" sortIndex="2">
+        <selectionEntryGroup name="Bolstering" id="b981-b30f-53c0-6b46" hidden="false" sortIndex="3">
           <entryLinks>
             <entryLink import="true" name="Basic" hidden="false" id="42b1-908d-a7bd-ddb5" type="selectionEntry" targetId="f088-e6d4-8fe3-0f3e" sortIndex="1">
               <profiles>
-                <profile name="San Lei Heavy Launchers" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="6696-765a-2713-dc77">
+                <profile name="San Lei Heavy Artillery" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="6696-765a-2713-dc77">
                   <characteristics>
                     <characteristic name="Target type" typeId="de47-7191-892f-3c71">Heavy</characteristic>
                     <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">2</characteristic>
@@ -2432,12 +2658,12 @@ This is intentional!</characteristic>
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="110"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="100"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Full Strength" hidden="false" id="e0cc-7177-1c65-ec68" type="selectionEntry" targetId="e86e-71e1-9396-5526" sortIndex="3" flatten="false">
               <profiles>
-                <profile name="San Lei Heavy Launchers" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="088e-ef8e-324d-1c51">
+                <profile name="San Lei Heavy Artillery" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="088e-ef8e-324d-1c51">
                   <characteristics>
                     <characteristic name="Target type" typeId="de47-7191-892f-3c71">Heavy</characteristic>
                     <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">2</characteristic>
@@ -2456,12 +2682,12 @@ This is intentional!</characteristic>
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="285"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="220"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Reinforced" hidden="false" id="e97f-7c66-dd1e-f4eb" type="selectionEntry" targetId="85c2-43ee-a668-834f" sortIndex="2" flatten="false">
               <profiles>
-                <profile name="San Lei Heavy Launchers" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="35a3-3c1e-0cea-fabe">
+                <profile name="San Lei Heavy Artillery" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="35a3-3c1e-0cea-fabe">
                   <characteristics>
                     <characteristic name="Target type" typeId="de47-7191-892f-3c71">Heavy</characteristic>
                     <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">2</characteristic>
@@ -2480,7 +2706,7 @@ This is intentional!</characteristic>
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="170"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="160"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -2489,44 +2715,68 @@ This is intentional!</characteristic>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ab02-9658-6315-4311"/>
           </constraints>
         </selectionEntryGroup>
+        <selectionEntryGroup name="Weapons" id="a881-11f0-4fcb-37df" hidden="false" sortIndex="2">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Ranged (Light)" hidden="false" id="cf71-8a2e-f029-7b72" sortIndex="1">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2bfd-066d-4d95-043d" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="10ba-67ed-f89c-a3a3" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Ranged (Light)" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="b600-1170-82c9-a5ea">
+                  <characteristics>
+                    <characteristic name="Range" typeId="0d60-0078-7134-d302">16&quot;/36&quot;</characteristic>
+                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585">3</characteristic>
+                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c">6</characteristic>
+                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d">9</characteristic>
+                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Melee" hidden="false" id="5b3c-acf6-6f21-4b2d" sortIndex="5">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a003-7855-1b1c-5d67" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="48db-80df-e916-ce0e" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Melee" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="089d-3312-a7bc-fe2a">
+                  <characteristics>
+                    <characteristic name="Range" typeId="0d60-0078-7134-d302">-</characteristic>
+                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585">2</characteristic>
+                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c">4</characteristic>
+                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d">6</characteristic>
+                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Ranged (Heavy)" hidden="false" id="34a0-6185-8d0a-3b67" sortIndex="2">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0585-10ad-4fed-c3ce" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ebfd-4250-6b28-22a9" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Ranged (Heavy)" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="d76a-0fef-e2b2-84cd">
+                  <characteristics>
+                    <characteristic name="Range" typeId="0d60-0078-7134-d302">16&quot;/36&quot;</characteristic>
+                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585">8</characteristic>
+                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c">12</characteristic>
+                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d">16</characteristic>
+                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Impact" hidden="false" id="62e0-5cfe-9b0f-39f9" sortIndex="6">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b4ad-acef-9470-d66c" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2b08-4960-97f0-6795" automatic="true"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
       </selectionEntryGroups>
-      <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name=" Weapons" hidden="false" id="0da6-b1dc-a38d-8da0" flatten="true" collective="false" sortIndex="1" collapsible="true">
-          <profiles>
-            <profile name="Ranged (Heavy)" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="d76a-0fef-e2b2-84cd">
-              <characteristics>
-                <characteristic name="Range" typeId="0d60-0078-7134-d302">16&quot;/36&quot;</characteristic>
-                <characteristic name="1-2" typeId="5043-ac06-9bc2-0585">6</characteristic>
-                <characteristic name="3-4" typeId="8394-18d6-22d8-e03c">10</characteristic>
-                <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d">14</characteristic>
-                <characteristic name="Qualities" typeId="1569-2922-0e92-737b">-</characteristic>
-              </characteristics>
-            </profile>
-            <profile name="Melee" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="089d-3312-a7bc-fe2a">
-              <characteristics>
-                <characteristic name="Range" typeId="0d60-0078-7134-d302">-</characteristic>
-                <characteristic name="1-2" typeId="5043-ac06-9bc2-0585">2</characteristic>
-                <characteristic name="3-4" typeId="8394-18d6-22d8-e03c">4</characteristic>
-                <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d">6</characteristic>
-                <characteristic name="Qualities" typeId="1569-2922-0e92-737b">-</characteristic>
-              </characteristics>
-            </profile>
-            <profile name="Ranged (Light)" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="b600-1170-82c9-a5ea">
-              <characteristics>
-                <characteristic name="Range" typeId="0d60-0078-7134-d302">16&quot;/36&quot;</characteristic>
-                <characteristic name="1-2" typeId="5043-ac06-9bc2-0585">3</characteristic>
-                <characteristic name="3-4" typeId="8394-18d6-22d8-e03c">6</characteristic>
-                <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d">9</characteristic>
-                <characteristic name="Qualities" typeId="1569-2922-0e92-737b">-</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a6ac-6d25-cff5-3fa3" automatic="true"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6834-f971-e275-23de" automatic="true"/>
-          </constraints>
-        </selectionEntry>
-      </selectionEntries>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="b855-8e3f-29ea-790a" includeChildSelections="true"/>
       </constraints>
@@ -2547,12 +2797,12 @@ This is intentional!</characteristic>
       <profiles>
         <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="9ff7-7717-82ee-8222" noindex="true">
           <characteristics>
-            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Bank (5”), Fiery Demise (3), Flying, Veteran (1)</characteristic>
+            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Bank (5”), Fiery Demise (3), Flying, Rapid Response,Veteran (2)</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Bolstering" id="d3f0-e938-cc6e-4b18" hidden="false" sortIndex="2">
+        <selectionEntryGroup name="Bolstering" id="d3f0-e938-cc6e-4b18" hidden="false" sortIndex="3">
           <entryLinks>
             <entryLink import="true" name="Basic" hidden="false" id="3efd-0fb5-4562-7733" type="selectionEntry" targetId="f088-e6d4-8fe3-0f3e" sortIndex="1">
               <profiles>
@@ -2575,7 +2825,7 @@ This is intentional!</characteristic>
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="100"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="70"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Full Strength" hidden="false" id="7038-c06e-8187-43de" type="selectionEntry" targetId="e86e-71e1-9396-5526" sortIndex="3" flatten="false">
@@ -2599,7 +2849,7 @@ This is intentional!</characteristic>
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="260"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="170"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Reinforced" hidden="false" id="a2fa-8e38-0edb-7ce2" type="selectionEntry" targetId="85c2-43ee-a668-834f" sortIndex="2" flatten="false">
@@ -2623,7 +2873,7 @@ This is intentional!</characteristic>
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="170"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="105"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -2632,44 +2882,62 @@ This is intentional!</characteristic>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bc98-acde-b7ff-2731"/>
           </constraints>
         </selectionEntryGroup>
+        <selectionEntryGroup name="Weapons" id="8752-d960-3e22-5a0f" hidden="false" sortIndex="2">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Ranged (Light)" hidden="false" id="c360-7179-56f9-788f" sortIndex="1">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d875-e240-7564-a292" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7154-2d45-6e51-9e18" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Ranged (Light)" typeId="ae82-73aa-c9d6-d719" typeName="Type" hidden="false" id="a38a-8ebe-2213-e958">
+                  <characteristics>
+                    <characteristic name="Range" typeId="c7d4-8837-db2a-853e">5&quot;/12&quot;</characteristic>
+                    <characteristic name="1" typeId="d488-d433-55e3-87c0">4</characteristic>
+                    <characteristic name="2" typeId="9869-9545-e597-5da6">6</characteristic>
+                    <characteristic name="3" typeId="cc94-143d-b205-52e3">10</characteristic>
+                    <characteristic name="Qualities" typeId="f973-0012-4bcd-1728">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Ranged (Heavy)" hidden="false" id="cb6d-d176-ad7a-46a0" sortIndex="2">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7afc-a85c-6011-d2f3" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b5d9-af58-57b8-1521" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Ranged (Heavy)" typeId="ae82-73aa-c9d6-d719" typeName="Type" hidden="false" id="ef67-e405-3e45-c0be">
+                  <characteristics>
+                    <characteristic name="Range" typeId="c7d4-8837-db2a-853e">5&quot;/12&quot;</characteristic>
+                    <characteristic name="1" typeId="d488-d433-55e3-87c0">5</characteristic>
+                    <characteristic name="2" typeId="9869-9545-e597-5da6">8</characteristic>
+                    <characteristic name="3" typeId="cc94-143d-b205-52e3">11</characteristic>
+                    <characteristic name="Qualities" typeId="f973-0012-4bcd-1728">Devastating</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Ranged (Aerial)" hidden="false" id="4eed-420f-88f2-561e" sortIndex="4">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="55a7-320c-e63d-3590" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="66b2-9e9d-f424-1e88" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Ranged (Aerial)" typeId="ae82-73aa-c9d6-d719" typeName="Type" hidden="false" id="9a0f-12f8-9849-73ea">
+                  <characteristics>
+                    <characteristic name="Range" typeId="c7d4-8837-db2a-853e">3&quot;/8&quot;</characteristic>
+                    <characteristic name="1" typeId="d488-d433-55e3-87c0">3</characteristic>
+                    <characteristic name="2" typeId="9869-9545-e597-5da6">5</characteristic>
+                    <characteristic name="3" typeId="cc94-143d-b205-52e3">7</characteristic>
+                    <characteristic name="Qualities" typeId="f973-0012-4bcd-1728">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
       </selectionEntryGroups>
-      <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name=" Weapons" hidden="false" id="f9db-b922-f6a8-be8a" flatten="true" collective="false" sortIndex="1" collapsible="true">
-          <profiles>
-            <profile name="Ranged (Light)" typeId="ae82-73aa-c9d6-d719" typeName="Type" hidden="false" id="a38a-8ebe-2213-e958">
-              <characteristics>
-                <characteristic name="Range" typeId="c7d4-8837-db2a-853e">5&quot;/12&quot;</characteristic>
-                <characteristic name="1" typeId="d488-d433-55e3-87c0">4</characteristic>
-                <characteristic name="2" typeId="9869-9545-e597-5da6">6</characteristic>
-                <characteristic name="3" typeId="cc94-143d-b205-52e3">10</characteristic>
-                <characteristic name="Qualities" typeId="f973-0012-4bcd-1728">-</characteristic>
-              </characteristics>
-            </profile>
-            <profile name="Ranged (Aerial)" typeId="ae82-73aa-c9d6-d719" typeName="Type" hidden="false" id="9a0f-12f8-9849-73ea">
-              <characteristics>
-                <characteristic name="Range" typeId="c7d4-8837-db2a-853e">3&quot;/8&quot;</characteristic>
-                <characteristic name="1" typeId="d488-d433-55e3-87c0">3</characteristic>
-                <characteristic name="2" typeId="9869-9545-e597-5da6">5</characteristic>
-                <characteristic name="3" typeId="cc94-143d-b205-52e3">7</characteristic>
-                <characteristic name="Qualities" typeId="f973-0012-4bcd-1728">-</characteristic>
-              </characteristics>
-            </profile>
-            <profile name="Ranged (Heavy)" typeId="ae82-73aa-c9d6-d719" typeName="Type" hidden="false" id="ef67-e405-3e45-c0be">
-              <characteristics>
-                <characteristic name="Range" typeId="c7d4-8837-db2a-853e">5&quot;/12&quot;</characteristic>
-                <characteristic name="1" typeId="d488-d433-55e3-87c0">5</characteristic>
-                <characteristic name="2" typeId="9869-9545-e597-5da6">8</characteristic>
-                <characteristic name="3" typeId="cc94-143d-b205-52e3">11</characteristic>
-                <characteristic name="Qualities" typeId="f973-0012-4bcd-1728">Devastating</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="504d-28e1-f774-7fcf" automatic="true"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bb3f-7cda-e349-e093" automatic="true"/>
-          </constraints>
-        </selectionEntry>
-      </selectionEntries>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="9e81-e840-b200-70bc" includeChildSelections="true"/>
       </constraints>
@@ -2689,7 +2957,7 @@ This is intentional!</characteristic>
         </profile>
       </profiles>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Bolstering" id="b086-4ee2-b6d4-4a11" hidden="false" sortIndex="2">
+        <selectionEntryGroup name="Bolstering" id="b086-4ee2-b6d4-4a11" hidden="false" sortIndex="3">
           <entryLinks>
             <entryLink import="true" name="Full Strength" hidden="false" id="8747-e633-7f68-105b" type="selectionEntry" targetId="e86e-71e1-9396-5526" sortIndex="3" flatten="false">
               <profiles>
@@ -2707,12 +2975,12 @@ This is intentional!</characteristic>
                   </characteristics>
                   <modifiers>
                     <modifier type="set" value="1" field="3e5d-fadc-d9fb-6570"/>
-                    <modifier type="set" value="6" field="bb79-114d-2dc7-ca18"/>
+                    <modifier type="set" value="8" field="bb79-114d-2dc7-ca18"/>
                   </modifiers>
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="495"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="465"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -2721,53 +2989,71 @@ This is intentional!</characteristic>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0450-a8be-9422-41cd"/>
           </constraints>
         </selectionEntryGroup>
+        <selectionEntryGroup name="Weapons" id="4de0-33df-a052-6a01" hidden="false" sortIndex="2">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Ranged (Light)" hidden="false" id="ab8b-d950-5371-6584" sortIndex="1">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="dc63-a4a2-e3dd-32f8" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3c0d-32a7-072a-d7a3" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Ranged (Light)" typeId="ee3c-551f-76af-1003" typeName="Type" hidden="false" id="0d6e-3c3b-9018-7040">
+                  <characteristics>
+                    <characteristic name="Range" typeId="2701-5c54-f68b-b5db">4&quot;/8&quot;</characteristic>
+                    <characteristic name="10-15" typeId="af3b-7f79-4aa9-20d4">8</characteristic>
+                    <characteristic name="5-9" typeId="4790-8f0a-37e7-12e9">12</characteristic>
+                    <characteristic name="0-4" typeId="acef-aeb2-7abd-c306">17</characteristic>
+                    <characteristic name="Qualities" typeId="0833-055a-302e-e350">Suppressive, Torrent</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Ranged (Heavy)" hidden="false" id="55c2-0666-90af-b0e3" sortIndex="2">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="611a-0297-5e7a-46d0" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bc2e-2f82-c46d-faf0" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Ranged (Heavy)" typeId="ee3c-551f-76af-1003" typeName="Type" hidden="false" id="0db8-0d16-4c49-b36c">
+                  <characteristics>
+                    <characteristic name="Range" typeId="2701-5c54-f68b-b5db">16&quot;/32&quot;</characteristic>
+                    <characteristic name="10-15" typeId="af3b-7f79-4aa9-20d4">5</characteristic>
+                    <characteristic name="5-9" typeId="4790-8f0a-37e7-12e9">10</characteristic>
+                    <characteristic name="0-4" typeId="acef-aeb2-7abd-c306">15</characteristic>
+                    <characteristic name="Qualities" typeId="0833-055a-302e-e350">-</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="Ranged (Heavy)" typeId="ee3c-551f-76af-1003" typeName="Type" hidden="false" id="85ff-10aa-da28-9246">
+                  <characteristics>
+                    <characteristic name="Range" typeId="2701-5c54-f68b-b5db">6&quot;/38&quot;</characteristic>
+                    <characteristic name="10-15" typeId="af3b-7f79-4aa9-20d4">6</characteristic>
+                    <characteristic name="5-9" typeId="4790-8f0a-37e7-12e9">10</characteristic>
+                    <characteristic name="0-4" typeId="acef-aeb2-7abd-c306">14</characteristic>
+                    <characteristic name="Qualities" typeId="0833-055a-302e-e350">Devastating, Indirect, Move or Fire</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Impact" hidden="false" id="a392-d6b5-2b98-5155" sortIndex="6">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="daa7-5c4d-cd9c-847e" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a049-7282-371b-362e" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Impact" typeId="ee3c-551f-76af-1003" typeName="Type" hidden="false" id="03d9-7e52-98e1-db62">
+                  <characteristics>
+                    <characteristic name="Range" typeId="2701-5c54-f68b-b5db">-</characteristic>
+                    <characteristic name="10-15" typeId="af3b-7f79-4aa9-20d4">4</characteristic>
+                    <characteristic name="5-9" typeId="4790-8f0a-37e7-12e9">8</characteristic>
+                    <characteristic name="0-4" typeId="acef-aeb2-7abd-c306">12</characteristic>
+                    <characteristic name="Qualities" typeId="0833-055a-302e-e350">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
       </selectionEntryGroups>
-      <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name=" Weapons" hidden="false" id="e60c-35d9-bcca-92cc" flatten="true" collective="false" sortIndex="1" collapsible="true">
-          <profiles>
-            <profile name="Ranged (Light)" typeId="ee3c-551f-76af-1003" typeName="Type" hidden="false" id="0d6e-3c3b-9018-7040">
-              <characteristics>
-                <characteristic name="Range" typeId="2701-5c54-f68b-b5db">4&quot;/8&quot;</characteristic>
-                <characteristic name="10-15" typeId="af3b-7f79-4aa9-20d4">8</characteristic>
-                <characteristic name="5-9" typeId="4790-8f0a-37e7-12e9">12</characteristic>
-                <characteristic name="0-4" typeId="acef-aeb2-7abd-c306">17</characteristic>
-                <characteristic name="Qualities" typeId="0833-055a-302e-e350">Suppressive, Torrent</characteristic>
-              </characteristics>
-            </profile>
-            <profile name="Ranged (Heavy)" typeId="ee3c-551f-76af-1003" typeName="Type" hidden="false" id="0db8-0d16-4c49-b36c">
-              <characteristics>
-                <characteristic name="Range" typeId="2701-5c54-f68b-b5db">16&quot;/32&quot;</characteristic>
-                <characteristic name="10-15" typeId="af3b-7f79-4aa9-20d4">5</characteristic>
-                <characteristic name="5-9" typeId="4790-8f0a-37e7-12e9">10</characteristic>
-                <characteristic name="0-4" typeId="acef-aeb2-7abd-c306">15</characteristic>
-                <characteristic name="Qualities" typeId="0833-055a-302e-e350">-</characteristic>
-              </characteristics>
-            </profile>
-            <profile name="Ranged (Heavy)" typeId="ee3c-551f-76af-1003" typeName="Type" hidden="false" id="85ff-10aa-da28-9246">
-              <characteristics>
-                <characteristic name="Range" typeId="2701-5c54-f68b-b5db">6&quot;/38&quot;</characteristic>
-                <characteristic name="10-15" typeId="af3b-7f79-4aa9-20d4">6</characteristic>
-                <characteristic name="5-9" typeId="4790-8f0a-37e7-12e9">10</characteristic>
-                <characteristic name="0-4" typeId="acef-aeb2-7abd-c306">14</characteristic>
-                <characteristic name="Qualities" typeId="0833-055a-302e-e350">Devastating, Indirect, Move or Fire</characteristic>
-              </characteristics>
-            </profile>
-            <profile name="Impact" typeId="ee3c-551f-76af-1003" typeName="Type" hidden="false" id="03d9-7e52-98e1-db62">
-              <characteristics>
-                <characteristic name="Range" typeId="2701-5c54-f68b-b5db">-</characteristic>
-                <characteristic name="10-15" typeId="af3b-7f79-4aa9-20d4">4</characteristic>
-                <characteristic name="5-9" typeId="4790-8f0a-37e7-12e9">8</characteristic>
-                <characteristic name="0-4" typeId="acef-aeb2-7abd-c306">12</characteristic>
-                <characteristic name="Qualities" typeId="0833-055a-302e-e350">-</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="bed8-a4db-7a25-fa0b" automatic="true"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8005-cff6-59e2-7378" automatic="true"/>
-          </constraints>
-        </selectionEntry>
-      </selectionEntries>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="eb40-0863-c9f5-732e" includeChildSelections="true"/>
       </constraints>
@@ -2799,7 +3085,7 @@ This is intentional!</characteristic>
           <entryLinks>
             <entryLink import="true" name="Full Strength" hidden="false" id="ef3c-4f0a-995b-b518" type="selectionEntry" targetId="e86e-71e1-9396-5526" sortIndex="3" flatten="false">
               <profiles>
-                <profile name="Wutai Landship" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="2de6-1f61-ca4d-59b4">
+                <profile name="Laoshan Landship" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="2de6-1f61-ca4d-59b4">
                   <characteristics>
                     <characteristic name="Target type" typeId="de47-7191-892f-3c71">Heavy</characteristic>
                     <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">4</characteristic>
@@ -2813,12 +3099,12 @@ This is intentional!</characteristic>
                   </characteristics>
                   <modifiers>
                     <modifier type="set" value="1" field="3e5d-fadc-d9fb-6570"/>
-                    <modifier type="set" value="6" field="bb79-114d-2dc7-ca18"/>
+                    <modifier type="set" value="9" field="bb79-114d-2dc7-ca18"/>
                   </modifiers>
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="510"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="470"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -2827,53 +3113,79 @@ This is intentional!</characteristic>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ddc5-8f2c-b986-5a29"/>
           </constraints>
         </selectionEntryGroup>
+        <selectionEntryGroup name="Weapons" id="1442-c4f0-52ef-c324" hidden="false" sortIndex="1">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Ranged (Light)" hidden="false" id="b177-5011-b83e-57ee" sortIndex="1">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c580-bcf3-857b-abb3" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b513-a11d-4089-3431" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Ranged (Light)" typeId="ee3c-551f-76af-1003" typeName="Type" hidden="false" id="3624-63c3-684c-8fe9">
+                  <characteristics>
+                    <characteristic name="Range" typeId="2701-5c54-f68b-b5db">10&quot;/20&quot;</characteristic>
+                    <characteristic name="10-15" typeId="af3b-7f79-4aa9-20d4">4</characteristic>
+                    <characteristic name="5-9" typeId="4790-8f0a-37e7-12e9">8</characteristic>
+                    <characteristic name="0-4" typeId="acef-aeb2-7abd-c306">12</characteristic>
+                    <characteristic name="Qualities" typeId="0833-055a-302e-e350">Suppressive</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Ranged (Heavy)" hidden="false" id="1533-8b50-39dd-edf9" sortIndex="2">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d37c-acbb-e100-32b3" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2692-f4c6-eb01-9244" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Ranged (Heavy)" typeId="ee3c-551f-76af-1003" typeName="Type" hidden="false" id="eeba-4b02-2de7-7220">
+                  <characteristics>
+                    <characteristic name="Range" typeId="2701-5c54-f68b-b5db">16&quot;/32&quot;</characteristic>
+                    <characteristic name="10-15" typeId="af3b-7f79-4aa9-20d4">5</characteristic>
+                    <characteristic name="5-9" typeId="4790-8f0a-37e7-12e9">10</characteristic>
+                    <characteristic name="0-4" typeId="acef-aeb2-7abd-c306">15</characteristic>
+                    <characteristic name="Qualities" typeId="0833-055a-302e-e350">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Ranged (Aerial)" hidden="false" id="1156-d0f5-6033-d3f4" sortIndex="3">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c832-eb6c-f55b-0a90" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dcba-5b11-ea68-1328" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Ranged (Aerial)" typeId="ee3c-551f-76af-1003" typeName="Type" hidden="false" id="89a5-78b5-7a45-6c19">
+                  <characteristics>
+                    <characteristic name="Range" typeId="2701-5c54-f68b-b5db">5&quot;/10&quot;</characteristic>
+                    <characteristic name="10-15" typeId="af3b-7f79-4aa9-20d4">4</characteristic>
+                    <characteristic name="5-9" typeId="4790-8f0a-37e7-12e9">6</characteristic>
+                    <characteristic name="0-4" typeId="acef-aeb2-7abd-c306">8</characteristic>
+                    <characteristic name="Qualities" typeId="0833-055a-302e-e350">Turret</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Impact" hidden="false" id="2c58-1af1-38f1-d716" sortIndex="4">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f503-8832-5cc6-553a" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="642e-82dd-ed8b-0916" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Impact" typeId="ee3c-551f-76af-1003" typeName="Type" hidden="false" id="b227-be88-a716-b4af">
+                  <characteristics>
+                    <characteristic name="Range" typeId="2701-5c54-f68b-b5db">-</characteristic>
+                    <characteristic name="10-15" typeId="af3b-7f79-4aa9-20d4">12</characteristic>
+                    <characteristic name="5-9" typeId="4790-8f0a-37e7-12e9">14</characteristic>
+                    <characteristic name="0-4" typeId="acef-aeb2-7abd-c306">18</characteristic>
+                    <characteristic name="Qualities" typeId="0833-055a-302e-e350">Penetrating</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
       </selectionEntryGroups>
-      <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name=" Weapons" hidden="false" id="0a8a-39ba-01d3-cf57" flatten="true" collective="false" sortIndex="1" collapsible="true">
-          <profiles>
-            <profile name="Ranged (Light)" typeId="ee3c-551f-76af-1003" typeName="Type" hidden="false" id="3624-63c3-684c-8fe9">
-              <characteristics>
-                <characteristic name="Range" typeId="2701-5c54-f68b-b5db">10&quot;/20&quot;</characteristic>
-                <characteristic name="10-15" typeId="af3b-7f79-4aa9-20d4">4</characteristic>
-                <characteristic name="5-9" typeId="4790-8f0a-37e7-12e9">8</characteristic>
-                <characteristic name="0-4" typeId="acef-aeb2-7abd-c306">12</characteristic>
-                <characteristic name="Qualities" typeId="0833-055a-302e-e350">Suppressive</characteristic>
-              </characteristics>
-            </profile>
-            <profile name="Ranged (Heavy)" typeId="ee3c-551f-76af-1003" typeName="Type" hidden="false" id="eeba-4b02-2de7-7220">
-              <characteristics>
-                <characteristic name="Range" typeId="2701-5c54-f68b-b5db">16&quot;/32&quot;</characteristic>
-                <characteristic name="10-15" typeId="af3b-7f79-4aa9-20d4">5</characteristic>
-                <characteristic name="5-9" typeId="4790-8f0a-37e7-12e9">10</characteristic>
-                <characteristic name="0-4" typeId="acef-aeb2-7abd-c306">15</characteristic>
-                <characteristic name="Qualities" typeId="0833-055a-302e-e350">-</characteristic>
-              </characteristics>
-            </profile>
-            <profile name="Ranged (Aerial)" typeId="ee3c-551f-76af-1003" typeName="Type" hidden="false" id="89a5-78b5-7a45-6c19">
-              <characteristics>
-                <characteristic name="Range" typeId="2701-5c54-f68b-b5db">5&quot;/10&quot;</characteristic>
-                <characteristic name="10-15" typeId="af3b-7f79-4aa9-20d4">4</characteristic>
-                <characteristic name="5-9" typeId="4790-8f0a-37e7-12e9">6</characteristic>
-                <characteristic name="0-4" typeId="acef-aeb2-7abd-c306">8</characteristic>
-                <characteristic name="Qualities" typeId="0833-055a-302e-e350">Turret</characteristic>
-              </characteristics>
-            </profile>
-            <profile name="Impact" typeId="ee3c-551f-76af-1003" typeName="Type" hidden="false" id="b227-be88-a716-b4af">
-              <characteristics>
-                <characteristic name="Range" typeId="2701-5c54-f68b-b5db">-</characteristic>
-                <characteristic name="10-15" typeId="af3b-7f79-4aa9-20d4">12</characteristic>
-                <characteristic name="5-9" typeId="4790-8f0a-37e7-12e9">14</characteristic>
-                <characteristic name="0-4" typeId="acef-aeb2-7abd-c306">18</characteristic>
-                <characteristic name="Qualities" typeId="0833-055a-302e-e350">Penetrating</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4e99-e200-87fb-397d" automatic="true"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a15a-47d3-c3f9-8c06" automatic="true"/>
-          </constraints>
-        </selectionEntry>
-      </selectionEntries>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="2624-b40c-1598-1c93" includeChildSelections="true"/>
       </constraints>
