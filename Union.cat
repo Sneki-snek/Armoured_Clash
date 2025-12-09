@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="6d98-c0bc-b691-e560" name="Union" gameSystemId="sys-e850-e7dd-b6e5-f6c0" gameSystemRevision="2" revision="4" authorName="Sneki_snek" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="6d98-c0bc-b691-e560" name="Union" gameSystemId="sys-e850-e7dd-b6e5-f6c0" gameSystemRevision="2" revision="5" authorName="Sneki_snek" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Rules Glossary" id="e157-380b-2be8-509e" targetId="4257-4b3f-e0ad-dea3"/>
   </catalogueLinks>
@@ -208,7 +208,7 @@ If the chosen unit already has the Vanguard (X ) special rule it uses the highe
             <profile name="Headstrong Commander" typeId="3f77-4198-5794-9684" typeName="Boons" hidden="false" id="8f2c-17cc-5dc6-d8af">
               <characteristics>
                 <characteristic name="Effect" typeId="b7f2-49d8-a49a-0b0f">During the Draw Cards step of each Ready Phase, after drawing cards from their Command &amp; Conquest deck, the General can choose to draw one additional card and add it to their Hand.
-If they do, they must then discard one card from their Hand. </characteristic>
+If they do, they must then discard one card from their Hand.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -221,7 +221,7 @@ If they do, they must then discard one card from their Hand. </characteristic>
         <categoryLink name="Boons" hidden="false" id="8fab-5a56-908c-a74f" targetId="9588-4200-697f-615f" primary="true"/>
       </categoryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Federal Trooper Command Platoon" hidden="false" id="58d1-4bf0-b61c-b7b0" sortIndex="2">
+    <selectionEntry type="unit" import="true" name="Federal Trooper Command Platoon" hidden="false" id="58d1-4bf0-b61c-b7b0" sortIndex="2" subType="unit-group">
       <categoryLinks>
         <categoryLink name="Light" hidden="false" id="3502-839d-8c86-ae4e" targetId="default-category" primary="false"/>
         <categoryLink name="Commander" hidden="false" id="df58-8d36-93f2-8170" targetId="058b-06f1-5fc7-3c9a" primary="true"/>
@@ -526,7 +526,7 @@ If they do, they must then discard one card from their Hand. </characteristic>
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Federal Trooper Platoon" hidden="false" id="411e-8744-aeaf-40c1" sortIndex="3">
+    <selectionEntry type="unit" import="true" name="Federal Trooper Platoon" hidden="false" id="411e-8744-aeaf-40c1" sortIndex="3" subType="unit-group">
       <categoryLinks>
         <categoryLink name="Light" hidden="false" id="62d0-93dc-c611-d712" targetId="default-category" primary="false"/>
         <categoryLink targetId="836d-480a-6f6e-598e" id="579a-5e07-bba3-2b74" primary="false" name="Parent"/>
@@ -726,7 +726,7 @@ If they do, they must then discard one card from their Hand. </characteristic>
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Pacifier Heavy Infantry Platoon" hidden="false" id="9e3a-7c82-5c64-9ea0" sortIndex="4">
+    <selectionEntry type="unit" import="true" name="Pacifier Heavy Infantry Platoon" hidden="false" id="9e3a-7c82-5c64-9ea0" sortIndex="4" subType="unit-group">
       <categoryLinks>
         <categoryLink name="Light" hidden="false" id="ecf5-ef49-e6ea-a083" targetId="default-category" primary="false"/>
         <categoryLink targetId="836d-480a-6f6e-598e" id="b679-b2a9-832d-a6c9" primary="false" name="Parent"/>
@@ -3014,7 +3014,7 @@ If they do, they must then discard one card from their Hand. </characteristic>
                         <characteristic name="Range" typeId="1ef4-25e1-dabb-4366">4&quot;/32&quot;</characteristic>
                         <characteristic name="1" typeId="47f8-07bb-9d00-11ff">4</characteristic>
                         <characteristic name="N/A" typeId="bb38-45b7-8bc6-5634">-</characteristic>
-                        <characteristic name="N/A" typeId="172d-3b2f-afb6-9286">-</characteristic>
+                        <characteristic name="N/A" typeId="172d-3b2f-afb6-9286"/>
                         <characteristic name="Qualities" typeId="afc3-d5f4-dacf-4f41">Indirect, Turret</characteristic>
                       </characteristics>
                     </profile>
@@ -3023,7 +3023,7 @@ If they do, they must then discard one card from their Hand. </characteristic>
                         <characteristic name="Range" typeId="1ef4-25e1-dabb-4366">14&quot;/26&quot;</characteristic>
                         <characteristic name="1" typeId="47f8-07bb-9d00-11ff">4</characteristic>
                         <characteristic name="N/A" typeId="bb38-45b7-8bc6-5634">-</characteristic>
-                        <characteristic name="N/A" typeId="172d-3b2f-afb6-9286">-</characteristic>
+                        <characteristic name="N/A" typeId="172d-3b2f-afb6-9286"/>
                         <characteristic name="Qualities" typeId="afc3-d5f4-dacf-4f41">Turret</characteristic>
                       </characteristics>
                     </profile>
@@ -3076,7 +3076,7 @@ If they do, they must then discard one card from their Hand. </characteristic>
                         <characteristic name="Range" typeId="1ef4-25e1-dabb-4366">4&quot;/32&quot;</characteristic>
                         <characteristic name="1" typeId="47f8-07bb-9d00-11ff">6</characteristic>
                         <characteristic name="N/A" typeId="bb38-45b7-8bc6-5634">-</characteristic>
-                        <characteristic name="N/A" typeId="172d-3b2f-afb6-9286">-</characteristic>
+                        <characteristic name="N/A" typeId="172d-3b2f-afb6-9286"/>
                         <characteristic name="Qualities" typeId="afc3-d5f4-dacf-4f41">Indirect, Turret</characteristic>
                       </characteristics>
                     </profile>
@@ -3085,7 +3085,7 @@ If they do, they must then discard one card from their Hand. </characteristic>
                         <characteristic name="Range" typeId="1ef4-25e1-dabb-4366">4&quot;/32&quot;</characteristic>
                         <characteristic name="1" typeId="47f8-07bb-9d00-11ff">3</characteristic>
                         <characteristic name="N/A" typeId="bb38-45b7-8bc6-5634">-</characteristic>
-                        <characteristic name="N/A" typeId="172d-3b2f-afb6-9286">-</characteristic>
+                        <characteristic name="N/A" typeId="172d-3b2f-afb6-9286"/>
                         <characteristic name="Qualities" typeId="afc3-d5f4-dacf-4f41">Indirect, Turret</characteristic>
                       </characteristics>
                     </profile>
@@ -3138,7 +3138,7 @@ If they do, they must then discard one card from their Hand. </characteristic>
                         <characteristic name="Range" typeId="1ef4-25e1-dabb-4366">14&quot;/26&quot;</characteristic>
                         <characteristic name="1" typeId="47f8-07bb-9d00-11ff">3</characteristic>
                         <characteristic name="N/A" typeId="bb38-45b7-8bc6-5634">-</characteristic>
-                        <characteristic name="N/A" typeId="172d-3b2f-afb6-9286">-</characteristic>
+                        <characteristic name="N/A" typeId="172d-3b2f-afb6-9286"/>
                         <characteristic name="Qualities" typeId="afc3-d5f4-dacf-4f41">Turret</characteristic>
                       </characteristics>
                     </profile>
@@ -3147,7 +3147,7 @@ If they do, they must then discard one card from their Hand. </characteristic>
                         <characteristic name="Range" typeId="1ef4-25e1-dabb-4366">14&quot;/26&quot;</characteristic>
                         <characteristic name="1" typeId="47f8-07bb-9d00-11ff">6</characteristic>
                         <characteristic name="N/A" typeId="bb38-45b7-8bc6-5634">-</characteristic>
-                        <characteristic name="N/A" typeId="172d-3b2f-afb6-9286">-</characteristic>
+                        <characteristic name="N/A" typeId="172d-3b2f-afb6-9286"/>
                         <characteristic name="Qualities" typeId="afc3-d5f4-dacf-4f41">Turret</characteristic>
                       </characteristics>
                     </profile>
@@ -3200,7 +3200,7 @@ If they do, they must then discard one card from their Hand. </characteristic>
                         <characteristic name="Range" typeId="1ef4-25e1-dabb-4366">6&quot;/14&quot;</characteristic>
                         <characteristic name="1" typeId="47f8-07bb-9d00-11ff">5</characteristic>
                         <characteristic name="N/A" typeId="bb38-45b7-8bc6-5634">-</characteristic>
-                        <characteristic name="N/A" typeId="172d-3b2f-afb6-9286">-</characteristic>
+                        <characteristic name="N/A" typeId="172d-3b2f-afb6-9286"/>
                         <characteristic name="Qualities" typeId="afc3-d5f4-dacf-4f41">Devastating, Fields of Fire</characteristic>
                       </characteristics>
                     </profile>
@@ -3254,7 +3254,7 @@ If they do, they must then discard one card from their Hand. </characteristic>
                         <characteristic name="Range" typeId="1ef4-25e1-dabb-4366">-</characteristic>
                         <characteristic name="1" typeId="47f8-07bb-9d00-11ff">-</characteristic>
                         <characteristic name="N/A" typeId="bb38-45b7-8bc6-5634">-</characteristic>
-                        <characteristic name="N/A" typeId="172d-3b2f-afb6-9286">-</characteristic>
+                        <characteristic name="N/A" typeId="172d-3b2f-afb6-9286"/>
                         <characteristic name="Qualities" typeId="afc3-d5f4-dacf-4f41">-</characteristic>
                       </characteristics>
                     </profile>
@@ -3698,7 +3698,7 @@ If they do, they must then discard one card from their Hand. </characteristic>
                     <characteristic name="Range" typeId="1ef4-25e1-dabb-4366">4&quot;/32&quot;</characteristic>
                     <characteristic name="1" typeId="47f8-07bb-9d00-11ff">4</characteristic>
                     <characteristic name="N/A" typeId="bb38-45b7-8bc6-5634">-</characteristic>
-                    <characteristic name="N/A" typeId="172d-3b2f-afb6-9286">-</characteristic>
+                    <characteristic name="N/A" typeId="172d-3b2f-afb6-9286"/>
                     <characteristic name="Qualities" typeId="afc3-d5f4-dacf-4f41">Indirect, Turret</characteristic>
                   </characteristics>
                 </profile>
@@ -3707,7 +3707,7 @@ If they do, they must then discard one card from their Hand. </characteristic>
                     <characteristic name="Range" typeId="1ef4-25e1-dabb-4366">14&quot;/26&quot;</characteristic>
                     <characteristic name="1" typeId="47f8-07bb-9d00-11ff">4</characteristic>
                     <characteristic name="N/A" typeId="bb38-45b7-8bc6-5634">-</characteristic>
-                    <characteristic name="N/A" typeId="172d-3b2f-afb6-9286">-</characteristic>
+                    <characteristic name="N/A" typeId="172d-3b2f-afb6-9286"/>
                     <characteristic name="Qualities" typeId="afc3-d5f4-dacf-4f41">Turret</characteristic>
                   </characteristics>
                 </profile>
@@ -3760,7 +3760,7 @@ If they do, they must then discard one card from their Hand. </characteristic>
                     <characteristic name="Range" typeId="1ef4-25e1-dabb-4366">4&quot;/32&quot;</characteristic>
                     <characteristic name="1" typeId="47f8-07bb-9d00-11ff">6</characteristic>
                     <characteristic name="N/A" typeId="bb38-45b7-8bc6-5634">-</characteristic>
-                    <characteristic name="N/A" typeId="172d-3b2f-afb6-9286">-</characteristic>
+                    <characteristic name="N/A" typeId="172d-3b2f-afb6-9286"/>
                     <characteristic name="Qualities" typeId="afc3-d5f4-dacf-4f41">Indirect, Turret</characteristic>
                   </characteristics>
                 </profile>
@@ -3769,7 +3769,7 @@ If they do, they must then discard one card from their Hand. </characteristic>
                     <characteristic name="Range" typeId="1ef4-25e1-dabb-4366">4&quot;/32&quot;</characteristic>
                     <characteristic name="1" typeId="47f8-07bb-9d00-11ff">3</characteristic>
                     <characteristic name="N/A" typeId="bb38-45b7-8bc6-5634">-</characteristic>
-                    <characteristic name="N/A" typeId="172d-3b2f-afb6-9286">-</characteristic>
+                    <characteristic name="N/A" typeId="172d-3b2f-afb6-9286"/>
                     <characteristic name="Qualities" typeId="afc3-d5f4-dacf-4f41">Indirect, Turret</characteristic>
                   </characteristics>
                 </profile>
@@ -3822,7 +3822,7 @@ If they do, they must then discard one card from their Hand. </characteristic>
                     <characteristic name="Range" typeId="1ef4-25e1-dabb-4366">14&quot;/26&quot;</characteristic>
                     <characteristic name="1" typeId="47f8-07bb-9d00-11ff">3</characteristic>
                     <characteristic name="N/A" typeId="bb38-45b7-8bc6-5634">-</characteristic>
-                    <characteristic name="N/A" typeId="172d-3b2f-afb6-9286">-</characteristic>
+                    <characteristic name="N/A" typeId="172d-3b2f-afb6-9286"/>
                     <characteristic name="Qualities" typeId="afc3-d5f4-dacf-4f41">Turret</characteristic>
                   </characteristics>
                 </profile>
@@ -3831,7 +3831,7 @@ If they do, they must then discard one card from their Hand. </characteristic>
                     <characteristic name="Range" typeId="1ef4-25e1-dabb-4366">14&quot;/26&quot;</characteristic>
                     <characteristic name="1" typeId="47f8-07bb-9d00-11ff">6</characteristic>
                     <characteristic name="N/A" typeId="bb38-45b7-8bc6-5634">-</characteristic>
-                    <characteristic name="N/A" typeId="172d-3b2f-afb6-9286">-</characteristic>
+                    <characteristic name="N/A" typeId="172d-3b2f-afb6-9286"/>
                     <characteristic name="Qualities" typeId="afc3-d5f4-dacf-4f41">Turret</characteristic>
                   </characteristics>
                 </profile>
@@ -3884,7 +3884,7 @@ If they do, they must then discard one card from their Hand. </characteristic>
                     <characteristic name="Range" typeId="1ef4-25e1-dabb-4366">6&quot;/14&quot;</characteristic>
                     <characteristic name="1" typeId="47f8-07bb-9d00-11ff">5</characteristic>
                     <characteristic name="N/A" typeId="bb38-45b7-8bc6-5634">-</characteristic>
-                    <characteristic name="N/A" typeId="172d-3b2f-afb6-9286">-</characteristic>
+                    <characteristic name="N/A" typeId="172d-3b2f-afb6-9286"/>
                     <characteristic name="Qualities" typeId="afc3-d5f4-dacf-4f41">Devastating, Fields of Fire</characteristic>
                   </characteristics>
                 </profile>
@@ -3938,7 +3938,7 @@ If they do, they must then discard one card from their Hand. </characteristic>
                     <characteristic name="Range" typeId="1ef4-25e1-dabb-4366">-</characteristic>
                     <characteristic name="1" typeId="47f8-07bb-9d00-11ff">-</characteristic>
                     <characteristic name="N/A" typeId="bb38-45b7-8bc6-5634">-</characteristic>
-                    <characteristic name="N/A" typeId="172d-3b2f-afb6-9286">-</characteristic>
+                    <characteristic name="N/A" typeId="172d-3b2f-afb6-9286"/>
                     <characteristic name="Qualities" typeId="afc3-d5f4-dacf-4f41">-</characteristic>
                   </characteristics>
                 </profile>
@@ -3979,7 +3979,7 @@ If they do, they must then discard one card from their Hand. </characteristic>
     <selectionEntryGroup name="Fireteam" id="2a1b-0962-8903-e24b" hidden="false">
       <comment>Basic</comment>
       <selectionEntries>
-        <selectionEntry type="unit" import="true" name="Federal Gatling Fireteam" hidden="true" id="a9c9-f295-3ead-9914">
+        <selectionEntry type="unit" import="true" name="Federal Gatling Fireteam" hidden="false" id="a9c9-f295-3ead-9914">
           <categoryLinks>
             <categoryLink name="Light" hidden="false" id="5616-9864-91e9-87dc" targetId="default-category" primary="false"/>
             <categoryLink name="Union" hidden="false" id="0ca3-ccf3-8a48-3017" targetId="a412-ee13-0709-09cf" primary="false"/>
@@ -4040,13 +4040,14 @@ If they do, they must then discard one card from their Hand. </characteristic>
           </selectionEntries>
           <constraints>
             <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="1478-ad4e-6e72-4bdd" includeChildSelections="false"/>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="5a4d-4331-a572-b261"/>
           </constraints>
           <comment>Basic</comment>
           <costs>
             <cost name="Points" typeId="e58e-982d-7630-5342" value="25"/>
           </costs>
         </selectionEntry>
-        <selectionEntry type="unit" import="true" name="Federal Rocket Fireteam" hidden="true" id="8213-4a21-df9f-3782">
+        <selectionEntry type="unit" import="true" name="Federal Rocket Fireteam" hidden="false" id="8213-4a21-df9f-3782">
           <categoryLinks>
             <categoryLink name="Light" hidden="false" id="8a20-3b7b-6d6a-4fa0" targetId="default-category" primary="false"/>
             <categoryLink name="Union" hidden="false" id="33b6-3e62-7acd-5e4a" targetId="a412-ee13-0709-09cf" primary="false"/>
@@ -4122,7 +4123,7 @@ If they do, they must then discard one card from their Hand. </characteristic>
             <cost name="Points" typeId="e58e-982d-7630-5342" value="20"/>
           </costs>
         </selectionEntry>
-        <selectionEntry type="unit" import="true" name="UR-31E Arc Trooper Fireteam" hidden="true" id="c28c-5729-4fef-d787">
+        <selectionEntry type="unit" import="true" name="UR-31E Arc Trooper Fireteam" hidden="false" id="c28c-5729-4fef-d787">
           <categoryLinks>
             <categoryLink name="Light" hidden="false" id="347d-1b70-b44a-45ee" targetId="default-category" primary="false"/>
             <categoryLink name="Union" hidden="false" id="f195-8653-97e0-4bd7" targetId="a412-ee13-0709-09cf" primary="false"/>
@@ -4132,7 +4133,7 @@ If they do, they must then discard one card from their Hand. </characteristic>
           <profiles>
             <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="b0f2-6ec5-4721-3892" noindex="false">
               <characteristics>
-                <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Automata, Fireteam, Occupy, Pioneers </characteristic>
+                <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Automata, Fireteam, Occupy, Pioneers</characteristic>
               </characteristics>
             </profile>
             <profile name="UR-31E Arc Trooper Fireteam" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="3cf6-d74e-f45f-b594">
@@ -4203,7 +4204,7 @@ If they do, they must then discard one card from their Hand. </characteristic>
     <selectionEntryGroup name="Fireteam" id="ce51-0aae-c19e-3582" hidden="false">
       <comment>Reinforced</comment>
       <selectionEntries>
-        <selectionEntry type="unit" import="true" name="Federal Rocket Fireteam" hidden="true" id="fe1b-053b-5b17-e2e3">
+        <selectionEntry type="unit" import="true" name="Federal Rocket Fireteam" hidden="false" id="fe1b-053b-5b17-e2e3">
           <categoryLinks>
             <categoryLink name="Light" hidden="false" id="17f0-c6fd-05f5-2738" targetId="default-category" primary="false"/>
             <categoryLink name="Union" hidden="false" id="45ee-71ee-ac1f-1d3b" targetId="a412-ee13-0709-09cf" primary="false"/>
@@ -4279,7 +4280,7 @@ If they do, they must then discard one card from their Hand. </characteristic>
             <cost name="Points" typeId="e58e-982d-7630-5342" value="35"/>
           </costs>
         </selectionEntry>
-        <selectionEntry type="unit" import="true" name="UR-31E Arc Trooper Fireteam" hidden="true" id="edb4-9e49-9d4d-3813">
+        <selectionEntry type="unit" import="true" name="UR-31E Arc Trooper Fireteam" hidden="false" id="edb4-9e49-9d4d-3813">
           <categoryLinks>
             <categoryLink name="Light" hidden="false" id="43d0-b982-649d-7780" targetId="default-category" primary="false"/>
             <categoryLink name="Union" hidden="false" id="0349-e3a2-1ec4-ef2a" targetId="a412-ee13-0709-09cf" primary="false"/>
@@ -4289,7 +4290,7 @@ If they do, they must then discard one card from their Hand. </characteristic>
           <profiles>
             <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="b2f0-90b1-174c-f05a" noindex="false">
               <characteristics>
-                <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Automata, Fireteam, Occupy, Pioneers </characteristic>
+                <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Automata, Fireteam, Occupy, Pioneers</characteristic>
               </characteristics>
             </profile>
             <profile name="UR-31E Arc Trooper Fireteam" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="9750-d1ef-ff2b-0d33">
@@ -4355,7 +4356,7 @@ If they do, they must then discard one card from their Hand. </characteristic>
             <cost name="Points" typeId="e58e-982d-7630-5342" value="50"/>
           </costs>
         </selectionEntry>
-        <selectionEntry type="unit" import="true" name="Federal Gatling Fireteam" hidden="true" id="2ae5-46d6-7d74-3e35">
+        <selectionEntry type="unit" import="true" name="Federal Gatling Fireteam" hidden="false" id="2ae5-46d6-7d74-3e35">
           <categoryLinks>
             <categoryLink name="Light" hidden="false" id="ec0a-863d-44d6-0409" targetId="default-category" primary="false"/>
             <categoryLink name="Union" hidden="false" id="3309-d9c3-07c1-7c7f" targetId="a412-ee13-0709-09cf" primary="false"/>
@@ -4427,7 +4428,7 @@ If they do, they must then discard one card from their Hand. </characteristic>
     <selectionEntryGroup name="Fireteam" id="dde4-219a-8c56-138d" hidden="false">
       <comment>Full-strength</comment>
       <selectionEntries>
-        <selectionEntry type="unit" import="true" name="Federal Rocket Fireteam" hidden="true" id="e4d2-f48d-81d9-3694">
+        <selectionEntry type="unit" import="true" name="Federal Rocket Fireteam" hidden="false" id="e4d2-f48d-81d9-3694">
           <categoryLinks>
             <categoryLink name="Light" hidden="false" id="090e-a219-635e-7612" targetId="default-category" primary="false"/>
             <categoryLink name="Union" hidden="false" id="b08b-31f7-b8bc-061d" targetId="a412-ee13-0709-09cf" primary="false"/>
@@ -4503,7 +4504,7 @@ If they do, they must then discard one card from their Hand. </characteristic>
             <cost name="Points" typeId="e58e-982d-7630-5342" value="50"/>
           </costs>
         </selectionEntry>
-        <selectionEntry type="unit" import="true" name="UR-31E Arc Trooper Fireteam" hidden="true" id="882b-f423-164d-e392">
+        <selectionEntry type="unit" import="true" name="UR-31E Arc Trooper Fireteam" hidden="false" id="882b-f423-164d-e392">
           <categoryLinks>
             <categoryLink name="Light" hidden="false" id="8d30-71f8-239d-512f" targetId="default-category" primary="false"/>
             <categoryLink name="Union" hidden="false" id="71b3-496b-d6dd-c27d" targetId="a412-ee13-0709-09cf" primary="false"/>
@@ -4513,7 +4514,7 @@ If they do, they must then discard one card from their Hand. </characteristic>
           <profiles>
             <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="f98a-d2c2-befb-1f2d" noindex="false">
               <characteristics>
-                <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Automata, Fireteam, Occupy, Pioneers </characteristic>
+                <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Automata, Fireteam, Occupy, Pioneers</characteristic>
               </characteristics>
             </profile>
             <profile name="UR-31E Arc Trooper Fireteam" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="fb6e-0129-38d9-50f5">
@@ -4579,7 +4580,7 @@ If they do, they must then discard one card from their Hand. </characteristic>
             <cost name="Points" typeId="e58e-982d-7630-5342" value="80"/>
           </costs>
         </selectionEntry>
-        <selectionEntry type="unit" import="true" name="Federal Gatling Fireteam" hidden="true" id="347d-6534-e0a2-6845">
+        <selectionEntry type="unit" import="true" name="Federal Gatling Fireteam" hidden="false" id="347d-6534-e0a2-6845">
           <categoryLinks>
             <categoryLink name="Light" hidden="false" id="d461-5a54-f608-6852" targetId="default-category" primary="false"/>
             <categoryLink name="Union" hidden="false" id="a1c2-8230-8969-fba1" targetId="a412-ee13-0709-09cf" primary="false"/>
