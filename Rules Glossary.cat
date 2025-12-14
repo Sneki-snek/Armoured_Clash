@@ -49,7 +49,7 @@ In addition, if this is an Infantry unit, each model in the unit counts as two m
     <rule name="Chain of Command" id="f0fd-4a6b-8c1f-a83c" hidden="false">
       <description>This unit gains +1 to its Discipline.
 Additionally, a unit gains +1 to its Discipline if its Officer is within X” of this unit and/or a Transport unit upon which this unit is Embarked.
-This Special Rule has no effect if this unit is Disordered. </description>
+This Special Rule has no effect if this unit is Disordered.</description>
     </rule>
     <rule name="Command Signals" id="1f7c-744f-09d9-36c3" hidden="false">
       <description>While this unit is Embarked on a Transport unit, that Transport unit counts as having the Commander trait.</description>
@@ -91,7 +91,7 @@ A unit cannot benefit from this Special Rule if it is Suppressed, Embarked on a 
 
 
 In addition, when this unit makes a Ranged Attack, it can confirm Target Acquisition against enemy units that are outside of its Officer’s Front Arc.
-When this is the case, only half of the models in the unit (rounding up) are counted when determining the number of Attack Dice that are rolled in the Roll Attack Pool step. </description>
+When this is the case, only half of the models in the unit (rounding up) are counted when determining the number of Attack Dice that are rolled in the Roll Attack Pool step.</description>
     </rule>
     <rule name="Large" id="cf34-5837-9484-717f" hidden="false">
       <description>When this unit moves, it treats Difficult Terrain and Dense Terrain as Open Terrain, and treats Blocking Terrain as Dense Terrain as long as its Size is at least two points higher than the Terrain’s Size.
@@ -105,7 +105,7 @@ If this unit is deployed from Reserve, it cannot have a Flank Attack Special Com
     </rule>
     <rule name="Occupy" id="a1f8-5d8a-59d5-1d71" hidden="false">
       <description>This unit can Garrison a Wrecked Building or Wrecked Behemoth unit as though it were a Defensible Building.
-While the unit is Garrisoning the Behemoth, opposing units can attack it as though it were a Defensible Building, but if they win a Close Quarters Combat they cannot Garrison the Behemoth unless they also have this Special Rule. </description>
+While the unit is Garrisoning the Behemoth, opposing units can attack it as though it were a Defensible Building, but if they win a Close Quarters Combat they cannot Garrison the Behemoth unless they also have this Special Rule.</description>
     </rule>
     <rule name="Overrun" id="fa0a-a4e0-f7fd-7edb" hidden="false">
       <description>If this unit wins a Close Quarters Combat during its own Activation, and the target unit has not been Annihilated, its General can discard a Command &amp; Conquest Card from their hand to declare that this unit will Overrun the enemy.
@@ -144,7 +144,7 @@ This unit does not benefit from this Defence bonus if it is Garrisoning a Defens
 The unit’s Speed becomes X”,
 its Target Category becomes Aerial, and its Size becomes 10.
 While the unit is moving, it treats all Terrain and enemy units as Open Terrain, but cannot end its move in Impassable or Blocking Terrain.
-A unit that is Soaring cannot make Aim, Exit or Disembark manoeuvres. </description>
+A unit that is Soaring cannot make Aim, Exit or Disembark manoeuvres.</description>
     </rule>
     <rule name="Spectacular Demise" id="952f-ac73-ffae-c881" hidden="false">
       <description>When the last model in this unit is Destroyed, the opposing General rolls a single Attack Die and consults the table below; 
@@ -232,13 +232,13 @@ This second value is used if the target unit has the Light Target Category.</des
 At the end of the Apply Damage step of the Attack Roll, if the Attack Pool contains at least as many Heroic Strikes as the Size of the Building, the building is Wrecked.
 Place a Wrecked status token on the building - it can no longer be Garrisoned by units without the Occupy special rule, and is treated as Blocking Terrain for the rest of the
 game.
-If there is still a unit Garrisoning the building, that unit suffers a number of further points of Damage equal to the size of the building, then must make an immediate Exit manoeuvre. </description>
+If there is still a unit Garrisoning the building, that unit suffers a number of further points of Damage equal to the size of the building, then must make an immediate Exit manoeuvre.</description>
     </rule>
     <rule name="Slow to Fire" id="9c2f-d834-b7a1-f4d2" hidden="false">
       <description>After this attack has been resolved, the attacking unit gains the Reloading status.
 While this unit has the Reloading status, this attack cannot be used.
 This attack cannot be used if the unit is Suppressed.
-In addition, this attack cannot be used to make Opportunity Fire. </description>
+In addition, this attack cannot be used to make Opportunity Fire.</description>
     </rule>
     <rule name="Turret" id="176d-0eb5-b9ad-ee9d" hidden="false">
       <description>When checking Target Acquisition for this attack, the attacking unit can confirm Visibility on an enemy unit which is outside its Officer’s Front Arc. 
@@ -464,9 +464,7 @@ This attack is measured from the centre point of this unit’s Officer and use
 
 
 **Note: While this Ranged Attack is made using the Embarked unit’s Armaments Grid, remember that it is always the unit with the Open Top special rule that makes this attack.
-If a unit would skip its Action Step for any reason (e.g. after performing a Double Time manoeuvre, or after having failed a Rally Test) they may not perform this additional attack.**
-
-</description>
+If a unit would skip its Action Step for any reason (e.g. after performing a Double Time manoeuvre, or after having failed a Rally Test) they may not perform this additional attack.**</description>
     </rule>
     <rule name="Parent Unit" id="1694-2db6-5340-955d" hidden="false">
       <description>When adding this unit to their Force List, a General can choose to include up to X Fireteam units as part of the same Battlefield Element. (See page 12 of the Union ORBAT for more details.)</description>
@@ -533,7 +531,7 @@ This Ranged Attack cannot cause the target to make a Suppression Test.</descrip
     <rule name="Tow" id="4c8f-c9d3-f0e7-886a" hidden="false">
       <description>Before Deployment begins, this unit’s General can nominate a single friendly Gun Carriage unit, which cannot have a higher Reinforcement Level than this unit.
 The nominated unit has been Towed into position before the battle.
-Each Towed unit gains the Vanguard (10”) special rule, and gains the On Lookout status at the start of the first Round. </description>
+Each Towed unit gains the Vanguard (10”) special rule, and gains the On Lookout status at the start of the first Round.</description>
     </rule>
     <rule name="Veteran" id="6850-ff39-a271-828a" hidden="false">
       <description>In the Resolve Re-Rolls step of this unit’s Attack Roll, its General can convert up to X dice that scored a Strike result into Heroic Strikes.
@@ -682,6 +680,47 @@ Units with the Inhuman trait are unaffected by this Special Rule.
 
 
 *Note: Units that usually ignore Difficult Terrain, such as those with the Hover, Pioneers or Stilted special rules, are still affected by this Special Rule.*</description>
+    </rule>
+    <rule name="Terrifying" id="652e-676c-a912-8520" hidden="false">
+      <description>If a unit does not have the X Trait, all Discipline Checks that it is required to make suffer a -1 Discipline modifier while it is within 6” of this unit.</description>
+    </rule>
+    <rule name="Portal Mastery" id="b97f-457b-5aa2-d401" hidden="false">
+      <description>At the start of this unit’s Activation, its General can attempt to issue a Special Command. If successful, they may immediately place X Portal Markers on the battlefield, or  remove X Portal Markers.
+Any Portal Marker, belonging to either General, can be removed in this manner.
+A marker can be placed anywhere on the battlefield, so long as it is not within 1” of any units, Defensible Buildings, or Markers. The number of Portal Markers placed cannot exceed the Portal Limit of the Force Scale.</description>
+    </rule>
+    <rule name="Portal Blast" id="cb50-193f-067d-caf8" hidden="false">
+      <description>Rather than targeting an enemy unit, this attack must be made against a Portal Marker to which this unit has Clear or Obscured Line of Sight. This is the Target Portal. This unit then makes a single Attack Roll, resolved against each unit, friend or foe, within 5” of the Target Portal, and in any order of the active General’s choosing. This attack always Neutral, regardless of any Combat Rating Bonuses or Penalties that may apply. Once this attack has been resolved, the Target Portal is removed from the Battlefield. If there are no Portal Markers on the Battlefield, this unit cannot make this attack.</description>
+    </rule>
+    <rule name="Immortal" id="a1e8-00ea-6c2e-9667" hidden="false">
+      <description>While this unit is within 3” of a Portal Marker, its Defence is increased by 1.
+At the start of its Activation, if this unit is within 3” of a Portal Marker, its General can immediately restore up to two models that were previously Destroyed.
+This cannot take the unit above its starting Reinforcement Limit. Once this has been resolved, the unit begins its Movement Step as normal.
+This unit gains no benefit from this Special Rule while it is Garrisoning a Building or Embarked on a Transport unit.</description>
+    </rule>
+    <rule name="Portal Strike" id="a371-0d2d-6d6c-9e2f" hidden="false">
+      <description>Some Sultanate units have the Portal Strike special rule.
+These units can make a special Portal Strike manoeuvre through Portal Markers. A unit making this Manoeuvre can move a number of inches up to twice its Speed.
+Before making a Portal Strike manoeuvre in this way, the active General chooses a Portal Marker to which this unit has Clear or Obscured Line of Sight.
+This is the Entry Portal. The General then chooses another Portal Marker on the Battlefield. This is the Exit Portal.
+The active General then chooses an enemy unit that has Clear or Obscured Line of Sight to the Exit Portal. Each model in the active unit then moves so that its Officer is in 
+contact with the Entry Portal.
+The active General must then set up the unit so that its Officer is within X” of the Exit Portal, with X being the number of inches remaining in its Portal Strike manoeuvre.
+This must conclude with the active unit’s Officer in base contact with the chosen enemy unit, and with the enemy unit in the Officer’s front arc.
+If this cannot be achieved then he Portal Strike cannot be made.
+After resolving a Portal Strike manoeuvre, the unit must immediately make a Close Quarters Attack. If this unit wins the subsequent Close Quarters Combat, it can immediately make a free Advance manoeuvre
+so that at least one of its models is in contact with the
+Exit Portal. This unit is immediately removed from the
+Battlefield and placed in Reserve.
+At the end of this unit’s Activation, both the Entry Portal
+and Exit Portal are removed from the Battlefield.</description>
+    </rule>
+    <rule name="Hurtling" id="a8f3-6ae9-6f20-d782" hidden="false">
+      <description>This unit can move freely through enemy models with a Size of 1, but must end its move so that it is not within 1” of any enemy units.
+This unit cannot make a Double Time manoeuvre, and when it makes a Charge manoeuvre, it can only move a number of inches up to its Speed.</description>
+    </rule>
+    <rule name="Ambushers" id="4acd-e161-f885-ad00" hidden="false">
+      <description>When successfully issued a Flank Attack special command, this unit can be placed within 3” of Difficult Terrain, instead of along a Battlefield Edge. No models can be placed within the enemy Deployment Zone.</description>
     </rule>
   </sharedRules>
 </catalogue>

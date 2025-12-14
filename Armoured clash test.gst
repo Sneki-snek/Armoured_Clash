@@ -67,20 +67,10 @@
     <categoryEntry name="Cavalry/Fortification" id="dcf5-85cc-8ebc-e6c4" hidden="false"/>
     <categoryEntry name="Inhuman" id="4b6c-a0fd-a97c-5d8b" hidden="false"/>
     <categoryEntry name="Containment Chambers" id="1bf1-0765-ea0f-ffde" hidden="false"/>
+    <categoryEntry name="Order" id="10e0-63bd-3ed0-8740" hidden="false"/>
   </categoryEntries>
   <selectionEntries>
-    <selectionEntry type="upgrade" import="false" name="Default Root Entry" hidden="true" id="default-entry">
-      <categoryLinks>
-        <categoryLink targetId="default-category" id="default-category-link" primary="true" name="Light" hidden="false"/>
-      </categoryLinks>
-    </selectionEntry>
     <selectionEntry type="unit" import="true" name="Example Unit" hidden="true" id="afc1-a3d2-a345-3a0c">
-      <categoryLinks>
-        <categoryLink name="Crown" hidden="false" id="17cf-c54d-cfc0-1098" targetId="3fc8-e765-d414-c33b" primary="false"/>
-        <categoryLink name="Commander" hidden="false" id="7cdf-e097-9193-7fa8" targetId="058b-06f1-5fc7-3c9a" primary="true"/>
-        <categoryLink name="Infantry" hidden="false" id="f30e-19d1-9548-d5cd" targetId="92f8-9d17-dd4d-a5ac" primary="false"/>
-        <categoryLink name="Light" hidden="false" id="4421-86c9-4cc3-0045" targetId="default-category" primary="false"/>
-      </categoryLinks>
       <profiles>
         <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="74e6-4883-80b6-b46c" noindex="false">
           <characteristics>
@@ -112,7 +102,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="75"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="999"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Full Strength" hidden="false" id="3004-0e91-f4b6-d1d3" type="selectionEntry" targetId="e86e-71e1-9396-5526" sortIndex="3" flatten="false">
@@ -136,7 +126,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="195"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="999"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Reinforced" hidden="false" id="1c40-407b-c1d7-f53f" type="selectionEntry" targetId="85c2-43ee-a668-834f" sortIndex="2" flatten="false">
@@ -160,7 +150,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="130"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="999"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -169,47 +159,333 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4495-d275-bd25-1a3d"/>
           </constraints>
         </selectionEntryGroup>
+        <selectionEntryGroup name="Weapons" id="9869-6e9a-3ec1-0b9d" hidden="false" sortIndex="1">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Ranged (Light)" hidden="false" id="27c6-cced-ad56-230b" sortIndex="1">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7a1a-d824-b001-4de9" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ff56-4e5a-7935-09f1" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Ranged (Light)" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="597f-70a3-5151-e96b">
+                  <characteristics>
+                    <characteristic name="Range" typeId="0d60-0078-7134-d302"/>
+                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585"/>
+                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c"/>
+                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d"/>
+                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Melee" hidden="false" id="3d83-5eda-f0a6-97b8" sortIndex="5">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2c4c-8c20-9cf3-1304" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="846f-f2ee-918e-e26d" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Melee" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="91be-0561-b98e-639b">
+                  <characteristics>
+                    <characteristic name="Range" typeId="0d60-0078-7134-d302"/>
+                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585"/>
+                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c"/>
+                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d"/>
+                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Ranged (Light/Heavy)" hidden="false" id="7cd6-2cce-fdab-72e0" sortIndex="3">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="30e2-86e1-a3ab-949c" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b0c0-aea4-822d-d6ca" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Ranged (Light/Heavy)" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="b46e-7652-5f22-14f0">
+                  <characteristics>
+                    <characteristic name="Range" typeId="0d60-0078-7134-d302"/>
+                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585"/>
+                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c"/>
+                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d"/>
+                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Ranged (Heavy)" hidden="false" id="7adb-3191-63ce-68fe" sortIndex="2">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d971-1c48-2fec-a272" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="615c-1fc9-02bf-22a7" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Ranged (Heavy)" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="f629-29cd-3618-a4a1">
+                  <characteristics>
+                    <characteristic name="Range" typeId="0d60-0078-7134-d302"/>
+                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585"/>
+                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c"/>
+                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d"/>
+                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Ranged (Aerial)" hidden="false" id="c685-2b5c-70d5-7873" sortIndex="4">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4c41-1ad6-2f6f-8c92" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="92df-617d-acdc-863f" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Ranged (Aerial)" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="ce7d-727b-dd01-59cf">
+                  <characteristics>
+                    <characteristic name="Range" typeId="0d60-0078-7134-d302"/>
+                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585"/>
+                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c"/>
+                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d"/>
+                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Impact" hidden="false" id="46a7-2a38-5ddd-21c6" sortIndex="6">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d02b-5b65-25cb-b125" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4192-35dd-5111-2f92" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Impact" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="105d-a95a-5518-23f3">
+                  <characteristics>
+                    <characteristic name="Range" typeId="0d60-0078-7134-d302"/>
+                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585"/>
+                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c"/>
+                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d"/>
+                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
       </selectionEntryGroups>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="14c0-ade0-4e83-16eb" includeChildSelections="true"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Boons and bonuses" hidden="true" id="208a-7f3a-d20e-5354">
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name=" Weapons" hidden="false" id="be05-991e-880d-4102" flatten="true" collective="false" sortIndex="1" collapsible="true">
+        <selectionEntry type="upgrade" import="true" name="Ready For Anything" hidden="false" id="d3f2-7f82-dfd2-ec6c" sortIndex="3">
+          <costs>
+            <cost name="Points" typeId="e58e-982d-7630-5342" value="20"/>
+          </costs>
           <profiles>
-            <profile name="Ranged (Light)" typeId="94d7-2200-00d2-ae3f" typeName="Type" hidden="false" id="1de1-b617-1c29-64b7" noindex="false">
+            <profile name="Ready For Anything" typeId="3f77-4198-5794-9684" typeName="Boons" hidden="false" id="c99c-3b92-2541-d2f9">
               <characteristics>
-                <characteristic name="Range" typeId="0faf-08e4-43a5-722d">7&quot;/14&quot;</characteristic>
-                <characteristic name="1-6" typeId="1dd1-b0ef-2521-5815">5</characteristic>
-                <characteristic name="7-12" typeId="1fbf-39ae-6b9b-6e84">12</characteristic>
-                <characteristic name="13-18" typeId="73e4-df9f-6b10-d276">18</characteristic>
-                <characteristic name="Qualities" typeId="8c1e-b7a3-2830-9b8b">-</characteristic>
-              </characteristics>
-            </profile>
-            <profile name="Ranged (Aerial)" typeId="94d7-2200-00d2-ae3f" typeName="Type" hidden="false" id="a7a9-7434-1d3b-6bb5">
-              <characteristics>
-                <characteristic name="Range" typeId="0faf-08e4-43a5-722d">7&quot;/14&quot;</characteristic>
-                <characteristic name="1-6" typeId="1dd1-b0ef-2521-5815">1</characteristic>
-                <characteristic name="7-12" typeId="1fbf-39ae-6b9b-6e84">2</characteristic>
-                <characteristic name="13-18" typeId="73e4-df9f-6b10-d276">3</characteristic>
-                <characteristic name="Qualities" typeId="8c1e-b7a3-2830-9b8b">-</characteristic>
-              </characteristics>
-            </profile>
-            <profile name="Melee" typeId="94d7-2200-00d2-ae3f" typeName="Type" hidden="false" id="8101-ad91-821b-18d5">
-              <characteristics>
-                <characteristic name="Range" typeId="0faf-08e4-43a5-722d">-</characteristic>
-                <characteristic name="1-6" typeId="1dd1-b0ef-2521-5815">3</characteristic>
-                <characteristic name="7-12" typeId="1fbf-39ae-6b9b-6e84">6</characteristic>
-                <characteristic name="13-18" typeId="73e4-df9f-6b10-d276">9</characteristic>
-                <characteristic name="Qualities" typeId="8c1e-b7a3-2830-9b8b">-</characteristic>
+                <characteristic name="Effect" typeId="b7f2-49d8-a49a-0b0f">A single unit in the General’s Force that has been deployed at the start of the Clash begins the Clash with the On Lookout status.</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="058f-5984-dd52-efa6" automatic="true"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="15dc-6256-210b-6d14" automatic="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f7f9-8e83-dbba-87ab" automatic="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Countercharge" hidden="false" id="f982-47f6-acaa-698b" sortIndex="5">
+          <profiles>
+            <profile name="Countercharge" typeId="3f77-4198-5794-9684" typeName="Boons" hidden="false" id="9082-7d0d-a66f-fdec">
+              <characteristics>
+                <characteristic name="Effect" typeId="b7f2-49d8-a49a-0b0f">Once per Round, the General can issue this Special Command to one of their units that has the On Lookout status, in place of declaring Opportunity Fire.
+
+
+If the Command is successfully issued, the unit immediately makes a Charge manoeuvre, ending in contact with the active enemy unit.
+
+
+This unit then immediately makes a Close Quarters Attack. (The active enemy unit can Retaliate as normal, if it has a Melee attack.) After doing so, this unit loses its On Lookout status.
+
+
+
+
+Note: This effectively counts as declaring Opportunity Fire, meaning that a General cannot use this Special Command and Opportunity Fire in the same turn.
+ 
+If the unit is unable to end its Charge manoeuvre in contact with the active enemy unit, this Special Command cannot be issued.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Points" typeId="e58e-982d-7630-5342" value="30"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0916-2577-8f9c-b7fe" automatic="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Headlong Rush" hidden="false" id="a625-4968-a3e1-667a" sortIndex="4">
+          <profiles>
+            <profile name="Headlong Rush" typeId="3f77-4198-5794-9684" typeName="Boons" hidden="false" id="3326-4d38-b8b2-5cbf">
+              <characteristics>
+                <characteristic name="Effect" typeId="b7f2-49d8-a49a-0b0f">Once per Round, the General can issue this Special Command to an Armour unit at the start of its Activation.
+
+
+If the Command is successfully issued, this unit treats all Difficult Terrain and Dense Terrain as Open Terrain for the duration of this Activation.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Points" typeId="e58e-982d-7630-5342" value="20"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="30e9-9a1a-7fd5-2eb3" automatic="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Yee-Haw!" hidden="false" id="ea41-45dd-bad3-6a39" sortIndex="6">
+          <profiles>
+            <profile name="Yee-Haw!" typeId="3f77-4198-5794-9684" typeName="Boons" hidden="false" id="895c-d218-b69d-dfa4">
+              <characteristics>
+                <characteristic name="Effect" typeId="b7f2-49d8-a49a-0b0f">Once per Round, the General can issue a Special Command to a Union Infantry or Cavalry unit after rolling its dice during a Melee Attack.
+
+
+If successfully issued, the unit’s General may re-roll any Blank results rolled during this Attack.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Points" typeId="e58e-982d-7630-5342" value="35"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="482b-3c30-2a67-98ab" automatic="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Battlegroup Bonus:" hidden="false" id="00e2-da0e-1875-0db7" sortIndex="1">
+          <profiles>
+            <profile name="Give &apos;Em Hell! (Command)" typeId="3f77-4198-5794-9684" typeName="Boons" hidden="false" id="e976-b0ed-2aa2-4708">
+              <characteristics>
+                <characteristic name="Effect" typeId="b7f2-49d8-a49a-0b0f">This Battlegroup’s General can issue this Special Command to a Union unit at the start of its Attack or Engage step.
+
+
+It cannot be issued to a unit that has the Suppressed status.
+
+
+If the Command is successfully issued, the unit uses its Attack or EngageStep to make a Ranged Attack. When resolving the attack, each Strike that is rolled scores two Hits on the target, instead of one.
+
+
+Then, the attacking unit immediately gains the Suppressed status.</characteristic>
+              </characteristics>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="84ba-b491-5e71-9b8e" shared="true" includeChildSelections="false"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </profile>
+            <profile name="Search &amp; Destroy" typeId="3f77-4198-5794-9684" typeName="Boons" hidden="false" id="9608-9ed4-d790-5009">
+              <characteristics>
+                <characteristic name="Effect" typeId="b7f2-49d8-a49a-0b0f">When a Union unit Annihilates an enemy unit, this Battlegroup’s General can choose to discard a Command &amp; Conquest Card from their hand.
+
+
+If they do, they score;
+1 Victory Point if the  Annihilated unit was Basic,
+2 if it was Reinforced,
+3 if it was Full-Strength.
+
+
+If they do this, they cannot claim any Conquest Objectives for Annihilating the unit.</characteristic>
+              </characteristics>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="de5c-0287-e275-8456" shared="true" includeChildSelections="false"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </profile>
+            <profile name="Stake A Claim (Command)" typeId="3f77-4198-5794-9684" typeName="Boons" hidden="false" id="7f8f-0026-1b2b-c9b0">
+              <characteristics>
+                <characteristic name="Effect" typeId="b7f2-49d8-a49a-0b0f">This Battlegroup’s General can issue this Special Command to a Union Infantry or Cavalry at the start of the End Phase.
+
+
+If the Command is successfully issued, the unit ignores the presence of enemy units when determining whether it is controlling a Strategic Objective for the duration of the phase.</characteristic>
+              </characteristics>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="9f8e-49ab-64b9-f4d4" shared="true" includeChildSelections="false"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </profile>
+            <profile name="Facts On The Ground" typeId="3f77-4198-5794-9684" typeName="Boons" hidden="false" id="0a5d-0507-1ac5-52d8">
+              <characteristics>
+                <characteristic name="Effect" typeId="b7f2-49d8-a49a-0b0f">All units in this Force with the Carriage trait gain the Forward special rule.</characteristic>
+              </characteristics>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="cdd3-a7b7-ef0b-f1a7" shared="true" includeChildSelections="false"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="63c4-f065-9944-bd14"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="06bc-6d54-ae69-a27a"/>
+          </constraints>
+          <modifiers>
+            <modifier type="append" value="Stake A Claim" field="name">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="9f8e-49ab-64b9-f4d4" shared="true" includeChildSelections="false"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" value="Search &amp; Destroy" field="name">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="de5c-0287-e275-8456" shared="true" includeChildSelections="false"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" value="Give &apos;Em Hell!" field="name">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="84ba-b491-5e71-9b8e" shared="true" includeChildSelections="false"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" value="Facts On The Ground" field="name">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="cdd3-a7b7-ef0b-f1a7" shared="true" includeChildSelections="false"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Forlorn Hope" hidden="false" id="66e0-4d25-a73c-a410" sortIndex="2">
+          <profiles>
+            <profile name="Forlorn Hope" typeId="3f77-4198-5794-9684" typeName="Boons" hidden="false" id="082a-7e19-3b50-67e3">
+              <characteristics>
+                <characteristic name="Effect" typeId="b7f2-49d8-a49a-0b0f">A single unit in the General’s Force that has been deployed at the start of the Clash gains the Vanguard (X”) special rule, with an (X) value 2” higher than its Speed. (For example, a unit with Speed 6” would gain the Vanguard (8”) special rule.)
+If the chosen unit already has the Vanguard (X ) special rule it uses the highest (X) value of the two available.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Points" typeId="e58e-982d-7630-5342" value="15"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="10b6-604f-f222-363a" automatic="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Headstrong Commander" hidden="false" id="d19c-7d48-6db2-45d2" sortIndex="7">
+          <costs>
+            <cost name="Points" typeId="e58e-982d-7630-5342" value="45"/>
+          </costs>
+          <profiles>
+            <profile name="Headstrong Commander" typeId="3f77-4198-5794-9684" typeName="Boons" hidden="false" id="d435-6075-fbb0-3904">
+              <characteristics>
+                <characteristic name="Effect" typeId="b7f2-49d8-a49a-0b0f">During the Draw Cards step of each Ready Phase, after drawing cards from their Command &amp; Conquest deck, the General can choose to draw one additional card and add it to their Hand.
+If they do, they must then discard one card from their Hand.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5acb-a3e2-5587-dc53" automatic="false"/>
           </constraints>
         </selectionEntry>
       </selectionEntries>
-      <constraints>
-        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="14c0-ade0-4e83-16eb" includeChildSelections="true"/>
-      </constraints>
+      <categoryLinks>
+        <categoryLink name="Boons" hidden="false" id="b21a-c187-210f-fea5" targetId="9588-4200-697f-615f" primary="true"/>
+      </categoryLinks>
     </selectionEntry>
   </selectionEntries>
   <profileTypes>
@@ -377,6 +653,16 @@
         <characteristicType name="1-6" id="dedc-b012-91db-99d5"/>
         <characteristicType name="Qualities" id="e5c1-9b5c-88b4-f622"/>
       </characteristicTypes>
+    </profileType>
+    <profileType name="Type" id="e61c-1b25-4e1c-6c5f" hidden="false">
+      <characteristicTypes>
+        <characteristicType name="Range" id="8ba6-5bb1-b105-70d8"/>
+        <characteristicType name="9-11" id="0064-34fd-a5cd-0192"/>
+        <characteristicType name="6-8" id="107e-f313-92b7-50d4"/>
+        <characteristicType name="1-5" id="6e13-ce8c-dd41-a94a"/>
+        <characteristicType name="Qualities" id="b4ec-07ab-cab6-fad0"/>
+      </characteristicTypes>
+      <comment>weapons Behemoth 0-12</comment>
     </profileType>
   </profileTypes>
   <sharedSelectionEntries>
