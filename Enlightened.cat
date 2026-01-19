@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="799f-03f1-7a93-f99d" name="Enlightened" gameSystemId="sys-e850-e7dd-b6e5-f6c0" gameSystemRevision="2" revision="2" authorName="Sneki_snek" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="799f-03f1-7a93-f99d" name="Enlightened" gameSystemId="sys-e850-e7dd-b6e5-f6c0" gameSystemRevision="2" revision="3" authorName="Sneki_snek" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry type="unit" import="false" name="Citizen-Soldier Command Contingent" hidden="false" id="8928-baaa-07d0-f3a4" sortIndex="2">
       <categoryLinks>
@@ -3124,7 +3124,7 @@ If the Command is successfully issued, this unit Recovers 1 Damage.</characteris
             <profile name="Headstrong Commander" typeId="3f77-4198-5794-9684" typeName="Boons" hidden="false" id="cd04-d342-ea37-4917">
               <characteristics>
                 <characteristic name="Effect" typeId="b7f2-49d8-a49a-0b0f">During the Draw Cards step of each Ready Phase, after drawing cards from their Command &amp; Conquest deck, the General can choose to draw one additional card and add it to their Hand.
-If they do, they must then discard one card from their Hand. </characteristic>
+If they do, they must then discard one card from their Hand.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3152,6 +3152,10 @@ If the chosen unit already has the Vanguard (X ) special rule it uses the highe
       <categoryLinks>
         <categoryLink name="Boons" hidden="false" id="5886-f136-f498-bb05" targetId="9588-4200-697f-615f" primary="true"/>
       </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="152a-02f0-2a95-6c0a" automatic="true"/>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a6f5-100a-5849-a219"/>
+      </constraints>
     </selectionEntry>
   </selectionEntries>
   <forceEntries>

@@ -3189,6 +3189,10 @@ This is intentional!</characteristic>
       <categoryLinks>
         <categoryLink name="Boons" hidden="false" id="8339-8272-b81e-3bd5" targetId="9588-4200-697f-615f" primary="true"/>
       </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="974f-0305-ccb3-91cb" automatic="true"/>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7a49-1513-733a-3bbc"/>
+      </constraints>
     </selectionEntry>
   </selectionEntries>
   <forceEntries>

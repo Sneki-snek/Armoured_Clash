@@ -486,6 +486,83 @@ If they do, they must then discard one card from their Hand.</characteristic>
       <categoryLinks>
         <categoryLink name="Boons" hidden="false" id="b21a-c187-210f-fea5" targetId="9588-4200-697f-615f" primary="true"/>
       </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4d14-1433-b54e-f386" automatic="true"/>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="11fc-1135-e1ac-99dc"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Size" hidden="false" id="0a52-a226-9ffd-2ea3" sortIndex="0">
+      <categoryLinks>
+        <categoryLink name="Boons" hidden="false" id="ab2b-62f0-c30a-5183" targetId="9588-4200-697f-615f" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Size" id="0da7-e7c7-bfff-87fc" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Skirmish" hidden="false" id="386f-773d-5fda-7090" sortIndex="1">
+              <profiles>
+                <profile name="Skirmish" typeId="052d-5a2a-09fa-d9b8" typeName="Size" hidden="false" id="d06f-9791-9866-1308">
+                  <characteristics>
+                    <characteristic name="Points" typeId="b745-879e-07e7-0580">500-1500</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Battle" hidden="false" id="c986-901f-e13e-cdb4" sortIndex="2">
+              <profiles>
+                <profile name="Battle" typeId="052d-5a2a-09fa-d9b8" typeName="Size" hidden="false" id="f2ae-cde5-44ab-e47b">
+                  <characteristics>
+                    <characteristic name="Points" typeId="b745-879e-07e7-0580">1500-2500</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Cataclysm" hidden="false" id="6f24-75da-1167-950f" sortIndex="3">
+              <profiles>
+                <profile name="Cataclysm" typeId="052d-5a2a-09fa-d9b8" typeName="Size" hidden="false" id="5203-73e5-1450-f835">
+                  <characteristics>
+                    <characteristic name="Points" typeId="b745-879e-07e7-0580">2500-4000</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Unbound" hidden="false" id="3f68-3163-6aa2-bae0" sortIndex="0">
+              <profiles>
+                <profile name="Unbound" typeId="052d-5a2a-09fa-d9b8" typeName="Size" hidden="false" id="c39d-72c2-7b16-23fc">
+                  <characteristics>
+                    <characteristic name="Points" typeId="b745-879e-07e7-0580"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c3ca-2692-e760-4161" automatic="true"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="16a9-f860-7029-4e08" includeChildSelections="false" includeChildForces="false" automatic="true"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2596-a570-311e-5abc" includeChildSelections="false" includeChildForces="false" automatic="true"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="always" value="1" field="selections" scope="parent" childId="any" shared="true"/>
+              </conditions>
+              <localConditionGroups>
+                <localConditionGroup type="atLeast" value="1" scope="roster" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="0a52-a226-9ffd-2ea3" shared="true"/>
+                    <condition type="before" value="1" field="selections" scope="parent" childId="any" shared="true"/>
+                  </conditions>
+                </localConditionGroup>
+              </localConditionGroups>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
     </selectionEntry>
   </selectionEntries>
   <profileTypes>
@@ -664,11 +741,121 @@ If they do, they must then discard one card from their Hand.</characteristic>
       </characteristicTypes>
       <comment>weapons Behemoth 0-12</comment>
     </profileType>
+    <profileType name="Size" id="052d-5a2a-09fa-d9b8" hidden="false" kind="tag">
+      <characteristicTypes>
+        <characteristicType name="Points" id="b745-879e-07e7-0580" kind="longText"/>
+      </characteristicTypes>
+    </profileType>
   </profileTypes>
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Basic" hidden="false" id="f088-e6d4-8fe3-0f3e"/>
     <selectionEntry type="upgrade" import="true" name="Reinforced" hidden="false" id="85c2-43ee-a668-834f"/>
     <selectionEntry type="upgrade" import="true" name="Full Strength" hidden="false" id="e86e-71e1-9396-5526"/>
+    <selectionEntry type="upgrade" import="true" name="Full Strength Template" hidden="false" id="f64b-948c-ff29-aa08" sortIndex="0">
+      <constraints>
+        <constraint type="max" value="-1" field="selections" scope="force" shared="true" id="3971-497a-b31c-6b4a" includeChildSelections="true"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="Full Strength" field="name"/>
+      </modifiers>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="set" value="0" field="3971-497a-b31c-6b4a">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="386f-773d-5fda-7090" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+              <comment>Skirmish selection</comment>
+            </modifier>
+            <modifier type="set" value="1" field="3971-497a-b31c-6b4a">
+              <comment>Faction group has 1 inf Stars - battle</comment>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="c986-901f-e13e-cdb4" shared="true" includeChildSelections="true" includeChildForces="true" sortIndex="2"/>
+                    <condition type="instanceOf" value="1" field="forces" scope="force" childId="c386-2b5e-ec49-5d18" shared="true" includeChildSelections="true" sortIndex="1"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" value="0" field="3971-497a-b31c-6b4a">
+              <comment>L&apos;aigles has zero inf Stars - Battle</comment>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="c986-901f-e13e-cdb4" shared="true" includeChildSelections="true" includeChildForces="true" sortIndex="2"/>
+                    <condition type="instanceOf" value="1" field="forces" scope="force" childId="76dc-9282-c45b-5c5d" shared="true" includeChildSelections="true" sortIndex="1"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" value="2" field="3971-497a-b31c-6b4a">
+              <comment>Conclave has 2 inf Stars - battle</comment>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="c986-901f-e13e-cdb4" shared="true" includeChildSelections="true" includeChildForces="true" sortIndex="2"/>
+                    <condition type="instanceOf" value="1" field="forces" scope="force" childId="b798-a1db-b4f8-a89f" shared="true" includeChildSelections="true" sortIndex="1"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Reinforced Template" hidden="false" id="7bd5-f73b-2881-9f96" sortIndex="0">
+      <constraints>
+        <constraint type="max" value="-1" field="selections" scope="force" shared="true" id="5438-e713-49dd-188b" includeChildSelections="true"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="Reinforced" field="name"/>
+      </modifiers>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="set" value="0" field="5438-e713-49dd-188b">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="386f-773d-5fda-7090" shared="true" includeChildSelections="true" includeChildForces="true" sortIndex="2"/>
+                    <condition type="instanceOf" value="1" field="forces" scope="force" childId="76dc-9282-c45b-5c5d" shared="true" includeChildSelections="true" sortIndex="1"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+              <comment>L&apos;aigles has zero inf Stars - skirmish</comment>
+            </modifier>
+            <modifier type="set" value="1" field="5438-e713-49dd-188b">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="386f-773d-5fda-7090" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="force" childId="c386-2b5e-ec49-5d18" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+              <comment>Faction group has 1 inf Stars - skirmish</comment>
+            </modifier>
+            <modifier type="set" value="2" field="5438-e713-49dd-188b">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="386f-773d-5fda-7090" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="force" childId="b798-a1db-b4f8-a89f" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+              <comment>Conclave has 2 inf Stars - Skirmish</comment>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Basic Template" hidden="false" id="e65d-86b3-ce19-0c6a" sortIndex="0">
+      <modifiers>
+        <modifier type="set" value="Basic" field="name"/>
+      </modifiers>
+    </selectionEntry>
   </sharedSelectionEntries>
   <costTypes>
     <costType name="Points" id="e58e-982d-7630-5342" defaultCostLimit="-1"/>

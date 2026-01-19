@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="29df-6f2c-10db-6e5e" name="Sultanate" gameSystemId="sys-e850-e7dd-b6e5-f6c0" gameSystemRevision="6" revision="2" authorName="Sneki_snek" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="29df-6f2c-10db-6e5e" name="Sultanate" gameSystemId="sys-e850-e7dd-b6e5-f6c0" gameSystemRevision="6" revision="3" authorName="Sneki_snek" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry type="unit" import="true" name="Ferik Command Skiff" hidden="false" id="82ac-9922-bcec-c86d" sortIndex="1">
       <categoryLinks>
@@ -184,7 +184,7 @@
                     <characteristic name="9-11" typeId="0064-34fd-a5cd-0192">6</characteristic>
                     <characteristic name="6-8" typeId="107e-f313-92b7-50d4">11</characteristic>
                     <characteristic name="1-5" typeId="6e13-ce8c-dd41-a94a">16</characteristic>
-                    <characteristic name="Qualities" typeId="b4ec-07ab-cab6-fad0">Indirect, Siegebreaker, Turret, </characteristic>
+                    <characteristic name="Qualities" typeId="b4ec-07ab-cab6-fad0">Indirect, Siegebreaker, Turret,</characteristic>
                   </characteristics>
                 </profile>
                 <profile name="Ranged (Light/Heavy)" typeId="e61c-1b25-4e1c-6c5f" typeName="Type" hidden="false" id="6bd1-abc6-9b15-ca70">
@@ -474,7 +474,7 @@
                     <characteristic name="1-4" typeId="94b3-2e14-1b71-6757">5</characteristic>
                     <characteristic name="5-8" typeId="f891-f62d-9222-6a4f">10</characteristic>
                     <characteristic name="9-12" typeId="df36-9d51-a316-8d54">15</characteristic>
-                    <characteristic name="Qualities" typeId="9a3f-8a28-e735-e1eb">Precision, </characteristic>
+                    <characteristic name="Qualities" typeId="9a3f-8a28-e735-e1eb">Precision,</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -521,7 +521,7 @@
       <profiles>
         <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="27fe-58c1-0749-fb52" noindex="false">
           <characteristics>
-            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Veteran (1), </characteristic>
+            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Veteran (1),</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -836,7 +836,7 @@
       <profiles>
         <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="621f-59a2-4ba6-a6da" noindex="false">
           <characteristics>
-            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Automata, Flying, Vanguard (5”), </characteristic>
+            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Automata, Flying, Vanguard (5”),</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1117,7 +1117,7 @@
       <profiles>
         <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="1c09-d6d4-1fc5-b2b1" noindex="false">
           <characteristics>
-            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Hover, Sponsons (2), </characteristic>
+            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Hover, Sponsons (2),</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1579,7 +1579,7 @@
       <profiles>
         <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="ccae-e220-f95c-175e" noindex="false">
           <characteristics>
-            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Bail Out, Capacity (3), </characteristic>
+            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Bail Out, Capacity (3),</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1717,7 +1717,7 @@
       <profiles>
         <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="2dfa-0696-3c7a-06dd" noindex="false">
           <characteristics>
-            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Pioneers, Shrouded, Sponsons (2), </characteristic>
+            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Pioneers, Shrouded, Sponsons (2),</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1871,7 +1871,7 @@
       <profiles>
         <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="046f-c213-95fe-b566" noindex="false">
           <characteristics>
-            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Pioneers, Shrouded, Sponsons (2), </characteristic>
+            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Pioneers, Shrouded, Sponsons (2),</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2025,7 +2025,7 @@
       <profiles>
         <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="8a2a-06ca-83df-07ac" noindex="false">
           <characteristics>
-            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">All-Out Attack (2), Hurtling, Pioneers, Shrouded, </characteristic>
+            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">All-Out Attack (2), Hurtling, Pioneers, Shrouded,</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2545,7 +2545,7 @@
                     <characteristic name="1-4" typeId="94b3-2e14-1b71-6757">5</characteristic>
                     <characteristic name="5-8" typeId="f891-f62d-9222-6a4f">10</characteristic>
                     <characteristic name="9-12" typeId="df36-9d51-a316-8d54">15</characteristic>
-                    <characteristic name="Qualities" typeId="9a3f-8a28-e735-e1eb">Devastating, </characteristic>
+                    <characteristic name="Qualities" typeId="9a3f-8a28-e735-e1eb">Devastating,</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2712,7 +2712,7 @@
       <profiles>
         <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="702a-9167-d9cc-b62f" noindex="false">
           <characteristics>
-            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Veteran (1), Chain of Command (6”), Portal Mastery (1), </characteristic>
+            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Veteran (1), Chain of Command (6”), Portal Mastery (1),</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2871,7 +2871,7 @@
       <profiles>
         <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="5a61-6058-b437-a3be" noindex="false">
           <characteristics>
-            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Automata, Flying, Vanguard (5”), </characteristic>
+            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Automata, Flying, Vanguard (5”),</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3198,6 +3198,10 @@ If this command is successfully issued, the selected unit immediately loses a m
       <categoryLinks>
         <categoryLink name="Boons" hidden="false" id="e549-c975-7d75-6189" targetId="9588-4200-697f-615f" primary="true"/>
       </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="df83-2b29-1784-de72" automatic="true"/>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="eb45-8e2b-3387-2f11"/>
+      </constraints>
     </selectionEntry>
   </selectionEntries>
   <catalogueLinks>
@@ -3294,7 +3298,6 @@ If this command is successfully issued, the selected unit immediately loses a m
           </constraints>
         </categoryLink>
       </categoryLinks>
-      <readme/>
     </forceEntry>
   </forceEntries>
   <categoryEntries>

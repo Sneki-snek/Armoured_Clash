@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="6d98-c0bc-b691-e560" name="Union" gameSystemId="sys-e850-e7dd-b6e5-f6c0" gameSystemRevision="2" revision="5" authorName="Sneki_snek" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="6d98-c0bc-b691-e560" name="Union" gameSystemId="sys-e850-e7dd-b6e5-f6c0" gameSystemRevision="2" revision="6" authorName="Sneki_snek" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Rules Glossary" id="e157-380b-2be8-509e" targetId="4257-4b3f-e0ad-dea3"/>
   </catalogueLinks>
@@ -220,6 +220,10 @@ If they do, they must then discard one card from their Hand.</characteristic>
       <categoryLinks>
         <categoryLink name="Boons" hidden="false" id="8fab-5a56-908c-a74f" targetId="9588-4200-697f-615f" primary="true"/>
       </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d9fa-be92-ce10-6c92" automatic="true"/>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="161b-7a16-dedf-429d"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Federal Trooper Command Platoon" hidden="false" id="58d1-4bf0-b61c-b7b0" sortIndex="2" subType="unit-group">
       <categoryLinks>
@@ -3013,7 +3017,7 @@ If they do, they must then discard one card from their Hand.</characteristic>
                       <characteristics>
                         <characteristic name="Range" typeId="1ef4-25e1-dabb-4366">4&quot;/32&quot;</characteristic>
                         <characteristic name="1" typeId="47f8-07bb-9d00-11ff">4</characteristic>
-                        <characteristic name="N/A" typeId="bb38-45b7-8bc6-5634">-</characteristic>
+                        <characteristic name="N/A" typeId="bb38-45b7-8bc6-5634"/>
                         <characteristic name="N/A" typeId="172d-3b2f-afb6-9286"/>
                         <characteristic name="Qualities" typeId="afc3-d5f4-dacf-4f41">Indirect, Turret</characteristic>
                       </characteristics>
@@ -3022,7 +3026,7 @@ If they do, they must then discard one card from their Hand.</characteristic>
                       <characteristics>
                         <characteristic name="Range" typeId="1ef4-25e1-dabb-4366">14&quot;/26&quot;</characteristic>
                         <characteristic name="1" typeId="47f8-07bb-9d00-11ff">4</characteristic>
-                        <characteristic name="N/A" typeId="bb38-45b7-8bc6-5634">-</characteristic>
+                        <characteristic name="N/A" typeId="bb38-45b7-8bc6-5634"/>
                         <characteristic name="N/A" typeId="172d-3b2f-afb6-9286"/>
                         <characteristic name="Qualities" typeId="afc3-d5f4-dacf-4f41">Turret</characteristic>
                       </characteristics>
@@ -3075,7 +3079,7 @@ If they do, they must then discard one card from their Hand.</characteristic>
                       <characteristics>
                         <characteristic name="Range" typeId="1ef4-25e1-dabb-4366">4&quot;/32&quot;</characteristic>
                         <characteristic name="1" typeId="47f8-07bb-9d00-11ff">6</characteristic>
-                        <characteristic name="N/A" typeId="bb38-45b7-8bc6-5634">-</characteristic>
+                        <characteristic name="N/A" typeId="bb38-45b7-8bc6-5634"/>
                         <characteristic name="N/A" typeId="172d-3b2f-afb6-9286"/>
                         <characteristic name="Qualities" typeId="afc3-d5f4-dacf-4f41">Indirect, Turret</characteristic>
                       </characteristics>
@@ -3084,7 +3088,7 @@ If they do, they must then discard one card from their Hand.</characteristic>
                       <characteristics>
                         <characteristic name="Range" typeId="1ef4-25e1-dabb-4366">4&quot;/32&quot;</characteristic>
                         <characteristic name="1" typeId="47f8-07bb-9d00-11ff">3</characteristic>
-                        <characteristic name="N/A" typeId="bb38-45b7-8bc6-5634">-</characteristic>
+                        <characteristic name="N/A" typeId="bb38-45b7-8bc6-5634"/>
                         <characteristic name="N/A" typeId="172d-3b2f-afb6-9286"/>
                         <characteristic name="Qualities" typeId="afc3-d5f4-dacf-4f41">Indirect, Turret</characteristic>
                       </characteristics>
@@ -3137,7 +3141,7 @@ If they do, they must then discard one card from their Hand.</characteristic>
                       <characteristics>
                         <characteristic name="Range" typeId="1ef4-25e1-dabb-4366">14&quot;/26&quot;</characteristic>
                         <characteristic name="1" typeId="47f8-07bb-9d00-11ff">3</characteristic>
-                        <characteristic name="N/A" typeId="bb38-45b7-8bc6-5634">-</characteristic>
+                        <characteristic name="N/A" typeId="bb38-45b7-8bc6-5634"/>
                         <characteristic name="N/A" typeId="172d-3b2f-afb6-9286"/>
                         <characteristic name="Qualities" typeId="afc3-d5f4-dacf-4f41">Turret</characteristic>
                       </characteristics>
@@ -3146,7 +3150,7 @@ If they do, they must then discard one card from their Hand.</characteristic>
                       <characteristics>
                         <characteristic name="Range" typeId="1ef4-25e1-dabb-4366">14&quot;/26&quot;</characteristic>
                         <characteristic name="1" typeId="47f8-07bb-9d00-11ff">6</characteristic>
-                        <characteristic name="N/A" typeId="bb38-45b7-8bc6-5634">-</characteristic>
+                        <characteristic name="N/A" typeId="bb38-45b7-8bc6-5634"/>
                         <characteristic name="N/A" typeId="172d-3b2f-afb6-9286"/>
                         <characteristic name="Qualities" typeId="afc3-d5f4-dacf-4f41">Turret</characteristic>
                       </characteristics>
@@ -3199,7 +3203,7 @@ If they do, they must then discard one card from their Hand.</characteristic>
                       <characteristics>
                         <characteristic name="Range" typeId="1ef4-25e1-dabb-4366">6&quot;/14&quot;</characteristic>
                         <characteristic name="1" typeId="47f8-07bb-9d00-11ff">5</characteristic>
-                        <characteristic name="N/A" typeId="bb38-45b7-8bc6-5634">-</characteristic>
+                        <characteristic name="N/A" typeId="bb38-45b7-8bc6-5634"/>
                         <characteristic name="N/A" typeId="172d-3b2f-afb6-9286"/>
                         <characteristic name="Qualities" typeId="afc3-d5f4-dacf-4f41">Devastating, Fields of Fire</characteristic>
                       </characteristics>
@@ -3253,7 +3257,7 @@ If they do, they must then discard one card from their Hand.</characteristic>
                       <characteristics>
                         <characteristic name="Range" typeId="1ef4-25e1-dabb-4366">-</characteristic>
                         <characteristic name="1" typeId="47f8-07bb-9d00-11ff">-</characteristic>
-                        <characteristic name="N/A" typeId="bb38-45b7-8bc6-5634">-</characteristic>
+                        <characteristic name="N/A" typeId="bb38-45b7-8bc6-5634"/>
                         <characteristic name="N/A" typeId="172d-3b2f-afb6-9286"/>
                         <characteristic name="Qualities" typeId="afc3-d5f4-dacf-4f41">-</characteristic>
                       </characteristics>
@@ -3697,7 +3701,7 @@ If they do, they must then discard one card from their Hand.</characteristic>
                   <characteristics>
                     <characteristic name="Range" typeId="1ef4-25e1-dabb-4366">4&quot;/32&quot;</characteristic>
                     <characteristic name="1" typeId="47f8-07bb-9d00-11ff">4</characteristic>
-                    <characteristic name="N/A" typeId="bb38-45b7-8bc6-5634">-</characteristic>
+                    <characteristic name="N/A" typeId="bb38-45b7-8bc6-5634"/>
                     <characteristic name="N/A" typeId="172d-3b2f-afb6-9286"/>
                     <characteristic name="Qualities" typeId="afc3-d5f4-dacf-4f41">Indirect, Turret</characteristic>
                   </characteristics>
@@ -3706,7 +3710,7 @@ If they do, they must then discard one card from their Hand.</characteristic>
                   <characteristics>
                     <characteristic name="Range" typeId="1ef4-25e1-dabb-4366">14&quot;/26&quot;</characteristic>
                     <characteristic name="1" typeId="47f8-07bb-9d00-11ff">4</characteristic>
-                    <characteristic name="N/A" typeId="bb38-45b7-8bc6-5634">-</characteristic>
+                    <characteristic name="N/A" typeId="bb38-45b7-8bc6-5634"/>
                     <characteristic name="N/A" typeId="172d-3b2f-afb6-9286"/>
                     <characteristic name="Qualities" typeId="afc3-d5f4-dacf-4f41">Turret</characteristic>
                   </characteristics>
@@ -3759,7 +3763,7 @@ If they do, they must then discard one card from their Hand.</characteristic>
                   <characteristics>
                     <characteristic name="Range" typeId="1ef4-25e1-dabb-4366">4&quot;/32&quot;</characteristic>
                     <characteristic name="1" typeId="47f8-07bb-9d00-11ff">6</characteristic>
-                    <characteristic name="N/A" typeId="bb38-45b7-8bc6-5634">-</characteristic>
+                    <characteristic name="N/A" typeId="bb38-45b7-8bc6-5634"/>
                     <characteristic name="N/A" typeId="172d-3b2f-afb6-9286"/>
                     <characteristic name="Qualities" typeId="afc3-d5f4-dacf-4f41">Indirect, Turret</characteristic>
                   </characteristics>
@@ -3768,7 +3772,7 @@ If they do, they must then discard one card from their Hand.</characteristic>
                   <characteristics>
                     <characteristic name="Range" typeId="1ef4-25e1-dabb-4366">4&quot;/32&quot;</characteristic>
                     <characteristic name="1" typeId="47f8-07bb-9d00-11ff">3</characteristic>
-                    <characteristic name="N/A" typeId="bb38-45b7-8bc6-5634">-</characteristic>
+                    <characteristic name="N/A" typeId="bb38-45b7-8bc6-5634"/>
                     <characteristic name="N/A" typeId="172d-3b2f-afb6-9286"/>
                     <characteristic name="Qualities" typeId="afc3-d5f4-dacf-4f41">Indirect, Turret</characteristic>
                   </characteristics>
@@ -3821,7 +3825,7 @@ If they do, they must then discard one card from their Hand.</characteristic>
                   <characteristics>
                     <characteristic name="Range" typeId="1ef4-25e1-dabb-4366">14&quot;/26&quot;</characteristic>
                     <characteristic name="1" typeId="47f8-07bb-9d00-11ff">3</characteristic>
-                    <characteristic name="N/A" typeId="bb38-45b7-8bc6-5634">-</characteristic>
+                    <characteristic name="N/A" typeId="bb38-45b7-8bc6-5634"/>
                     <characteristic name="N/A" typeId="172d-3b2f-afb6-9286"/>
                     <characteristic name="Qualities" typeId="afc3-d5f4-dacf-4f41">Turret</characteristic>
                   </characteristics>
@@ -3830,7 +3834,7 @@ If they do, they must then discard one card from their Hand.</characteristic>
                   <characteristics>
                     <characteristic name="Range" typeId="1ef4-25e1-dabb-4366">14&quot;/26&quot;</characteristic>
                     <characteristic name="1" typeId="47f8-07bb-9d00-11ff">6</characteristic>
-                    <characteristic name="N/A" typeId="bb38-45b7-8bc6-5634">-</characteristic>
+                    <characteristic name="N/A" typeId="bb38-45b7-8bc6-5634"/>
                     <characteristic name="N/A" typeId="172d-3b2f-afb6-9286"/>
                     <characteristic name="Qualities" typeId="afc3-d5f4-dacf-4f41">Turret</characteristic>
                   </characteristics>
@@ -3883,7 +3887,7 @@ If they do, they must then discard one card from their Hand.</characteristic>
                   <characteristics>
                     <characteristic name="Range" typeId="1ef4-25e1-dabb-4366">6&quot;/14&quot;</characteristic>
                     <characteristic name="1" typeId="47f8-07bb-9d00-11ff">5</characteristic>
-                    <characteristic name="N/A" typeId="bb38-45b7-8bc6-5634">-</characteristic>
+                    <characteristic name="N/A" typeId="bb38-45b7-8bc6-5634"/>
                     <characteristic name="N/A" typeId="172d-3b2f-afb6-9286"/>
                     <characteristic name="Qualities" typeId="afc3-d5f4-dacf-4f41">Devastating, Fields of Fire</characteristic>
                   </characteristics>
@@ -3937,7 +3941,7 @@ If they do, they must then discard one card from their Hand.</characteristic>
                   <characteristics>
                     <characteristic name="Range" typeId="1ef4-25e1-dabb-4366">-</characteristic>
                     <characteristic name="1" typeId="47f8-07bb-9d00-11ff">-</characteristic>
-                    <characteristic name="N/A" typeId="bb38-45b7-8bc6-5634">-</characteristic>
+                    <characteristic name="N/A" typeId="bb38-45b7-8bc6-5634"/>
                     <characteristic name="N/A" typeId="172d-3b2f-afb6-9286"/>
                     <characteristic name="Qualities" typeId="afc3-d5f4-dacf-4f41">-</characteristic>
                   </characteristics>

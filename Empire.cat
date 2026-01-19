@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="4071-b855-7a04-d76d" name="Empire" gameSystemId="sys-e850-e7dd-b6e5-f6c0" gameSystemRevision="2" revision="2" authorName="Sneki_snek" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="4071-b855-7a04-d76d" name="Empire" gameSystemId="sys-e850-e7dd-b6e5-f6c0" gameSystemRevision="2" revision="3" authorName="Sneki_snek" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry name="Empire Faction Battlegroup" id="02e1-b891-584c-0c8e" hidden="false" sortIndex="1">
       <categoryLinks>
@@ -172,7 +172,7 @@ If the unit is unable to end its Charge manoeuvre in contact with the active en
             <profile name="Headstrong Commander" typeId="3f77-4198-5794-9684" typeName="Boons" hidden="false" id="cbfa-f477-dad4-494b">
               <characteristics>
                 <characteristic name="Effect" typeId="b7f2-49d8-a49a-0b0f">During the Draw Cards step of each Ready Phase, after drawing cards from their Command &amp; Conquest deck, the General can choose to draw one additional card and add it to their Hand.
-If they do, they must then discard one card from their Hand. </characteristic>
+If they do, they must then discard one card from their Hand.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -304,6 +304,10 @@ This is intentional!</characteristic>
       <categoryLinks>
         <categoryLink name="Boons" hidden="false" id="edee-8142-726d-35cd" targetId="9588-4200-697f-615f" primary="true"/>
       </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a493-87f2-a3b2-f053" automatic="true"/>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5f3a-348a-5527-06a5"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="unit" import="false" name="Green Banner Command Platoon" hidden="false" id="fbc4-562a-04f8-48f4" sortIndex="2">
       <categoryLinks>
