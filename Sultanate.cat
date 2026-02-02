@@ -3220,8 +3220,8 @@ If this command is successfully issued, the selected unit immediately loses a m
         </categoryLink>
         <categoryLink name="Cavalry" hidden="false" id="09d1-0653-f8d3-56e2" targetId="d257-b36f-8e15-2d9b">
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f3f9-62f0-9c7d-2baa"/>
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="42c6-89cb-6a34-097c"/>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="c757-d473-bb43-cba3"/>
           </constraints>
         </categoryLink>
         <categoryLink name="Armour" hidden="false" id="9490-0098-39d3-fb6a" targetId="2c1d-3a57-3871-f158">
