@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="29df-6f2c-10db-6e5e" name="Sultanate" gameSystemId="sys-e850-e7dd-b6e5-f6c0" gameSystemRevision="6" revision="3" authorName="Sneki_snek" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="29df-6f2c-10db-6e5e" name="Sultanate" gameSystemId="sys-e850-e7dd-b6e5-f6c0" gameSystemRevision="6" revision="4" authorName="Sneki_snek" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry type="unit" import="true" name="Ferik Command Skiff" hidden="false" id="82ac-9922-bcec-c86d" sortIndex="1">
       <categoryLinks>
@@ -775,13 +775,13 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="714e-792f-a610-7c6f" automatic="true"/>
               </constraints>
               <profiles>
-                <profile name="Ranged (Light)" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="786a-15bc-8c5f-9cea">
+                <profile name="Ranged (Light)" typeId="ae82-73aa-c9d6-d719" typeName="Type" hidden="false" id="786a-15bc-8c5f-9cea">
                   <characteristics>
-                    <characteristic name="Range" typeId="0d60-0078-7134-d302">6&quot;/14&quot;</characteristic>
-                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585">3</characteristic>
-                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c">7</characteristic>
-                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d">11</characteristic>
-                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b">Indirect</characteristic>
+                    <characteristic name="Range" typeId="c7d4-8837-db2a-853e">5&quot;/10&quot;</characteristic>
+                    <characteristic name="1" typeId="d488-d433-55e3-87c0">5</characteristic>
+                    <characteristic name="2" typeId="9869-9545-e597-5da6">9</characteristic>
+                    <characteristic name="3" typeId="cc94-143d-b205-52e3">13</characteristic>
+                    <characteristic name="Qualities" typeId="f973-0012-4bcd-1728">-</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -792,30 +792,30 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9643-accd-ca81-aea6" automatic="true"/>
               </constraints>
               <profiles>
-                <profile name="Ranged (Aerial)" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="a72a-f33a-6240-87a6">
+                <profile name="Ranged (Aerial)" typeId="ae82-73aa-c9d6-d719" typeName="Type" hidden="false" id="a72a-f33a-6240-87a6">
                   <characteristics>
-                    <characteristic name="Range" typeId="0d60-0078-7134-d302">10&quot;/20&quot;</characteristic>
-                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585">5</characteristic>
-                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c">10</characteristic>
-                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d">15</characteristic>
-                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b">-</characteristic>
+                    <characteristic name="Range" typeId="c7d4-8837-db2a-853e">3&quot;/10&quot;</characteristic>
+                    <characteristic name="1" typeId="d488-d433-55e3-87c0">4</characteristic>
+                    <characteristic name="2" typeId="9869-9545-e597-5da6">7</characteristic>
+                    <characteristic name="3" typeId="cc94-143d-b205-52e3">10</characteristic>
+                    <characteristic name="Qualities" typeId="f973-0012-4bcd-1728">-</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Impact" hidden="false" id="5340-3b78-e569-6182" sortIndex="6">
+            <selectionEntry type="upgrade" import="true" name="Ranged (Heavy)" hidden="false" id="00ac-f49d-8ffe-ba02" sortIndex="2">
               <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="33ee-48d7-f7a0-feed" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="989f-60a9-e011-f992" automatic="true"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d092-daf5-188c-9844" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4b5b-22cc-73ca-930e" automatic="true"/>
               </constraints>
               <profiles>
-                <profile name="Impact" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="846a-cf0e-0a08-3154">
+                <profile name="Ranged (Heavy)" typeId="ae82-73aa-c9d6-d719" typeName="Type" hidden="false" id="8d92-04de-6105-26c2">
                   <characteristics>
-                    <characteristic name="Range" typeId="0d60-0078-7134-d302">-</characteristic>
-                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585">3</characteristic>
-                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c">5</characteristic>
-                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d">7</characteristic>
-                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b">-</characteristic>
+                    <characteristic name="Range" typeId="c7d4-8837-db2a-853e">5&quot;/10&quot;</characteristic>
+                    <characteristic name="1" typeId="d488-d433-55e3-87c0">4</characteristic>
+                    <characteristic name="2" typeId="9869-9545-e597-5da6">7</characteristic>
+                    <characteristic name="3" typeId="cc94-143d-b205-52e3">10</characteristic>
+                    <characteristic name="Qualities" typeId="f973-0012-4bcd-1728">Penetrating</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3210,6 +3210,7 @@ If this command is successfully issued, the selected unit immediately loses a m
   <forceEntries>
     <forceEntry name="Sultanate Faction Battlegroup" id="e5d1-c616-ca94-290c" hidden="false" sortIndex="1">
       <categoryLinks>
+        <categoryLink name="Boons" hidden="false" id="5801-1c8e-8362-2d32" targetId="9588-4200-697f-615f"/>
         <categoryLink name="Commander" hidden="false" id="2775-02cf-150d-556a" targetId="058b-06f1-5fc7-3c9a"/>
         <categoryLink name="Infantry" hidden="false" id="8992-aadd-d852-2756" targetId="92f8-9d17-dd4d-a5ac">
           <constraints>
@@ -3245,6 +3246,7 @@ If this command is successfully issued, the selected unit immediately loses a m
     </forceEntry>
     <forceEntry name="Armatoles Auxiliary Battlegroup" id="a8c8-9e08-e471-b8b3" hidden="false" sortIndex="2">
       <categoryLinks>
+        <categoryLink name="Boons" hidden="false" id="df0e-0fab-b3e2-c439" targetId="9588-4200-697f-615f"/>
         <categoryLink name="Commander" hidden="false" id="02a2-37a8-f6d2-8ff3" targetId="e834-d468-4725-332b">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b320-271e-e6ad-075e"/>
@@ -3279,6 +3281,7 @@ If this command is successfully issued, the selected unit immediately loses a m
     </forceEntry>
     <forceEntry name="Order Auxiliary Battlegroup" id="a747-bf39-8b9d-67a8" hidden="false" sortIndex="3">
       <categoryLinks>
+        <categoryLink name="Boons" hidden="false" id="027d-57c7-3bfd-de14" targetId="9588-4200-697f-615f"/>
         <categoryLink name="Order Commander" hidden="false" id="b602-004f-3155-fd94" targetId="c4b9-368e-888d-0906">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="619f-691e-e019-ba91"/>

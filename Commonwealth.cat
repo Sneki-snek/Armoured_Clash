@@ -653,9 +653,6 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <constraints>
-        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="8b57-6fd9-e00c-6ace" includeChildSelections="true"/>
-      </constraints>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Cossack Ovcharka War Dogs" hidden="false" id="c75a-868b-a477-fd96" sortIndex="3">
       <categoryLinks>
@@ -4820,9 +4817,6 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <constraints>
-        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="97ff-24c9-2957-96c6" includeChildSelections="true"/>
-      </constraints>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Kometa Interceptor Squadron" hidden="false" id="aa25-d392-f588-d38e" sortIndex="17">
       <categoryLinks>
