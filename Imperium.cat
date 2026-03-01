@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="7a50-eb9a-095f-b57d" name="Imperium" gameSystemId="sys-e850-e7dd-b6e5-f6c0" gameSystemRevision="1" revision="2" authorName="Sneki_snek" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="7a50-eb9a-095f-b57d" name="Imperium" gameSystemId="sys-e850-e7dd-b6e5-f6c0" gameSystemRevision="1" revision="3" authorName="Sneki_snek" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry type="unit" import="false" name="Scion Grenadier Command Platoon" hidden="false" id="7ae4-c55a-744f-f4c8" sortIndex="1">
       <categoryLinks>
@@ -3483,7 +3483,7 @@ Do not count units that are Suppressed or Embarked on Transport units.</characte
             <profile name="Headstrong Commander" typeId="3f77-4198-5794-9684" typeName="Boons" hidden="false" id="1cf3-659b-2875-76a3">
               <characteristics>
                 <characteristic name="Effect" typeId="b7f2-49d8-a49a-0b0f">During the Draw Cards step of each Ready Phase, after drawing cards from their Command &amp; Conquest deck, the General can choose to draw one additional card and add it to their Hand.
-If they do, they must then discard one card from their Hand. </characteristic>
+If they do, they must then discard one card from their Hand.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3514,6 +3514,115 @@ If the chosen unit already has the Vanguard (X ) special rule it uses the highe
       <constraints>
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="7d45-ff19-e010-a484" includeChildSelections="false" automatic="true"/>
         <constraint type="min" value="1" field="selections" scope="force" shared="true" id="f527-dcaa-d864-fd74" includeChildSelections="false" automatic="false"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="unit" import="false" name="Master Siegbert von Brandt" hidden="false" id="a55d-0c6c-fd6d-f3f8" sortIndex="1">
+      <categoryLinks>
+        <categoryLink name="Commander" hidden="false" id="ce75-3a01-093c-d1ab" targetId="058b-06f1-5fc7-3c9a" primary="true"/>
+        <categoryLink name="Light" hidden="false" id="c962-739b-a2c8-ff21" targetId="default-category" primary="false"/>
+        <categoryLink targetId="cf02-f753-6379-2663" id="d0fa-9069-e5ab-ad62" primary="false" name="Imperium"/>
+        <categoryLink targetId="2d10-727d-0cfb-9c0f" id="b9f9-9322-8ed3-4965" primary="false" name="Infantry"/>
+        <categoryLink name="Teutonic" hidden="false" id="a451-d9a0-6b39-8abb" targetId="9ae0-923c-a4aa-1a7b" primary="false"/>
+        <categoryLink name="Unique" hidden="false" id="40d6-2b08-94cc-22ad" targetId="19f4-cd18-0cc2-f95d" primary="false"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="2279-615a-9f9c-3da4" noindex="true">
+          <characteristics>
+            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Bodyguard, Bulky, Durable, Shrouded, Stoic Defence, Support (Teutonic), Terrifying (Teutonic)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Bolstering" id="58cb-5255-3993-928f" hidden="false" sortIndex="2">
+          <entryLinks>
+            <entryLink import="true" name="Basic" hidden="false" id="b48c-7c50-27d5-698c" type="selectionEntry" targetId="f088-e6d4-8fe3-0f3e" sortIndex="1">
+              <profiles>
+                <profile name="Master Siegbert von Brandt" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="59e7-2a8a-db2f-9316">
+                  <characteristics>
+                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Light</characteristic>
+                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">1</characteristic>
+                    <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
+                    <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
+                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">3&quot;</characteristic>
+                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
+                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">2</characteristic>
+                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">9</characteristic>
+                    <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="set" value="6" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="5" field="bb79-114d-2dc7-ca18"/>
+                  </modifiers>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="145"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4759-7949-6178-c98a"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="52b7-2435-4b71-430e"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Weapons" id="e9aa-ac0e-2d83-3cfe" hidden="false" sortIndex="1">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Ranged (Light)" hidden="false" id="64b2-852c-5aed-1fb5" sortIndex="1">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c16f-2b3c-7068-5b19" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="62f9-8888-2887-d707" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Ranged (Light)" typeId="94d7-2200-00d2-ae3f" typeName="Type" hidden="false" id="b9ef-78f6-7480-e34a">
+                  <characteristics>
+                    <characteristic name="Range" typeId="0faf-08e4-43a5-722d">-&quot;/12&quot;</characteristic>
+                    <characteristic name="1-6" typeId="1dd1-b0ef-2521-5815">4</characteristic>
+                    <characteristic name="7-12" typeId="1fbf-39ae-6b9b-6e84">-</characteristic>
+                    <characteristic name="13-18" typeId="73e4-df9f-6b10-d276">-</characteristic>
+                    <characteristic name="Qualities" typeId="8c1e-b7a3-2830-9b8b">arc</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Melee" hidden="false" id="8faf-0238-6a05-8d07" sortIndex="3">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b87c-edee-a36c-6a1b" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a2f8-b132-65b7-b4de" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Melee" typeId="94d7-2200-00d2-ae3f" typeName="Type" hidden="false" id="9ad4-2bb6-2f26-50f9">
+                  <characteristics>
+                    <characteristic name="Range" typeId="0faf-08e4-43a5-722d">-</characteristic>
+                    <characteristic name="1-6" typeId="1dd1-b0ef-2521-5815">5</characteristic>
+                    <characteristic name="7-12" typeId="1fbf-39ae-6b9b-6e84">-</characteristic>
+                    <characteristic name="13-18" typeId="73e4-df9f-6b10-d276">-</characteristic>
+                    <characteristic name="Qualities" typeId="8c1e-b7a3-2830-9b8b">Arc, Devastating, Precision</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Ranged (Heavy)" hidden="false" id="2346-c997-a876-6021" sortIndex="2">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fd5d-38a1-44b7-dbd2" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1cb2-306f-5671-6155" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Ranged (Heavy)" typeId="94d7-2200-00d2-ae3f" typeName="Type" hidden="false" id="fa38-6ea3-0aa8-2997">
+                  <characteristics>
+                    <characteristic name="Range" typeId="0faf-08e4-43a5-722d">-&quot;/12&quot;</characteristic>
+                    <characteristic name="1-6" typeId="1dd1-b0ef-2521-5815">3</characteristic>
+                    <characteristic name="7-12" typeId="1fbf-39ae-6b9b-6e84">-</characteristic>
+                    <characteristic name="13-18" typeId="73e4-df9f-6b10-d276">-</characteristic>
+                    <characteristic name="Qualities" typeId="8c1e-b7a3-2830-9b8b">arc</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="c675-82dd-25af-3626" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
     </selectionEntry>
   </selectionEntries>

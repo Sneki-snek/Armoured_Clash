@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="sys-e850-e7dd-b6e5-f6c0" name="Armoured Clash" battleScribeVersion="2.03" revision="6" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="sys-e850-e7dd-b6e5-f6c0" name="Armoured Clash" battleScribeVersion="2.03" revision="7" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <categoryEntries>
     <categoryEntry name="Light" id="default-category"/>
     <categoryEntry name="Heavy" id="6aad-4085-608f-dc2f" hidden="false"/>
@@ -68,6 +68,9 @@
     <categoryEntry name="Inhuman" id="4b6c-a0fd-a97c-5d8b" hidden="false"/>
     <categoryEntry name="Containment Chambers" id="1bf1-0765-ea0f-ffde" hidden="false"/>
     <categoryEntry name="Order" id="10e0-63bd-3ed0-8740" hidden="false"/>
+    <categoryEntry name="Unique" id="19f4-cd18-0cc2-f95d" hidden="false">
+      <description/>
+    </categoryEntry>
   </categoryEntries>
   <selectionEntries>
     <selectionEntry type="unit" import="true" name="Example Unit" hidden="true" id="afc1-a3d2-a345-3a0c">
