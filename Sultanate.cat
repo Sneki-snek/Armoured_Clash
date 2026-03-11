@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="29df-6f2c-10db-6e5e" name="Sultanate" gameSystemId="sys-e850-e7dd-b6e5-f6c0" gameSystemRevision="6" revision="4" authorName="Sneki_snek" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="29df-6f2c-10db-6e5e" name="Sultanate" gameSystemId="sys-e850-e7dd-b6e5-f6c0" gameSystemRevision="6" revision="5" authorName="Sneki_snek" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry type="unit" import="true" name="Ferik Command Skiff" hidden="false" id="82ac-9922-bcec-c86d" sortIndex="1">
       <categoryLinks>
@@ -517,7 +517,7 @@
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Jannissaries" hidden="false" id="6653-1f33-2fa8-f229" sortIndex="6">
+    <selectionEntry type="unit" import="true" name="Janissaries" hidden="false" id="6653-1f33-2fa8-f229" sortIndex="6">
       <profiles>
         <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="27fe-58c1-0749-fb52" noindex="false">
           <characteristics>
@@ -530,7 +530,7 @@
           <entryLinks>
             <entryLink import="true" name="Basic" hidden="false" id="09f9-b818-5e4a-ee5e" type="selectionEntry" targetId="f088-e6d4-8fe3-0f3e" sortIndex="1">
               <profiles>
-                <profile name="Jannissaries" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="d5b1-efea-888d-6c52">
+                <profile name="Janissaries" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="d5b1-efea-888d-6c52">
                   <characteristics>
                     <characteristic name="Target type" typeId="de47-7191-892f-3c71">Light</characteristic>
                     <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">1</characteristic>
@@ -554,7 +554,7 @@
             </entryLink>
             <entryLink import="true" name="Full Strength" hidden="false" id="cf77-e328-d02d-29ad" type="selectionEntry" targetId="e86e-71e1-9396-5526" sortIndex="3" flatten="false">
               <profiles>
-                <profile name="Jannissaries" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="309d-ba6b-f822-5584">
+                <profile name="Janissaries" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="309d-ba6b-f822-5584">
                   <characteristics>
                     <characteristic name="Target type" typeId="de47-7191-892f-3c71">Light</characteristic>
                     <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">1</characteristic>
@@ -578,7 +578,7 @@
             </entryLink>
             <entryLink import="true" name="Reinforced" hidden="false" id="0b11-26d8-85d4-ab91" type="selectionEntry" targetId="85c2-43ee-a668-834f" sortIndex="2" flatten="false">
               <profiles>
-                <profile name="Jannissaries" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="e107-62dc-b9e6-1076">
+                <profile name="Janissaries" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="e107-62dc-b9e6-1076">
                   <characteristics>
                     <characteristic name="Target type" typeId="de47-7191-892f-3c71">Light</characteristic>
                     <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">1</characteristic>
@@ -1133,7 +1133,7 @@
                     <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
                     <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
                     <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">6&quot;</characteristic>
-                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">3</characteristic>
+                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">4</characteristic>
                     <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">2</characteristic>
                     <characteristic name="Discipline" typeId="9692-df81-03cd-8583">6</characteristic>
                     <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
@@ -1157,7 +1157,7 @@
                     <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
                     <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
                     <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">6&quot;</characteristic>
-                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">3</characteristic>
+                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">4</characteristic>
                     <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">2</characteristic>
                     <characteristic name="Discipline" typeId="9692-df81-03cd-8583">6</characteristic>
                     <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
@@ -1181,7 +1181,7 @@
                     <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
                     <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
                     <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">6&quot;</characteristic>
-                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">3</characteristic>
+                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">4</characteristic>
                     <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">2</characteristic>
                     <characteristic name="Discipline" typeId="9692-df81-03cd-8583">6</characteristic>
                     <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
@@ -1287,7 +1287,7 @@
                     <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
                     <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
                     <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">6&quot;</characteristic>
-                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">3</characteristic>
+                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">4</characteristic>
                     <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">2</characteristic>
                     <characteristic name="Discipline" typeId="9692-df81-03cd-8583">6</characteristic>
                     <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
@@ -1311,7 +1311,7 @@
                     <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
                     <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
                     <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">6&quot;</characteristic>
-                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">3</characteristic>
+                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">4</characteristic>
                     <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">2</characteristic>
                     <characteristic name="Discipline" typeId="9692-df81-03cd-8583">6</characteristic>
                     <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
@@ -1335,7 +1335,7 @@
                     <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
                     <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
                     <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">6&quot;</characteristic>
-                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">3</characteristic>
+                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">4</characteristic>
                     <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">2</characteristic>
                     <characteristic name="Discipline" typeId="9692-df81-03cd-8583">6</characteristic>
                     <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
@@ -1865,6 +1865,7 @@
         <categoryLink name="Armour" hidden="false" id="8aa9-6157-d72b-28e9" targetId="2c1d-3a57-3871-f158" primary="true"/>
         <categoryLink name="Heavy" hidden="false" id="9c73-1a94-ab83-359b" targetId="6aad-4085-608f-dc2f" primary="false"/>
         <categoryLink name="Sultanate" hidden="false" id="1690-9c94-8ba6-e17b" targetId="2799-1c42-8342-8860" primary="false"/>
+        <categoryLink name="Order" hidden="false" id="303c-b913-0988-c8b7" targetId="10e0-63bd-3ed0-8740" primary="false"/>
       </categoryLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Kavgaci ATV" hidden="false" id="789f-6fd4-3e54-a773" sortIndex="12">
@@ -2019,6 +2020,7 @@
         <categoryLink name="Sultanate" hidden="false" id="9ca5-4380-7fd5-25d7" targetId="2799-1c42-8342-8860" primary="false"/>
         <categoryLink name="Armour" hidden="false" id="b1e5-809b-d26c-d0b8" targetId="2c1d-3a57-3871-f158" primary="true"/>
         <categoryLink name="Heavy" hidden="false" id="63a3-71db-895f-35de" targetId="6aad-4085-608f-dc2f" primary="false"/>
+        <categoryLink name="Order" hidden="false" id="de66-2b3a-34b5-94c1" targetId="10e0-63bd-3ed0-8740" primary="false"/>
       </categoryLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Sipahi Monowheels" hidden="false" id="a625-a9aa-2e84-26ef" sortIndex="10">
@@ -2446,7 +2448,7 @@
       <profiles>
         <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="b90a-7656-115d-b628" noindex="false">
           <characteristics>
-            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Corrosive Fumes (4”), Immortal, Portal Strike, Stoic Defence</characteristic>
+            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Corrosive Fumes (4”), Immortal, Portal Strike, Stoic Defence, Pavises</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2708,7 +2710,7 @@
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Jannissaries Command" hidden="false" id="83a7-f845-98f9-2c61" sortIndex="2">
+    <selectionEntry type="unit" import="true" name="Janissary Command" hidden="false" id="83a7-f845-98f9-2c61" sortIndex="2">
       <profiles>
         <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="702a-9167-d9cc-b62f" noindex="false">
           <characteristics>
@@ -2721,7 +2723,7 @@
           <entryLinks>
             <entryLink import="true" name="Basic" hidden="false" id="7902-e47e-3146-12ae" type="selectionEntry" targetId="f088-e6d4-8fe3-0f3e" sortIndex="1">
               <profiles>
-                <profile name="Jannissaries Command" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="9207-ee36-1697-080d">
+                <profile name="Janissary Command" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="9207-ee36-1697-080d">
                   <characteristics>
                     <characteristic name="Target type" typeId="de47-7191-892f-3c71">Light</characteristic>
                     <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">1</characteristic>
@@ -2745,7 +2747,7 @@
             </entryLink>
             <entryLink import="true" name="Full Strength" hidden="false" id="c143-a656-2eb8-16f2" type="selectionEntry" targetId="e86e-71e1-9396-5526" sortIndex="3" flatten="false">
               <profiles>
-                <profile name="Jannissaries Command" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="7a0f-879b-3cfb-908c">
+                <profile name="Janissary Command" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="7a0f-879b-3cfb-908c">
                   <characteristics>
                     <characteristic name="Target type" typeId="de47-7191-892f-3c71">Light</characteristic>
                     <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">1</characteristic>
@@ -2769,7 +2771,7 @@
             </entryLink>
             <entryLink import="true" name="Reinforced" hidden="false" id="6e41-b249-e974-f1fa" type="selectionEntry" targetId="85c2-43ee-a668-834f" sortIndex="2" flatten="false">
               <profiles>
-                <profile name="Jannissaries Command" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="996a-1966-a665-46ff">
+                <profile name="Janissary Command" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="996a-1966-a665-46ff">
                   <characteristics>
                     <characteristic name="Target type" typeId="de47-7191-892f-3c71">Light</characteristic>
                     <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">1</characteristic>

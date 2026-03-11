@@ -68,9 +68,7 @@
     <categoryEntry name="Inhuman" id="4b6c-a0fd-a97c-5d8b" hidden="false"/>
     <categoryEntry name="Containment Chambers" id="1bf1-0765-ea0f-ffde" hidden="false"/>
     <categoryEntry name="Order" id="10e0-63bd-3ed0-8740" hidden="false"/>
-    <categoryEntry name="Unique" id="19f4-cd18-0cc2-f95d" hidden="false">
-      <description/>
-    </categoryEntry>
+    <categoryEntry name="Unique" id="19f4-cd18-0cc2-f95d" hidden="false"/>
   </categoryEntries>
   <selectionEntries>
     <selectionEntry type="unit" import="true" name="Example Unit" hidden="true" id="afc1-a3d2-a345-3a0c">
@@ -588,7 +586,7 @@ If they do, they must then discard one card from their Hand.</characteristic>
       </characteristicTypes>
       <comment>Special Rules</comment>
     </profileType>
-    <profileType name="Type" id="94d7-2200-00d2-ae3f" hidden="false" sortIndex="3">
+    <profileType name="Type" id="94d7-2200-00d2-ae3f" hidden="false" sortIndex="3" kind="weapon">
       <characteristicTypes>
         <characteristicType name="Range" id="0faf-08e4-43a5-722d"/>
         <characteristicType name="1-6" id="1dd1-b0ef-2521-5815"/>
@@ -598,7 +596,7 @@ If they do, they must then discard one card from their Hand.</characteristic>
       </characteristicTypes>
       <comment>weapons 6-18</comment>
     </profileType>
-    <profileType name="Type" id="ae82-73aa-c9d6-d719" hidden="false" sortIndex="4">
+    <profileType name="Type" id="ae82-73aa-c9d6-d719" hidden="false" sortIndex="4" kind="weapon">
       <characteristicTypes>
         <characteristicType name="Range" id="c7d4-8837-db2a-853e"/>
         <characteristicType name="1" id="d488-d433-55e3-87c0"/>
@@ -608,7 +606,7 @@ If they do, they must then discard one card from their Hand.</characteristic>
       </characteristicTypes>
       <comment>weapons 1-3</comment>
     </profileType>
-    <profileType name="Type" id="344a-022d-aebf-7e7a" hidden="false" sortIndex="5">
+    <profileType name="Type" id="344a-022d-aebf-7e7a" hidden="false" sortIndex="5" kind="weapon">
       <characteristicTypes>
         <characteristicType name="Range" id="db9e-9452-9fc5-3877"/>
         <characteristicType name="1-4" id="94b3-2e14-1b71-6757"/>
@@ -618,7 +616,7 @@ If they do, they must then discard one card from their Hand.</characteristic>
       </characteristicTypes>
       <comment>weapons 4-12</comment>
     </profileType>
-    <profileType name="Type" id="055e-da65-5a34-6a56" hidden="false" sortIndex="6">
+    <profileType name="Type" id="055e-da65-5a34-6a56" hidden="false" sortIndex="6" kind="weapon">
       <characteristicTypes>
         <characteristicType name="Range" id="a4be-e6da-e81e-0ee5"/>
         <characteristicType name="1-5" id="6c2b-399d-3913-0c86"/>
@@ -628,7 +626,7 @@ If they do, they must then discard one card from their Hand.</characteristic>
       </characteristicTypes>
       <comment>weapons 5-15</comment>
     </profileType>
-    <profileType name="Type" id="7a22-daf6-b2f0-f622" hidden="false" sortIndex="8">
+    <profileType name="Type" id="7a22-daf6-b2f0-f622" hidden="false" sortIndex="8" kind="weapon">
       <characteristicTypes>
         <characteristicType name="Range" id="0d60-0078-7134-d302"/>
         <characteristicType name="1-2" id="5043-ac06-9bc2-0585"/>
@@ -638,7 +636,7 @@ If they do, they must then discard one card from their Hand.</characteristic>
       </characteristicTypes>
       <comment>weapons 2-6</comment>
     </profileType>
-    <profileType name="Type" id="18f4-5886-b9e5-059c" hidden="false" sortIndex="10">
+    <profileType name="Type" id="18f4-5886-b9e5-059c" hidden="false" sortIndex="10" kind="weapon">
       <characteristicTypes>
         <characteristicType name="Range" id="a374-7668-40e6-f109"/>
         <characteristicType name="10-11" id="0ce0-0ff9-2b4f-55e4"/>
@@ -653,7 +651,7 @@ If they do, they must then discard one card from their Hand.</characteristic>
         <characteristicType name="Effect" id="b7f2-49d8-a49a-0b0f"/>
       </characteristicTypes>
     </profileType>
-    <profileType name="Type" id="ab7a-1a7e-f58b-4565" hidden="false" sortIndex="7">
+    <profileType name="Type" id="ab7a-1a7e-f58b-4565" hidden="false" sortIndex="7" kind="weapon">
       <characteristicTypes>
         <characteristicType name="Range" id="ae86-2a51-4bd0-5c8c"/>
         <characteristicType name="1-8" id="a2ba-36af-bed3-a679"/>
@@ -663,7 +661,7 @@ If they do, they must then discard one card from their Hand.</characteristic>
       </characteristicTypes>
       <comment>weapons 8-24</comment>
     </profileType>
-    <profileType name="Type" id="e5cb-a327-9927-e1c2" hidden="false" sortIndex="12">
+    <profileType name="Type" id="e5cb-a327-9927-e1c2" hidden="false" sortIndex="12" kind="weapon">
       <characteristicTypes>
         <characteristicType name="Range" id="441f-d21a-ef2b-2c8a"/>
         <characteristicType name="6-7" id="695f-299c-7e58-f275"/>
@@ -673,7 +671,7 @@ If they do, they must then discard one card from their Hand.</characteristic>
       </characteristicTypes>
       <comment>weapons Behemoth 0-7</comment>
     </profileType>
-    <profileType name="Type" id="ee3c-551f-76af-1003" hidden="false" sortIndex="9">
+    <profileType name="Type" id="ee3c-551f-76af-1003" hidden="false" sortIndex="9" kind="weapon">
       <characteristicTypes>
         <characteristicType name="Range" id="2701-5c54-f68b-b5db"/>
         <characteristicType name="10-15" id="af3b-7f79-4aa9-20d4"/>
@@ -683,7 +681,7 @@ If they do, they must then discard one card from their Hand.</characteristic>
       </characteristicTypes>
       <comment>weapons Behemoth 0-15</comment>
     </profileType>
-    <profileType name="Type" id="e268-4591-0098-0605" hidden="false" sortIndex="11">
+    <profileType name="Type" id="e268-4591-0098-0605" hidden="false" sortIndex="11" kind="weapon">
       <characteristicTypes>
         <characteristicType name="Range" id="5bf6-fd07-7b49-fa88"/>
         <characteristicType name="7-8" id="e53c-163c-99e4-0d11"/>
@@ -693,7 +691,7 @@ If they do, they must then discard one card from their Hand.</characteristic>
       </characteristicTypes>
       <comment>weapons Behemoth 0-8</comment>
     </profileType>
-    <profileType name="Type" id="49bd-938b-4cd1-be02" hidden="false" sortIndex="13">
+    <profileType name="Type" id="49bd-938b-4cd1-be02" hidden="false" sortIndex="13" kind="weapon">
       <characteristicTypes>
         <characteristicType name="Range" id="1d41-6aea-8eff-6c42"/>
         <characteristicType name="5-6" id="03c2-7494-d471-434c"/>
@@ -703,7 +701,7 @@ If they do, they must then discard one card from their Hand.</characteristic>
       </characteristicTypes>
       <comment>weapons Behemoth 0-6</comment>
     </profileType>
-    <profileType name="Type" id="b294-e6dd-21de-b304" hidden="false" sortIndex="14">
+    <profileType name="Type" id="b294-e6dd-21de-b304" hidden="false" sortIndex="14" kind="weapon">
       <characteristicTypes>
         <characteristicType name="Range" id="1ef4-25e1-dabb-4366"/>
         <characteristicType name="1" id="47f8-07bb-9d00-11ff"/>
@@ -713,7 +711,7 @@ If they do, they must then discard one card from their Hand.</characteristic>
       </characteristicTypes>
       <comment>weapons 1</comment>
     </profileType>
-    <profileType name="Type" id="2168-d664-9ff5-f41e" hidden="false" sortIndex="9">
+    <profileType name="Type" id="2168-d664-9ff5-f41e" hidden="false" sortIndex="9" kind="weapon">
       <characteristicTypes>
         <characteristicType name="Range" id="a93b-2f17-358e-cf1e"/>
         <characteristicType name="10-14" id="d6d2-0ade-fe00-9b79"/>
@@ -724,7 +722,7 @@ If they do, they must then discard one card from their Hand.</characteristic>
       <comment>weapons Behemoth 0-14</comment>
     </profileType>
     <profileType name="Command" id="005b-4054-e3d0-6001" hidden="false"/>
-    <profileType name="Type" id="e230-522c-9c1c-b6c3" hidden="false">
+    <profileType name="Type" id="e230-522c-9c1c-b6c3" hidden="false" kind="weapon">
       <comment>Weapons Behemoth 1-18</comment>
       <characteristicTypes>
         <characteristicType name="Range" id="7385-1013-e06a-3c64"/>
@@ -734,7 +732,7 @@ If they do, they must then discard one card from their Hand.</characteristic>
         <characteristicType name="Qualities" id="e5c1-9b5c-88b4-f622"/>
       </characteristicTypes>
     </profileType>
-    <profileType name="Type" id="e61c-1b25-4e1c-6c5f" hidden="false">
+    <profileType name="Type" id="e61c-1b25-4e1c-6c5f" hidden="false" kind="weapon">
       <characteristicTypes>
         <characteristicType name="Range" id="8ba6-5bb1-b105-70d8"/>
         <characteristicType name="9-11" id="0064-34fd-a5cd-0192"/>

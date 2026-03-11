@@ -1423,7 +1423,7 @@ If they do, they must then discard one card from their Hand.</characteristic>
                 <characteristic name="1-5" typeId="6c2b-399d-3913-0c86">3</characteristic>
                 <characteristic name="6-10" typeId="e030-39ed-b345-ffd8">5</characteristic>
                 <characteristic name="11-15" typeId="3341-bdc5-ce8f-a06f">7</characteristic>
-                <characteristic name="Qualities" typeId="e5a1-fc2f-d8b2-79b3">-</characteristic>
+                <characteristic name="Qualities" typeId="e5a1-fc2f-d8b2-79b3">Arc</characteristic>
               </characteristics>
             </profile>
           </profiles>
