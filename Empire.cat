@@ -1262,7 +1262,7 @@ This is intentional!</characteristic>
       <profiles>
         <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="87f3-5a34-fd4e-2012" noindex="true">
           <characteristics>
-            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Bulky, Corrosive Fumes (3”), Hit &amp; Run (6”), Irregular, Shrouded, Soar (8”), Stalker, Vanguard (8”)</characteristic>
+            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Corrosive Fumes (3”), Hit &amp; Run (6”), Irregular, Shrouded, Soar (8”), Stalker, Vanguard (8”)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1358,9 +1358,9 @@ This is intentional!</characteristic>
                 <profile name="Ranged (Light)" typeId="344a-022d-aebf-7e7a" typeName="Type" hidden="false" id="07ba-e524-ae43-40a6">
                   <characteristics>
                     <characteristic name="Range" typeId="db9e-9452-9fc5-3877">3&quot;/6&quot;</characteristic>
-                    <characteristic name="1-4" typeId="94b3-2e14-1b71-6757">3</characteristic>
-                    <characteristic name="5-8" typeId="f891-f62d-9222-6a4f">5</characteristic>
-                    <characteristic name="9-12" typeId="df36-9d51-a316-8d54">7</characteristic>
+                    <characteristic name="1-4" typeId="94b3-2e14-1b71-6757">4</characteristic>
+                    <characteristic name="5-8" typeId="f891-f62d-9222-6a4f">6</characteristic>
+                    <characteristic name="9-12" typeId="df36-9d51-a316-8d54">8</characteristic>
                     <characteristic name="Qualities" typeId="9a3f-8a28-e735-e1eb">Suppressive</characteristic>
                   </characteristics>
                 </profile>

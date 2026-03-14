@@ -773,7 +773,7 @@ If they do, they must then discard one card from their Hand.</characteristic>
               <entryLinks>
                 <entryLink import="true" name="Fireteam" hidden="false" id="22dd-fdc9-da3e-7f92" type="selectionEntryGroup" targetId="2a1b-0962-8903-e24b">
                   <constraints>
-                    <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="cc35-1d73-eae4-d6be" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cc35-1d73-eae4-d6be" includeChildSelections="false"/>
                   </constraints>
                 </entryLink>
               </entryLinks>
@@ -804,7 +804,7 @@ If they do, they must then discard one card from their Hand.</characteristic>
               <entryLinks>
                 <entryLink import="true" name="Fireteam" hidden="false" id="2126-ede5-bd15-bcaa" type="selectionEntryGroup" targetId="dde4-219a-8c56-138d">
                   <constraints>
-                    <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="bcdb-3645-1615-d33d" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bcdb-3645-1615-d33d" includeChildSelections="false"/>
                   </constraints>
                 </entryLink>
               </entryLinks>
@@ -835,7 +835,7 @@ If they do, they must then discard one card from their Hand.</characteristic>
               <entryLinks>
                 <entryLink import="true" name="Fireteam" hidden="false" id="b836-4422-a799-788a" type="selectionEntryGroup" targetId="ce51-0aae-c19e-3582">
                   <constraints>
-                    <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="1b34-406f-46c2-626b" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1b34-406f-46c2-626b" includeChildSelections="false"/>
                   </constraints>
                 </entryLink>
               </entryLinks>
@@ -1822,44 +1822,62 @@ If they do, they must then discard one card from their Hand.</characteristic>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1a06-6913-bc6d-82de"/>
           </constraints>
         </selectionEntryGroup>
+        <selectionEntryGroup name="Weapons" id="de9b-5402-493f-6ab3" hidden="false" sortIndex="1">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Ranged (Light)" hidden="false" id="fa53-ce65-49d4-08dc" sortIndex="1">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="dc4f-6a6d-61c0-e9b2" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8081-7719-d443-5ac0" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Ranged (Light)" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="bfcd-d357-a76a-7321">
+                  <characteristics>
+                    <characteristic name="Range" typeId="0d60-0078-7134-d302">2&quot;/26&quot;</characteristic>
+                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585">4</characteristic>
+                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c">8</characteristic>
+                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d">12</characteristic>
+                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b">Indirect, Lock On, Turret</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Ranged (Heavy)" hidden="false" id="48cb-fa3d-a88c-d5f3" sortIndex="2">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1adc-49ed-6561-8e5a" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="01bd-b657-4b01-5bcf" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Ranged (Heavy)" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="dc2f-12ff-d7f4-7991">
+                  <characteristics>
+                    <characteristic name="Range" typeId="0d60-0078-7134-d302">2&quot;/26&quot;</characteristic>
+                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585">3</characteristic>
+                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c">5</characteristic>
+                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d">7</characteristic>
+                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b">Indirect, Lock On, Turret</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Impact" hidden="false" id="1c4d-2c37-1d5d-5fd1" sortIndex="6">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5808-ca7f-a1b3-a3dc" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="78d9-2d0c-cf0d-e312" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Impact" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="f101-f2a9-90b0-6da0">
+                  <characteristics>
+                    <characteristic name="Range" typeId="0d60-0078-7134-d302">-</characteristic>
+                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585">3</characteristic>
+                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c">6</characteristic>
+                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d">9</characteristic>
+                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
       </selectionEntryGroups>
-      <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name=" Weapons" hidden="false" id="040d-e049-7d09-45c5" flatten="true" collective="false" sortIndex="1" collapsible="true">
-          <profiles>
-            <profile name="Impact" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="f101-f2a9-90b0-6da0">
-              <characteristics>
-                <characteristic name="Range" typeId="0d60-0078-7134-d302">-</characteristic>
-                <characteristic name="1-2" typeId="5043-ac06-9bc2-0585">3</characteristic>
-                <characteristic name="3-4" typeId="8394-18d6-22d8-e03c">6</characteristic>
-                <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d">9</characteristic>
-                <characteristic name="Qualities" typeId="1569-2922-0e92-737b">-</characteristic>
-              </characteristics>
-            </profile>
-            <profile name="Ranged (Heavy)" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="dc2f-12ff-d7f4-7991">
-              <characteristics>
-                <characteristic name="Range" typeId="0d60-0078-7134-d302">2&quot;/26&quot;</characteristic>
-                <characteristic name="1-2" typeId="5043-ac06-9bc2-0585">3</characteristic>
-                <characteristic name="3-4" typeId="8394-18d6-22d8-e03c">5</characteristic>
-                <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d">7</characteristic>
-                <characteristic name="Qualities" typeId="1569-2922-0e92-737b">Indirect, Lock On, Turret</characteristic>
-              </characteristics>
-            </profile>
-            <profile name="Ranged (Light)" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="bfcd-d357-a76a-7321">
-              <characteristics>
-                <characteristic name="Range" typeId="0d60-0078-7134-d302">2&quot;/26&quot;</characteristic>
-                <characteristic name="1-2" typeId="5043-ac06-9bc2-0585">4</characteristic>
-                <characteristic name="3-4" typeId="8394-18d6-22d8-e03c">8</characteristic>
-                <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d">12</characteristic>
-                <characteristic name="Qualities" typeId="1569-2922-0e92-737b">Indirect, Lock On, Turret</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6add-8ba4-6969-3324" automatic="true"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6353-5958-1ed0-e51d" automatic="true"/>
-          </constraints>
-        </selectionEntry>
-      </selectionEntries>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="5062-1a43-8111-0701" includeChildSelections="true"/>
       </constraints>
@@ -2644,44 +2662,62 @@ If they do, they must then discard one card from their Hand.</characteristic>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c6ca-2a6c-4483-1a72"/>
           </constraints>
         </selectionEntryGroup>
+        <selectionEntryGroup name="Weapons" id="ae6f-b546-e680-4b8f" hidden="false" sortIndex="1">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Ranged (Light)" hidden="false" id="e46a-23ba-aa79-1ec4" sortIndex="1">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="391f-1c72-6e69-cb87" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4054-4005-e55a-2590" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Ranged (Light)" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="e3bb-2f7d-d5d5-188a">
+                  <characteristics>
+                    <characteristic name="Range" typeId="0d60-0078-7134-d302">24&quot;/48&quot;</characteristic>
+                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585">4</characteristic>
+                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c">6</characteristic>
+                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d">8</characteristic>
+                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Melee" hidden="false" id="2b04-b86c-b7d9-67b8" sortIndex="5">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5646-f189-e94f-1cd2" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="da05-f45c-f1fd-8746" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Melee" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="4a9c-c2c3-5753-bbc9">
+                  <characteristics>
+                    <characteristic name="Range" typeId="0d60-0078-7134-d302">-</characteristic>
+                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585">2</characteristic>
+                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c">3</characteristic>
+                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d">4</characteristic>
+                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Ranged (Heavy)" hidden="false" id="5ac9-56a3-f685-fc94" sortIndex="2">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2d6f-02e4-46e2-5fc9" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1950-809d-9bea-f607" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Ranged (Heavy)" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="3b13-7f4f-a6e5-e990">
+                  <characteristics>
+                    <characteristic name="Range" typeId="0d60-0078-7134-d302">24&quot;/48&quot;</characteristic>
+                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585">6</characteristic>
+                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c">10</characteristic>
+                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d">14</characteristic>
+                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
       </selectionEntryGroups>
-      <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name=" Weapons" hidden="false" id="01ee-3483-66ee-7f7b" flatten="true" collective="false" sortIndex="1" collapsible="true">
-          <profiles>
-            <profile name="Melee" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="4a9c-c2c3-5753-bbc9">
-              <characteristics>
-                <characteristic name="Range" typeId="0d60-0078-7134-d302">-</characteristic>
-                <characteristic name="1-2" typeId="5043-ac06-9bc2-0585">2</characteristic>
-                <characteristic name="3-4" typeId="8394-18d6-22d8-e03c">3</characteristic>
-                <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d">4</characteristic>
-                <characteristic name="Qualities" typeId="1569-2922-0e92-737b">-</characteristic>
-              </characteristics>
-            </profile>
-            <profile name="Ranged (Light)" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="e3bb-2f7d-d5d5-188a">
-              <characteristics>
-                <characteristic name="Range" typeId="0d60-0078-7134-d302">24&quot;/48&quot;</characteristic>
-                <characteristic name="1-2" typeId="5043-ac06-9bc2-0585">4</characteristic>
-                <characteristic name="3-4" typeId="8394-18d6-22d8-e03c">6</characteristic>
-                <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d">8</characteristic>
-                <characteristic name="Qualities" typeId="1569-2922-0e92-737b">-</characteristic>
-              </characteristics>
-            </profile>
-            <profile name="Ranged (Heavy)" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="3b13-7f4f-a6e5-e990">
-              <characteristics>
-                <characteristic name="Range" typeId="0d60-0078-7134-d302">24&quot;/48&quot;</characteristic>
-                <characteristic name="1-2" typeId="5043-ac06-9bc2-0585">6</characteristic>
-                <characteristic name="3-4" typeId="8394-18d6-22d8-e03c">10</characteristic>
-                <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d">14</characteristic>
-                <characteristic name="Qualities" typeId="1569-2922-0e92-737b">-</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7abd-99db-a593-f4f0" automatic="true"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f941-980b-3481-3cce" automatic="true"/>
-          </constraints>
-        </selectionEntry>
-      </selectionEntries>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="aef3-9423-703b-9320" includeChildSelections="true"/>
       </constraints>
@@ -2996,7 +3032,7 @@ If they do, they must then discard one card from their Hand.</characteristic>
                     <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">-</characteristic>
                     <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">4</characteristic>
                     <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">4</characteristic>
-                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">-</characteristic>
+                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">6</characteristic>
                     <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
                   </characteristics>
                   <modifiers>
@@ -3044,7 +3080,7 @@ If they do, they must then discard one card from their Hand.</characteristic>
                 <categoryLink name="Heavy" hidden="false" id="70dc-2027-2f82-2da5" targetId="6aad-4085-608f-dc2f" primary="false"/>
               </categoryLinks>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="80"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="75"/>
               </costs>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Houston Firebase" hidden="false" id="6f4b-45ea-3e8f-9484">
@@ -3058,7 +3094,7 @@ If they do, they must then discard one card from their Hand.</characteristic>
                     <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">-</characteristic>
                     <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">4</characteristic>
                     <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">4</characteristic>
-                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">-</characteristic>
+                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">6</characteristic>
                     <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
                   </characteristics>
                   <modifiers>
@@ -3106,7 +3142,7 @@ If they do, they must then discard one card from their Hand.</characteristic>
                 <categoryLink name="Heavy" hidden="false" id="14ed-d03d-3318-7d19" targetId="6aad-4085-608f-dc2f" primary="false"/>
               </categoryLinks>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="85"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="80"/>
               </costs>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Mchenry Firebase" hidden="false" id="d637-5b19-5d49-def8">
@@ -3120,7 +3156,7 @@ If they do, they must then discard one card from their Hand.</characteristic>
                     <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">-</characteristic>
                     <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">4</characteristic>
                     <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">4</characteristic>
-                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">-</characteristic>
+                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">6</characteristic>
                     <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
                   </characteristics>
                   <modifiers>
@@ -3182,7 +3218,7 @@ If they do, they must then discard one card from their Hand.</characteristic>
                     <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">-</characteristic>
                     <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">4</characteristic>
                     <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">4</characteristic>
-                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">-</characteristic>
+                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">6</characteristic>
                     <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
                   </characteristics>
                   <modifiers>
@@ -3222,7 +3258,7 @@ If they do, they must then discard one card from their Hand.</characteristic>
                 <categoryLink name="Transport" hidden="false" id="d473-b381-41d4-01bc" targetId="d78d-8ed7-fc30-5981" primary="false"/>
               </categoryLinks>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="65"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="70"/>
               </costs>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Rockridge Flatbed" hidden="false" id="f4fe-d854-f61b-a875">
@@ -3275,7 +3311,7 @@ If they do, they must then discard one card from their Hand.</characteristic>
                 <categoryLink name="Heavy" hidden="false" id="e2d2-ab11-e05c-ebb6" targetId="6aad-4085-608f-dc2f" primary="false"/>
               </categoryLinks>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="55"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="50"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -3294,7 +3330,7 @@ If they do, they must then discard one card from their Hand.</characteristic>
           <profiles>
             <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="b2e0-d9ca-e6e3-964f" noindex="false">
               <characteristics>
-                <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Automata, Fireteam, Pioneers</characteristic>
+                <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Automata, Fireteam, Occupy, Pioneers</characteristic>
               </characteristics>
             </profile>
             <profile name="UR-31E Arc Trooper Fireteam" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="a494-d52d-4e04-c612">

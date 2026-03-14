@@ -126,10 +126,10 @@ Rather, it means that there is a 3” bubble around the Officer, within which a
     <rule name="Ponderous" id="f9e8-5782-71b6-5ccb" hidden="false">
       <description>When this unit moves, its models must follow the rules for Ponderous Movement on page 16 of the Armoured Clash Rulebook.</description>
     </rule>
-    <rule name="Resilient (Front)" id="4fd5-5d2f-97ee-3042" hidden="false">
-      <description>Models in this unit count their Defence as one point higher when targeted by an attack, as long as the attacking unit’s Officer is within its Front Arc.
+    <rule name="Resilient" id="4fd5-5d2f-97ee-3042" hidden="false">
+      <description>Models in this unit count their Defence as one point higher when targeted by an attack, as long as the attacking unit’s Officer is within its the listed Arc(s).
 
-If this unit fights in Open Formation, it only benefits from this Special Rule if the attacking unit’s Officer is within the Front Arc of at least half of the models in the unit.
+If this unit fights in Open Formation, it only benefits from this Special Rule if the attacking unit’s Officer is within the listed Arc(s) of at least half of the models in the unit.
 
 This unit does not benefit from this Defence bonus if it is Garrisoning a Defensible Building.</description>
     </rule>

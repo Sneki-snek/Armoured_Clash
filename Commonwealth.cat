@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue library="false" id="3a46-9200-e55a-849b" name="Commonwealth" gameSystemId="sys-e850-e7dd-b6e5-f6c0" gameSystemRevision="1" revision="4" authorName="Sneki_snek" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
-    <selectionEntry type="unit" import="true" name="Ryadovoy Rifle Platoon" hidden="false" id="7f3a-c5cb-1eed-526d" sortIndex="4">
+    <selectionEntry type="unit" import="true" name="Ryadovoy Rifle Platoon" hidden="false" id="7f3a-c5cb-1eed-526d" sortIndex="2">
       <categoryLinks>
         <categoryLink name="Light" hidden="false" id="bdb3-16f6-5442-934e" targetId="default-category" primary="false"/>
         <categoryLink targetId="5953-76d6-e748-661f" id="7a80-1dc2-ce69-8601" primary="false" name="Commonwealth"/>
@@ -654,7 +654,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Cossack Ovcharka War Dogs" hidden="false" id="c75a-868b-a477-fd96" sortIndex="3">
+    <selectionEntry type="unit" import="true" name="Cossack Ovcharka War Dogs" hidden="false" id="c75a-868b-a477-fd96" sortIndex="2">
       <categoryLinks>
         <categoryLink name="Light" hidden="false" id="9f13-510f-9941-c97c" targetId="default-category" primary="false"/>
         <categoryLink targetId="5953-76d6-e748-661f" id="98f8-3b6f-ccea-2d6a" primary="false" name="Commonwealth"/>
@@ -1095,7 +1095,7 @@
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Steppe Outrider Cavalry" hidden="false" id="5a8c-6b15-ea1a-31ae" sortIndex="5">
+    <selectionEntry type="unit" import="true" name="Steppe Outrider Cavalry" hidden="false" id="5a8c-6b15-ea1a-31ae" sortIndex="3">
       <categoryLinks>
         <categoryLink name="Light" hidden="false" id="0fad-956b-d968-f235" targetId="default-category" primary="false"/>
         <categoryLink targetId="5953-76d6-e748-661f" id="73fd-a3e3-3ec6-2940" primary="false" name="Commonwealth"/>
@@ -1453,6 +1453,7 @@
         <categoryLink targetId="92f8-9d17-dd4d-a5ac" id="9b2f-1c6f-8cf6-56da" primary="true" name="Infantry"/>
         <categoryLink targetId="763f-6d17-4a4b-c0df" id="a0f4-3420-3f8d-0f0e" primary="false" name="Infantry/Cavalry"/>
         <categoryLink name="Inhuman" hidden="false" id="b81a-2388-5608-b077" targetId="4b6c-a0fd-a97c-5d8b" primary="false"/>
+        <categoryLink name="Sub-Zero" hidden="false" id="5294-edee-0d3c-6b66" targetId="bec1-3746-2d61-d9f8" primary="false"/>
       </categoryLinks>
       <profiles>
         <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="3c22-8689-601c-bb1c" noindex="false">
@@ -1859,7 +1860,7 @@
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Winged Hussar Treadbikes" hidden="false" id="d8b8-5fdd-098d-1814" sortIndex="6">
+    <selectionEntry type="unit" import="true" name="Winged Hussar Treadbikes" hidden="false" id="d8b8-5fdd-098d-1814" sortIndex="3">
       <categoryLinks>
         <categoryLink name="Light" hidden="false" id="f445-58d4-ef5d-306c" targetId="default-category" primary="false"/>
         <categoryLink targetId="5953-76d6-e748-661f" id="915d-4dba-ee19-168e" primary="false" name="Commonwealth"/>
@@ -2183,7 +2184,7 @@
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Gobyata Field Guns" hidden="false" id="929c-0bea-1e1f-bd46" sortIndex="7">
+    <selectionEntry type="unit" import="true" name="Gobyata Field Guns" hidden="false" id="929c-0bea-1e1f-bd46" sortIndex="4">
       <categoryLinks>
         <categoryLink name="Light" hidden="false" id="972a-80f9-d507-4fd7" targetId="default-category" primary="false"/>
         <categoryLink targetId="5953-76d6-e748-661f" id="5c87-50f9-1af2-afe3" primary="false" name="Commonwealth"/>
@@ -2420,7 +2421,7 @@
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="a0ed-76b7-00d5-a101" includeChildSelections="true"/>
       </constraints>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Tryasti Seismic Mortars" hidden="false" id="78b5-99b0-3174-142c" sortIndex="8">
+    <selectionEntry type="unit" import="true" name="Tryasti Seismic Mortars" hidden="false" id="78b5-99b0-3174-142c" sortIndex="4">
       <categoryLinks>
         <categoryLink name="Light" hidden="false" id="44f2-669f-d015-e34a" targetId="default-category" primary="false"/>
         <categoryLink targetId="5953-76d6-e748-661f" id="8079-e053-fd19-6470" primary="false" name="Commonwealth"/>
@@ -2657,7 +2658,7 @@
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="a4f0-de14-7ffc-4feb" includeChildSelections="true"/>
       </constraints>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Dikobraz Artillery Borers" hidden="false" id="25c3-931c-4a3e-9ec6" sortIndex="9">
+    <selectionEntry type="unit" import="true" name="Dikobraz Artillery Borers" hidden="false" id="25c3-931c-4a3e-9ec6" sortIndex="5">
       <categoryLinks>
         <categoryLink targetId="5953-76d6-e748-661f" id="829a-8b6d-66d8-c2df" primary="false" name="Commonwealth"/>
         <categoryLink targetId="6aad-4085-608f-dc2f" id="aef2-5f48-fdd2-619c" primary="false" name="Heavy"/>
@@ -3002,7 +3003,7 @@
         <infoLink name="Subterranean" id="925a-f10d-c31c-adc1" hidden="false" type="rule" targetId="ee55-da2d-3a6a-4bd3"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Krot Armoured Borers" hidden="false" id="09bb-a0d8-7118-e5b1" sortIndex="10">
+    <selectionEntry type="unit" import="true" name="Krot Armoured Borers" hidden="false" id="09bb-a0d8-7118-e5b1" sortIndex="5">
       <categoryLinks>
         <categoryLink targetId="5953-76d6-e748-661f" id="b26c-8021-85f4-65b2" primary="false" name="Commonwealth"/>
         <categoryLink targetId="6aad-4085-608f-dc2f" id="6508-2331-a62b-2bf1" primary="false" name="Heavy"/>
@@ -3336,7 +3337,7 @@
         <infoLink name="Subterranean" id="dd73-d5a9-ee79-0b82" hidden="false" type="rule" targetId="ee55-da2d-3a6a-4bd3"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Tsar Battle Tanks" hidden="false" id="5718-b989-80f1-19a3" sortIndex="14">
+    <selectionEntry type="unit" import="true" name="Tsar Battle Tanks" hidden="false" id="5718-b989-80f1-19a3" sortIndex="5">
       <categoryLinks>
         <categoryLink targetId="5953-76d6-e748-661f" id="f8e6-9c26-f048-498c" primary="false" name="Commonwealth"/>
         <categoryLink targetId="6aad-4085-608f-dc2f" id="faef-b61e-4701-b621" primary="false" name="Heavy"/>
@@ -3682,7 +3683,7 @@
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Tsarevna Strike Tanks" hidden="false" id="7daa-1277-f490-05e4" sortIndex="15">
+    <selectionEntry type="unit" import="true" name="Tsarevna Strike Tanks" hidden="false" id="7daa-1277-f490-05e4" sortIndex="5">
       <categoryLinks>
         <categoryLink targetId="5953-76d6-e748-661f" id="158d-5a2f-fb88-eec7" primary="false" name="Commonwealth"/>
         <categoryLink targetId="6aad-4085-608f-dc2f" id="e51c-16fa-32e5-b5b2" primary="false" name="Heavy"/>
@@ -4032,7 +4033,7 @@
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Rydovoy Rodina Squadron" hidden="false" id="a00c-ff0f-66d2-f148" sortIndex="13">
+    <selectionEntry type="unit" import="true" name="Rydovoy Rodina Squadron" hidden="false" id="a00c-ff0f-66d2-f148" sortIndex="5">
       <categoryLinks>
         <categoryLink targetId="5953-76d6-e748-661f" id="bdb9-14cf-c6f0-9da9" primary="false" name="Commonwealth"/>
         <categoryLink targetId="6aad-4085-608f-dc2f" id="ef7a-a120-2f2f-d623" primary="false" name="Heavy"/>
@@ -4373,7 +4374,7 @@
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Kheshig Sky Cutter Wings" hidden="false" id="092a-3492-a448-b52d" sortIndex="16">
+    <selectionEntry type="unit" import="true" name="Kheshig Sky Cutter Wings" hidden="false" id="092a-3492-a448-b52d" sortIndex="17">
       <categoryLinks>
         <categoryLink targetId="5953-76d6-e748-661f" id="c217-6b39-0126-4ed9" primary="false" name="Commonwealth"/>
         <categoryLink targetId="48db-6837-f5b1-49e2" id="fb5a-f26a-f730-72d8" primary="true" name="Rotorcraft"/>
@@ -4818,7 +4819,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Kometa Interceptor Squadron" hidden="false" id="aa25-d392-f588-d38e" sortIndex="17">
+    <selectionEntry type="unit" import="true" name="Kometa Interceptor Squadron" hidden="false" id="aa25-d392-f588-d38e" sortIndex="18">
       <categoryLinks>
         <categoryLink targetId="5953-76d6-e748-661f" id="3a51-1ea9-d5a4-8487" primary="false" name="Commonwealth"/>
         <categoryLink targetId="e3f5-6c6c-0532-1c43" id="df0e-c1cb-44eb-a2e5" primary="false" name="Aerial"/>
@@ -5055,7 +5056,7 @@
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="25da-c7d7-25e8-92a3" includeChildSelections="true"/>
       </constraints>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Miron Super-Heavy Borer" hidden="false" id="c92a-b0e7-ed81-0520" sortIndex="12">
+    <selectionEntry type="unit" import="true" name="Miron Super-Heavy Borer" hidden="false" id="c92a-b0e7-ed81-0520" sortIndex="5">
       <categoryLinks>
         <categoryLink targetId="5953-76d6-e748-661f" id="023a-65dc-7cbb-3752" primary="false" name="Commonwealth"/>
         <categoryLink targetId="6aad-4085-608f-dc2f" id="5dfd-642d-25aa-c79c" primary="false" name="Heavy"/>
@@ -5258,7 +5259,7 @@
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Mamont Subterranean Cryo Transport" hidden="false" id="8f17-6057-2560-85ce" sortIndex="11">
+    <selectionEntry type="unit" import="true" name="Mamont Subterranean Cryo Transport" hidden="false" id="8f17-6057-2560-85ce" sortIndex="5">
       <categoryLinks>
         <categoryLink targetId="5953-76d6-e748-661f" id="c49c-ad0d-9e6d-af69" primary="false" name="Commonwealth"/>
         <categoryLink targetId="6aad-4085-608f-dc2f" id="3cbc-c793-cb64-a40c" primary="false" name="Heavy"/>
@@ -5645,6 +5646,2021 @@ A unit can benefit from this Commander Bonus even if it is on On Lookout, and do
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ee33-ab07-3f85-bff0"/>
       </constraints>
     </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Buran Cryo Troopers" hidden="false" id="817c-292c-064b-9920" sortIndex="2">
+      <categoryLinks>
+        <categoryLink name="Light" hidden="false" id="6df9-8640-fd66-3bbc" targetId="default-category" primary="false"/>
+        <categoryLink targetId="5953-76d6-e748-661f" id="3539-45f4-89a5-c67b" primary="false" name="Commonwealth"/>
+        <categoryLink targetId="92f8-9d17-dd4d-a5ac" id="7041-b14b-b40d-1615" primary="true" name="Infantry"/>
+        <categoryLink targetId="796d-5047-ce17-a6ab" id="1544-a59a-d9a3-e612" primary="false" name="Infantry/Armour"/>
+        <categoryLink targetId="763f-6d17-4a4b-c0df" id="2f6e-a9bf-21a7-ca27" primary="false" name="Infantry/Cavalry"/>
+        <categoryLink name="Sub-Zero" hidden="false" id="56b9-c29e-923a-4c01" targetId="bec1-3746-2d61-d9f8" primary="false"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="e210-71ee-ec36-d406" noindex="false">
+          <characteristics>
+            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Bolstering" id="ef35-454d-4374-84fe" hidden="true" sortIndex="3">
+          <entryLinks>
+            <entryLink import="true" name="Basic" hidden="false" id="ee19-1327-6ca5-7029" type="selectionEntry" targetId="f088-e6d4-8fe3-0f3e" sortIndex="1">
+              <profiles>
+                <profile name="Buran Cryo Troopers" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="ace0-b64a-2d0d-1745">
+                  <characteristics>
+                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Light</characteristic>
+                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">1</characteristic>
+                    <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
+                    <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
+                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">4&quot;</characteristic>
+                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
+                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">1</characteristic>
+                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">7</characteristic>
+                    <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">1</characteristic>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="set" value="4" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="2" field="bb79-114d-2dc7-ca18"/>
+                  </modifiers>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="50"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Full Strength" hidden="false" id="33dc-0ab7-005f-cbc3" type="selectionEntry" targetId="e86e-71e1-9396-5526" sortIndex="3" flatten="false">
+              <profiles>
+                <profile name="Buran Cryo Troopers" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="9bc8-ebde-9c45-989b">
+                  <characteristics>
+                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Light</characteristic>
+                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">1</characteristic>
+                    <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
+                    <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
+                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">4&quot;</characteristic>
+                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
+                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">1</characteristic>
+                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">7</characteristic>
+                    <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">1</characteristic>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="set" value="12" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="4" field="bb79-114d-2dc7-ca18"/>
+                  </modifiers>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="130"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Reinforced" hidden="false" id="9b24-4cd5-e819-4a95" type="selectionEntry" targetId="85c2-43ee-a668-834f" sortIndex="2" flatten="false">
+              <profiles>
+                <profile name="Buran Cryo Troopers" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="4c5b-de59-aa5f-f502">
+                  <characteristics>
+                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Light</characteristic>
+                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">1</characteristic>
+                    <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
+                    <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
+                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">4&quot;</characteristic>
+                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
+                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">1</characteristic>
+                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">7</characteristic>
+                    <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">1</characteristic>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="set" value="8" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="3" field="bb79-114d-2dc7-ca18"/>
+                  </modifiers>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="85"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2cae-5783-69b5-c3e9"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="04e5-2220-3481-2d27"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Weapons" id="7b5d-c930-e80b-0a8b" hidden="false" sortIndex="2">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Ranged (Light)" hidden="false" id="760e-7ddf-bbb8-3c8d" sortIndex="1">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e134-c0f2-3e91-4c9c" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5314-502f-637d-54bd" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Ranged (Light)" typeId="ab7a-1a7e-f58b-4565" typeName="Type" hidden="false" id="72c9-be80-3fa8-9041" noindex="false">
+                  <characteristics>
+                    <characteristic name="Range" typeId="ae86-2a51-4bd0-5c8c">10&quot;/20&quot;</characteristic>
+                    <characteristic name="1-8" typeId="a2ba-36af-bed3-a679">4</characteristic>
+                    <characteristic name="9-16" typeId="085d-3a50-7d10-ef1b">8</characteristic>
+                    <characteristic name="17-24" typeId="b6be-29a6-8c04-d4a7">12</characteristic>
+                    <characteristic name="Qualities" typeId="ea86-3bb1-4fea-6f13">Cryo, Suppressive, Torrent</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Melee" hidden="false" id="0054-836f-a9fb-a751" sortIndex="5">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8179-4799-6df4-900a" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="00d7-e0e7-6f0f-469a" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Melee" typeId="ab7a-1a7e-f58b-4565" typeName="Type" hidden="false" id="fdda-755c-9945-ced2">
+                  <characteristics>
+                    <characteristic name="Range" typeId="ae86-2a51-4bd0-5c8c">-</characteristic>
+                    <characteristic name="1-8" typeId="a2ba-36af-bed3-a679">4</characteristic>
+                    <characteristic name="9-16" typeId="085d-3a50-7d10-ef1b">8</characteristic>
+                    <characteristic name="17-24" typeId="b6be-29a6-8c04-d4a7">12</characteristic>
+                    <characteristic name="Qualities" typeId="ea86-3bb1-4fea-6f13">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Ranged (Light/Heavy)" hidden="false" id="b1dd-4ae3-b8e2-c8f0" sortIndex="2">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e37c-42af-cfbb-a2ff" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3c8e-6c80-6c7e-07c2" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Ranged (Light/Heavy)" typeId="ab7a-1a7e-f58b-4565" typeName="Type" hidden="false" id="6e42-2165-007a-db7c" noindex="false">
+                  <characteristics>
+                    <characteristic name="Range" typeId="ae86-2a51-4bd0-5c8c">4&quot;/8&quot;</characteristic>
+                    <characteristic name="1-8" typeId="a2ba-36af-bed3-a679">5</characteristic>
+                    <characteristic name="9-16" typeId="085d-3a50-7d10-ef1b">10</characteristic>
+                    <characteristic name="17-24" typeId="b6be-29a6-8c04-d4a7">15</characteristic>
+                    <characteristic name="Qualities" typeId="ea86-3bb1-4fea-6f13">Cryo, Move or Fire, Suppressive, Torrent</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Bolstering INFANTRY" id="c28f-eb83-d808-a090" hidden="false" import="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0cd9-74ae-a708-d8c9"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1e87-cda1-7881-531a"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="Bolstering" field="name"/>
+            <modifier type="set" value="true" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="forces" scope="force" childId="3813-f906-8fb4-bba5" shared="true" includeChildSelections="true"/>
+                    <condition type="instanceOf" value="1" field="forces" scope="force" childId="9720-ada4-14a9-5282" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+              <comment>Hidden if JAD or Faction</comment>
+            </modifier>
+          </modifiers>
+          <entryLinks>
+            <entryLink import="true" name="Basic INFANTRY" hidden="false" id="f1dd-571a-a599-db80" type="selectionEntry" targetId="19e6-90dd-7482-4b61" sortIndex="1">
+              <profiles>
+                <profile name="Buran Cryo Troopers" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="de2b-aef1-8ef4-5df8">
+                  <characteristics>
+                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Light</characteristic>
+                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">1</characteristic>
+                    <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
+                    <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
+                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">4&quot;</characteristic>
+                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
+                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">1</characteristic>
+                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">7</characteristic>
+                    <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">1</characteristic>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="set" value="4" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="2" field="bb79-114d-2dc7-ca18"/>
+                  </modifiers>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="50"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Reinforced INFANTRY" hidden="false" id="ecd0-6ae6-42e0-bdfd" type="selectionEntry" targetId="220d-103a-a1c9-a008" sortIndex="2">
+              <profiles>
+                <profile name="Buran Cryo Troopers" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="7eb8-d422-71dc-ef18">
+                  <characteristics>
+                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Light</characteristic>
+                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">1</characteristic>
+                    <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
+                    <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
+                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">4&quot;</characteristic>
+                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
+                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">1</characteristic>
+                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">7</characteristic>
+                    <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">1</characteristic>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="set" value="8" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="3" field="bb79-114d-2dc7-ca18"/>
+                  </modifiers>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="85"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Full Strength INFANTRY" hidden="false" id="9b5e-45ff-84ba-c1a2" type="selectionEntry" targetId="57a2-eb90-a80a-3a53" sortIndex="3">
+              <profiles>
+                <profile name="Buran Cryo Troopers" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="68fc-94d4-3c46-3469">
+                  <characteristics>
+                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Light</characteristic>
+                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">1</characteristic>
+                    <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
+                    <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
+                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">4&quot;</characteristic>
+                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
+                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">1</characteristic>
+                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">7</characteristic>
+                    <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">1</characteristic>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="set" value="12" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="4" field="bb79-114d-2dc7-ca18"/>
+                  </modifiers>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="130"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Bolstering Inf/Arm" id="2f5e-b1d5-ada9-bfd5" hidden="false" import="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c9e5-1d37-c794-392b"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="185c-68b8-34d7-177b"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="Bolstering" field="name"/>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="forces" scope="force" childId="3813-f906-8fb4-bba5" shared="true" includeChildSelections="true"/>
+              </conditions>
+              <comment>Hidden if NOT JAD</comment>
+            </modifier>
+          </modifiers>
+          <entryLinks>
+            <entryLink import="true" name="Basic Inf/Arm" hidden="false" id="b558-b9e2-6d53-4128" type="selectionEntry" targetId="e903-fdaa-02be-0150" sortIndex="1">
+              <profiles>
+                <profile name="Buran Cryo Troopers" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="af11-6e7c-2265-0648">
+                  <characteristics>
+                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Light</characteristic>
+                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">1</characteristic>
+                    <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
+                    <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
+                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">4&quot;</characteristic>
+                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
+                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">1</characteristic>
+                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">7</characteristic>
+                    <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">1</characteristic>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="set" value="4" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="2" field="bb79-114d-2dc7-ca18"/>
+                  </modifiers>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="50"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Reinforced Inf/Arm" hidden="false" id="9816-f667-d671-df0c" type="selectionEntry" targetId="61b0-f04e-a8ab-ab71" sortIndex="2">
+              <profiles>
+                <profile name="Buran Cryo Troopers" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="0d08-bbc8-73e5-a204">
+                  <characteristics>
+                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Light</characteristic>
+                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">1</characteristic>
+                    <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
+                    <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
+                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">4&quot;</characteristic>
+                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
+                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">1</characteristic>
+                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">7</characteristic>
+                    <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">1</characteristic>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="set" value="8" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="3" field="bb79-114d-2dc7-ca18"/>
+                  </modifiers>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="85"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Full Strength Inf/Arm" hidden="false" id="bdcf-e5ec-ec18-93d2" type="selectionEntry" targetId="d0b7-0112-b1da-b9f4" sortIndex="3">
+              <profiles>
+                <profile name="Buran Cryo Troopers" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="2912-ed34-bdf2-75cf">
+                  <characteristics>
+                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Light</characteristic>
+                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">1</characteristic>
+                    <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
+                    <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
+                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">4&quot;</characteristic>
+                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
+                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">1</characteristic>
+                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">7</characteristic>
+                    <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">1</characteristic>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="set" value="12" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="4" field="bb79-114d-2dc7-ca18"/>
+                  </modifiers>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="130"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+          <comment>JAD</comment>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Bolstering Inf/Cav" id="7f0d-cefb-71f3-2d67" hidden="false" import="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0760-69eb-519b-25cb"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="57a2-c625-8062-7e2b"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="Bolstering" field="name"/>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="forces" scope="force" childId="9720-ada4-14a9-5282" shared="true" includeChildSelections="true"/>
+              </conditions>
+              <comment>Hidden if NOT Faction</comment>
+            </modifier>
+          </modifiers>
+          <entryLinks>
+            <entryLink import="true" name="Basic Inf/Cav" hidden="false" id="b353-26d8-a3fa-38b7" type="selectionEntry" targetId="e717-7fca-885c-02eb" sortIndex="1">
+              <profiles>
+                <profile name="Buran Cryo Troopers" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="f46b-54e6-0875-2ebd">
+                  <characteristics>
+                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Light</characteristic>
+                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">1</characteristic>
+                    <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
+                    <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
+                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">4&quot;</characteristic>
+                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
+                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">1</characteristic>
+                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">7</characteristic>
+                    <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">1</characteristic>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="set" value="4" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="2" field="bb79-114d-2dc7-ca18"/>
+                  </modifiers>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="50"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Reinforced Inf/Cav" hidden="false" id="af45-6976-d14f-95b2" type="selectionEntry" targetId="ca48-435f-1c13-ce81" sortIndex="2">
+              <profiles>
+                <profile name="Buran Cryo Troopers" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="df55-be4f-f1b2-7222">
+                  <characteristics>
+                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Light</characteristic>
+                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">1</characteristic>
+                    <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
+                    <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
+                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">4&quot;</characteristic>
+                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
+                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">1</characteristic>
+                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">7</characteristic>
+                    <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">1</characteristic>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="set" value="8" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="3" field="bb79-114d-2dc7-ca18"/>
+                  </modifiers>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="85"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Full Strength Inf/Cav" hidden="false" id="cac8-8b0c-81c1-1196" type="selectionEntry" targetId="7341-f285-20c3-429c" sortIndex="3">
+              <profiles>
+                <profile name="Buran Cryo Troopers" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="1d6c-b483-2e2c-7cf7">
+                  <characteristics>
+                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Light</characteristic>
+                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">1</characteristic>
+                    <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
+                    <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
+                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">4&quot;</characteristic>
+                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
+                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">1</characteristic>
+                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">7</characteristic>
+                    <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">1</characteristic>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="set" value="12" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="4" field="bb79-114d-2dc7-ca18"/>
+                  </modifiers>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="130"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+          <comment>Faction</comment>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="042e-55a2-d562-0bf4" includeChildSelections="true"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set-primary" value="763f-6d17-4a4b-c0df" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="9720-ada4-14a9-5282" shared="true" includeChildSelections="false"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="796d-5047-ce17-a6ab" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="3813-f906-8fb4-bba5" shared="true" includeChildSelections="false"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Salyut Heavy Troopers" hidden="false" id="d7ad-1595-8c6b-b0cc" sortIndex="2">
+      <categoryLinks>
+        <categoryLink name="Light" hidden="false" id="b84b-8d91-6402-0c83" targetId="default-category" primary="false"/>
+        <categoryLink targetId="5953-76d6-e748-661f" id="97f4-92f8-223b-03b5" primary="false" name="Commonwealth"/>
+        <categoryLink targetId="92f8-9d17-dd4d-a5ac" id="4c5e-b746-8794-6b31" primary="true" name="Infantry"/>
+        <categoryLink targetId="796d-5047-ce17-a6ab" id="4fa7-81e8-ccc2-1774" primary="false" name="Infantry/Armour"/>
+        <categoryLink targetId="763f-6d17-4a4b-c0df" id="d951-0924-28f4-fcc4" primary="false" name="Infantry/Cavalry"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="c4b9-2ae9-4815-153e" noindex="false">
+          <characteristics>
+            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Hit and Run (3”), Irregular, Pioneers</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Bolstering" id="e533-b55b-4701-2a63" hidden="true" sortIndex="3">
+          <entryLinks>
+            <entryLink import="true" name="Basic" hidden="false" id="137f-d9c0-d701-cf71" type="selectionEntry" targetId="f088-e6d4-8fe3-0f3e" sortIndex="1">
+              <profiles>
+                <profile name="Salyut Heavy Troopers" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="1ad1-9568-0512-2c29">
+                  <characteristics>
+                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Light</characteristic>
+                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">1</characteristic>
+                    <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
+                    <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
+                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">5&quot;</characteristic>
+                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
+                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">1</characteristic>
+                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">7</characteristic>
+                    <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">1</characteristic>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="set" value="4" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="2" field="bb79-114d-2dc7-ca18"/>
+                  </modifiers>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="35"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Full Strength" hidden="false" id="c420-53d3-241d-f681" type="selectionEntry" targetId="e86e-71e1-9396-5526" sortIndex="3" flatten="false">
+              <profiles>
+                <profile name="Salyut Heavy Troopers" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="8da1-9def-0d4f-f2e0">
+                  <characteristics>
+                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Light</characteristic>
+                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">1</characteristic>
+                    <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
+                    <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
+                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">5&quot;</characteristic>
+                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
+                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">1</characteristic>
+                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">7</characteristic>
+                    <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">1</characteristic>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="set" value="12" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="4" field="bb79-114d-2dc7-ca18"/>
+                  </modifiers>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="90"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Reinforced" hidden="false" id="c95a-0409-1201-3dd7" type="selectionEntry" targetId="85c2-43ee-a668-834f" sortIndex="2" flatten="false">
+              <profiles>
+                <profile name="Salyut Heavy Troopers" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="b22e-aa3d-1d68-1622">
+                  <characteristics>
+                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Light</characteristic>
+                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">1</characteristic>
+                    <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
+                    <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
+                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">5&quot;</characteristic>
+                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
+                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">1</characteristic>
+                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">7</characteristic>
+                    <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">1</characteristic>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="set" value="8" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="3" field="bb79-114d-2dc7-ca18"/>
+                  </modifiers>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="60"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c1ba-71b2-cc38-4166"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2c1d-884a-89cc-ab66"/>
+          </constraints>
+          <comment>Linked to these profiles</comment>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Weapons" id="16d4-c28e-5eb2-61fe" hidden="false" sortIndex="2">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Ranged (Heavy)" hidden="false" id="085b-1300-2199-82e9" sortIndex="1">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="30d7-77a1-a5b1-7113" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2bf9-f723-a76a-d8c9" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Ranged (Heavy)" typeId="344a-022d-aebf-7e7a" typeName="Type" hidden="false" id="0b92-2a3e-7606-a67d" noindex="false">
+                  <characteristics>
+                    <characteristic name="Range" typeId="db9e-9452-9fc5-3877">10&quot;/20&quot;</characteristic>
+                    <characteristic name="1-4" typeId="94b3-2e14-1b71-6757">4</characteristic>
+                    <characteristic name="5-8" typeId="f891-f62d-9222-6a4f">8</characteristic>
+                    <characteristic name="9-12" typeId="df36-9d51-a316-8d54">12</characteristic>
+                    <characteristic name="Qualities" typeId="9a3f-8a28-e735-e1eb">Cryo, Suppressive, Torrent</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Melee" hidden="false" id="9b15-9b24-6cea-184d" sortIndex="5">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c587-8f6e-0d73-0802" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5e51-cbf0-11ba-568f" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Melee" typeId="344a-022d-aebf-7e7a" typeName="Type" hidden="false" id="9301-54e4-226d-533c">
+                  <characteristics>
+                    <characteristic name="Range" typeId="db9e-9452-9fc5-3877">-</characteristic>
+                    <characteristic name="1-4" typeId="94b3-2e14-1b71-6757">4</characteristic>
+                    <characteristic name="5-8" typeId="f891-f62d-9222-6a4f">8</characteristic>
+                    <characteristic name="9-12" typeId="df36-9d51-a316-8d54">12</characteristic>
+                    <characteristic name="Qualities" typeId="9a3f-8a28-e735-e1eb">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Ranged (Light/Aerial)" hidden="false" id="716c-7d46-6dcd-cb15" sortIndex="2">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5df2-79eb-c50b-d7c1" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="425a-a8f3-d5b2-8334" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Ranged (Light/Aerial)" typeId="344a-022d-aebf-7e7a" typeName="Type" hidden="false" id="4303-ffb1-50e9-d232" noindex="false">
+                  <characteristics>
+                    <characteristic name="Range" typeId="db9e-9452-9fc5-3877">8&quot;/16&quot;</characteristic>
+                    <characteristic name="1-4" typeId="94b3-2e14-1b71-6757">3</characteristic>
+                    <characteristic name="5-8" typeId="f891-f62d-9222-6a4f">6</characteristic>
+                    <characteristic name="9-12" typeId="df36-9d51-a316-8d54">9</characteristic>
+                    <characteristic name="Qualities" typeId="9a3f-8a28-e735-e1eb">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Bolstering INFANTRY" id="bd56-d0d7-527e-d5e0" hidden="false" import="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c9a2-544c-7e5c-b013"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4ee1-1d1b-7b4d-e3f2"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="Bolstering" field="name"/>
+            <modifier type="set" value="true" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="forces" scope="force" childId="3813-f906-8fb4-bba5" shared="true" includeChildSelections="true"/>
+                    <condition type="instanceOf" value="1" field="forces" scope="force" childId="9720-ada4-14a9-5282" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+              <comment>Hidden if JAD or Faction</comment>
+            </modifier>
+          </modifiers>
+          <entryLinks>
+            <entryLink import="true" name="Basic INFANTRY" hidden="false" id="6c5d-bfe1-9646-91ef" type="selectionEntry" targetId="19e6-90dd-7482-4b61" sortIndex="1">
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="35"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Salyut Heavy Troopers" id="3536-24cb-bca3-4059" hidden="false" type="profile" targetId="1ad1-9568-0512-2c29"/>
+              </infoLinks>
+            </entryLink>
+            <entryLink import="true" name="Reinforced INFANTRY" hidden="false" id="6acd-4029-873e-30c1" type="selectionEntry" targetId="220d-103a-a1c9-a008" sortIndex="2">
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="60"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Salyut Heavy Troopers" id="a92a-9350-64b3-9175" hidden="false" type="profile" targetId="b22e-aa3d-1d68-1622"/>
+              </infoLinks>
+            </entryLink>
+            <entryLink import="true" name="Full Strength INFANTRY" hidden="false" id="402f-6038-8aec-e36f" type="selectionEntry" targetId="57a2-eb90-a80a-3a53" sortIndex="3">
+              <infoLinks>
+                <infoLink name="Salyut Heavy Troopers" id="bf09-cc37-df3a-3faa" hidden="false" type="profile" targetId="8da1-9def-0d4f-f2e0"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="90"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Bolstering Inf/Arm" id="a634-5414-d7de-32f5" hidden="false" import="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ddd6-11f3-2b96-c3ca"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="04bd-8c8f-547a-61d9"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="Bolstering" field="name"/>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="forces" scope="force" childId="3813-f906-8fb4-bba5" shared="true" includeChildSelections="true"/>
+              </conditions>
+              <comment>Hidden if NOT JAD</comment>
+            </modifier>
+          </modifiers>
+          <entryLinks>
+            <entryLink import="true" name="Basic Inf/Arm" hidden="false" id="7c3d-0d2b-b354-7f94" type="selectionEntry" targetId="e903-fdaa-02be-0150" sortIndex="1">
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="35"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Salyut Heavy Troopers" id="f97f-c6db-60bb-8b52" hidden="false" type="profile" targetId="1ad1-9568-0512-2c29"/>
+              </infoLinks>
+            </entryLink>
+            <entryLink import="true" name="Reinforced Inf/Arm" hidden="false" id="7e6d-d62f-328b-df0a" type="selectionEntry" targetId="61b0-f04e-a8ab-ab71" sortIndex="2">
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="60"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Salyut Heavy Troopers" id="368e-0d19-0ba8-3e66" hidden="false" type="profile" targetId="b22e-aa3d-1d68-1622"/>
+              </infoLinks>
+            </entryLink>
+            <entryLink import="true" name="Full Strength Inf/Arm" hidden="false" id="8d98-33b2-fbc5-7676" type="selectionEntry" targetId="d0b7-0112-b1da-b9f4" sortIndex="3">
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="90"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Salyut Heavy Troopers" id="7140-2be1-9a23-03f8" hidden="false" type="profile" targetId="8da1-9def-0d4f-f2e0"/>
+              </infoLinks>
+            </entryLink>
+          </entryLinks>
+          <comment>JAD</comment>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Bolstering Inf/Cav" id="e22a-4b34-dc23-6394" hidden="false" import="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9a99-e91d-b11d-dc6d"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9ae0-8286-9214-c1b0"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="Bolstering" field="name"/>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="forces" scope="force" childId="9720-ada4-14a9-5282" shared="true" includeChildSelections="true"/>
+              </conditions>
+              <comment>Hidden if NOT Faction</comment>
+            </modifier>
+          </modifiers>
+          <entryLinks>
+            <entryLink import="true" name="Basic Inf/Cav" hidden="false" id="5fe5-f9ff-0d3d-1ffb" type="selectionEntry" targetId="e717-7fca-885c-02eb" sortIndex="1">
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="35"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Salyut Heavy Troopers" id="e7e0-2fc1-1d2d-2f70" hidden="false" type="profile" targetId="1ad1-9568-0512-2c29"/>
+              </infoLinks>
+            </entryLink>
+            <entryLink import="true" name="Reinforced Inf/Cav" hidden="false" id="8559-ce69-c64c-8cb4" type="selectionEntry" targetId="ca48-435f-1c13-ce81" sortIndex="2">
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="60"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Salyut Heavy Troopers" id="4213-3f50-fca4-5933" hidden="false" type="profile" targetId="b22e-aa3d-1d68-1622"/>
+              </infoLinks>
+            </entryLink>
+            <entryLink import="true" name="Full Strength Inf/Cav" hidden="false" id="c3e7-b1b0-c26c-655e" type="selectionEntry" targetId="7341-f285-20c3-429c" sortIndex="3">
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="90"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Salyut Heavy Troopers" id="7fce-9c3b-3931-7443" hidden="false" type="profile" targetId="8da1-9def-0d4f-f2e0"/>
+              </infoLinks>
+            </entryLink>
+          </entryLinks>
+          <comment>Faction</comment>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="f7d5-c9ba-6153-98ba" includeChildSelections="true"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set-primary" value="763f-6d17-4a4b-c0df" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="9720-ada4-14a9-5282" shared="true" includeChildSelections="false"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="796d-5047-ce17-a6ab" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="3813-f906-8fb4-bba5" shared="true" includeChildSelections="false"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Krio Rocket Battery" hidden="false" id="c413-82cb-190b-372e" sortIndex="4">
+      <categoryLinks>
+        <categoryLink name="Light" hidden="false" id="8a26-e4d9-a6f9-59fe" targetId="default-category" primary="false"/>
+        <categoryLink targetId="5953-76d6-e748-661f" id="418e-be5c-bf58-9a49" primary="false" name="Commonwealth"/>
+        <categoryLink targetId="6e6a-9613-0607-95e1" id="1bd5-38da-2879-ac51" primary="true" name="Field Gun"/>
+        <categoryLink name="Gun Carriage" hidden="false" id="b32e-033a-4ba3-1721" targetId="7eaa-f766-9c80-8758" primary="false"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="1a92-1942-5d56-5746" noindex="false">
+          <characteristics>
+            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Emplacement, Static</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Bolstering" id="f65f-2892-3fb2-d063" hidden="true" sortIndex="3">
+          <entryLinks>
+            <entryLink import="true" name="Basic" hidden="false" id="c3e9-6628-cc1f-5fad" type="selectionEntry" targetId="f088-e6d4-8fe3-0f3e" sortIndex="1">
+              <profiles>
+                <profile name="Gobyata Field Guns" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="d961-29de-e9d3-f599">
+                  <characteristics>
+                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Light</characteristic>
+                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">1</characteristic>
+                    <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
+                    <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
+                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">4&quot;</characteristic>
+                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
+                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">1</characteristic>
+                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">6</characteristic>
+                    <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">1</characteristic>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="set" value="4" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="2" field="bb79-114d-2dc7-ca18"/>
+                  </modifiers>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="65"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Full Strength" hidden="false" id="0ef9-bd29-7b95-66b5" type="selectionEntry" targetId="e86e-71e1-9396-5526" sortIndex="3" flatten="false">
+              <profiles>
+                <profile name="Gobyata Field Guns" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="86fb-c373-c568-af53">
+                  <characteristics>
+                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Light</characteristic>
+                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">1</characteristic>
+                    <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
+                    <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
+                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">4&quot;</characteristic>
+                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
+                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">1</characteristic>
+                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">6</characteristic>
+                    <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">1</characteristic>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="set" value="12" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="4" field="bb79-114d-2dc7-ca18"/>
+                  </modifiers>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="170"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Reinforced" hidden="false" id="24bf-ccec-7fcd-4c0e" type="selectionEntry" targetId="85c2-43ee-a668-834f" sortIndex="2" flatten="false">
+              <profiles>
+                <profile name="Gobyata Field Guns" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="e9b9-1ca9-8b80-68ff">
+                  <characteristics>
+                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Light</characteristic>
+                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">1</characteristic>
+                    <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
+                    <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
+                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">4&quot;</characteristic>
+                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
+                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">1</characteristic>
+                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">6</characteristic>
+                    <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">1</characteristic>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="set" value="8" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="3" field="bb79-114d-2dc7-ca18"/>
+                  </modifiers>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="110"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8f42-9454-d0c4-4cb0"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f449-880b-982d-54c0"/>
+          </constraints>
+          <profiles>
+            <profile name="Krio Rocket Battery" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="6efb-3943-fc0c-e49b">
+              <characteristics>
+                <characteristic name="Target type" typeId="de47-7191-892f-3c71">Light</characteristic>
+                <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">1</characteristic>
+                <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
+                <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
+                <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">4&quot;</characteristic>
+                <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
+                <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">1</characteristic>
+                <characteristic name="Discipline" typeId="9692-df81-03cd-8583">6</characteristic>
+                <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">1</characteristic>
+              </characteristics>
+              <comment>linked to this profile</comment>
+            </profile>
+          </profiles>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Weapons" id="fee1-f9e8-6af1-ae1d" hidden="false" sortIndex="2">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Ranged (Light/Heavy)" hidden="false" id="c6db-17ea-da54-34e5" sortIndex="1">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9f6e-1c86-8adc-48c4" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="20f7-71cb-2b24-5c35" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Ranged (Light/Heavy)" typeId="344a-022d-aebf-7e7a" typeName="Type" hidden="false" id="1d95-74eb-4d07-9ec8">
+                  <characteristics>
+                    <characteristic name="Range" typeId="db9e-9452-9fc5-3877">4&quot;/28&quot;</characteristic>
+                    <characteristic name="1-4" typeId="94b3-2e14-1b71-6757">4</characteristic>
+                    <characteristic name="5-8" typeId="f891-f62d-9222-6a4f">7</characteristic>
+                    <characteristic name="9-12" typeId="df36-9d51-a316-8d54">10</characteristic>
+                    <characteristic name="Qualities" typeId="9a3f-8a28-e735-e1eb">Cryo, Indirect, Suppressive, Torrent</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Melee" hidden="false" id="87f3-094d-9729-f685" sortIndex="5">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8f0e-07d6-10b6-9134" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="576d-9a98-fefc-2dfe" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Melee" typeId="344a-022d-aebf-7e7a" typeName="Type" hidden="false" id="64ba-71d4-3e40-a709">
+                  <characteristics>
+                    <characteristic name="Range" typeId="db9e-9452-9fc5-3877">-</characteristic>
+                    <characteristic name="1-4" typeId="94b3-2e14-1b71-6757">3</characteristic>
+                    <characteristic name="5-8" typeId="f891-f62d-9222-6a4f">4</characteristic>
+                    <characteristic name="9-12" typeId="df36-9d51-a316-8d54">5</characteristic>
+                    <characteristic name="Qualities" typeId="9a3f-8a28-e735-e1eb">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Bolstering FIELD GUN" id="3737-578e-eae2-c9e8" hidden="false" import="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="25c3-c68d-7661-9af2"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4a9b-8720-d59b-3438"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="Bolstering" field="name"/>
+          </modifiers>
+          <entryLinks>
+            <entryLink import="true" name="Basic FIELD GUN" hidden="false" id="39b7-c8c2-1b2b-877c" type="selectionEntry" targetId="3d5d-6327-e572-895b" sortIndex="1">
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="75"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Krio Rocket Battery" id="b8c8-b408-7929-5872" hidden="false" type="profile" targetId="6efb-3943-fc0c-e49b">
+                  <modifiers>
+                    <modifier type="set" value="4" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="2" field="bb79-114d-2dc7-ca18"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+            </entryLink>
+            <entryLink import="true" name="Reinforced FIELD GUN" hidden="false" id="bef5-55f7-359d-ae13" type="selectionEntry" targetId="d4fd-6cf5-2cf0-2043" sortIndex="2">
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="125"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Krio Rocket Battery" id="d706-0f09-1170-c986" hidden="false" type="profile" targetId="6efb-3943-fc0c-e49b">
+                  <modifiers>
+                    <modifier type="set" value="8" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="3" field="bb79-114d-2dc7-ca18"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+            </entryLink>
+            <entryLink import="true" name="Full Strength FIELD GUN" hidden="false" id="0b54-3e36-48af-6624" type="selectionEntry" targetId="7bb6-1917-6a09-2c0b" sortIndex="3">
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="165"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Krio Rocket Battery" id="c045-dac0-7ae8-4910" hidden="false" type="profile" targetId="6efb-3943-fc0c-e49b">
+                  <modifiers>
+                    <modifier type="set" value="12" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="4" field="bb79-114d-2dc7-ca18"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="d3a4-9d8b-c822-9a53" includeChildSelections="true"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Molniya Flak Guns" hidden="false" id="4d27-b1f5-7336-a270" sortIndex="4">
+      <categoryLinks>
+        <categoryLink name="Light" hidden="false" id="3ff0-8503-dab3-b8f8" targetId="default-category" primary="false"/>
+        <categoryLink targetId="5953-76d6-e748-661f" id="12df-0a03-9769-a9d6" primary="false" name="Commonwealth"/>
+        <categoryLink targetId="6e6a-9613-0607-95e1" id="65a4-9573-1d07-1011" primary="true" name="Field Gun"/>
+        <categoryLink name="Gun Carriage" hidden="false" id="87ee-7f6e-3d8c-e221" targetId="7eaa-f766-9c80-8758" primary="false"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="7ea5-540e-38e7-f929" noindex="false">
+          <characteristics>
+            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Emplacement, Static</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Bolstering" id="6c7c-a724-cdb2-664c" hidden="true" sortIndex="3">
+          <entryLinks>
+            <entryLink import="true" name="Basic" hidden="false" id="71a0-65ae-7753-9980" type="selectionEntry" targetId="f088-e6d4-8fe3-0f3e" sortIndex="1">
+              <profiles>
+                <profile name="Gobyata Field Guns" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="8cec-2ddc-2848-d086">
+                  <characteristics>
+                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Light</characteristic>
+                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">1</characteristic>
+                    <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
+                    <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
+                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">4&quot;</characteristic>
+                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
+                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">1</characteristic>
+                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">6</characteristic>
+                    <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">1</characteristic>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="set" value="4" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="2" field="bb79-114d-2dc7-ca18"/>
+                  </modifiers>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="50"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Full Strength" hidden="false" id="8d99-4d95-064f-6b13" type="selectionEntry" targetId="e86e-71e1-9396-5526" sortIndex="3" flatten="false">
+              <profiles>
+                <profile name="Gobyata Field Guns" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="d845-6fc7-10f1-b0a1">
+                  <characteristics>
+                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Light</characteristic>
+                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">1</characteristic>
+                    <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
+                    <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
+                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">4&quot;</characteristic>
+                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
+                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">1</characteristic>
+                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">6</characteristic>
+                    <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">1</characteristic>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="set" value="12" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="4" field="bb79-114d-2dc7-ca18"/>
+                  </modifiers>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="140"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Reinforced" hidden="false" id="9e14-27df-91fd-b1db" type="selectionEntry" targetId="85c2-43ee-a668-834f" sortIndex="2" flatten="false">
+              <profiles>
+                <profile name="Gobyata Field Guns" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="74bd-68db-0cab-f918">
+                  <characteristics>
+                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Light</characteristic>
+                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">1</characteristic>
+                    <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
+                    <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
+                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">4&quot;</characteristic>
+                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
+                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">1</characteristic>
+                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">6</characteristic>
+                    <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">1</characteristic>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="set" value="8" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="3" field="bb79-114d-2dc7-ca18"/>
+                  </modifiers>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="85"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b461-e2bb-e2e6-e6b2"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="543a-9b2c-4b89-f40c"/>
+          </constraints>
+          <profiles>
+            <profile name="Molniya Flak Guns" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="8100-918d-f779-5411">
+              <characteristics>
+                <characteristic name="Target type" typeId="de47-7191-892f-3c71">Light</characteristic>
+                <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">1</characteristic>
+                <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
+                <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
+                <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">4&quot;</characteristic>
+                <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
+                <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">1</characteristic>
+                <characteristic name="Discipline" typeId="9692-df81-03cd-8583">6</characteristic>
+                <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">1</characteristic>
+              </characteristics>
+              <comment>linked to this profile</comment>
+            </profile>
+          </profiles>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Weapons" id="f707-d89e-266a-7202" hidden="false" sortIndex="2">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Ranged (Light)" hidden="false" id="6d86-6a18-6dce-f729" sortIndex="1">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="49f0-4845-0d0f-edd0" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a522-7586-ccc7-9f28" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Ranged (Light)" typeId="344a-022d-aebf-7e7a" typeName="Type" hidden="false" id="4326-3c9b-caa0-a689">
+                  <characteristics>
+                    <characteristic name="Range" typeId="db9e-9452-9fc5-3877">10&quot;/20&quot;</characteristic>
+                    <characteristic name="1-4" typeId="94b3-2e14-1b71-6757">3</characteristic>
+                    <characteristic name="5-8" typeId="f891-f62d-9222-6a4f">7</characteristic>
+                    <characteristic name="9-12" typeId="df36-9d51-a316-8d54">10</characteristic>
+                    <characteristic name="Qualities" typeId="9a3f-8a28-e735-e1eb">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Melee" hidden="false" id="74f5-362d-52a3-7722" sortIndex="5">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="cd5a-7403-f266-973f" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f90a-3422-415c-538e" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Melee" typeId="344a-022d-aebf-7e7a" typeName="Type" hidden="false" id="7f3f-06c1-7d27-b472">
+                  <characteristics>
+                    <characteristic name="Range" typeId="db9e-9452-9fc5-3877">-</characteristic>
+                    <characteristic name="1-4" typeId="94b3-2e14-1b71-6757">3</characteristic>
+                    <characteristic name="5-8" typeId="f891-f62d-9222-6a4f">4</characteristic>
+                    <characteristic name="9-12" typeId="df36-9d51-a316-8d54">5</characteristic>
+                    <characteristic name="Qualities" typeId="9a3f-8a28-e735-e1eb">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Ranged (Aerial)" hidden="false" id="365b-2163-9f24-8676" sortIndex="1">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d115-f930-5dbe-5fdc" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7a38-8201-3386-7c0b" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Ranged (Aerial)" typeId="344a-022d-aebf-7e7a" typeName="Type" hidden="false" id="bdd7-9221-c02d-762b">
+                  <characteristics>
+                    <characteristic name="Range" typeId="db9e-9452-9fc5-3877">10&quot;/30&quot;</characteristic>
+                    <characteristic name="1-4" typeId="94b3-2e14-1b71-6757">4</characteristic>
+                    <characteristic name="5-8" typeId="f891-f62d-9222-6a4f">8</characteristic>
+                    <characteristic name="9-12" typeId="df36-9d51-a316-8d54">12</characteristic>
+                    <characteristic name="Qualities" typeId="9a3f-8a28-e735-e1eb">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Bolstering FIELD GUN" id="c89f-2faf-f642-790a" hidden="false" import="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4144-b6e4-fbc0-e51f"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5c83-ba74-2d32-76d1"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="Bolstering" field="name"/>
+          </modifiers>
+          <entryLinks>
+            <entryLink import="true" name="Basic FIELD GUN" hidden="false" id="f3fa-bc56-55ef-1a53" type="selectionEntry" targetId="3d5d-6327-e572-895b" sortIndex="1">
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="50"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Molniya Flak Guns" id="839a-076c-4437-f170" hidden="false" type="profile" targetId="8100-918d-f779-5411">
+                  <modifiers>
+                    <modifier type="set" value="4" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="2" field="bb79-114d-2dc7-ca18"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+            </entryLink>
+            <entryLink import="true" name="Reinforced FIELD GUN" hidden="false" id="dd40-0d6c-1fa9-156c" type="selectionEntry" targetId="d4fd-6cf5-2cf0-2043" sortIndex="2">
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="85"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Molniya Flak Guns" id="5988-1cbd-55d0-a812" hidden="false" type="profile" targetId="8100-918d-f779-5411">
+                  <modifiers>
+                    <modifier type="set" value="8" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="3" field="bb79-114d-2dc7-ca18"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+            </entryLink>
+            <entryLink import="true" name="Full Strength FIELD GUN" hidden="false" id="43f5-fe51-dfe3-33a4" type="selectionEntry" targetId="7bb6-1917-6a09-2c0b" sortIndex="3">
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="140"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Molniya Flak Guns" id="f1e5-b862-21cf-cc5b" hidden="false" type="profile" targetId="8100-918d-f779-5411">
+                  <modifiers>
+                    <modifier type="set" value="12" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="4" field="bb79-114d-2dc7-ca18"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="7706-bc63-b1ab-e8a9" includeChildSelections="true"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Gerlach Gun Tractors" hidden="false" id="7a5b-499d-c04b-93d6" sortIndex="5">
+      <categoryLinks>
+        <categoryLink targetId="5953-76d6-e748-661f" id="4718-223a-5e40-c599" primary="false" name="Commonwealth"/>
+        <categoryLink targetId="6aad-4085-608f-dc2f" id="9796-f20b-1d06-dca2" primary="false" name="Heavy"/>
+        <categoryLink targetId="2c1d-3a57-3871-f158" id="4c50-e7b2-4ae1-7b3a" primary="true" name="Armour"/>
+        <categoryLink targetId="796d-5047-ce17-a6ab" id="9a2f-5679-6db4-830a" primary="false" name="Infantry/Armour"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="1bf7-fb48-cd6d-a5a4" noindex="false">
+          <characteristics>
+            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Tow</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Bolstering" id="6f2a-1b7c-f895-24c7" hidden="true" sortIndex="3">
+          <profiles>
+            <profile name="Gerlach Gun Tractors" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="2af1-bf3c-89b8-318c">
+              <characteristics>
+                <characteristic name="Target type" typeId="de47-7191-892f-3c71">Heavy</characteristic>
+                <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">1</characteristic>
+                <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
+                <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
+                <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">6&quot;</characteristic>
+                <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
+                <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">1</characteristic>
+                <characteristic name="Discipline" typeId="9692-df81-03cd-8583">6</characteristic>
+                <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">2</characteristic>
+              </characteristics>
+              <comment>Linked to</comment>
+            </profile>
+          </profiles>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Weapons" id="675f-6823-18e4-1677" hidden="false" sortIndex="2">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Impact" hidden="false" id="6034-4028-fdb3-ed47" sortIndex="6">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="40e6-989d-1bce-83c2" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="aa71-1453-e99f-7e1c" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Impact" typeId="344a-022d-aebf-7e7a" typeName="Type" hidden="false" id="adb2-dfe7-7908-3dc1">
+                  <characteristics>
+                    <characteristic name="Range" typeId="db9e-9452-9fc5-3877">-</characteristic>
+                    <characteristic name="1-4" typeId="94b3-2e14-1b71-6757">2</characteristic>
+                    <characteristic name="5-8" typeId="f891-f62d-9222-6a4f">4</characteristic>
+                    <characteristic name="9-12" typeId="df36-9d51-a316-8d54">6</characteristic>
+                    <characteristic name="Qualities" typeId="9a3f-8a28-e735-e1eb">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Bolstering Inf/Arm" id="12c6-3c67-d555-11ac" hidden="false" import="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b135-9fc6-ae05-07aa"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="394d-d87c-c577-2aa4"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="Bolstering" field="name"/>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="forces" scope="force" childId="3813-f906-8fb4-bba5" shared="true" includeChildSelections="true"/>
+              </conditions>
+              <comment>Hidden if NOT JAD</comment>
+            </modifier>
+          </modifiers>
+          <entryLinks>
+            <entryLink import="true" name="Basic Inf/Arm" hidden="false" id="3a5c-ef3c-39f8-bc8b" type="selectionEntry" targetId="e903-fdaa-02be-0150" sortIndex="1">
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="25"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Gerlach Gun Tractors" id="a145-a0ac-5ec4-47d1" hidden="false" type="profile" targetId="2af1-bf3c-89b8-318c">
+                  <modifiers>
+                    <modifier type="set" value="4" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="2" field="bb79-114d-2dc7-ca18"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+            </entryLink>
+            <entryLink import="true" name="Reinforced Inf/Arm" hidden="false" id="bfa6-3fce-73e7-b129" type="selectionEntry" targetId="61b0-f04e-a8ab-ab71" sortIndex="2">
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="40"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Gerlach Gun Tractors" id="2f7a-d18e-4f83-ba74" hidden="false" type="profile" targetId="2af1-bf3c-89b8-318c">
+                  <modifiers>
+                    <modifier type="set" value="8" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="3" field="bb79-114d-2dc7-ca18"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+            </entryLink>
+            <entryLink import="true" name="Full Strength Inf/Arm" hidden="false" id="e2ef-f850-f357-d775" type="selectionEntry" targetId="d0b7-0112-b1da-b9f4" sortIndex="3">
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="65"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Gerlach Gun Tractors" id="993f-7196-eada-42ea" hidden="false" type="profile" targetId="2af1-bf3c-89b8-318c">
+                  <modifiers>
+                    <modifier type="set" value="12" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="4" field="bb79-114d-2dc7-ca18"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+            </entryLink>
+          </entryLinks>
+          <comment>JAD</comment>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Bolstering ARMOUR" id="43a7-6f79-ea9b-fcae" hidden="false" import="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4d08-0efe-0411-9284"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1eeb-e7d7-9d66-9d21"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="Bolstering" field="name"/>
+            <modifier type="set" value="true" field="hidden">
+              <comment>Hidden if JAD</comment>
+              <conditions>
+                <condition type="instanceOf" value="1" field="forces" scope="force" childId="3813-f906-8fb4-bba5" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <entryLinks>
+            <entryLink import="true" name="Basic ARMOUR" hidden="false" id="4d52-82df-5f95-0a7f" type="selectionEntry" targetId="ffec-55dd-4245-36bc" sortIndex="1">
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="25"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Gerlach Gun Tractors" id="e8a0-4f94-c844-645d" hidden="false" type="profile" targetId="2af1-bf3c-89b8-318c">
+                  <modifiers>
+                    <modifier type="set" value="4" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="2" field="bb79-114d-2dc7-ca18"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+            </entryLink>
+            <entryLink import="true" name="Reinforced ARMOUR" hidden="false" id="d7ec-7bbb-6b5e-47be" type="selectionEntry" targetId="a523-10fa-ff3d-a048" sortIndex="2">
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="40"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Gerlach Gun Tractors" id="45b9-bdf7-e2ca-9fa0" hidden="false" type="profile" targetId="2af1-bf3c-89b8-318c">
+                  <modifiers>
+                    <modifier type="set" value="8" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="3" field="bb79-114d-2dc7-ca18"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+            </entryLink>
+            <entryLink import="true" name="Full Strength ARMOUR" hidden="false" id="96f5-108c-708c-976f" type="selectionEntry" targetId="56a3-cf92-9a38-7bf4" sortIndex="3">
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="65"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Gerlach Gun Tractors" id="ebbb-c5b8-4edb-eabb" hidden="false" type="profile" targetId="2af1-bf3c-89b8-318c">
+                  <modifiers>
+                    <modifier type="set" value="12" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="4" field="bb79-114d-2dc7-ca18"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="8a72-98fb-1de2-cde6" includeChildSelections="true"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set-primary" value="796d-5047-ce17-a6ab" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="3813-f906-8fb4-bba5" shared="true" includeChildSelections="false"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Matryona Heavy Transports" hidden="false" id="5571-7b34-a54f-e8f0" sortIndex="5">
+      <categoryLinks>
+        <categoryLink targetId="5953-76d6-e748-661f" id="cb79-391b-4d28-cb69" primary="false" name="Commonwealth"/>
+        <categoryLink targetId="6aad-4085-608f-dc2f" id="0aa3-a82c-86b9-931f" primary="false" name="Heavy"/>
+        <categoryLink targetId="2c1d-3a57-3871-f158" id="7d9c-218a-0e56-a224" primary="true" name="Armour"/>
+        <categoryLink targetId="796d-5047-ce17-a6ab" id="2fbb-f889-cef2-628f" primary="false" name="Infantry/Armour"/>
+        <categoryLink name="Transport" hidden="false" id="b344-80d0-bb70-5788" targetId="d78d-8ed7-fc30-5981" primary="false"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="d516-25cd-c51c-90d1" noindex="false">
+          <characteristics>
+            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Assault Ramp, Bailout, Capacity (4), Pioneers, Ponderous, Resilient (Front), Sponsons (2)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Bolstering" id="0083-20b6-f4b6-c668" hidden="true" sortIndex="3">
+          <profiles>
+            <profile name="Matryona Heavy Transports" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="fd0b-cb42-0a10-1e3e">
+              <characteristics>
+                <characteristic name="Target type" typeId="de47-7191-892f-3c71">Heavy</characteristic>
+                <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">1</characteristic>
+                <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
+                <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
+                <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">6&quot;</characteristic>
+                <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">3</characteristic>
+                <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">4</characteristic>
+                <characteristic name="Discipline" typeId="9692-df81-03cd-8583">6</characteristic>
+                <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
+              </characteristics>
+              <comment>Linked to</comment>
+            </profile>
+          </profiles>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Weapons" id="ee36-51f4-5aff-7a5e" hidden="false" sortIndex="2">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Impact" hidden="false" id="d592-b09c-a9c6-369e" sortIndex="6">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d26e-24a9-d22d-3ff8" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d6a4-005a-fb41-618e" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Impact" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="2723-943a-4d0f-88fd">
+                  <characteristics>
+                    <characteristic name="Range" typeId="0d60-0078-7134-d302">-</characteristic>
+                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585">5</characteristic>
+                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c">9</characteristic>
+                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d">14</characteristic>
+                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Bolstering Inf/Arm" id="7a53-2de8-69e5-d9b7" hidden="false" import="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f793-4af3-7460-717e"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7866-8fba-1b46-d85f"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="Bolstering" field="name"/>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="forces" scope="force" childId="3813-f906-8fb4-bba5" shared="true" includeChildSelections="true"/>
+              </conditions>
+              <comment>Hidden if NOT JAD</comment>
+            </modifier>
+          </modifiers>
+          <entryLinks>
+            <entryLink import="true" name="Basic Inf/Arm" hidden="false" id="a232-8d6e-3135-62df" type="selectionEntry" targetId="e903-fdaa-02be-0150" sortIndex="1">
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="45"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Matryona Heavy Transports" id="e155-8b7e-293b-b8c2" hidden="false" type="profile" targetId="fd0b-cb42-0a10-1e3e">
+                  <modifiers>
+                    <modifier type="set" value="4" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="2" field="bb79-114d-2dc7-ca18"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+            </entryLink>
+            <entryLink import="true" name="Reinforced Inf/Arm" hidden="false" id="5b7b-772e-7628-8527" type="selectionEntry" targetId="61b0-f04e-a8ab-ab71" sortIndex="2">
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="85"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Matryona Heavy Transports" id="0a16-4449-c804-fe5a" hidden="false" type="profile" targetId="fd0b-cb42-0a10-1e3e">
+                  <modifiers>
+                    <modifier type="set" value="8" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="3" field="bb79-114d-2dc7-ca18"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+            </entryLink>
+            <entryLink import="true" name="Full Strength Inf/Arm" hidden="false" id="7fbf-c8b8-265c-ddfe" type="selectionEntry" targetId="d0b7-0112-b1da-b9f4" sortIndex="3">
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="120"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Matryona Heavy Transports" id="c86a-43fe-21b2-5364" hidden="false" type="profile" targetId="fd0b-cb42-0a10-1e3e">
+                  <modifiers>
+                    <modifier type="set" value="12" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="4" field="bb79-114d-2dc7-ca18"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+            </entryLink>
+          </entryLinks>
+          <comment>JAD</comment>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Bolstering ARMOUR" id="8eb4-c993-4288-a088" hidden="false" import="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1fd5-eec3-f3c6-b014"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b09d-9733-a926-b9d5"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="Bolstering" field="name"/>
+            <modifier type="set" value="true" field="hidden">
+              <comment>Hidden if JAD</comment>
+              <conditions>
+                <condition type="instanceOf" value="1" field="forces" scope="force" childId="3813-f906-8fb4-bba5" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <entryLinks>
+            <entryLink import="true" name="Basic ARMOUR" hidden="false" id="b0c4-2b8e-cc53-4a15" type="selectionEntry" targetId="ffec-55dd-4245-36bc" sortIndex="1">
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="45"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Matryona Heavy Transports" id="1fbb-0a4f-a1d4-56fe" hidden="false" type="profile" targetId="fd0b-cb42-0a10-1e3e">
+                  <modifiers>
+                    <modifier type="set" value="4" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="2" field="bb79-114d-2dc7-ca18"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+            </entryLink>
+            <entryLink import="true" name="Reinforced ARMOUR" hidden="false" id="435b-be41-1f0a-d5ce" type="selectionEntry" targetId="a523-10fa-ff3d-a048" sortIndex="2">
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="85"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Matryona Heavy Transports" id="ef90-c1ef-60cb-d8de" hidden="false" type="profile" targetId="fd0b-cb42-0a10-1e3e">
+                  <modifiers>
+                    <modifier type="set" value="8" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="3" field="bb79-114d-2dc7-ca18"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+            </entryLink>
+            <entryLink import="true" name="Full Strength ARMOUR" hidden="false" id="10ca-765e-96c6-e9a1" type="selectionEntry" targetId="56a3-cf92-9a38-7bf4" sortIndex="3">
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="120"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Matryona Heavy Transports" id="1c64-8738-bf00-4d1e" hidden="false" type="profile" targetId="fd0b-cb42-0a10-1e3e">
+                  <modifiers>
+                    <modifier type="set" value="12" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="4" field="bb79-114d-2dc7-ca18"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="0c44-07ee-3882-1dc5" includeChildSelections="true"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set-primary" value="796d-5047-ce17-a6ab" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="3813-f906-8fb4-bba5" shared="true" includeChildSelections="false"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Omsk Cryo Transports" hidden="false" id="32a9-f109-daa4-17bc" sortIndex="5">
+      <categoryLinks>
+        <categoryLink targetId="5953-76d6-e748-661f" id="646c-aaea-494f-659b" primary="false" name="Commonwealth"/>
+        <categoryLink targetId="6aad-4085-608f-dc2f" id="ec36-78c6-7732-f24e" primary="false" name="Heavy"/>
+        <categoryLink targetId="2c1d-3a57-3871-f158" id="69f8-8d13-5790-3372" primary="true" name="Armour"/>
+        <categoryLink targetId="796d-5047-ce17-a6ab" id="3e33-c85a-dfbb-b869" primary="false" name="Infantry/Armour"/>
+        <categoryLink name="Transport" hidden="false" id="f3e1-98bc-85ca-eed9" targetId="d78d-8ed7-fc30-5981" primary="false"/>
+        <categoryLink name="Containment Chambers" hidden="false" id="9cd7-4eba-ff8b-f36f" targetId="1bf1-0765-ea0f-ffde" primary="false"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="5ad2-c588-3d42-dc3b" noindex="false">
+          <characteristics>
+            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Assault Ramp, Bailout, Capacity (5), Hoarfrost Aura 4”, Pioneers, Ponderous, Resilient (Front), Restricted Access (Sub-Zero), Sponsons (2)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Bolstering" id="29e6-0936-8b27-9a3e" hidden="true" sortIndex="3">
+          <profiles>
+            <profile name="Omsk Cryo Transports" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="01d6-0b7e-e006-3836">
+              <characteristics>
+                <characteristic name="Target type" typeId="de47-7191-892f-3c71">Heavy</characteristic>
+                <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">1</characteristic>
+                <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
+                <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
+                <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">6&quot;</characteristic>
+                <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">3</characteristic>
+                <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">4</characteristic>
+                <characteristic name="Discipline" typeId="9692-df81-03cd-8583">6</characteristic>
+                <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
+              </characteristics>
+              <comment>Linked to</comment>
+            </profile>
+          </profiles>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Weapons" id="6dd3-31dc-1448-dfd6" hidden="false" sortIndex="2">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Ranged (Light/Heavy)" hidden="false" id="4861-56a0-71c8-390e" sortIndex="1">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0627-6127-b282-dee8" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e1c0-b7d4-7d40-5e57" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Ranged (Light/Heavy)" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="21dc-5810-b072-00e0">
+                  <characteristics>
+                    <characteristic name="Range" typeId="0d60-0078-7134-d302">4&quot;/8&quot;</characteristic>
+                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585">3</characteristic>
+                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c">6</characteristic>
+                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d">9</characteristic>
+                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b">Cryo, Suppressive, Torrent</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Impact" hidden="false" id="22f0-6fde-2dcb-5b04" sortIndex="6">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0f6c-f4af-0743-6409" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2c40-35d2-79b7-c0df" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Impact" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="12ba-bdb0-10bc-5f8a">
+                  <characteristics>
+                    <characteristic name="Range" typeId="0d60-0078-7134-d302">-</characteristic>
+                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585">5</characteristic>
+                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c">9</characteristic>
+                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d">14</characteristic>
+                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Bolstering Inf/Arm" id="79b8-c914-baed-a867" hidden="false" import="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d632-2cbe-39e8-a5d4"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8dfb-8819-ad88-4d45"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="Bolstering" field="name"/>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="forces" scope="force" childId="3813-f906-8fb4-bba5" shared="true" includeChildSelections="true"/>
+              </conditions>
+              <comment>Hidden if NOT JAD</comment>
+            </modifier>
+          </modifiers>
+          <entryLinks>
+            <entryLink import="true" name="Basic Inf/Arm" hidden="false" id="3aac-7b88-89cf-71f7" type="selectionEntry" targetId="e903-fdaa-02be-0150" sortIndex="1">
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="45"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Omsk Cryo Transports" id="b2dc-d187-21aa-e760" hidden="false" type="profile" targetId="01d6-0b7e-e006-3836">
+                  <modifiers>
+                    <modifier type="set" value="4" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="2" field="bb79-114d-2dc7-ca18"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+            </entryLink>
+            <entryLink import="true" name="Reinforced Inf/Arm" hidden="false" id="432b-5db8-8fa2-c65b" type="selectionEntry" targetId="61b0-f04e-a8ab-ab71" sortIndex="2">
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="85"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Omsk Cryo Transports" id="967e-6db4-16e6-68e5" hidden="false" type="profile" targetId="01d6-0b7e-e006-3836">
+                  <modifiers>
+                    <modifier type="set" value="8" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="3" field="bb79-114d-2dc7-ca18"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+            </entryLink>
+            <entryLink import="true" name="Full Strength Inf/Arm" hidden="false" id="40ba-f6b7-1dda-6e75" type="selectionEntry" targetId="d0b7-0112-b1da-b9f4" sortIndex="3">
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="120"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Omsk Cryo Transports" id="5e28-e1c2-2ff9-07f8" hidden="false" type="profile" targetId="01d6-0b7e-e006-3836">
+                  <modifiers>
+                    <modifier type="set" value="12" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="4" field="bb79-114d-2dc7-ca18"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+            </entryLink>
+          </entryLinks>
+          <comment>JAD</comment>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Bolstering ARMOUR" id="6be8-c93e-e8e7-2b59" hidden="false" import="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6ee7-b28f-0034-6974"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1506-3053-9404-5dc3"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="Bolstering" field="name"/>
+            <modifier type="set" value="true" field="hidden">
+              <comment>Hidden if JAD</comment>
+              <conditions>
+                <condition type="instanceOf" value="1" field="forces" scope="force" childId="3813-f906-8fb4-bba5" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <entryLinks>
+            <entryLink import="true" name="Basic ARMOUR" hidden="false" id="f909-f6c1-d894-e3aa" type="selectionEntry" targetId="ffec-55dd-4245-36bc" sortIndex="1">
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="45"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Omsk Cryo Transports" id="d22d-dcf9-5c10-6874" hidden="false" type="profile" targetId="01d6-0b7e-e006-3836">
+                  <modifiers>
+                    <modifier type="set" value="4" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="2" field="bb79-114d-2dc7-ca18"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+            </entryLink>
+            <entryLink import="true" name="Reinforced ARMOUR" hidden="false" id="8240-28d1-1887-50f1" type="selectionEntry" targetId="a523-10fa-ff3d-a048" sortIndex="2">
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="85"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Omsk Cryo Transports" id="043f-bf55-d413-3cd1" hidden="false" type="profile" targetId="01d6-0b7e-e006-3836">
+                  <modifiers>
+                    <modifier type="set" value="8" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="3" field="bb79-114d-2dc7-ca18"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+            </entryLink>
+            <entryLink import="true" name="Full Strength ARMOUR" hidden="false" id="e6c3-b631-5bdc-f658" type="selectionEntry" targetId="56a3-cf92-9a38-7bf4" sortIndex="3">
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="120"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Omsk Cryo Transports" id="ada8-c57b-9c09-3e2f" hidden="false" type="profile" targetId="01d6-0b7e-e006-3836">
+                  <modifiers>
+                    <modifier type="set" value="12" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="4" field="bb79-114d-2dc7-ca18"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="f280-ae16-a228-e4aa" includeChildSelections="true"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set-primary" value="796d-5047-ce17-a6ab" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="3813-f906-8fb4-bba5" shared="true" includeChildSelections="false"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Minsk Rail Destroyers" hidden="false" id="726e-c762-c087-16cf" sortIndex="6">
+      <categoryLinks>
+        <categoryLink targetId="5953-76d6-e748-661f" id="74c6-460c-4da9-8031" primary="false" name="Commonwealth"/>
+        <categoryLink targetId="6aad-4085-608f-dc2f" id="4fed-e0a4-5487-ea2b" primary="false" name="Heavy"/>
+        <categoryLink name="Artillery" hidden="false" id="8cd6-f077-8e84-0100" targetId="3d8a-88d7-d75b-191d" primary="true"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="65db-0f11-16dd-d281" noindex="false">
+          <characteristics>
+            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Resilient (Front, Flanks), Sponsons (2)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Bolstering" id="087b-2e15-03e2-5316" hidden="true" sortIndex="3">
+          <profiles>
+            <profile name="Minsk Rail Destroyers" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="36b6-49ca-6d6d-8907">
+              <characteristics>
+                <characteristic name="Target type" typeId="de47-7191-892f-3c71">Heavy</characteristic>
+                <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">2</characteristic>
+                <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
+                <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
+                <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">5&quot;</characteristic>
+                <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
+                <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">3</characteristic>
+                <characteristic name="Discipline" typeId="9692-df81-03cd-8583">6</characteristic>
+                <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Weapons" id="240b-6edb-9df5-e6b9" hidden="false" sortIndex="2">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Ranged (Light)" hidden="false" id="4337-31a3-7644-d7dc" sortIndex="1">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2bf2-ec7f-7a24-ecee" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4f43-68d1-03a5-531e" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Ranged (Light)" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="0a1c-1779-18af-008c">
+                  <characteristics>
+                    <characteristic name="Range" typeId="0d60-0078-7134-d302">7&quot;/14&quot;</characteristic>
+                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585">2</characteristic>
+                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c">4</characteristic>
+                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d">6</characteristic>
+                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Ranged (Heavy)" hidden="false" id="1f83-3f1d-5e13-f4b9" sortIndex="2">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4a09-bfd4-f612-0c76" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0245-5d7d-b59b-c576" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Ranged (Heavy)" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="6c4b-2222-7013-d50f">
+                  <characteristics>
+                    <characteristic name="Range" typeId="0d60-0078-7134-d302">-&quot;/45&quot;</characteristic>
+                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585">4</characteristic>
+                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c">7</characteristic>
+                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d">10</characteristic>
+                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b">Move or Fire, Penetrating, Precision</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Impact" hidden="false" id="5b56-120d-4269-eb82" sortIndex="6">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8b93-448d-c3e7-5e64" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="294c-bbc3-e029-3d99" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Impact" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="18fe-08d7-d144-f7d5">
+                  <characteristics>
+                    <characteristic name="Range" typeId="0d60-0078-7134-d302">-</characteristic>
+                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585">2</characteristic>
+                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c">4</characteristic>
+                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d">6</characteristic>
+                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Bolstering Artillery" id="cb3b-1235-f610-1590" hidden="false" import="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e26f-4f96-e199-3403"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e8e6-738e-cc66-aead"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="Bolstering" field="name"/>
+          </modifiers>
+          <entryLinks>
+            <entryLink import="true" name="Basic Artillery" hidden="false" id="37db-2477-75ef-d2bb" type="selectionEntry" targetId="c4ce-c625-58e8-9fd9" sortIndex="1">
+              <infoLinks>
+                <infoLink name="Minsk Rail Destroyers" id="a45f-9dc7-234e-1130" hidden="false" type="profile" targetId="36b6-49ca-6d6d-8907">
+                  <modifiers>
+                    <modifier type="set" value="2" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="2" field="bb79-114d-2dc7-ca18"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="130"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Reinforced Artillery" hidden="false" id="3ed3-1e6b-256c-5344" type="selectionEntry" targetId="6115-1168-9812-0987" sortIndex="2">
+              <infoLinks>
+                <infoLink name="Minsk Rail Destroyers" id="755f-cbd5-0373-2b48" hidden="false" type="profile" targetId="36b6-49ca-6d6d-8907">
+                  <modifiers>
+                    <modifier type="set" value="4" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="4" field="bb79-114d-2dc7-ca18"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="220"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Full Strength Artillery" hidden="false" id="d887-74da-244f-1e39" type="selectionEntry" targetId="e54d-ebd1-501f-f6f4" sortIndex="3">
+              <infoLinks>
+                <infoLink name="Minsk Rail Destroyers" id="dea1-7bcf-c54f-5ded" hidden="false" type="profile" targetId="36b6-49ca-6d6d-8907">
+                  <modifiers>
+                    <modifier type="set" value="6" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="6" field="bb79-114d-2dc7-ca18"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="335"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="5d84-ae4c-84d1-65f3" includeChildSelections="true"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Vilnius Siege Tanks" hidden="false" id="3521-3526-ef19-7230" sortIndex="6">
+      <categoryLinks>
+        <categoryLink targetId="5953-76d6-e748-661f" id="44da-f07b-f593-22af" primary="false" name="Commonwealth"/>
+        <categoryLink targetId="6aad-4085-608f-dc2f" id="8327-a3e3-35de-a28b" primary="false" name="Heavy"/>
+        <categoryLink name="Artillery" hidden="false" id="a1b9-9eaa-3d5d-cead" targetId="3d8a-88d7-d75b-191d" primary="true"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="ef88-120b-8944-98ef" noindex="false">
+          <characteristics>
+            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Resilient (Front, Flanks), Sponsons (2)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Bolstering" id="4a2e-0353-736b-19a1" hidden="true" sortIndex="3">
+          <profiles>
+            <profile name="Vilnius Siege Tanks" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="5140-16fe-be77-ae56">
+              <characteristics>
+                <characteristic name="Target type" typeId="de47-7191-892f-3c71">Heavy</characteristic>
+                <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">2</characteristic>
+                <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
+                <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
+                <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">5&quot;</characteristic>
+                <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
+                <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">3</characteristic>
+                <characteristic name="Discipline" typeId="9692-df81-03cd-8583">6</characteristic>
+                <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Weapons" id="ee3b-04b0-11ed-540c" hidden="false" sortIndex="2">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Ranged (Light)" hidden="false" id="c5b6-7852-18d7-2bb6" sortIndex="1">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ac07-3fae-3baa-0961" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1465-b111-c13a-1054" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Ranged (Light)" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="ad98-ddd9-8d87-a2f2">
+                  <characteristics>
+                    <characteristic name="Range" typeId="0d60-0078-7134-d302">7&quot;/14&quot;</characteristic>
+                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585">2</characteristic>
+                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c">4</characteristic>
+                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d">6</characteristic>
+                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b">-</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="Ranged (Light)" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="fe63-a4d6-3f92-4e70">
+                  <characteristics>
+                    <characteristic name="Range" typeId="0d60-0078-7134-d302">16&quot;/36&quot;</characteristic>
+                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585">8</characteristic>
+                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c">16</characteristic>
+                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d">22</characteristic>
+                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b">Siegebreaker, Seismic, Slow to Fire, Suppressive</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Ranged (Heavy)" hidden="false" id="323c-5b4f-562e-9dc4" sortIndex="2">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4313-adc0-40fe-4d66" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dcf9-15fe-1800-a044" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Ranged (Heavy)" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="3fbf-b3b0-04ff-be1a">
+                  <characteristics>
+                    <characteristic name="Range" typeId="0d60-0078-7134-d302">16&quot;/36&quot;</characteristic>
+                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585">4</characteristic>
+                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c">6</characteristic>
+                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d">8</characteristic>
+                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b">Slow To Fire</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Impact" hidden="false" id="47ae-a273-9b4b-ab27" sortIndex="6">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4cad-4762-7700-b2ae" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cfbc-1849-9f68-bd53" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Impact" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="81b3-6f06-934d-4708">
+                  <characteristics>
+                    <characteristic name="Range" typeId="0d60-0078-7134-d302">-</characteristic>
+                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585">2</characteristic>
+                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c">4</characteristic>
+                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d">6</characteristic>
+                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Bolstering Artillery" id="516f-9903-7a4e-a6c9" hidden="false" import="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ac55-1cfe-aa03-4002"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9e88-d19f-1032-d5ad"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="Bolstering" field="name"/>
+          </modifiers>
+          <entryLinks>
+            <entryLink import="true" name="Basic Artillery" hidden="false" id="e566-1480-9fd4-aea4" type="selectionEntry" targetId="c4ce-c625-58e8-9fd9" sortIndex="1">
+              <infoLinks>
+                <infoLink name="Vilnius Siege Tanks" id="a635-47fe-8602-e608" hidden="false" type="profile" targetId="5140-16fe-be77-ae56">
+                  <modifiers>
+                    <modifier type="set" value="2" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="2" field="bb79-114d-2dc7-ca18"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="120"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Reinforced Artillery" hidden="false" id="cd77-2c8a-155b-8935" type="selectionEntry" targetId="6115-1168-9812-0987" sortIndex="2">
+              <infoLinks>
+                <infoLink name="Vilnius Siege Tanks" id="05cd-65ea-2114-a5ed" hidden="false" type="profile" targetId="5140-16fe-be77-ae56">
+                  <modifiers>
+                    <modifier type="set" value="4" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="4" field="bb79-114d-2dc7-ca18"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="205"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Full Strength Artillery" hidden="false" id="8064-e633-a454-a6d5" type="selectionEntry" targetId="e54d-ebd1-501f-f6f4" sortIndex="3">
+              <infoLinks>
+                <infoLink name="Vilnius Siege Tanks" id="d4a8-055e-ddca-5769" hidden="false" type="profile" targetId="5140-16fe-be77-ae56">
+                  <modifiers>
+                    <modifier type="set" value="6" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="6" field="bb79-114d-2dc7-ca18"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="310"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="0b79-f115-ef3e-608c" includeChildSelections="true"/>
+      </constraints>
+    </selectionEntry>
   </selectionEntries>
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Rules Glossary" id="6f3e-1374-c6d0-654a" targetId="4257-4b3f-e0ad-dea3"/>
@@ -5657,7 +7673,7 @@ A unit can benefit from this Commander Bonus even if it is on On Lookout, and do
         <categoryLink name="Infantry/Cavalry" hidden="false" id="eabd-0b63-5bf9-e6c9" targetId="763f-6d17-4a4b-c0df">
           <constraints>
             <constraint type="min" value="2" field="selections" scope="force" shared="true" id="ee75-430f-0988-723a" includeChildSelections="false"/>
-            <constraint type="max" value="6" field="selections" scope="force" shared="true" id="9fed-e9e1-30aa-eed5" includeChildSelections="false"/>
+            <constraint type="max" value="8" field="selections" scope="force" shared="true" id="9fed-e9e1-30aa-eed5" includeChildSelections="false"/>
           </constraints>
         </categoryLink>
         <categoryLink name="Field Gun" hidden="false" id="9dfc-b872-8ced-03f6" targetId="6e6a-9613-0607-95e1">
@@ -5668,6 +7684,11 @@ A unit can benefit from this Commander Bonus even if it is on On Lookout, and do
         <categoryLink name="Armour" hidden="false" id="476a-4288-1283-45a3" targetId="2c1d-3a57-3871-f158">
           <constraints>
             <constraint type="max" value="6" field="selections" scope="force" shared="true" id="ab55-34f9-0193-ef91" includeChildSelections="false"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Artillery" hidden="false" id="b451-61fd-4676-39cc" targetId="3d8a-88d7-d75b-191d">
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="f372-661f-9f59-2490"/>
           </constraints>
         </categoryLink>
         <categoryLink name="Rotorcraft" hidden="false" id="813d-a82e-cbb0-6eb3" targetId="48db-6837-f5b1-49e2">
@@ -6698,6 +8719,111 @@ Subterranean units cannot be deployed in the final round of a Clash. Any Subter
         </modifierGroup>
       </modifierGroups>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="false" name="Basic Artillery" hidden="false" id="c4ce-c625-58e8-9fd9">
+      <modifiers>
+        <modifier type="set" value="Basic" field="name"/>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="false" name="Full Strength Artillery" hidden="false" id="e54d-ebd1-501f-f6f4">
+      <constraints>
+        <constraint type="max" value="-1" field="selections" scope="force" shared="true" id="e7d1-b145-1ce3-06e4" includeChildSelections="true"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="Full Strength" field="name"/>
+      </modifiers>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="set" value="0" field="e7d1-b145-1ce3-06e4">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="386f-773d-5fda-7090" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+              <comment>Skirmish selection</comment>
+            </modifier>
+            <modifier type="set" value="0" field="e7d1-b145-1ce3-06e4">
+              <comment>Faction has 0 Stars - battle</comment>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="c986-901f-e13e-cdb4" shared="true" includeChildSelections="true" includeChildForces="true" sortIndex="2"/>
+                    <condition type="instanceOf" value="1" field="forces" scope="force" childId="9720-ada4-14a9-5282" shared="true" includeChildSelections="true" sortIndex="1"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" value="0" field="e7d1-b145-1ce3-06e4">
+              <comment>JAD has 0 Stars - Battle</comment>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="c986-901f-e13e-cdb4" shared="true" includeChildSelections="true" includeChildForces="true" sortIndex="2"/>
+                    <condition type="instanceOf" value="1" field="forces" scope="force" childId="3813-f906-8fb4-bba5" shared="true" includeChildSelections="true" sortIndex="1"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" value="0" field="e7d1-b145-1ce3-06e4">
+              <comment>BAR has 0 Stars - battle</comment>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="c986-901f-e13e-cdb4" shared="true" includeChildSelections="true" includeChildForces="true" sortIndex="2"/>
+                    <condition type="instanceOf" value="1" field="forces" scope="force" childId="6da9-8821-9946-ba3a" shared="true" includeChildSelections="true" sortIndex="1"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="false" name="Reinforced Artillery" hidden="false" id="6115-1168-9812-0987">
+      <constraints>
+        <constraint type="max" value="-1" field="selections" scope="force" shared="true" id="6e1c-ae6b-bfae-8126" includeChildSelections="true"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="Reinforced" field="name"/>
+      </modifiers>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="set" value="0" field="6e1c-ae6b-bfae-8126">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="386f-773d-5fda-7090" shared="true" includeChildSelections="true" includeChildForces="true" sortIndex="2"/>
+                    <condition type="instanceOf" value="1" field="forces" scope="force" childId="3813-f906-8fb4-bba5" shared="true" includeChildSelections="true" sortIndex="1"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+              <comment>JAD has 0 arty Stars - skirmish</comment>
+            </modifier>
+            <modifier type="set" value="0" field="6e1c-ae6b-bfae-8126">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="386f-773d-5fda-7090" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="force" childId="9720-ada4-14a9-5282" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+              <comment>Faction has 0 arty Stars - skirmish</comment>
+            </modifier>
+            <modifier type="set" value="0" field="6e1c-ae6b-bfae-8126">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="386f-773d-5fda-7090" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="force" childId="6da9-8821-9946-ba3a" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+              <comment>BAR has 0 arty Stars - skirmish</comment>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Bolstering Inf/Cav" id="9081-3485-afa8-d9f7" hidden="false" import="false">
@@ -6862,6 +8988,20 @@ Subterranean units cannot be deployed in the final round of a Clash. Any Subter
         <entryLink import="true" name="Full Strength Inf/Arm" hidden="false" id="29de-5af7-35a4-173a" type="selectionEntry" targetId="d0b7-0112-b1da-b9f4" sortIndex="3"/>
       </entryLinks>
       <comment>JAD</comment>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Bolstering Artillery" id="5763-7ac4-e4a4-612a" hidden="false" import="false" sortIndex="8">
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6a4a-574c-d819-607e"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="33bb-c4a5-8448-7190"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="Bolstering" field="name"/>
+      </modifiers>
+      <entryLinks>
+        <entryLink import="true" name="Basic Artillery" hidden="false" id="3cc2-90a4-5577-ace5" type="selectionEntry" targetId="c4ce-c625-58e8-9fd9" sortIndex="1"/>
+        <entryLink import="true" name="Reinforced Artillery" hidden="false" id="9675-3570-447f-1612" type="selectionEntry" targetId="6115-1168-9812-0987" sortIndex="2"/>
+        <entryLink import="true" name="Full Strength Artillery" hidden="false" id="930f-e4f3-09b1-9e4b" type="selectionEntry" targetId="e54d-ebd1-501f-f6f4" sortIndex="3"/>
+      </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
 </catalogue>

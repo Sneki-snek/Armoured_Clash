@@ -61,9 +61,9 @@
                     <profile name="Ranged Light" typeId="2168-d664-9ff5-f41e" typeName="Type" hidden="false" id="a38d-df72-58b6-e06c">
                       <characteristics>
                         <characteristic name="Range" typeId="a93b-2f17-358e-cf1e">10&quot;/20&quot;</characteristic>
-                        <characteristic name="10-14" typeId="d6d2-0ade-fe00-9b79">10</characteristic>
-                        <characteristic name="5-9" typeId="f2b4-e4ea-b118-b975">7</characteristic>
                         <characteristic name="0-4" typeId="6cee-a120-eea9-d47b">4</characteristic>
+                        <characteristic name="5-9" typeId="f2b4-e4ea-b118-b975">7</characteristic>
+                        <characteristic name="10-14" typeId="d6d2-0ade-fe00-9b79">10</characteristic>
                         <characteristic name="Qualities" typeId="6f44-e99f-a993-281a">Turret</characteristic>
                       </characteristics>
                     </profile>
@@ -78,9 +78,9 @@
                     <profile name="Ranged Light/Heavy" typeId="2168-d664-9ff5-f41e" typeName="Type" hidden="false" id="1acc-5d79-3492-c031">
                       <characteristics>
                         <characteristic name="Range" typeId="a93b-2f17-358e-cf1e">36&quot;/36&quot;</characteristic>
-                        <characteristic name="10-14" typeId="d6d2-0ade-fe00-9b79">16</characteristic>
-                        <characteristic name="5-9" typeId="f2b4-e4ea-b118-b975">12</characteristic>
                         <characteristic name="0-4" typeId="6cee-a120-eea9-d47b">8</characteristic>
+                        <characteristic name="5-9" typeId="f2b4-e4ea-b118-b975">12</characteristic>
+                        <characteristic name="10-14" typeId="d6d2-0ade-fe00-9b79">16</characteristic>
                         <characteristic name="Qualities" typeId="6f44-e99f-a993-281a">Coruscating, Devastating,Siegebreaker, Slow To Fire</characteristic>
                       </characteristics>
                     </profile>
@@ -95,9 +95,9 @@
                     <profile name="Ranged Aerial" typeId="2168-d664-9ff5-f41e" typeName="Type" hidden="false" id="c738-e29e-9427-7155">
                       <characteristics>
                         <characteristic name="Range" typeId="a93b-2f17-358e-cf1e">10&quot;/20&quot;</characteristic>
-                        <characteristic name="10-14" typeId="d6d2-0ade-fe00-9b79">9</characteristic>
-                        <characteristic name="5-9" typeId="f2b4-e4ea-b118-b975">6</characteristic>
                         <characteristic name="0-4" typeId="6cee-a120-eea9-d47b">3</characteristic>
+                        <characteristic name="5-9" typeId="f2b4-e4ea-b118-b975">6</characteristic>
+                        <characteristic name="10-14" typeId="d6d2-0ade-fe00-9b79">9</characteristic>
                         <characteristic name="Qualities" typeId="6f44-e99f-a993-281a">Turret</characteristic>
                       </characteristics>
                     </profile>
@@ -112,9 +112,9 @@
                     <profile name="Impact" typeId="2168-d664-9ff5-f41e" typeName="Type" hidden="false" id="bc40-be25-5542-4ff0">
                       <characteristics>
                         <characteristic name="Range" typeId="a93b-2f17-358e-cf1e">-</characteristic>
-                        <characteristic name="10-14" typeId="d6d2-0ade-fe00-9b79">12</characteristic>
-                        <characteristic name="5-9" typeId="f2b4-e4ea-b118-b975">8</characteristic>
                         <characteristic name="0-4" typeId="6cee-a120-eea9-d47b">4</characteristic>
+                        <characteristic name="5-9" typeId="f2b4-e4ea-b118-b975">8</characteristic>
+                        <characteristic name="10-14" typeId="d6d2-0ade-fe00-9b79">12</characteristic>
                         <characteristic name="Qualities" typeId="6f44-e99f-a993-281a">-</characteristic>
                       </characteristics>
                     </profile>
@@ -258,9 +258,9 @@
                     <profile name="Ranged Light" typeId="2168-d664-9ff5-f41e" typeName="Type" hidden="false" id="9a8e-3c01-d19f-af37">
                       <characteristics>
                         <characteristic name="Range" typeId="a93b-2f17-358e-cf1e">10&quot;/20&quot;</characteristic>
-                        <characteristic name="10-14" typeId="d6d2-0ade-fe00-9b79">4</characteristic>
-                        <characteristic name="5-9" typeId="f2b4-e4ea-b118-b975">7</characteristic>
                         <characteristic name="0-4" typeId="6cee-a120-eea9-d47b">10</characteristic>
+                        <characteristic name="5-9" typeId="f2b4-e4ea-b118-b975">7</characteristic>
+                        <characteristic name="10-14" typeId="d6d2-0ade-fe00-9b79">4</characteristic>
                         <characteristic name="Qualities" typeId="6f44-e99f-a993-281a">Turret</characteristic>
                       </characteristics>
                     </profile>
@@ -275,9 +275,9 @@
                     <profile name="Ranged Heavy" typeId="2168-d664-9ff5-f41e" typeName="Type" hidden="false" id="b44d-1d85-63d2-7179">
                       <characteristics>
                         <characteristic name="Range" typeId="a93b-2f17-358e-cf1e">10&quot;/20&quot;</characteristic>
-                        <characteristic name="10-14" typeId="d6d2-0ade-fe00-9b79">4</characteristic>
-                        <characteristic name="5-9" typeId="f2b4-e4ea-b118-b975">7</characteristic>
                         <characteristic name="0-4" typeId="6cee-a120-eea9-d47b">10</characteristic>
+                        <characteristic name="5-9" typeId="f2b4-e4ea-b118-b975">7</characteristic>
+                        <characteristic name="10-14" typeId="d6d2-0ade-fe00-9b79">4</characteristic>
                         <characteristic name="Qualities" typeId="6f44-e99f-a993-281a">Turret</characteristic>
                       </characteristics>
                     </profile>
@@ -292,9 +292,9 @@
                     <profile name="Ranged Aerial" typeId="2168-d664-9ff5-f41e" typeName="Type" hidden="false" id="57c4-2108-5380-96ab">
                       <characteristics>
                         <characteristic name="Range" typeId="a93b-2f17-358e-cf1e">8&quot;/14&quot;</characteristic>
-                        <characteristic name="10-14" typeId="d6d2-0ade-fe00-9b79">3</characteristic>
-                        <characteristic name="5-9" typeId="f2b4-e4ea-b118-b975">6</characteristic>
                         <characteristic name="0-4" typeId="6cee-a120-eea9-d47b">9</characteristic>
+                        <characteristic name="5-9" typeId="f2b4-e4ea-b118-b975">6</characteristic>
+                        <characteristic name="10-14" typeId="d6d2-0ade-fe00-9b79">3</characteristic>
                         <characteristic name="Qualities" typeId="6f44-e99f-a993-281a">Turret</characteristic>
                       </characteristics>
                     </profile>
@@ -309,9 +309,9 @@
                     <profile name="Impact" typeId="2168-d664-9ff5-f41e" typeName="Type" hidden="false" id="cdf0-2edb-f74c-5b9a">
                       <characteristics>
                         <characteristic name="Range" typeId="a93b-2f17-358e-cf1e">-</characteristic>
-                        <characteristic name="10-14" typeId="d6d2-0ade-fe00-9b79">4</characteristic>
-                        <characteristic name="5-9" typeId="f2b4-e4ea-b118-b975">8</characteristic>
                         <characteristic name="0-4" typeId="6cee-a120-eea9-d47b">12</characteristic>
+                        <characteristic name="5-9" typeId="f2b4-e4ea-b118-b975">8</characteristic>
+                        <characteristic name="10-14" typeId="d6d2-0ade-fe00-9b79">4</characteristic>
                         <characteristic name="Qualities" typeId="6f44-e99f-a993-281a">-</characteristic>
                       </characteristics>
                     </profile>
@@ -560,7 +560,7 @@
                     <profile name="Ranged Light" typeId="ab7a-1a7e-f58b-4565" typeName="Type" hidden="false" id="2882-cb6a-51f9-f841">
                       <characteristics>
                         <characteristic name="Range" typeId="ae86-2a51-4bd0-5c8c">6&quot;/14&quot;</characteristic>
-                        <characteristic name="1-8" typeId="a2ba-36af-bed3-a679">5</characteristic>
+                        <characteristic name="1-8" typeId="a2ba-36af-bed3-a679">4</characteristic>
                         <characteristic name="9-16" typeId="085d-3a50-7d10-ef1b">8</characteristic>
                         <characteristic name="17-24" typeId="b6be-29a6-8c04-d4a7">12</characteristic>
                         <characteristic name="Qualities" typeId="ea86-3bb1-4fea-6f13">-</characteristic>
@@ -4299,13 +4299,13 @@
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5cd7-6adb-ce81-b352" automatic="true"/>
                   </constraints>
                   <profiles>
-                    <profile name="Melee" typeId="344a-022d-aebf-7e7a" typeName="Type" hidden="false" id="9c9a-90b6-fd46-bdf4">
+                    <profile name="Melee" typeId="055e-da65-5a34-6a56" typeName="Type" hidden="false" id="9c9a-90b6-fd46-bdf4">
                       <characteristics>
-                        <characteristic name="Range" typeId="db9e-9452-9fc5-3877">-</characteristic>
-                        <characteristic name="1-4" typeId="94b3-2e14-1b71-6757">3</characteristic>
-                        <characteristic name="5-8" typeId="f891-f62d-9222-6a4f">6</characteristic>
-                        <characteristic name="9-12" typeId="df36-9d51-a316-8d54">9</characteristic>
-                        <characteristic name="Qualities" typeId="9a3f-8a28-e735-e1eb">-</characteristic>
+                        <characteristic name="Range" typeId="a4be-e6da-e81e-0ee5">-</characteristic>
+                        <characteristic name="1-5" typeId="6c2b-399d-3913-0c86">3</characteristic>
+                        <characteristic name="6-10" typeId="e030-39ed-b345-ffd8">6</characteristic>
+                        <characteristic name="11-15" typeId="3341-bdc5-ce8f-a06f">9</characteristic>
+                        <characteristic name="Qualities" typeId="e5a1-fc2f-d8b2-79b3">-</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -4316,13 +4316,13 @@
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ae8a-cef4-dc00-414a" automatic="true"/>
                   </constraints>
                   <profiles>
-                    <profile name="Ranged Heavy" typeId="344a-022d-aebf-7e7a" typeName="Type" hidden="false" id="88f1-9035-6a51-590b">
+                    <profile name="Ranged Heavy" typeId="055e-da65-5a34-6a56" typeName="Type" hidden="false" id="88f1-9035-6a51-590b">
                       <characteristics>
-                        <characteristic name="Range" typeId="db9e-9452-9fc5-3877">10&quot;/20&quot;</characteristic>
-                        <characteristic name="1-4" typeId="94b3-2e14-1b71-6757">3</characteristic>
-                        <characteristic name="5-8" typeId="f891-f62d-9222-6a4f">5</characteristic>
-                        <characteristic name="9-12" typeId="df36-9d51-a316-8d54">7</characteristic>
-                        <characteristic name="Qualities" typeId="9a3f-8a28-e735-e1eb">Penetrating</characteristic>
+                        <characteristic name="Range" typeId="a4be-e6da-e81e-0ee5">10&quot;/20&quot;</characteristic>
+                        <characteristic name="1-5" typeId="6c2b-399d-3913-0c86">3</characteristic>
+                        <characteristic name="6-10" typeId="e030-39ed-b345-ffd8">5</characteristic>
+                        <characteristic name="11-15" typeId="3341-bdc5-ce8f-a06f">7</characteristic>
+                        <characteristic name="Qualities" typeId="e5a1-fc2f-d8b2-79b3">Penetrating</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -4796,7 +4796,7 @@
                     <profile name="Ranged Light" typeId="ab7a-1a7e-f58b-4565" typeName="Type" hidden="false" id="04b7-abfc-7a4d-c818">
                       <characteristics>
                         <characteristic name="Range" typeId="ae86-2a51-4bd0-5c8c">6&quot;/14&quot;</characteristic>
-                        <characteristic name="1-8" typeId="a2ba-36af-bed3-a679">5</characteristic>
+                        <characteristic name="1-8" typeId="a2ba-36af-bed3-a679">4</characteristic>
                         <characteristic name="9-16" typeId="085d-3a50-7d10-ef1b">8</characteristic>
                         <characteristic name="17-24" typeId="b6be-29a6-8c04-d4a7">12</characteristic>
                         <characteristic name="Qualities" typeId="ea86-3bb1-4fea-6f13">-</characteristic>
@@ -6066,9 +6066,9 @@ Units that are already Coordinated cannot benefit from this Commander Bonus.</ch
         <modifier type="set" value="Bolstering" field="name"/>
       </modifiers>
       <entryLinks>
-        <entryLink import="true" name="Basic I" hidden="false" id="d4a8-cc56-6362-2936" type="selectionEntry" targetId="952e-27d7-d2ea-6833" sortIndex="1"/>
-        <entryLink import="true" name="Reinforced I" hidden="false" id="1846-bb1a-8d58-1b20" type="selectionEntry" targetId="c8bc-cdb4-d990-1a36" sortIndex="2"/>
-        <entryLink import="true" name="Full Strength I" hidden="false" id="5360-8f9b-def5-02b1" type="selectionEntry" targetId="fa9a-066f-edfa-0452" sortIndex="3"/>
+        <entryLink import="true" name="Basic INFANTRY" hidden="false" id="d4a8-cc56-6362-2936" type="selectionEntry" targetId="952e-27d7-d2ea-6833" sortIndex="1"/>
+        <entryLink import="true" name="Reinforced INFANTRY" hidden="false" id="1846-bb1a-8d58-1b20" type="selectionEntry" targetId="c8bc-cdb4-d990-1a36" sortIndex="2"/>
+        <entryLink import="true" name="Full Strength INFANTRY" hidden="false" id="5360-8f9b-def5-02b1" type="selectionEntry" targetId="fa9a-066f-edfa-0452" sortIndex="3"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup name="Bolstering COMMANDER" id="6e48-5a39-41a5-ba0e" hidden="false" sortIndex="1" import="false">

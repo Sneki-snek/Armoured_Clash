@@ -107,9 +107,9 @@
                 <profile name="Ranged (Light)" typeId="94d7-2200-00d2-ae3f" typeName="Type" hidden="false" id="406c-d1bc-72dc-c178">
                   <characteristics>
                     <characteristic name="Range" typeId="0faf-08e4-43a5-722d">-&quot;/14&quot;</characteristic>
-                    <characteristic name="1-6" typeId="1dd1-b0ef-2521-5815">4</characteristic>
-                    <characteristic name="7-12" typeId="1fbf-39ae-6b9b-6e84">11</characteristic>
-                    <characteristic name="13-18" typeId="73e4-df9f-6b10-d276">17</characteristic>
+                    <characteristic name="1-6" typeId="1dd1-b0ef-2521-5815">5</characteristic>
+                    <characteristic name="7-12" typeId="1fbf-39ae-6b9b-6e84">10</characteristic>
+                    <characteristic name="13-18" typeId="73e4-df9f-6b10-d276">15</characteristic>
                     <characteristic name="Qualities" typeId="8c1e-b7a3-2830-9b8b">arc</characteristic>
                   </characteristics>
                 </profile>
@@ -409,13 +409,13 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9ed5-57e5-b520-1ad2-max" automatic="true"/>
               </constraints>
               <profiles>
-                <profile name="Ranged (Light)" typeId="94d7-2200-00d2-ae3f" typeName="Type" hidden="false" id="63dd-66b5-c4d7-98d5">
+                <profile name="Ranged (Light)" typeId="94d7-2200-00d2-ae3f" typeName="Type" hidden="false" id="091b-e458-74bf-c83d">
                   <characteristics>
                     <characteristic name="Range" typeId="0faf-08e4-43a5-722d">-&quot;/14&quot;</characteristic>
-                    <characteristic name="1-6" typeId="1dd1-b0ef-2521-5815">4</characteristic>
-                    <characteristic name="7-12" typeId="1fbf-39ae-6b9b-6e84">11</characteristic>
-                    <characteristic name="13-18" typeId="73e4-df9f-6b10-d276">17</characteristic>
-                    <characteristic name="Qualities" typeId="8c1e-b7a3-2830-9b8b">Arc</characteristic>
+                    <characteristic name="1-6" typeId="1dd1-b0ef-2521-5815">5</characteristic>
+                    <characteristic name="7-12" typeId="1fbf-39ae-6b9b-6e84">10</characteristic>
+                    <characteristic name="13-18" typeId="73e4-df9f-6b10-d276">15</characteristic>
+                    <characteristic name="Qualities" typeId="8c1e-b7a3-2830-9b8b">arc</characteristic>
                   </characteristics>
                 </profile>
               </profiles>

@@ -69,6 +69,7 @@
     <categoryEntry name="Containment Chambers" id="1bf1-0765-ea0f-ffde" hidden="false"/>
     <categoryEntry name="Order" id="10e0-63bd-3ed0-8740" hidden="false"/>
     <categoryEntry name="Unique" id="19f4-cd18-0cc2-f95d" hidden="false"/>
+    <categoryEntry name="Sub-Zero" id="bec1-3746-2d61-d9f8" hidden="false"/>
   </categoryEntries>
   <selectionEntries>
     <selectionEntry type="unit" import="true" name="Example Unit" hidden="true" id="afc1-a3d2-a345-3a0c">
@@ -714,9 +715,9 @@ If they do, they must then discard one card from their Hand.</characteristic>
     <profileType name="Type" id="2168-d664-9ff5-f41e" hidden="false" sortIndex="9" kind="weapon">
       <characteristicTypes>
         <characteristicType name="Range" id="a93b-2f17-358e-cf1e"/>
-        <characteristicType name="10-14" id="d6d2-0ade-fe00-9b79"/>
-        <characteristicType name="5-9" id="f2b4-e4ea-b118-b975"/>
         <characteristicType name="0-4" id="6cee-a120-eea9-d47b"/>
+        <characteristicType name="5-9" id="f2b4-e4ea-b118-b975"/>
+        <characteristicType name="10-14" id="d6d2-0ade-fe00-9b79"/>
         <characteristicType name="Qualities" id="6f44-e99f-a993-281a"/>
       </characteristicTypes>
       <comment>weapons Behemoth 0-14</comment>
