@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="799f-03f1-7a93-f99d" name="Enlightened" gameSystemId="sys-e850-e7dd-b6e5-f6c0" gameSystemRevision="2" revision="6" authorName="Sneki_snek" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="799f-03f1-7a93-f99d" name="Enlightened" gameSystemId="sys-e850-e7dd-b6e5-f6c0" gameSystemRevision="2" revision="7" authorName="Sneki_snek" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry type="unit" import="false" name="Citizen-Soldier Command Contingent" hidden="false" id="8928-baaa-07d0-f3a4" sortIndex="2">
       <categoryLinks>
@@ -5712,10 +5712,10 @@
     <selectionEntry type="unit" import="false" name="Wells Super-Heavy Surveyor" hidden="false" id="7999-b6dd-627e-5472" sortIndex="2">
       <categoryLinks>
         <categoryLink targetId="42f4-f9ca-4d81-75b4" id="4ff2-d4dc-4530-787e" primary="false" name="Enlightened"/>
-        <categoryLink targetId="2c1d-3a57-3871-f158" id="0749-ad59-2dd2-07f7" primary="false" name="Armour"/>
         <categoryLink targetId="6aad-4085-608f-dc2f" id="4d08-9151-df6a-5a32" primary="false" name="Heavy"/>
         <categoryLink targetId="26dd-e4ab-0a91-096a" id="4c29-ef5b-d5e6-a9e0" primary="false" name="Behemoth"/>
         <categoryLink targetId="058b-06f1-5fc7-3c9a" id="917a-25bf-d0bf-5e1c" primary="true" name="Commander"/>
+        <categoryLink name="Armour (c)" hidden="false" id="dc2e-20a7-3543-925b" targetId="fb51-77d5-9062-8c08" primary="false"/>
       </categoryLinks>
       <profiles>
         <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="4a53-6344-a019-5972" noindex="false">
@@ -5876,10 +5876,10 @@
     <selectionEntry type="unit" import="false" name="Horsell Super-Heavy Extractor" hidden="false" id="39bc-7dfb-220e-531d" sortIndex="2">
       <categoryLinks>
         <categoryLink targetId="42f4-f9ca-4d81-75b4" id="41e5-72ac-3843-3557" primary="false" name="Enlightened"/>
-        <categoryLink targetId="2c1d-3a57-3871-f158" id="86c1-4101-a090-63d3" primary="false" name="Armour"/>
         <categoryLink targetId="6aad-4085-608f-dc2f" id="0174-d836-82a2-f128" primary="false" name="Heavy"/>
         <categoryLink targetId="26dd-e4ab-0a91-096a" id="8e33-d470-34df-1546" primary="false" name="Behemoth"/>
         <categoryLink targetId="058b-06f1-5fc7-3c9a" id="9f35-76ab-c86a-98ad" primary="true" name="Commander"/>
+        <categoryLink name="Armour (c)" hidden="false" id="b5f8-f3f7-3592-ffa9" targetId="fb51-77d5-9062-8c08" primary="false"/>
       </categoryLinks>
       <profiles>
         <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="7e1e-2318-4497-9c7d" noindex="false">
