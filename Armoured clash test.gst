@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="sys-e850-e7dd-b6e5-f6c0" name="Armoured Clash" battleScribeVersion="2.03" revision="7" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="sys-e850-e7dd-b6e5-f6c0" name="Armoured Clash" battleScribeVersion="2.03" revision="8" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <categoryEntries>
     <categoryEntry name="Light" id="default-category"/>
     <categoryEntry name="Heavy" id="6aad-4085-608f-dc2f" hidden="false"/>
@@ -29,8 +29,11 @@
     <categoryEntry name="Union" id="a412-ee13-0709-09cf" hidden="false"/>
     <categoryEntry name="Sultanate" id="2799-1c42-8342-8860" hidden="false"/>
     <categoryEntry name="Alliance" id="db41-3349-0ff7-53da" hidden="false"/>
-    <categoryEntry name="Infantry" id="2d10-727d-0cfb-9c0f" hidden="false">
+    <categoryEntry name="Infantry (c)" id="2d10-727d-0cfb-9c0f" hidden="false">
       <comment>For commanders, don&apos;t ask.</comment>
+      <modifiers>
+        <modifier type="set" value="Infantry" field="name"/>
+      </modifiers>
     </categoryEntry>
     <categoryEntry name="Boons" id="9588-4200-697f-615f" hidden="false"/>
     <categoryEntry name="Battlegroup, Aux3" id="f0ea-fce6-e41b-f07a" hidden="false"/>
@@ -38,8 +41,11 @@
     <categoryEntry name="Battlegroup, Aux1" id="5df6-88b7-991f-ec9f" hidden="false"/>
     <categoryEntry name="Battlegroup, Aux2" id="8c94-5dcf-d9b3-05d6" hidden="false"/>
     <categoryEntry name="Rotorcraft" id="48db-6837-f5b1-49e2" hidden="false"/>
-    <categoryEntry name="Rotorcraft" id="7631-aeb2-96eb-cddd" hidden="false">
+    <categoryEntry name="Rotorcraft (c)" id="7631-aeb2-96eb-cddd" hidden="false">
       <comment>For Commanders, again...</comment>
+      <modifiers>
+        <modifier type="set" value="Rotorcraft" field="name"/>
+      </modifiers>
     </categoryEntry>
     <categoryEntry name="Infantry/Armour" id="796d-5047-ce17-a6ab" hidden="false"/>
     <categoryEntry name="Fortification" id="41d4-e90f-729f-92b9" hidden="false"/>
@@ -54,8 +60,11 @@
     <categoryEntry name="Teutonic Infantry" id="7326-b219-e807-4fca" hidden="false"/>
     <categoryEntry name="Tractor" id="a0a3-b1b7-dee2-c8c6" hidden="false"/>
     <categoryEntry name="Armour/Artillery" id="1a01-9a6d-4d44-aa8e" hidden="false"/>
-    <categoryEntry name="Armour" id="fb51-77d5-9062-8c08" hidden="false">
+    <categoryEntry name="Armour (c)" id="fb51-77d5-9062-8c08" hidden="false">
       <comment>for Commanders</comment>
+      <modifiers>
+        <modifier type="set" value="Armour" field="name"/>
+      </modifiers>
     </categoryEntry>
     <categoryEntry name="Parent" id="836d-480a-6f6e-598e" hidden="false"/>
     <categoryEntry name="Engine" id="8f52-9854-2299-cf1b" hidden="false"/>
@@ -546,25 +555,9 @@ If they do, they must then discard one card from their Hand.</characteristic>
           </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <modifiers>
-        <modifier type="set" value="true" field="hidden">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition type="always" value="1" field="selections" scope="parent" childId="any" shared="true"/>
-              </conditions>
-              <localConditionGroups>
-                <localConditionGroup type="atLeast" value="1" scope="roster" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
-                  <conditions>
-                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="0a52-a226-9ffd-2ea3" shared="true"/>
-                    <condition type="before" value="1" field="selections" scope="parent" childId="any" shared="true"/>
-                  </conditions>
-                </localConditionGroup>
-              </localConditionGroups>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="9408-c66a-3e0d-d982" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
     </selectionEntry>
   </selectionEntries>
   <profileTypes>
