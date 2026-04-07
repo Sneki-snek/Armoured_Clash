@@ -515,6 +515,13 @@
             <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a747-bf39-8b9d-67a8" shared="true" includeChildSelections="false"/>
           </conditions>
         </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="forces" scope="self" childId="header" shared="true" childName="header"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4b6c-a0fd-a97c-5d8b" shared="true" childName="Inhuman" includeChildSelections="true" includeChildForces="true"/>
+            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a747-bf39-8b9d-67a8" shared="true" includeChildSelections="false"/>
+          </conditions>
+        </modifier>
       </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Janissaries" hidden="false" id="6653-1f33-2fa8-f229" sortIndex="6">
@@ -1404,11 +1411,6 @@
         <categoryLink name="Heavy" hidden="false" id="fea8-ab24-a262-8eb3" targetId="6aad-4085-608f-dc2f" primary="false"/>
       </categoryLinks>
       <modifiers>
-        <modifier type="set-primary" value="1784-a233-9d87-a4f8" field="category">
-          <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a747-bf39-8b9d-67a8" shared="true" includeChildSelections="false"/>
-          </conditions>
-        </modifier>
         <modifier type="set" value="2" field="a2a5-e436-7bd2-8ad2">
           <conditionGroups>
             <conditionGroup type="or">
@@ -2708,6 +2710,13 @@
             <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a747-bf39-8b9d-67a8" shared="true" includeChildSelections="false"/>
           </conditions>
         </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="forces" scope="self" childId="header" shared="true" childName="header"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4b6c-a0fd-a97c-5d8b" shared="true" childName="Inhuman" includeChildSelections="true" includeChildForces="true"/>
+            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a747-bf39-8b9d-67a8" shared="true" includeChildSelections="false"/>
+          </conditions>
+        </modifier>
       </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Janissary Command" hidden="false" id="83a7-f845-98f9-2c61" sortIndex="2">
@@ -3309,10 +3318,10 @@ If this command is successfully issued, the selected unit immediately loses a m
             <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="e651-1572-98db-0a73"/>
           </constraints>
         </categoryLink>
-        <categoryLink name="Order Armor" hidden="false" id="68a6-c54b-462c-bd41" targetId="1784-a233-9d87-a4f8">
+        <categoryLink name="Armour" hidden="false" id="620f-05a4-3a47-75b5" targetId="2c1d-3a57-3871-f158">
           <constraints>
-            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="8c3c-d34e-5acc-bc36"/>
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="9ea4-b3b9-7a63-98f6"/>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="8c3c-d34e-5acc-bc36"/>
           </constraints>
         </categoryLink>
       </categoryLinks>
@@ -3327,4 +3336,11 @@ If this command is successfully issued, the selected unit immediately loses a m
       <comment>Inf Commander</comment>
     </categoryEntry>
   </categoryEntries>
+  <sharedAssociations>
+    <association min="1" max="1" scope="force" childId="4b6c-a0fd-a97c-5d8b" name="Inhuman Limit" id="c685-800b-8bf9-7f43" label="Trait" childName="Inhuman" includeChildSelections="true">
+      <conditions>
+        <condition type="instanceOf" value="1" field="selections" scope="force" childId="a747-bf39-8b9d-67a8" shared="true" includeChildSelections="true" includeChildForces="true" childName="Order Auxiliary Battlegroup"/>
+      </conditions>
+    </association>
+  </sharedAssociations>
 </catalogue>
