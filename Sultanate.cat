@@ -7,7 +7,7 @@
         <categoryLink name="Sultanate" hidden="false" id="4c31-c468-7157-0703" targetId="2799-1c42-8342-8860" primary="false"/>
         <categoryLink name="Heavy" hidden="false" id="8d12-4436-9c41-d240" targetId="6aad-4085-608f-dc2f" primary="false"/>
         <categoryLink name="Behemoth" hidden="false" id="a4fe-d251-7075-97dd" targetId="26dd-e4ab-0a91-096a" primary="false"/>
-        <categoryLink name="Armour" hidden="false" id="a5a5-adab-aade-56b6" targetId="fb51-77d5-9062-8c08" primary="false"/>
+        <categoryLink name="Armour (c)" hidden="false" id="a5a5-adab-aade-56b6" targetId="fb51-77d5-9062-8c08" primary="false"/>
       </categoryLinks>
       <profiles>
         <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="534e-0d00-ad85-bfc6" noindex="false">
@@ -356,7 +356,7 @@
         <categoryLink name="Order" hidden="false" id="b451-7d0f-2c9f-801b" targetId="10e0-63bd-3ed0-8740" primary="false"/>
         <categoryLink name="Inhuman" hidden="false" id="e968-0280-f4a3-a1a3" targetId="4b6c-a0fd-a97c-5d8b" primary="false"/>
         <categoryLink name="Commander" hidden="false" id="c378-3b89-65aa-c81b" targetId="058b-06f1-5fc7-3c9a" primary="true"/>
-        <categoryLink name="Infantry" hidden="false" id="0ec3-04bb-5cf4-83da" targetId="2d10-727d-0cfb-9c0f" primary="false"/>
+        <categoryLink name="Infantry (c)" hidden="false" id="0ec3-04bb-5cf4-83da" targetId="2d10-727d-0cfb-9c0f" primary="false"/>
       </categoryLinks>
       <modifiers>
         <modifier type="set-primary" value="c4b9-368e-888d-0906" field="category">
@@ -2859,7 +2859,7 @@
         <categoryLink name="Commander" hidden="false" id="820e-bccb-6892-8df7" targetId="058b-06f1-5fc7-3c9a" primary="true"/>
         <categoryLink name="Sultanate" hidden="false" id="5487-d9c3-38de-ea7b" targetId="2799-1c42-8342-8860" primary="false"/>
         <categoryLink name="Light" hidden="false" id="3505-475a-4b23-3891" targetId="default-category" primary="false"/>
-        <categoryLink name="Infantry" hidden="false" id="9bc9-0436-4f22-25d6" targetId="2d10-727d-0cfb-9c0f" primary="false"/>
+        <categoryLink name="Infantry (c)" hidden="false" id="9bc9-0436-4f22-25d6" targetId="2d10-727d-0cfb-9c0f" primary="false"/>
       </categoryLinks>
       <modifiers>
         <modifier type="set-primary" value="e834-d468-4725-332b" field="category">
@@ -3204,6 +3204,14 @@ If this command is successfully issued, the selected unit immediately loses a m
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="df83-2b29-1784-de72" automatic="true"/>
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="eb45-8e2b-3387-2f11"/>
       </constraints>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="9d44-abce-9648-8836" shared="true" childName="Boons and bonuses" includeChildSelections="true" includeChildForces="true"/>
+            <condition type="instanceOf" value="1" field="forces" scope="self" childId="header" shared="true" childName="header"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
   </selectionEntries>
   <catalogueLinks>
@@ -3213,7 +3221,12 @@ If this command is successfully issued, the selected unit immediately loses a m
     <forceEntry name="Sultanate Faction Battlegroup" id="e5d1-c616-ca94-290c" hidden="false" sortIndex="1">
       <categoryLinks>
         <categoryLink name="Boons" hidden="false" id="5801-1c8e-8362-2d32" targetId="9588-4200-697f-615f"/>
-        <categoryLink name="Commander" hidden="false" id="2775-02cf-150d-556a" targetId="058b-06f1-5fc7-3c9a"/>
+        <categoryLink name="Commander" hidden="false" id="2775-02cf-150d-556a" targetId="058b-06f1-5fc7-3c9a">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="force" shared="true" id="f2b2-e35a-e90a-02cd" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="950e-d3c8-fd5e-c16f" includeChildSelections="false"/>
+          </constraints>
+        </categoryLink>
         <categoryLink name="Infantry" hidden="false" id="8992-aadd-d852-2756" targetId="92f8-9d17-dd4d-a5ac">
           <constraints>
             <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="dfac-3e92-c0f0-b0aa"/>

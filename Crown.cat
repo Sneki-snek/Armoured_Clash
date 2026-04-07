@@ -6,7 +6,7 @@
         <categoryLink targetId="3fc8-e765-d414-c33b" id="158b-5349-0e69-b824" primary="false" name="Crown"/>
         <categoryLink targetId="058b-06f1-5fc7-3c9a" id="ad9c-01bc-0289-fbd6" primary="true" name="Commander"/>
         <categoryLink targetId="default-category" id="cf1c-0b0a-bee7-405a" primary="false" name="Light"/>
-        <categoryLink targetId="2d10-727d-0cfb-9c0f" id="d104-f1e1-86d5-95d0" primary="false" name="Infantry"/>
+        <categoryLink targetId="2d10-727d-0cfb-9c0f" id="d104-f1e1-86d5-95d0" primary="false" name="Infantry (c)"/>
       </categoryLinks>
       <profiles>
         <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="810b-3e6d-a074-6d81" noindex="true">
@@ -6307,13 +6307,26 @@ This is intentional!</characteristic>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="974f-0305-ccb3-91cb" automatic="true"/>
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7a49-1513-733a-3bbc"/>
       </constraints>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="ea85-8706-fbf8-32c6" shared="true" childName="Boons and bonuses" includeChildSelections="true" includeChildForces="true"/>
+            <condition type="instanceOf" value="1" field="forces" scope="self" childId="header" shared="true" childName="header"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
   </selectionEntries>
   <forceEntries>
     <forceEntry name="Crown Faction Battlegroup" id="f353-6a14-0887-e50c" hidden="false" sortIndex="1">
       <categoryLinks>
         <categoryLink name="Boons" hidden="false" id="4b42-8b0a-ce58-0adf" targetId="9588-4200-697f-615f"/>
-        <categoryLink name="Commander" hidden="false" id="1627-6672-0964-6ede" targetId="058b-06f1-5fc7-3c9a"/>
+        <categoryLink name="Commander" hidden="false" id="1627-6672-0964-6ede" targetId="058b-06f1-5fc7-3c9a">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="force" shared="true" id="2b77-cba9-b615-2e8d" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="d7a9-02d1-43ee-76cb" includeChildSelections="false"/>
+          </constraints>
+        </categoryLink>
         <categoryLink name="Infantry" hidden="false" id="8e60-c4a2-5ed6-96d0" targetId="92f8-9d17-dd4d-a5ac">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7a06-1180-8cd7-c309"/>
@@ -6351,7 +6364,12 @@ This is intentional!</characteristic>
     <forceEntry name="Line-Breaker Auxiliary Battlegroup" id="df41-804b-08d3-4196" hidden="false" sortIndex="2">
       <categoryLinks>
         <categoryLink name="Boons" hidden="false" id="280a-44e1-66ae-6660" targetId="9588-4200-697f-615f"/>
-        <categoryLink name="Commander" hidden="false" id="91eb-df40-8d55-4fb5" targetId="058b-06f1-5fc7-3c9a"/>
+        <categoryLink name="Commander" hidden="false" id="91eb-df40-8d55-4fb5" targetId="058b-06f1-5fc7-3c9a">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="force" shared="true" id="66ba-a8e0-1fff-7e42" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="a9af-bb0f-536a-ba88" includeChildSelections="false"/>
+          </constraints>
+        </categoryLink>
         <categoryLink name="Infantry" hidden="false" id="8966-0616-cfe3-28de" targetId="92f8-9d17-dd4d-a5ac">
           <constraints>
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="5fe0-19c4-43fd-9219"/>
@@ -6375,7 +6393,12 @@ This is intentional!</characteristic>
     <forceEntry name="Support Auxiliary BattleGroup" id="49f7-b3f5-f33b-afd7" hidden="false" sortIndex="3">
       <categoryLinks>
         <categoryLink name="Boons" hidden="false" id="5756-8956-d549-c1eb" targetId="9588-4200-697f-615f"/>
-        <categoryLink name="Commander" hidden="false" id="227b-bdfd-b370-e06d" targetId="058b-06f1-5fc7-3c9a"/>
+        <categoryLink name="Commander" hidden="false" id="227b-bdfd-b370-e06d" targetId="058b-06f1-5fc7-3c9a">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="force" shared="true" id="e733-240a-f930-1c39" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="c61a-d0f0-b42c-e6fb" includeChildSelections="false"/>
+          </constraints>
+        </categoryLink>
         <categoryLink name="Armour" hidden="false" id="c7b2-88ad-bd50-acda" targetId="2c1d-3a57-3871-f158">
           <constraints>
             <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="1f72-ae03-7b58-f433"/>

@@ -224,12 +224,20 @@ If they do, they must then discard one card from their Hand.</characteristic>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d9fa-be92-ce10-6c92" automatic="true"/>
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="161b-7a16-dedf-429d"/>
       </constraints>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="a84a-823a-00be-2d7a" shared="true" childName="Boons and bonuses" includeChildSelections="true" includeChildForces="true"/>
+            <condition type="instanceOf" value="1" field="forces" scope="self" childId="header" shared="true" childName="header"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Federal Trooper Command Platoon" hidden="false" id="58d1-4bf0-b61c-b7b0" sortIndex="2" subType="unit-group">
       <categoryLinks>
         <categoryLink name="Light" hidden="false" id="3502-839d-8c86-ae4e" targetId="default-category" primary="false"/>
         <categoryLink name="Commander" hidden="false" id="df58-8d36-93f2-8170" targetId="058b-06f1-5fc7-3c9a" primary="true"/>
-        <categoryLink name="Infantry" hidden="false" id="61d5-f737-4dc9-f6d1" targetId="2d10-727d-0cfb-9c0f" primary="false"/>
+        <categoryLink name="Infantry (c)" hidden="false" id="61d5-f737-4dc9-f6d1" targetId="2d10-727d-0cfb-9c0f" primary="false"/>
         <categoryLink targetId="836d-480a-6f6e-598e" id="f8d9-d7ac-3169-b19d" primary="false" name="Parent"/>
         <categoryLink targetId="a412-ee13-0709-09cf" id="c2dc-b13c-66be-4d2d" primary="false" name="Union"/>
       </categoryLinks>
@@ -380,7 +388,7 @@ If they do, they must then discard one card from their Hand.</characteristic>
         <categoryLink name="Commander" hidden="false" id="a03d-2276-4432-27c9" targetId="058b-06f1-5fc7-3c9a" primary="true"/>
         <categoryLink targetId="a412-ee13-0709-09cf" id="12f4-891a-5577-438a" primary="false" name="Union"/>
         <categoryLink targetId="6aad-4085-608f-dc2f" id="8177-c510-91cc-8466" primary="false" name="Heavy"/>
-        <categoryLink targetId="fb51-77d5-9062-8c08" id="eb83-200c-ea5b-a383" primary="false" name="Armour"/>
+        <categoryLink targetId="fb51-77d5-9062-8c08" id="eb83-200c-ea5b-a383" primary="false" name="Armour (c)"/>
         <categoryLink targetId="26dd-e4ab-0a91-096a" id="d375-79a8-6618-757e" primary="false" name="Behemoth"/>
         <categoryLink targetId="8f52-9854-2299-cf1b" id="2b51-9ee0-babe-45be" primary="false" name="Engine"/>
       </categoryLinks>
@@ -3596,7 +3604,12 @@ If they do, they must then discard one card from their Hand.</characteristic>
     <forceEntry name="Union Faction Battlegroup" id="84ba-b491-5e71-9b8e" hidden="false" sortIndex="1">
       <categoryLinks>
         <categoryLink name="Boons" hidden="false" id="a7ff-f897-491f-d68b" targetId="9588-4200-697f-615f"/>
-        <categoryLink name="Commander" hidden="false" id="e69b-cd96-19a1-375c" targetId="058b-06f1-5fc7-3c9a"/>
+        <categoryLink name="Commander" hidden="false" id="e69b-cd96-19a1-375c" targetId="058b-06f1-5fc7-3c9a">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="force" shared="true" id="6e96-81c3-5b1b-416c" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="418c-edea-16e7-ec00" includeChildSelections="false"/>
+          </constraints>
+        </categoryLink>
         <categoryLink name="Infantry" hidden="false" id="ddb8-f7e5-76ee-e864" targetId="92f8-9d17-dd4d-a5ac">
           <constraints>
             <constraint type="max" value="3" field="selections" scope="force" shared="true" id="9fd0-5ec9-3527-532f" includeChildSelections="false"/>
@@ -3633,7 +3646,12 @@ If they do, they must then discard one card from their Hand.</characteristic>
     <forceEntry name="Manifest Destiny Auxiliary Battlegroup" id="9f8e-49ab-64b9-f4d4" hidden="false" sortIndex="2">
       <categoryLinks>
         <categoryLink name="Boons" hidden="false" id="8d3a-db3c-4cef-d9a9" targetId="9588-4200-697f-615f"/>
-        <categoryLink name="Commander" hidden="false" id="1235-adf0-69e3-689b" targetId="058b-06f1-5fc7-3c9a"/>
+        <categoryLink name="Commander" hidden="false" id="1235-adf0-69e3-689b" targetId="058b-06f1-5fc7-3c9a">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="force" shared="true" id="636d-fbd6-f73f-bf0c" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="302b-0f43-7ecf-2876" includeChildSelections="false"/>
+          </constraints>
+        </categoryLink>
         <categoryLink name="Infantry" hidden="false" id="eecf-de3e-3e72-1259" targetId="92f8-9d17-dd4d-a5ac">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="force" shared="true" id="d483-ea6e-323e-9058" includeChildSelections="false"/>
@@ -3661,7 +3679,12 @@ If they do, they must then discard one card from their Hand.</characteristic>
     <forceEntry name="Shock &amp; Awe Auxiliary Battlegroup" id="de5c-0287-e275-8456" hidden="false" sortIndex="3">
       <categoryLinks>
         <categoryLink name="Boons" hidden="false" id="dc30-358c-dc35-e649" targetId="9588-4200-697f-615f"/>
-        <categoryLink name="Commander" hidden="false" id="7d2a-db60-760c-3732" targetId="058b-06f1-5fc7-3c9a"/>
+        <categoryLink name="Commander" hidden="false" id="7d2a-db60-760c-3732" targetId="058b-06f1-5fc7-3c9a">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="force" shared="true" id="9526-05d8-2cc6-c32a" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="9d9b-cb2b-b7a0-17cf" includeChildSelections="false"/>
+          </constraints>
+        </categoryLink>
         <categoryLink name="Infantry" hidden="false" id="f5ed-74bb-eb3d-2cdb" targetId="92f8-9d17-dd4d-a5ac">
           <constraints>
             <constraint type="max" value="3" field="selections" scope="force" shared="true" id="077b-5f75-a38e-d3ea" includeChildSelections="false"/>

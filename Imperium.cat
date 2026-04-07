@@ -6,7 +6,7 @@
         <categoryLink name="Commander" hidden="false" id="1d18-639e-8cf2-2d7c" targetId="058b-06f1-5fc7-3c9a" primary="true"/>
         <categoryLink name="Light" hidden="false" id="74c1-cd3e-5fe3-7eae" targetId="default-category" primary="false"/>
         <categoryLink targetId="cf02-f753-6379-2663" id="29ca-3a94-3a9f-c88e" primary="false" name="Imperium"/>
-        <categoryLink targetId="2d10-727d-0cfb-9c0f" id="c5b1-38c1-7266-41c5" primary="false" name="Infantry"/>
+        <categoryLink targetId="2d10-727d-0cfb-9c0f" id="c5b1-38c1-7266-41c5" primary="false" name="Infantry (c)"/>
       </categoryLinks>
       <profiles>
         <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="c247-a018-cf2b-ce7d" noindex="true">
@@ -3515,13 +3515,21 @@ If the chosen unit already has the Vanguard (X ) special rule it uses the highe
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="7d45-ff19-e010-a484" includeChildSelections="false" automatic="true"/>
         <constraint type="min" value="1" field="selections" scope="force" shared="true" id="f527-dcaa-d864-fd74" includeChildSelections="false" automatic="false"/>
       </constraints>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="c8bb-73f6-699f-9fe6" shared="true" childName="Boons and bonuses" includeChildSelections="true" includeChildForces="true"/>
+            <condition type="instanceOf" value="1" field="forces" scope="self" childId="header" shared="true" childName="header"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="false" name="Master Siegbert von Brandt" hidden="false" id="a55d-0c6c-fd6d-f3f8" sortIndex="1">
       <categoryLinks>
         <categoryLink name="Commander" hidden="false" id="ce75-3a01-093c-d1ab" targetId="058b-06f1-5fc7-3c9a" primary="true"/>
         <categoryLink name="Light" hidden="false" id="c962-739b-a2c8-ff21" targetId="default-category" primary="false"/>
         <categoryLink targetId="cf02-f753-6379-2663" id="d0fa-9069-e5ab-ad62" primary="false" name="Imperium"/>
-        <categoryLink targetId="2d10-727d-0cfb-9c0f" id="b9f9-9322-8ed3-4965" primary="false" name="Infantry"/>
+        <categoryLink targetId="2d10-727d-0cfb-9c0f" id="b9f9-9322-8ed3-4965" primary="false" name="Infantry (c)"/>
         <categoryLink name="Teutonic" hidden="false" id="a451-d9a0-6b39-8abb" targetId="9ae0-923c-a4aa-1a7b" primary="false"/>
         <categoryLink name="Unique" hidden="false" id="40d6-2b08-94cc-22ad" targetId="19f4-cd18-0cc2-f95d" primary="false"/>
       </categoryLinks>
@@ -3630,7 +3638,12 @@ If the chosen unit already has the Vanguard (X ) special rule it uses the highe
     <forceEntry name="Imperium Faction Battlegroup" id="5dab-8315-fb2f-c918" hidden="false">
       <categoryLinks>
         <categoryLink name="Boons" hidden="false" id="b142-62ff-ba1b-b51d" targetId="9588-4200-697f-615f"/>
-        <categoryLink name="Commander" hidden="false" id="c911-9cf9-e5e4-cc7d" targetId="058b-06f1-5fc7-3c9a"/>
+        <categoryLink name="Commander" hidden="false" id="c911-9cf9-e5e4-cc7d" targetId="058b-06f1-5fc7-3c9a">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="force" shared="true" id="1a3f-405b-d09f-85b7" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="8dd2-57e0-0eec-e432" includeChildSelections="false"/>
+          </constraints>
+        </categoryLink>
         <categoryLink name="Infantry" hidden="false" id="408a-1f5b-e0b7-e487" targetId="92f8-9d17-dd4d-a5ac">
           <constraints>
             <constraint type="max" value="5" field="selections" scope="force" shared="true" id="0485-b09c-4ef9-e30c" includeChildSelections="false"/>
@@ -3668,7 +3681,12 @@ If the chosen unit already has the Vanguard (X ) special rule it uses the highe
     <forceEntry name="Imperium Erlkonig Auxiliary Battlegroup" id="045f-d553-19bd-4484" hidden="false">
       <categoryLinks>
         <categoryLink name="Boons" hidden="false" id="cd65-ef09-e860-71c4" targetId="9588-4200-697f-615f"/>
-        <categoryLink name="Commander" hidden="false" id="249b-ed9c-38d7-bfe3" targetId="058b-06f1-5fc7-3c9a"/>
+        <categoryLink name="Commander" hidden="false" id="249b-ed9c-38d7-bfe3" targetId="058b-06f1-5fc7-3c9a">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="force" shared="true" id="8f23-f38c-6589-f293" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="249a-d04d-b9a9-4ace" includeChildSelections="false"/>
+          </constraints>
+        </categoryLink>
         <categoryLink name="Cavalry" hidden="false" id="029d-5a18-9052-2332" targetId="d257-b36f-8e15-2d9b">
           <constraints>
             <constraint type="max" value="4" field="selections" scope="force" shared="true" id="74d4-40bd-b90c-f52d" includeChildSelections="false"/>
@@ -3696,7 +3714,12 @@ If the chosen unit already has the Vanguard (X ) special rule it uses the highe
     <forceEntry name="Imperium Gelve Auxiliary Battlegroup" id="028c-27e1-2161-cbda" hidden="false">
       <categoryLinks>
         <categoryLink name="Boons" hidden="false" id="3765-8415-c49c-824b" targetId="9588-4200-697f-615f"/>
-        <categoryLink name="Commander" hidden="false" id="baf2-9786-fedd-3379" targetId="058b-06f1-5fc7-3c9a"/>
+        <categoryLink name="Commander" hidden="false" id="baf2-9786-fedd-3379" targetId="058b-06f1-5fc7-3c9a">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="force" shared="true" id="0cda-b4b4-6235-4971" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="dffa-81df-7257-f744" includeChildSelections="false"/>
+          </constraints>
+        </categoryLink>
         <categoryLink name="Teutonic Infantry" hidden="false" id="1df5-0c1a-cbce-e2e4" targetId="7326-b219-e807-4fca">
           <constraints>
             <constraint type="min" value="2" field="selections" scope="force" shared="true" id="9677-bc6c-495b-d441" includeChildSelections="false"/>

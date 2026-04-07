@@ -7,12 +7,7 @@
     <categoryEntry name="Infantry" id="92f8-9d17-dd4d-a5ac" hidden="false"/>
     <categoryEntry name="Armour" id="2c1d-3a57-3871-f158" hidden="false"/>
     <categoryEntry name="Cavalry" id="d257-b36f-8e15-2d9b" hidden="false"/>
-    <categoryEntry name="Commander" id="058b-06f1-5fc7-3c9a" hidden="false">
-      <constraints>
-        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="d5b0-088f-b46b-c804" includeChildSelections="false"/>
-        <constraint type="min" value="1" field="selections" scope="force" shared="true" id="dc24-93fc-26d3-073d" includeChildSelections="false"/>
-      </constraints>
-    </categoryEntry>
+    <categoryEntry name="Commander" id="058b-06f1-5fc7-3c9a" hidden="false"/>
     <categoryEntry name="Transport" id="d78d-8ed7-fc30-5981" hidden="false"/>
     <categoryEntry name="Crown" id="3fc8-e765-d414-c33b" hidden="false"/>
     <categoryEntry name="Basic" id="80e8-8985-aa05-621f" hidden="false"/>
@@ -558,6 +553,14 @@ If they do, they must then discard one card from their Hand.</characteristic>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="9408-c66a-3e0d-d982" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="0a52-a226-9ffd-2ea3" shared="true" childName="Size" includeChildSelections="true" includeChildForces="true"/>
+            <condition type="instanceOf" value="1" field="forces" scope="self" shared="true" childId="header" childName="header"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
   </selectionEntries>
   <profileTypes>

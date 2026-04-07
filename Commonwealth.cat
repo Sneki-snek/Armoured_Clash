@@ -441,7 +441,7 @@
         <categoryLink name="Light" hidden="false" id="bf19-305b-6d21-367a" targetId="default-category" primary="false"/>
         <categoryLink targetId="5953-76d6-e748-661f" id="bf12-016b-5ce5-df49" primary="false" name="Commonwealth"/>
         <categoryLink targetId="058b-06f1-5fc7-3c9a" id="36d4-03a7-564d-adb0" primary="true" name="Commander"/>
-        <categoryLink targetId="2d10-727d-0cfb-9c0f" id="70fc-345b-57ba-46b0" primary="false" name="Infantry"/>
+        <categoryLink targetId="2d10-727d-0cfb-9c0f" id="70fc-345b-57ba-46b0" primary="false" name="Infantry (c)"/>
       </categoryLinks>
       <profiles>
         <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="f813-5d3c-4937-5407" noindex="false">
@@ -4606,7 +4606,7 @@
         <categoryLink targetId="5953-76d6-e748-661f" id="8dc9-2ae3-fd43-f367" primary="false" name="Commonwealth"/>
         <categoryLink targetId="e3f5-6c6c-0532-1c43" id="96d8-440c-27f2-4dce" primary="false" name="Aerial"/>
         <categoryLink targetId="058b-06f1-5fc7-3c9a" id="a526-b03a-1f71-4a91" primary="true" name="Commander"/>
-        <categoryLink targetId="7631-aeb2-96eb-cddd" id="13ea-395a-6874-a534" primary="false" name="Rotorcraft"/>
+        <categoryLink targetId="7631-aeb2-96eb-cddd" id="13ea-395a-6874-a534" primary="false" name="Rotorcraft (c)"/>
       </categoryLinks>
       <profiles>
         <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="3f84-4a27-ee5b-4284" noindex="false">
@@ -5645,6 +5645,14 @@ A unit can benefit from this Commander Bonus even if it is on On Lookout, and do
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="eabf-88ce-036a-ce36" automatic="true"/>
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ee33-ab07-3f85-bff0"/>
       </constraints>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="2db4-193f-4320-0428" shared="true" childName="Boons and bonuses" includeChildSelections="true" includeChildForces="true"/>
+            <condition type="instanceOf" value="1" field="forces" scope="self" childId="header" shared="true" childName="header"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Buran Cryo Troopers" hidden="false" id="817c-292c-064b-9920" sortIndex="2">
       <categoryLinks>
@@ -6200,7 +6208,7 @@ A unit can benefit from this Commander Bonus even if it is on On Lookout, and do
                     <characteristic name="1-4" typeId="94b3-2e14-1b71-6757">4</characteristic>
                     <characteristic name="5-8" typeId="f891-f62d-9222-6a4f">8</characteristic>
                     <characteristic name="9-12" typeId="df36-9d51-a316-8d54">12</characteristic>
-                    <characteristic name="Qualities" typeId="9a3f-8a28-e735-e1eb">Cryo, Suppressive, Torrent</characteristic>
+                    <characteristic name="Qualities" typeId="9a3f-8a28-e735-e1eb">-</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7669,7 +7677,12 @@ A unit can benefit from this Commander Bonus even if it is on On Lookout, and do
     <forceEntry name="Commonwealth Faction BattleGroup" id="9720-ada4-14a9-5282" hidden="false">
       <categoryLinks>
         <categoryLink name="Boons" hidden="false" id="96d6-3e10-1ddc-4b77" targetId="9588-4200-697f-615f"/>
-        <categoryLink name="Commander" hidden="false" id="39d3-d6de-a3fc-e7fd" targetId="058b-06f1-5fc7-3c9a"/>
+        <categoryLink name="Commander" hidden="false" id="39d3-d6de-a3fc-e7fd" targetId="058b-06f1-5fc7-3c9a">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="force" shared="true" id="179e-c75a-eed9-ebb4" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="3346-88b4-5864-060e" includeChildSelections="false"/>
+          </constraints>
+        </categoryLink>
         <categoryLink name="Infantry/Cavalry" hidden="false" id="eabd-0b63-5bf9-e6c9" targetId="763f-6d17-4a4b-c0df">
           <constraints>
             <constraint type="min" value="2" field="selections" scope="force" shared="true" id="ee75-430f-0988-723a" includeChildSelections="false"/>
@@ -7706,7 +7719,12 @@ A unit can benefit from this Commander Bonus even if it is on On Lookout, and do
     <forceEntry name="Commonwealth Bardiche auxiliary Battlegroup" id="6da9-8821-9946-ba3a" hidden="false">
       <categoryLinks>
         <categoryLink name="Boons" hidden="false" id="5414-b6f3-fba2-3826" targetId="9588-4200-697f-615f"/>
-        <categoryLink name="Commander" hidden="false" id="7816-5b2f-ec06-1226" targetId="058b-06f1-5fc7-3c9a"/>
+        <categoryLink name="Commander" hidden="false" id="7816-5b2f-ec06-1226" targetId="058b-06f1-5fc7-3c9a">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="force" shared="true" id="fcda-9b73-58b6-608b" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="c473-92e5-8dea-a580" includeChildSelections="false"/>
+          </constraints>
+        </categoryLink>
         <categoryLink name="Infantry" hidden="false" id="7443-5a77-c575-b599" targetId="92f8-9d17-dd4d-a5ac">
           <constraints>
             <constraint type="max" value="5" field="selections" scope="force" shared="true" id="c185-bf88-3168-ba37" includeChildSelections="false"/>
@@ -7734,7 +7752,12 @@ A unit can benefit from this Commander Bonus even if it is on On Lookout, and do
     <forceEntry name="Commonwealth Jad Auxiliary Battlegroup" id="3813-f906-8fb4-bba5" hidden="false">
       <categoryLinks>
         <categoryLink name="Boons" hidden="false" id="5268-8c9d-746f-3ae5" targetId="9588-4200-697f-615f"/>
-        <categoryLink name="Commander" hidden="false" id="8eed-604e-d05c-cefe" targetId="058b-06f1-5fc7-3c9a"/>
+        <categoryLink name="Commander" hidden="false" id="8eed-604e-d05c-cefe" targetId="058b-06f1-5fc7-3c9a">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="force" shared="true" id="d293-4a68-0d20-db25" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="ba60-de95-d527-2e9d" includeChildSelections="false"/>
+          </constraints>
+        </categoryLink>
         <categoryLink name="Infantry/Armour" hidden="false" id="bd6b-951b-9c66-4a4c" targetId="796d-5047-ce17-a6ab">
           <constraints>
             <constraint type="max" value="2" field="selections" scope="force" shared="true" id="7fb5-068d-0283-ee69" includeChildSelections="false"/>

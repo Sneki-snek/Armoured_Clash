@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="842b-2c13-15b7-c647" name="Alliance" gameSystemId="sys-e850-e7dd-b6e5-f6c0" gameSystemRevision="2" revision="2" authorName="Sneki_snek" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="842b-2c13-15b7-c647" name="Alliance" gameSystemId="sys-e850-e7dd-b6e5-f6c0" gameSystemRevision="2" revision="3" authorName="Sneki_snek" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry type="unit" import="true" name="Valenca Landship" hidden="false" id="48ea-a74b-a5d0-e421" sortIndex="13">
       <categoryLinks>
@@ -235,7 +235,7 @@
         <categoryLink name="Heavy" hidden="false" id="c9bf-cef0-3072-4e94" targetId="6aad-4085-608f-dc2f" primary="false"/>
         <categoryLink name="Behemoth" hidden="false" id="7f83-5325-043d-18ef" targetId="26dd-e4ab-0a91-096a" primary="false"/>
         <categoryLink name="Commander" hidden="false" id="b5bb-1eaa-0277-c753" targetId="058b-06f1-5fc7-3c9a" primary="true"/>
-        <categoryLink name="Armour" hidden="false" id="efa9-e6de-d4bf-9429" targetId="fb51-77d5-9062-8c08" primary="false"/>
+        <categoryLink name="Armour (c)" hidden="false" id="efa9-e6de-d4bf-9429" targetId="fb51-77d5-9062-8c08" primary="false"/>
       </categoryLinks>
       <profiles>
         <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="3a44-27d8-f06c-217c" noindex="false">
@@ -4773,7 +4773,7 @@
         <categoryLink name="Light" hidden="false" id="51c6-f675-1231-6364" targetId="default-category" primary="false"/>
         <categoryLink name="Faithful" hidden="false" id="4e6c-a7b2-63e9-3527" targetId="3694-9392-62f4-1c1d" primary="false"/>
         <categoryLink name="Commander" hidden="false" id="d39b-ffba-c24a-b43b" targetId="058b-06f1-5fc7-3c9a" primary="true"/>
-        <categoryLink name="Infantry" hidden="false" id="446c-946e-bdd5-d1a5" targetId="2d10-727d-0cfb-9c0f" primary="false"/>
+        <categoryLink name="Infantry (c)" hidden="false" id="446c-946e-bdd5-d1a5" targetId="2d10-727d-0cfb-9c0f" primary="false"/>
       </categoryLinks>
       <profiles>
         <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="852c-47c4-675d-686e" noindex="false">
@@ -5101,13 +5101,26 @@ Units that are already Coordinated cannot benefit from this Commander Bonus.</ch
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6261-3953-3d54-8d79"/>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9dec-0f0e-8293-9fda" automatic="true"/>
       </constraints>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="b833-afc2-8d26-674c" shared="true" childName="Boons and bonuses" includeChildSelections="true" includeChildForces="true"/>
+            <condition type="instanceOf" value="1" field="forces" scope="self" childId="header" shared="true" childName="header"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
   </selectionEntries>
   <forceEntries>
     <forceEntry name="Alliance Faction Battlegroup" id="c386-2b5e-ec49-5d18" hidden="false">
       <categoryLinks>
         <categoryLink name="Boons" hidden="false" id="9134-8689-fbfd-856c" targetId="9588-4200-697f-615f"/>
-        <categoryLink name="Commander" hidden="false" id="2007-4a2a-0058-b7d7" targetId="058b-06f1-5fc7-3c9a"/>
+        <categoryLink name="Commander" hidden="false" id="2007-4a2a-0058-b7d7" targetId="058b-06f1-5fc7-3c9a">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="force" shared="true" id="dc24-93fc-26d3-073d" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="d5b0-088f-b46b-c804" includeChildSelections="false"/>
+          </constraints>
+        </categoryLink>
         <categoryLink name="Infantry" hidden="false" id="7537-63f7-54c1-0e82" targetId="92f8-9d17-dd4d-a5ac">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9096-1d2f-7aa7-abb5"/>
@@ -5177,7 +5190,12 @@ Units that are already Coordinated cannot benefit from this Commander Bonus.</ch
     <forceEntry name="Conclave Auxiliary Battlegroup" id="b798-a1db-b4f8-a89f" hidden="false">
       <categoryLinks>
         <categoryLink name="Boons" hidden="false" id="71d0-e347-f4c8-a0ed" targetId="9588-4200-697f-615f"/>
-        <categoryLink name="Commander" hidden="false" id="f769-e84d-7187-5d42" targetId="058b-06f1-5fc7-3c9a"/>
+        <categoryLink name="Commander" hidden="false" id="f769-e84d-7187-5d42" targetId="058b-06f1-5fc7-3c9a">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="force" shared="true" id="a1d7-c2ac-5d47-b9b3" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="e872-9eab-6524-f72c" includeChildSelections="false"/>
+          </constraints>
+        </categoryLink>
         <categoryLink name="Infantry" hidden="false" id="ec16-fb70-81b6-0412" targetId="92f8-9d17-dd4d-a5ac">
           <constraints>
             <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="174b-e71b-5f6d-48b4"/>

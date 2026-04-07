@@ -4,7 +4,12 @@
     <forceEntry name="Empire Faction Battlegroup" id="02e1-b891-584c-0c8e" hidden="false" sortIndex="1">
       <categoryLinks>
         <categoryLink name="Boons" hidden="false" id="eaac-562b-56f7-34c3" targetId="9588-4200-697f-615f"/>
-        <categoryLink name="Commander" hidden="false" id="76ca-fe19-0c28-97dc" targetId="058b-06f1-5fc7-3c9a"/>
+        <categoryLink name="Commander" hidden="false" id="76ca-fe19-0c28-97dc" targetId="058b-06f1-5fc7-3c9a">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="force" shared="true" id="f8f5-4054-759e-75d0" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="4c33-4f9c-af12-b633" includeChildSelections="false"/>
+          </constraints>
+        </categoryLink>
         <categoryLink name="Infantry" hidden="false" id="2ea2-a3cf-8473-2225" targetId="92f8-9d17-dd4d-a5ac">
           <constraints>
             <constraint type="min" value="2" field="selections" scope="force" shared="true" id="6d40-3c0d-dae7-e336" includeChildSelections="false"/>
@@ -41,7 +46,12 @@
     <forceEntry name="Canglong Guardian Auxiliary Battlegroup" id="bbc0-6a5e-83e1-c5c1" hidden="false" sortIndex="2">
       <categoryLinks>
         <categoryLink name="Boons" hidden="false" id="e0f6-58cb-b2f7-3eb4" targetId="9588-4200-697f-615f"/>
-        <categoryLink name="Commander" hidden="false" id="4830-0ce2-0b33-8222" targetId="058b-06f1-5fc7-3c9a"/>
+        <categoryLink name="Commander" hidden="false" id="4830-0ce2-0b33-8222" targetId="058b-06f1-5fc7-3c9a">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="force" shared="true" id="41e8-f514-d587-6dbe" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="d9ad-385c-aa56-a4eb" includeChildSelections="false"/>
+          </constraints>
+        </categoryLink>
         <categoryLink name="Infantry" hidden="false" id="9f23-12c9-9f84-df96" targetId="92f8-9d17-dd4d-a5ac">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="force" shared="true" id="1199-0648-cd12-5175" includeChildSelections="false"/>
@@ -73,7 +83,12 @@
     <forceEntry name="Baihu Strike Formation Auxiliary Battlegroup" id="ffdd-f693-a84d-a1ca" hidden="false" sortIndex="3">
       <categoryLinks>
         <categoryLink name="Boons" hidden="false" id="926a-f32e-2758-4cc4" targetId="9588-4200-697f-615f"/>
-        <categoryLink name="Commander" hidden="false" id="29cb-40eb-b67c-2b95" targetId="058b-06f1-5fc7-3c9a"/>
+        <categoryLink name="Commander" hidden="false" id="29cb-40eb-b67c-2b95" targetId="058b-06f1-5fc7-3c9a">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="force" shared="true" id="9074-e9f6-07d7-9152" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="b4e8-e4fc-aa5d-0f5f" includeChildSelections="false"/>
+          </constraints>
+        </categoryLink>
         <categoryLink name="Infantry" hidden="false" id="a076-cd05-048b-e8c2" targetId="92f8-9d17-dd4d-a5ac">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="force" shared="true" id="22e7-3f72-e4e2-1593" includeChildSelections="false"/>
@@ -310,12 +325,20 @@ This is intentional!</characteristic>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a493-87f2-a3b2-f053" automatic="true"/>
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5f3a-348a-5527-06a5"/>
       </constraints>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="9f9f-8789-1a22-d3d4" shared="true" childName="Boons and bonuses" includeChildSelections="true" includeChildForces="true"/>
+            <condition type="instanceOf" value="1" field="forces" scope="self" childId="header" shared="true" childName="header"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="false" name="Green Banner Command Platoon" hidden="false" id="fbc4-562a-04f8-48f4" sortIndex="2">
       <categoryLinks>
         <categoryLink name="Commander" hidden="false" id="01cc-f289-ce5c-7099" targetId="058b-06f1-5fc7-3c9a" primary="true"/>
         <categoryLink name="Light" hidden="false" id="9a62-70de-6649-dbb8" targetId="default-category" primary="false"/>
-        <categoryLink name="Infantry" hidden="false" id="5eb7-ec30-5425-cd9c" targetId="2d10-727d-0cfb-9c0f" primary="false"/>
+        <categoryLink name="Infantry (c)" hidden="false" id="5eb7-ec30-5425-cd9c" targetId="2d10-727d-0cfb-9c0f" primary="false"/>
         <categoryLink targetId="4ac3-36d9-e25e-4ba3" id="6a18-98a7-b6d9-c0b0" primary="false" name="Empire"/>
       </categoryLinks>
       <profiles>
@@ -5327,7 +5350,7 @@ This is intentional!</characteristic>
         <categoryLink targetId="6aad-4085-608f-dc2f" id="1872-f909-cbdc-5cbe" primary="false" name="Heavy"/>
         <categoryLink targetId="26dd-e4ab-0a91-096a" id="2068-9d80-b21e-313e" primary="false" name="Behemoth"/>
         <categoryLink targetId="058b-06f1-5fc7-3c9a" id="8e3c-5821-1e05-d10a" primary="true" name="Commander"/>
-        <categoryLink targetId="fb51-77d5-9062-8c08" id="3efb-c953-e6ed-a6e8" primary="false" name="Armour"/>
+        <categoryLink targetId="fb51-77d5-9062-8c08" id="3efb-c953-e6ed-a6e8" primary="false" name="Armour (c)"/>
       </categoryLinks>
       <profiles>
         <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="176e-fad3-84dc-fb41" noindex="true">
