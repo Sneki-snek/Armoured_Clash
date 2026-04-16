@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="d3b8-847e-c586-7f11" name="Crown" gameSystemId="sys-e850-e7dd-b6e5-f6c0" gameSystemRevision="1" revision="7" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="d3b8-847e-c586-7f11" name="Crown" gameSystemId="sys-e850-e7dd-b6e5-f6c0" gameSystemRevision="1" revision="8" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry type="unit" import="true" name="Rifle command platoon" hidden="false" id="779c-674b-cdc0-4464" sortIndex="1">
       <categoryLinks>
@@ -6304,17 +6304,8 @@ This is intentional!</characteristic>
         <categoryLink name="Boons" hidden="false" id="8339-8272-b81e-3bd5" targetId="9588-4200-697f-615f" primary="true"/>
       </categoryLinks>
       <constraints>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="974f-0305-ccb3-91cb" automatic="true"/>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7a49-1513-733a-3bbc"/>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="b957-0a6f-7491-3ae9" automatic="true" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
-      <modifiers>
-        <modifier type="set" value="true" field="hidden">
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="ea85-8706-fbf8-32c6" shared="true" childName="Boons and bonuses" includeChildSelections="true" includeChildForces="true"/>
-            <condition type="instanceOf" value="1" field="forces" scope="self" childId="header" shared="true" childName="header"/>
-          </conditions>
-        </modifier>
-      </modifiers>
     </selectionEntry>
   </selectionEntries>
   <forceEntries>

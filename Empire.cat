@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="4071-b855-7a04-d76d" name="Empire" gameSystemId="sys-e850-e7dd-b6e5-f6c0" gameSystemRevision="2" revision="3" authorName="Sneki_snek" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="4071-b855-7a04-d76d" name="Empire" gameSystemId="sys-e850-e7dd-b6e5-f6c0" gameSystemRevision="2" revision="4" authorName="Sneki_snek" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry name="Empire Faction Battlegroup" id="02e1-b891-584c-0c8e" hidden="false" sortIndex="1">
       <categoryLinks>
@@ -322,17 +322,8 @@ This is intentional!</characteristic>
         <categoryLink name="Boons" hidden="false" id="edee-8142-726d-35cd" targetId="9588-4200-697f-615f" primary="true"/>
       </categoryLinks>
       <constraints>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a493-87f2-a3b2-f053" automatic="true"/>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5f3a-348a-5527-06a5"/>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="3674-ab1e-dd9d-8cdb" automatic="true" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
-      <modifiers>
-        <modifier type="set" value="true" field="hidden">
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="9f9f-8789-1a22-d3d4" shared="true" childName="Boons and bonuses" includeChildSelections="true" includeChildForces="true"/>
-            <condition type="instanceOf" value="1" field="forces" scope="self" childId="header" shared="true" childName="header"/>
-          </conditions>
-        </modifier>
-      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="false" name="Green Banner Command Platoon" hidden="false" id="fbc4-562a-04f8-48f4" sortIndex="2">
       <categoryLinks>

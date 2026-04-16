@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="3a46-9200-e55a-849b" name="Commonwealth" gameSystemId="sys-e850-e7dd-b6e5-f6c0" gameSystemRevision="1" revision="4" authorName="Sneki_snek" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="3a46-9200-e55a-849b" name="Commonwealth" gameSystemId="sys-e850-e7dd-b6e5-f6c0" gameSystemRevision="1" revision="5" authorName="Sneki_snek" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry type="unit" import="true" name="Ryadovoy Rifle Platoon" hidden="false" id="7f3a-c5cb-1eed-526d" sortIndex="2">
       <categoryLinks>
@@ -5642,17 +5642,8 @@ A unit can benefit from this Commander Bonus even if it is on On Lookout, and do
         <categoryLink name="Boons" hidden="false" id="9e3e-bea1-17f7-8e4c" targetId="9588-4200-697f-615f" primary="true"/>
       </categoryLinks>
       <constraints>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="eabf-88ce-036a-ce36" automatic="true"/>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ee33-ab07-3f85-bff0"/>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="e976-1989-6834-3fea" automatic="true" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
-      <modifiers>
-        <modifier type="set" value="true" field="hidden">
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="2db4-193f-4320-0428" shared="true" childName="Boons and bonuses" includeChildSelections="true" includeChildForces="true"/>
-            <condition type="instanceOf" value="1" field="forces" scope="self" childId="header" shared="true" childName="header"/>
-          </conditions>
-        </modifier>
-      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Buran Cryo Troopers" hidden="false" id="817c-292c-064b-9920" sortIndex="2">
       <categoryLinks>

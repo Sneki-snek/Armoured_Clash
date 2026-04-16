@@ -551,16 +551,8 @@ If they do, they must then discard one card from their Hand.</characteristic>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <constraints>
-        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="9408-c66a-3e0d-d982" includeChildSelections="true" includeChildForces="true"/>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="9408-c66a-3e0d-d982" includeChildSelections="true" includeChildForces="true" automatic="true"/>
       </constraints>
-      <modifiers>
-        <modifier type="set" value="true" field="hidden">
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="0a52-a226-9ffd-2ea3" shared="true" childName="Size" includeChildSelections="true" includeChildForces="true"/>
-            <condition type="instanceOf" value="1" field="forces" scope="self" shared="true" childId="header" childName="header"/>
-          </conditions>
-        </modifier>
-      </modifiers>
     </selectionEntry>
   </selectionEntries>
   <profileTypes>

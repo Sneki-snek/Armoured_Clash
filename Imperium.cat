@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="7a50-eb9a-095f-b57d" name="Imperium" gameSystemId="sys-e850-e7dd-b6e5-f6c0" gameSystemRevision="1" revision="3" authorName="Sneki_snek" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="7a50-eb9a-095f-b57d" name="Imperium" gameSystemId="sys-e850-e7dd-b6e5-f6c0" gameSystemRevision="1" revision="4" authorName="Sneki_snek" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry type="unit" import="false" name="Scion Grenadier Command Platoon" hidden="false" id="7ae4-c55a-744f-f4c8" sortIndex="1">
       <categoryLinks>
@@ -3512,17 +3512,8 @@ If the chosen unit already has the Vanguard (X ) special rule it uses the highe
         <categoryLink name="Boons" hidden="false" id="3957-34b9-6ad0-26a0" targetId="9588-4200-697f-615f" primary="true"/>
       </categoryLinks>
       <constraints>
-        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="7d45-ff19-e010-a484" includeChildSelections="false" automatic="true"/>
-        <constraint type="min" value="1" field="selections" scope="force" shared="true" id="f527-dcaa-d864-fd74" includeChildSelections="false" automatic="false"/>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="8bac-aac9-dc51-a9f4" automatic="true" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
-      <modifiers>
-        <modifier type="set" value="true" field="hidden">
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="c8bb-73f6-699f-9fe6" shared="true" childName="Boons and bonuses" includeChildSelections="true" includeChildForces="true"/>
-            <condition type="instanceOf" value="1" field="forces" scope="self" childId="header" shared="true" childName="header"/>
-          </conditions>
-        </modifier>
-      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="false" name="Master Siegbert von Brandt" hidden="false" id="a55d-0c6c-fd6d-f3f8" sortIndex="1">
       <categoryLinks>

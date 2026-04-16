@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="842b-2c13-15b7-c647" name="Alliance" gameSystemId="sys-e850-e7dd-b6e5-f6c0" gameSystemRevision="2" revision="3" authorName="Sneki_snek" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="842b-2c13-15b7-c647" name="Alliance" gameSystemId="sys-e850-e7dd-b6e5-f6c0" gameSystemRevision="2" revision="4" authorName="Sneki_snek" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry type="unit" import="true" name="Valenca Landship" hidden="false" id="48ea-a74b-a5d0-e421" sortIndex="13">
       <categoryLinks>
@@ -5098,17 +5098,8 @@ Units that are already Coordinated cannot benefit from this Commander Bonus.</ch
         <categoryLink name="Boons" hidden="false" id="0ed8-f207-3d7f-79e6" targetId="9588-4200-697f-615f" primary="true"/>
       </categoryLinks>
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6261-3953-3d54-8d79"/>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9dec-0f0e-8293-9fda" automatic="true"/>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="9dec-0f0e-8293-9fda" automatic="true" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
-      <modifiers>
-        <modifier type="set" value="true" field="hidden">
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="b833-afc2-8d26-674c" shared="true" childName="Boons and bonuses" includeChildSelections="true" includeChildForces="true"/>
-            <condition type="instanceOf" value="1" field="forces" scope="self" childId="header" shared="true" childName="header"/>
-          </conditions>
-        </modifier>
-      </modifiers>
     </selectionEntry>
   </selectionEntries>
   <forceEntries>

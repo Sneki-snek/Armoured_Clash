@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="29df-6f2c-10db-6e5e" name="Sultanate" gameSystemId="sys-e850-e7dd-b6e5-f6c0" gameSystemRevision="6" revision="5" authorName="Sneki_snek" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="29df-6f2c-10db-6e5e" name="Sultanate" gameSystemId="sys-e850-e7dd-b6e5-f6c0" gameSystemRevision="6" revision="6" authorName="Sneki_snek" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry type="unit" import="true" name="Ferik Command Skiff" hidden="false" id="82ac-9922-bcec-c86d" sortIndex="1">
       <categoryLinks>
@@ -3196,17 +3196,8 @@ If this command is successfully issued, the selected unit immediately loses a m
         <categoryLink name="Boons" hidden="false" id="e549-c975-7d75-6189" targetId="9588-4200-697f-615f" primary="true"/>
       </categoryLinks>
       <constraints>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="df83-2b29-1784-de72" automatic="true"/>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="eb45-8e2b-3387-2f11"/>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="bf08-1ca4-5ed1-4693" automatic="true" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
-      <modifiers>
-        <modifier type="set" value="true" field="hidden">
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="9d44-abce-9648-8836" shared="true" childName="Boons and bonuses" includeChildSelections="true" includeChildForces="true"/>
-            <condition type="instanceOf" value="1" field="forces" scope="self" childId="header" shared="true" childName="header"/>
-          </conditions>
-        </modifier>
-      </modifiers>
     </selectionEntry>
   </selectionEntries>
   <catalogueLinks>

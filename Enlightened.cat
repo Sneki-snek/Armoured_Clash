@@ -6018,6 +6018,7 @@
           </profiles>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3e30-3bc2-b8e5-583d" automatic="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="627c-fc1b-795c-0cbd" automatic="false" includeChildSelections="true" includeChildForces="true"/>
           </constraints>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Countercharge" hidden="false" id="966f-303c-03af-4e6d" sortIndex="4">
@@ -6046,6 +6047,7 @@ If the unit is unable to end its Charge manoeuvre in contact with the active en
           </costs>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5424-c8d8-8004-f0a8" automatic="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="0756-8d85-a2fd-7fa1" automatic="false" includeChildSelections="true" includeChildForces="true"/>
           </constraints>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Entropic Shielding" hidden="false" id="391a-70c7-5c64-41f6" sortIndex="5">
@@ -6065,6 +6067,7 @@ If the Command is successfully issued, this unit gains the Durable special rule
           </costs>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="eb77-d983-d546-97ea" automatic="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="2ff7-0f1f-09f3-2190" automatic="false" includeChildSelections="true" includeChildForces="true"/>
           </constraints>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Weaponised Hubris" hidden="false" id="6ea8-6cb5-f204-8450" sortIndex="7">
@@ -6086,6 +6089,7 @@ Once this Command has been successfully issued, it cannot be issued again for t
           </costs>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="128b-e2a7-4122-1da4" automatic="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="b35e-2c45-ff6c-0109" automatic="true" includeChildSelections="true" includeChildForces="true"/>
           </constraints>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Battlegroup Bonus:" hidden="false" id="197e-b0e5-7fc9-67ca" sortIndex="1">
@@ -6184,6 +6188,7 @@ If they do, they must then discard one card from their Hand.</characteristic>
           </profiles>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f2eb-3559-3998-4e60" automatic="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="7d8c-9c4a-0989-cd98" automatic="false" includeChildSelections="true" includeChildForces="true"/>
           </constraints>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Forlorn Hope" hidden="false" id="cb35-bbe3-b271-f13f" sortIndex="2">
@@ -6199,7 +6204,7 @@ If the chosen unit already has the Vanguard (X ) special rule it uses the highe
             <cost name="Points" typeId="e58e-982d-7630-5342" value="15"/>
           </costs>
           <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f344-5384-c850-e0f7" automatic="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="f344-5384-c850-e0f7" automatic="false" includeChildSelections="true" includeChildForces="true"/>
           </constraints>
         </selectionEntry>
       </selectionEntries>
@@ -6207,21 +6212,12 @@ If the chosen unit already has the Vanguard (X ) special rule it uses the highe
         <categoryLink name="Boons" hidden="false" id="5886-f136-f498-bb05" targetId="9588-4200-697f-615f" primary="true"/>
       </categoryLinks>
       <constraints>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="152a-02f0-2a95-6c0a" automatic="true"/>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a6f5-100a-5849-a219"/>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="152a-02f0-2a95-6c0a" automatic="true" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
-      <modifiers>
-        <modifier type="set" value="true" field="hidden">
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4c93-f07a-2645-12dd" shared="true" childName="Boons and bonuses" includeChildSelections="true" includeChildForces="true"/>
-            <condition type="instanceOf" value="1" field="forces" scope="self" childId="header" shared="true" childName="header"/>
-          </conditions>
-        </modifier>
-      </modifiers>
     </selectionEntry>
   </selectionEntries>
   <forceEntries>
-    <forceEntry name="Enlightened Faction Battlegroup" id="1a31-700b-07b7-ddbb" hidden="false">
+    <forceEntry name="Enlightened Faction Battlegroup" id="1a31-700b-07b7-ddbb" hidden="false" sortIndex="1">
       <categoryLinks>
         <categoryLink name="Boons" hidden="false" id="15d9-8aae-29a8-6ab1" targetId="9588-4200-697f-615f"/>
         <categoryLink name="Commander" hidden="false" id="e084-a0c8-9fbe-f987" targetId="058b-06f1-5fc7-3c9a">
@@ -6264,7 +6260,7 @@ If the chosen unit already has the Vanguard (X ) special rule it uses the highe
         </categoryLink>
       </categoryLinks>
     </forceEntry>
-    <forceEntry name="Enlightened C.R.A.B. Auxiliary Battlegroup" id="dba7-afe0-49d9-35c2" hidden="false">
+    <forceEntry name="Enlightened C.R.A.B. Auxiliary Battlegroup" id="dba7-afe0-49d9-35c2" hidden="false" sortIndex="2">
       <categoryLinks>
         <categoryLink name="Boons" hidden="false" id="d961-ddee-44f2-380b" targetId="9588-4200-697f-615f"/>
         <categoryLink name="Commander" hidden="false" id="dddb-6b9a-e6e6-841e" targetId="058b-06f1-5fc7-3c9a">
@@ -6297,7 +6293,7 @@ If the chosen unit already has the Vanguard (X ) special rule it uses the highe
         </categoryLink>
       </categoryLinks>
     </forceEntry>
-    <forceEntry name="Enlightened S.U.R.G. Auxiliary Battlegroup" id="3354-eccd-443c-fdc5" hidden="false">
+    <forceEntry name="Enlightened S.U.R.G. Auxiliary Battlegroup" id="3354-eccd-443c-fdc5" hidden="false" sortIndex="3">
       <categoryLinks>
         <categoryLink name="Boons" hidden="false" id="2f55-b026-56e3-92c2" targetId="9588-4200-697f-615f"/>
         <categoryLink name="Commander" hidden="false" id="0e4e-58f5-0259-35a8" targetId="058b-06f1-5fc7-3c9a">
@@ -7429,4 +7425,7 @@ If the chosen unit already has the Vanguard (X ) special rule it uses the highe
       </modifiers>
     </selectionEntry>
   </sharedSelectionEntries>
+  <sharedAssociations>
+    <association min="1" max="1" scope="parent" childId="any" name="Boons" id="3059-e67e-a29c-2ef8"/>
+  </sharedAssociations>
 </catalogue>
