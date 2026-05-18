@@ -925,7 +925,7 @@
       <profiles>
         <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="807d-1381-12d9-b14d" noindex="false">
           <characteristics>
-            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Automata, Flying, Shrouded, Soar (10”), Vanguard (15”), Stalker, </characteristic>
+            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Automata, Flying, Shrouded, Soar (10”), Vanguard (15”), Stalker,</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4681,23 +4681,6 @@
                         <characteristic name="1-5" typeId="6c2b-399d-3913-0c86">4</characteristic>
                         <characteristic name="6-10" typeId="e030-39ed-b345-ffd8">8</characteristic>
                         <characteristic name="11-15" typeId="3341-bdc5-ce8f-a06f">12</characteristic>
-                        <characteristic name="Qualities" typeId="e5a1-fc2f-d8b2-79b3">-</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Melee" hidden="false" id="320e-0e40-23d9-f991" sortIndex="5">
-                  <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4e7e-4b1f-9b57-6ac8" automatic="true"/>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5cd7-6adb-ce81-b352" automatic="true"/>
-                  </constraints>
-                  <profiles>
-                    <profile name="Melee" typeId="055e-da65-5a34-6a56" typeName="Type" hidden="false" id="9c9a-90b6-fd46-bdf4">
-                      <characteristics>
-                        <characteristic name="Range" typeId="a4be-e6da-e81e-0ee5">-</characteristic>
-                        <characteristic name="1-5" typeId="6c2b-399d-3913-0c86">3</characteristic>
-                        <characteristic name="6-10" typeId="e030-39ed-b345-ffd8">6</characteristic>
-                        <characteristic name="11-15" typeId="3341-bdc5-ce8f-a06f">9</characteristic>
                         <characteristic name="Qualities" typeId="e5a1-fc2f-d8b2-79b3">-</characteristic>
                       </characteristics>
                     </profile>
