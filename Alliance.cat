@@ -532,6 +532,13 @@
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="95e3-ae16-6a53-b156" includeChildSelections="true"/>
       </constraints>
       <comment>Infantry</comment>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="76dc-9282-c45b-5c5d" shared="true" includeChildSelections="true" childName="L&apos;aigles Imperiaux Auxiliary Battlegroup"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Ordenanza Militia" hidden="false" id="639f-7189-3adf-4004" sortIndex="4">
       <categoryLinks>
@@ -687,6 +694,11 @@
               </conditions>
             </conditionGroup>
           </conditionGroups>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="76dc-9282-c45b-5c5d" shared="true" includeChildSelections="true" childName="L&apos;aigles Imperiaux Auxiliary Battlegroup"/>
+          </conditions>
         </modifier>
       </modifiers>
       <comment>Infantry</comment>
@@ -2736,7 +2748,7 @@
       <modifierGroups>
         <modifierGroup type="and">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="b798-a1db-b4f8-a89f" shared="true" includeChildSelections="false"/>
+            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="76dc-9282-c45b-5c5d" shared="true" includeChildSelections="false" childName="L&apos;aigles Imperiaux Auxiliary Battlegroup"/>
           </conditions>
           <modifiers>
             <modifier type="set-primary" value="763f-6d17-4a4b-c0df" field="category"/>
@@ -5639,7 +5651,6 @@ Units that are already Coordinated cannot benefit from this Commander Bonus.</ch
         <categoryLink name="Infantry/Cavalry" hidden="false" id="0488-4bba-f1ad-7464" targetId="763f-6d17-4a4b-c0df">
           <constraints>
             <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="785a-2491-11fc-8e75"/>
-            <constraint type="min" value="6" field="selections" scope="parent" shared="true" id="d04e-b053-d7b5-447e-min"/>
             <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="d04e-b053-d7b5-447e-max"/>
           </constraints>
         </categoryLink>
