@@ -378,74 +378,6 @@ If they do, they must then discard one card from their Hand.</characteristic>
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Ranged (Light/Heavy)" hidden="true" id="7668-70b4-01d1-9c87" sortIndex="3">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1c76-9533-a9f0-1c66" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c700-be9b-af9d-0a90" automatic="true"/>
-              </constraints>
-              <profiles>
-                <profile name="Ranged (Light/Heavy)" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="5cda-c214-0db5-13c2">
-                  <characteristics>
-                    <characteristic name="Range" typeId="0d60-0078-7134-d302"/>
-                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585"/>
-                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c"/>
-                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d"/>
-                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Ranged (Heavy)" hidden="true" id="8cd9-1df4-52f4-d683" sortIndex="2">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e564-a239-f852-1532" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fd8a-4fee-7965-42b5" automatic="true"/>
-              </constraints>
-              <profiles>
-                <profile name="Ranged (Heavy)" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="2c46-b25b-854f-3717">
-                  <characteristics>
-                    <characteristic name="Range" typeId="0d60-0078-7134-d302"/>
-                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585"/>
-                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c"/>
-                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d"/>
-                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Ranged (Aerial)" hidden="true" id="2719-e44c-003b-c1d7" sortIndex="4">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ffae-dbc0-0ffa-b3fc" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="769e-7ed0-6755-fc86" automatic="true"/>
-              </constraints>
-              <profiles>
-                <profile name="Ranged (Aerial)" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="3e84-252e-80a4-99fb">
-                  <characteristics>
-                    <characteristic name="Range" typeId="0d60-0078-7134-d302"/>
-                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585"/>
-                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c"/>
-                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d"/>
-                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Impact" hidden="true" id="90ee-edcf-ac83-f5f3" sortIndex="6">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fa29-d1d7-6b73-b119" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b14c-4dff-3625-2da5" automatic="true"/>
-              </constraints>
-              <profiles>
-                <profile name="Impact" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="3514-0f6e-61c7-5a39">
-                  <characteristics>
-                    <characteristic name="Range" typeId="0d60-0078-7134-d302"/>
-                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585"/>
-                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c"/>
-                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d"/>
-                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -569,40 +501,6 @@ If they do, they must then discard one card from their Hand.</characteristic>
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Melee" hidden="true" id="ede0-1df8-8673-5122" sortIndex="5">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b4ad-4f6a-4943-2864" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="eea3-c6dc-7fa3-e441" automatic="true"/>
-              </constraints>
-              <profiles>
-                <profile name="Melee" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="e5bc-b89c-1e0f-ad0b">
-                  <characteristics>
-                    <characteristic name="Range" typeId="0d60-0078-7134-d302"/>
-                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585"/>
-                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c"/>
-                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d"/>
-                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Ranged (Light/Heavy)" hidden="true" id="7f76-d019-7152-a547" sortIndex="3">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="30fc-e4c8-ca87-a501" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9967-2fdf-c228-1754" automatic="true"/>
-              </constraints>
-              <profiles>
-                <profile name="Ranged (Light/Heavy)" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="6c46-d3a1-c2d6-052e">
-                  <characteristics>
-                    <characteristic name="Range" typeId="0d60-0078-7134-d302"/>
-                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585"/>
-                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c"/>
-                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d"/>
-                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Ranged (Heavy)" hidden="false" id="fe04-299a-b943-86dd" sortIndex="2">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0099-3ed3-e655-0b62" automatic="true"/>
@@ -616,23 +514,6 @@ If they do, they must then discard one card from their Hand.</characteristic>
                     <characteristic name="3-5" typeId="e27c-135a-2199-2587">6</characteristic>
                     <characteristic name="0-2" typeId="7a70-c3bd-de13-ddd6">8</characteristic>
                     <characteristic name="Qualities" typeId="e2c3-64fe-0b86-9ca8">Arc</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Ranged (Aerial)" hidden="true" id="37e7-ee8e-8b89-ecc4" sortIndex="4">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b503-249d-6ab1-1f8f" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bf3a-0bea-cb54-b0ce" automatic="true"/>
-              </constraints>
-              <profiles>
-                <profile name="Ranged (Aerial)" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="aed0-4b12-0d97-e7ee">
-                  <characteristics>
-                    <characteristic name="Range" typeId="0d60-0078-7134-d302"/>
-                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585"/>
-                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c"/>
-                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d"/>
-                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -821,74 +702,6 @@ If they do, they must then discard one card from their Hand.</characteristic>
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Ranged (Light/Heavy)" hidden="true" id="505e-38ed-ee2b-eaf3" sortIndex="3">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7be0-eb13-60f5-51c8" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fd98-63c2-9d43-9a88" automatic="true"/>
-              </constraints>
-              <profiles>
-                <profile name="Ranged (Light/Heavy)" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="f9bf-0f70-5f3c-83cc">
-                  <characteristics>
-                    <characteristic name="Range" typeId="0d60-0078-7134-d302"/>
-                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585"/>
-                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c"/>
-                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d"/>
-                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Ranged (Heavy)" hidden="true" id="490e-357b-00f7-d0ef" sortIndex="2">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5a86-144e-028b-0fdc" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="322e-12dc-6bac-b3cb" automatic="true"/>
-              </constraints>
-              <profiles>
-                <profile name="Ranged (Heavy)" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="4374-bf5e-82dc-b810">
-                  <characteristics>
-                    <characteristic name="Range" typeId="0d60-0078-7134-d302"/>
-                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585"/>
-                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c"/>
-                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d"/>
-                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Ranged (Aerial)" hidden="true" id="77b9-06e6-f9b4-2609" sortIndex="4">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="03e1-fee9-ec51-5274" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a93f-ad9d-6980-8bdd" automatic="true"/>
-              </constraints>
-              <profiles>
-                <profile name="Ranged (Aerial)" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="f59f-fe99-883e-c800">
-                  <characteristics>
-                    <characteristic name="Range" typeId="0d60-0078-7134-d302"/>
-                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585"/>
-                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c"/>
-                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d"/>
-                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Impact" hidden="true" id="ecc7-0700-4e6e-50e1" sortIndex="6">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fcfb-5795-2f8b-c1ac" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9801-ddf3-a368-846e" automatic="true"/>
-              </constraints>
-              <profiles>
-                <profile name="Impact" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="bfb8-7d7f-e48a-9321">
-                  <characteristics>
-                    <characteristic name="Range" typeId="0d60-0078-7134-d302"/>
-                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585"/>
-                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c"/>
-                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d"/>
-                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -1061,74 +874,6 @@ If they do, they must then discard one card from their Hand.</characteristic>
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Ranged (Light/Heavy)" hidden="true" id="7efd-682e-0eba-b97c" sortIndex="3">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3601-d6d5-296d-e2b1" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="acad-24ba-2c55-9996" automatic="true"/>
-              </constraints>
-              <profiles>
-                <profile name="Ranged (Light/Heavy)" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="475b-6c4e-292d-5de2">
-                  <characteristics>
-                    <characteristic name="Range" typeId="0d60-0078-7134-d302"/>
-                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585"/>
-                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c"/>
-                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d"/>
-                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Ranged (Heavy)" hidden="true" id="2895-ecc7-1601-5413" sortIndex="2">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="45e7-97b1-9682-f671" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ba0f-ece5-7b46-9f30" automatic="true"/>
-              </constraints>
-              <profiles>
-                <profile name="Ranged (Heavy)" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="f575-f921-dd17-74c3">
-                  <characteristics>
-                    <characteristic name="Range" typeId="0d60-0078-7134-d302"/>
-                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585"/>
-                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c"/>
-                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d"/>
-                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Ranged (Aerial)" hidden="true" id="e636-7f35-0103-7763" sortIndex="4">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="bddd-91a7-ace6-67e1" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0f37-9592-15ff-0405" automatic="true"/>
-              </constraints>
-              <profiles>
-                <profile name="Ranged (Aerial)" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="3496-cf72-f21c-c99d">
-                  <characteristics>
-                    <characteristic name="Range" typeId="0d60-0078-7134-d302"/>
-                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585"/>
-                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c"/>
-                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d"/>
-                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Impact" hidden="true" id="a4e2-d8b6-78ff-815f" sortIndex="6">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9d40-6c3c-b454-424d" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a037-8927-4bf2-6354" automatic="true"/>
-              </constraints>
-              <profiles>
-                <profile name="Impact" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="4619-5034-512b-201e">
-                  <characteristics>
-                    <characteristic name="Range" typeId="0d60-0078-7134-d302"/>
-                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585"/>
-                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c"/>
-                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d"/>
-                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -1274,23 +1019,6 @@ If they do, they must then discard one card from their Hand.</characteristic>
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Ranged (Light/Heavy)" hidden="true" id="ad3e-cdb9-8e5a-52bb" sortIndex="3">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fbb3-36b6-21d0-e89a" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6792-f0b1-c22a-b310" automatic="true"/>
-              </constraints>
-              <profiles>
-                <profile name="Ranged (Light/Heavy)" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="f13c-8cc2-aeee-c2a3">
-                  <characteristics>
-                    <characteristic name="Range" typeId="0d60-0078-7134-d302"/>
-                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585"/>
-                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c"/>
-                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d"/>
-                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Ranged (Heavy)" hidden="false" id="6e13-ea2f-9d51-4c9f" sortIndex="2">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1257-78a0-f99b-f969" automatic="true"/>
@@ -1304,40 +1032,6 @@ If they do, they must then discard one card from their Hand.</characteristic>
                     <characteristic name="6-10" typeId="e030-39ed-b345-ffd8">6</characteristic>
                     <characteristic name="11-15" typeId="3341-bdc5-ce8f-a06f">9</characteristic>
                     <characteristic name="Qualities" typeId="e5a1-fc2f-d8b2-79b3">-</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Ranged (Aerial)" hidden="true" id="24c7-d574-b1e4-1510" sortIndex="4">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e5b4-d992-2e93-3a4a" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="88a5-78fa-7458-d42f" automatic="true"/>
-              </constraints>
-              <profiles>
-                <profile name="Ranged (Aerial)" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="b2ea-abe9-849a-c8f0">
-                  <characteristics>
-                    <characteristic name="Range" typeId="0d60-0078-7134-d302"/>
-                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585"/>
-                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c"/>
-                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d"/>
-                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Impact" hidden="true" id="06a5-f597-7854-5302" sortIndex="6">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1932-f956-eb1b-d3e4" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cd93-526f-0c69-8c24" automatic="true"/>
-              </constraints>
-              <profiles>
-                <profile name="Impact" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="f362-3725-9aa8-219a">
-                  <characteristics>
-                    <characteristic name="Range" typeId="0d60-0078-7134-d302"/>
-                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585"/>
-                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c"/>
-                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d"/>
-                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1480,23 +1174,6 @@ If they do, they must then discard one card from their Hand.</characteristic>
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Ranged (Light/Heavy)" hidden="true" id="a431-f318-2760-ca03" sortIndex="3">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="89c1-b5e6-281a-2174" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5149-4e60-cc41-c939" automatic="true"/>
-              </constraints>
-              <profiles>
-                <profile name="Ranged (Light/Heavy)" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="cad8-f404-8deb-a1a4">
-                  <characteristics>
-                    <characteristic name="Range" typeId="0d60-0078-7134-d302"/>
-                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585"/>
-                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c"/>
-                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d"/>
-                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Ranged (Heavy)" hidden="false" id="5b33-0300-af23-7e37" sortIndex="2">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3f6d-6680-d8ed-82f3" automatic="true"/>
@@ -1510,40 +1187,6 @@ If they do, they must then discard one card from their Hand.</characteristic>
                     <characteristic name="6-10" typeId="e030-39ed-b345-ffd8">6</characteristic>
                     <characteristic name="11-15" typeId="3341-bdc5-ce8f-a06f">9</characteristic>
                     <characteristic name="Qualities" typeId="e5a1-fc2f-d8b2-79b3">-</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Ranged (Aerial)" hidden="true" id="d399-acbc-7d40-13ae" sortIndex="4">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6b8b-f3fe-82e5-4333" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cf61-2e70-4053-58ef" automatic="true"/>
-              </constraints>
-              <profiles>
-                <profile name="Ranged (Aerial)" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="f122-3c12-fc35-d40e">
-                  <characteristics>
-                    <characteristic name="Range" typeId="0d60-0078-7134-d302"/>
-                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585"/>
-                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c"/>
-                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d"/>
-                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Impact" hidden="true" id="f7d4-2942-6037-03e9" sortIndex="6">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3187-bd7f-fbf2-a77e" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2941-761c-ff8b-756e" automatic="true"/>
-              </constraints>
-              <profiles>
-                <profile name="Impact" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="f7e5-52b2-2a5a-6c58">
-                  <characteristics>
-                    <characteristic name="Range" typeId="0d60-0078-7134-d302"/>
-                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585"/>
-                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c"/>
-                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d"/>
-                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1693,23 +1336,6 @@ If they do, they must then discard one card from their Hand.</characteristic>
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Ranged (Light/Heavy)" hidden="true" id="72fa-3fdc-7fc3-6f02" sortIndex="3">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0aef-1aff-f18e-6b11" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3dc9-07d1-9c76-6963" automatic="true"/>
-              </constraints>
-              <profiles>
-                <profile name="Ranged (Light/Heavy)" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="994c-3526-f7c9-650d">
-                  <characteristics>
-                    <characteristic name="Range" typeId="0d60-0078-7134-d302"/>
-                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585"/>
-                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c"/>
-                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d"/>
-                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Ranged (Heavy)" hidden="false" id="ae80-9f83-4ee7-6e85" sortIndex="2">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8080-626c-f939-9cdc" automatic="true"/>
@@ -1723,40 +1349,6 @@ If they do, they must then discard one card from their Hand.</characteristic>
                     <characteristic name="5-8" typeId="f891-f62d-9222-6a4f">8</characteristic>
                     <characteristic name="9-12" typeId="df36-9d51-a316-8d54">13</characteristic>
                     <characteristic name="Qualities" typeId="9a3f-8a28-e735-e1eb">-</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Ranged (Aerial)" hidden="true" id="42f4-7feb-d29a-dc55" sortIndex="4">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="cbc6-10fd-76cf-222d" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1726-4400-1805-7ab2" automatic="true"/>
-              </constraints>
-              <profiles>
-                <profile name="Ranged (Aerial)" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="1a76-1741-24b0-ba0a">
-                  <characteristics>
-                    <characteristic name="Range" typeId="0d60-0078-7134-d302"/>
-                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585"/>
-                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c"/>
-                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d"/>
-                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Impact" hidden="true" id="1aa3-8b31-3fa0-ab3e" sortIndex="6">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f935-4922-244b-9e9d" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2ba2-95a0-d45c-aad6" automatic="true"/>
-              </constraints>
-              <profiles>
-                <profile name="Impact" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="b675-b643-f7bc-80b5">
-                  <characteristics>
-                    <characteristic name="Range" typeId="0d60-0078-7134-d302"/>
-                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585"/>
-                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c"/>
-                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d"/>
-                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1899,23 +1491,6 @@ If they do, they must then discard one card from their Hand.</characteristic>
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Ranged (Light/Heavy)" hidden="true" id="ff9a-c115-06a0-633f" sortIndex="3">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a97a-fa3d-c64f-8563" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3a27-a5dc-fecf-7f77" automatic="true"/>
-              </constraints>
-              <profiles>
-                <profile name="Ranged (Light/Heavy)" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="667c-9c9e-2463-dc6f">
-                  <characteristics>
-                    <characteristic name="Range" typeId="0d60-0078-7134-d302"/>
-                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585"/>
-                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c"/>
-                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d"/>
-                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Ranged (Heavy)" hidden="false" id="7224-4b59-aec4-2af7" sortIndex="2">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1141-61fd-0ae0-ad84" automatic="true"/>
@@ -1929,40 +1504,6 @@ If they do, they must then discard one card from their Hand.</characteristic>
                     <characteristic name="6-10" typeId="e030-39ed-b345-ffd8">10</characteristic>
                     <characteristic name="11-15" typeId="3341-bdc5-ce8f-a06f">15</characteristic>
                     <characteristic name="Qualities" typeId="e5a1-fc2f-d8b2-79b3">Arc</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Ranged (Aerial)" hidden="true" id="1856-fa41-fede-2250" sortIndex="4">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="839e-3f99-44b6-218e" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5056-3b25-68da-f0c9" automatic="true"/>
-              </constraints>
-              <profiles>
-                <profile name="Ranged (Aerial)" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="765b-09f8-42f5-c342">
-                  <characteristics>
-                    <characteristic name="Range" typeId="0d60-0078-7134-d302"/>
-                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585"/>
-                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c"/>
-                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d"/>
-                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Impact" hidden="true" id="b25d-fe93-d75d-a544" sortIndex="6">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="466a-ce1d-3911-1ef5" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2028-41de-85ea-c272" automatic="true"/>
-              </constraints>
-              <profiles>
-                <profile name="Impact" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="ae98-9cdd-ad40-80a2">
-                  <characteristics>
-                    <characteristic name="Range" typeId="0d60-0078-7134-d302"/>
-                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585"/>
-                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c"/>
-                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d"/>
-                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2066,57 +1607,6 @@ If they do, they must then discard one card from their Hand.</characteristic>
                     <characteristic name="3-4" typeId="28f5-0175-feef-38b6">5</characteristic>
                     <characteristic name="0-2" typeId="4ec6-ec07-b2fa-c22a">7</characteristic>
                     <characteristic name="Qualities" typeId="1126-81e3-c3b1-ae92">Turret</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Melee" hidden="true" id="531c-7f7c-02b0-90f8" sortIndex="5">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6d3c-b4ae-be18-14f7" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4ef5-a2e1-1559-5d7e" automatic="true"/>
-              </constraints>
-              <profiles>
-                <profile name="Melee" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="ccdf-2fab-a2cc-07b7">
-                  <characteristics>
-                    <characteristic name="Range" typeId="0d60-0078-7134-d302"/>
-                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585"/>
-                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c"/>
-                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d"/>
-                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Ranged (Light/Heavy)" hidden="true" id="86a1-27df-4884-8366" sortIndex="3">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5839-dba0-416b-a3e9" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f733-839c-7c7a-cba3" automatic="true"/>
-              </constraints>
-              <profiles>
-                <profile name="Ranged (Light/Heavy)" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="82f6-f045-0251-1d9e">
-                  <characteristics>
-                    <characteristic name="Range" typeId="0d60-0078-7134-d302"/>
-                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585"/>
-                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c"/>
-                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d"/>
-                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Ranged (Heavy)" hidden="true" id="c382-fab3-1997-29e2" sortIndex="2">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3e05-bf6d-ffde-8bfc" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="45b7-e516-acc6-9675" automatic="true"/>
-              </constraints>
-              <profiles>
-                <profile name="Ranged (Heavy)" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="5da4-87d0-974c-b9d3">
-                  <characteristics>
-                    <characteristic name="Range" typeId="0d60-0078-7134-d302"/>
-                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585"/>
-                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c"/>
-                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d"/>
-                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2284,40 +1774,6 @@ If they do, they must then discard one card from their Hand.</characteristic>
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Melee" hidden="true" id="1b53-17a7-8228-e4d7" sortIndex="5">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1c43-b269-b872-c21a" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="227a-63eb-e2d9-4317" automatic="true"/>
-              </constraints>
-              <profiles>
-                <profile name="Melee" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="3a1d-0d67-cd38-a59a">
-                  <characteristics>
-                    <characteristic name="Range" typeId="0d60-0078-7134-d302"/>
-                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585"/>
-                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c"/>
-                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d"/>
-                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Ranged (Light/Heavy)" hidden="true" id="9c0d-3d1a-83df-90df" sortIndex="3">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e204-38b5-d321-f871" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="be3c-33bc-155d-9ad0" automatic="true"/>
-              </constraints>
-              <profiles>
-                <profile name="Ranged (Light/Heavy)" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="9eb9-7c91-48cd-4a18">
-                  <characteristics>
-                    <characteristic name="Range" typeId="0d60-0078-7134-d302"/>
-                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585"/>
-                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c"/>
-                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d"/>
-                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Ranged (Heavy)" hidden="false" id="2f50-bd63-f8ef-ca16" sortIndex="2">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ebbc-ba2f-fc04-a399" automatic="true"/>
@@ -2331,23 +1787,6 @@ If they do, they must then discard one card from their Hand.</characteristic>
                     <characteristic name="3-4" typeId="8394-18d6-22d8-e03c">8</characteristic>
                     <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d">12</characteristic>
                     <characteristic name="Qualities" typeId="1569-2922-0e92-737b">Torrent</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Ranged (Aerial)" hidden="true" id="aa84-c74a-2579-5355" sortIndex="4">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0d8a-320c-e828-5af6" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="45de-ec52-0c8e-7470" automatic="true"/>
-              </constraints>
-              <profiles>
-                <profile name="Ranged (Aerial)" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="5d3e-fff8-d132-2d1e">
-                  <characteristics>
-                    <characteristic name="Range" typeId="0d60-0078-7134-d302"/>
-                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585"/>
-                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c"/>
-                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d"/>
-                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2646,74 +2085,6 @@ If they do, they must then discard one card from their Hand.</characteristic>
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Melee" hidden="true" id="4ee0-a620-67fc-7a2e" sortIndex="5">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ff2f-e19c-e692-4d38" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fdf3-5ef2-c624-6a6f" automatic="true"/>
-              </constraints>
-              <profiles>
-                <profile name="Melee" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="3a6b-1f82-6d36-f30e">
-                  <characteristics>
-                    <characteristic name="Range" typeId="0d60-0078-7134-d302"/>
-                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585"/>
-                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c"/>
-                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d"/>
-                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Ranged (Light/Heavy)" hidden="true" id="cd9d-0c32-1956-1ba1" sortIndex="3">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e89e-7943-e786-bf07" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0b7e-f74c-7b0c-2b9a" automatic="true"/>
-              </constraints>
-              <profiles>
-                <profile name="Ranged (Light/Heavy)" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="19a5-2b1a-761b-1ef0">
-                  <characteristics>
-                    <characteristic name="Range" typeId="0d60-0078-7134-d302"/>
-                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585"/>
-                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c"/>
-                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d"/>
-                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Ranged (Heavy)" hidden="true" id="2445-ecf3-eebe-d607" sortIndex="2">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b586-c195-4944-83df" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2cd2-2f0b-35b2-4306" automatic="true"/>
-              </constraints>
-              <profiles>
-                <profile name="Ranged (Heavy)" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="1f2b-075e-ccf6-e4a4">
-                  <characteristics>
-                    <characteristic name="Range" typeId="0d60-0078-7134-d302"/>
-                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585"/>
-                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c"/>
-                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d"/>
-                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Ranged (Aerial)" hidden="true" id="fd56-9547-b630-af17" sortIndex="4">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0cab-3215-6e77-8987" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2f78-9128-c50c-671e" automatic="true"/>
-              </constraints>
-              <profiles>
-                <profile name="Ranged (Aerial)" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="2db1-b0fa-07b7-be7a">
-                  <characteristics>
-                    <characteristic name="Range" typeId="0d60-0078-7134-d302"/>
-                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585"/>
-                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c"/>
-                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d"/>
-                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Impact" hidden="false" id="f2b4-953a-5cde-d60c" sortIndex="6">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="797d-109d-eadc-a1ff" automatic="true"/>
@@ -2759,7 +2130,7 @@ If they do, they must then discard one card from their Hand.</characteristic>
         </profile>
       </profiles>
       <selectionEntryGroups>
-        <selectionEntryGroup name="stats" id="49bd-efb3-bda2-3c3a" hidden="true" sortIndex="2">
+        <selectionEntryGroup name="stats" id="49bd-efb3-bda2-3c3a" hidden="true" sortIndex="3">
           <profiles>
             <profile name="Reaper Arc Tanks" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="207b-95ba-7179-44f3">
               <characteristics>
@@ -2805,7 +2176,7 @@ If they do, they must then discard one card from their Hand.</characteristic>
             </profile>
           </profiles>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Bolstering ARMOUR" id="a625-3e55-9753-0c43" hidden="false" import="false">
+        <selectionEntryGroup name="Bolstering ARMOUR" id="a625-3e55-9753-0c43" hidden="false" import="false" sortIndex="2">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f22a-b04d-3b52-5745"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="31ec-e31c-79c1-5dc2"/>
@@ -2840,7 +2211,7 @@ If they do, they must then discard one card from their Hand.</characteristic>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Weapons" id="ca85-9e0b-731e-301e" hidden="false">
+        <selectionEntryGroup name="Weapons" id="ca85-9e0b-731e-301e" hidden="false" sortIndex="1">
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Ranged (Light)" hidden="false" id="d533-7aa7-0eb7-f3c1" sortIndex="1">
               <constraints>
@@ -2876,23 +2247,6 @@ If they do, they must then discard one card from their Hand.</characteristic>
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Ranged (Light/Heavy)" hidden="true" id="d1f6-9312-20b3-405a" sortIndex="3">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="66dd-6d79-ac9d-4f50" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a610-d6be-44db-16b2" automatic="true"/>
-              </constraints>
-              <profiles>
-                <profile name="Ranged (Light/Heavy)" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="0398-1f72-a28f-c741">
-                  <characteristics>
-                    <characteristic name="Range" typeId="0d60-0078-7134-d302"/>
-                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585"/>
-                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c"/>
-                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d"/>
-                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Ranged (Heavy)" hidden="false" id="118a-af27-1fa4-aff6" sortIndex="2">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c5d1-96bf-88d9-b532" automatic="true"/>
@@ -2906,40 +2260,6 @@ If they do, they must then discard one card from their Hand.</characteristic>
                     <characteristic name="3-4" typeId="8394-18d6-22d8-e03c">8</characteristic>
                     <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d">12</characteristic>
                     <characteristic name="Qualities" typeId="1569-2922-0e92-737b">Arc, Turret</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Ranged (Aerial)" hidden="true" id="7a66-476a-75e2-4b95" sortIndex="4">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="eddc-30fe-fd8c-3e16" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9043-d69d-1f3f-3702" automatic="true"/>
-              </constraints>
-              <profiles>
-                <profile name="Ranged (Aerial)" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="2b86-8d44-330a-cd7c">
-                  <characteristics>
-                    <characteristic name="Range" typeId="0d60-0078-7134-d302"/>
-                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585"/>
-                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c"/>
-                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d"/>
-                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Impact" hidden="false" id="3c94-457b-8eb9-08a8" sortIndex="6">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="250b-3d47-be58-1dc2" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1fc2-369b-7fbd-aa51" automatic="true"/>
-              </constraints>
-              <profiles>
-                <profile name="Impact" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="767f-7a0e-e2fb-bd18">
-                  <characteristics>
-                    <characteristic name="Range" typeId="0d60-0078-7134-d302"/>
-                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585"/>
-                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c"/>
-                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d"/>
-                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3061,40 +2381,6 @@ If they do, they must then discard one card from their Hand.</characteristic>
                     <characteristic name="3-4" typeId="8394-18d6-22d8-e03c">7</characteristic>
                     <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d">11</characteristic>
                     <characteristic name="Qualities" typeId="1569-2922-0e92-737b">-</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Melee" hidden="true" id="8950-5168-28d1-6981" sortIndex="5">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8a01-e590-b2d7-5f0e" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5fba-3519-ca84-3181" automatic="true"/>
-              </constraints>
-              <profiles>
-                <profile name="Melee" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="2be5-9c48-efdf-5f96">
-                  <characteristics>
-                    <characteristic name="Range" typeId="0d60-0078-7134-d302"/>
-                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585"/>
-                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c"/>
-                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d"/>
-                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Ranged (Light/Heavy)" hidden="true" id="b404-44a8-7383-b5dc" sortIndex="3">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9fc6-d0d0-8044-f043" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="08d7-88fd-dd12-eb0d" automatic="true"/>
-              </constraints>
-              <profiles>
-                <profile name="Ranged (Light/Heavy)" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="598e-4dcd-d848-291e">
-                  <characteristics>
-                    <characteristic name="Range" typeId="0d60-0078-7134-d302"/>
-                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585"/>
-                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c"/>
-                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d"/>
-                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3292,74 +2578,6 @@ If they do, they must then discard one card from their Hand.</characteristic>
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Ranged (Light/Heavy)" hidden="true" id="e462-aaa8-9869-d527" sortIndex="3">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0e6f-c724-4eba-72fc" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ddba-90e2-1c77-a064" automatic="true"/>
-              </constraints>
-              <profiles>
-                <profile name="Ranged (Light/Heavy)" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="7428-04d2-da1d-ed33">
-                  <characteristics>
-                    <characteristic name="Range" typeId="0d60-0078-7134-d302"/>
-                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585"/>
-                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c"/>
-                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d"/>
-                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Ranged (Heavy)" hidden="true" id="81bf-19c5-4ea8-835b" sortIndex="2">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="bef1-2313-30bc-d931" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0c94-8f2f-f599-e1ac" automatic="true"/>
-              </constraints>
-              <profiles>
-                <profile name="Ranged (Heavy)" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="fac4-c844-6830-f35c">
-                  <characteristics>
-                    <characteristic name="Range" typeId="0d60-0078-7134-d302"/>
-                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585"/>
-                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c"/>
-                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d"/>
-                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Ranged (Aerial)" hidden="true" id="3a2c-21c3-182a-4546" sortIndex="4">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e508-0ee7-9930-5109" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fd62-ba20-4736-9183" automatic="true"/>
-              </constraints>
-              <profiles>
-                <profile name="Ranged (Aerial)" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="de23-1863-b5fc-d49a">
-                  <characteristics>
-                    <characteristic name="Range" typeId="0d60-0078-7134-d302"/>
-                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585"/>
-                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c"/>
-                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d"/>
-                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Impact" hidden="true" id="6aed-ec4c-d86f-db06" sortIndex="6">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4ed2-b196-9de0-b706" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="db5e-b7d2-4187-d7bf" automatic="true"/>
-              </constraints>
-              <profiles>
-                <profile name="Impact" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="8877-fc85-b321-146f">
-                  <characteristics>
-                    <characteristic name="Range" typeId="0d60-0078-7134-d302"/>
-                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585"/>
-                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c"/>
-                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d"/>
-                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -3498,23 +2716,6 @@ If they do, they must then discard one card from their Hand.</characteristic>
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Ranged (Light/Heavy)" hidden="true" id="0ed4-a489-c787-b9a1" sortIndex="3">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4a72-2732-63ca-bcee" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="766a-eabf-4508-4ea6" automatic="true"/>
-              </constraints>
-              <profiles>
-                <profile name="Ranged (Light/Heavy)" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="ace0-fced-618e-202d">
-                  <characteristics>
-                    <characteristic name="Range" typeId="0d60-0078-7134-d302"/>
-                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585"/>
-                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c"/>
-                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d"/>
-                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Ranged (Heavy)" hidden="false" id="cae9-24d0-c202-42cb" sortIndex="2">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6990-64c1-e189-11a7" automatic="true"/>
@@ -3528,40 +2729,6 @@ If they do, they must then discard one card from their Hand.</characteristic>
                     <characteristic name="5-8" typeId="f891-f62d-9222-6a4f">10</characteristic>
                     <characteristic name="9-12" typeId="df36-9d51-a316-8d54">15</characteristic>
                     <characteristic name="Qualities" typeId="9a3f-8a28-e735-e1eb">Arc</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Ranged (Aerial)" hidden="true" id="bed9-63bb-f372-9545" sortIndex="4">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2d1f-ac0c-71d4-6a84" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2dd2-f068-3cf3-48d4" automatic="true"/>
-              </constraints>
-              <profiles>
-                <profile name="Ranged (Aerial)" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="9a2b-e271-5eda-30ac">
-                  <characteristics>
-                    <characteristic name="Range" typeId="0d60-0078-7134-d302"/>
-                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585"/>
-                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c"/>
-                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d"/>
-                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Impact" hidden="true" id="fd3f-e59d-6f27-b419" sortIndex="6">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f04a-81b5-105e-c09d" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fbb5-9fd8-f9e0-e86a" automatic="true"/>
-              </constraints>
-              <profiles>
-                <profile name="Impact" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="27df-e4bb-5543-3aaa">
-                  <characteristics>
-                    <characteristic name="Range" typeId="0d60-0078-7134-d302"/>
-                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585"/>
-                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c"/>
-                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d"/>
-                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3866,23 +3033,6 @@ If they do, they must then discard one card from their Hand.</characteristic>
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Ranged (Light/Heavy)" hidden="true" id="57af-2594-5847-caa1" sortIndex="3">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3e94-553f-97ce-6af9" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3d79-5fb9-56f8-0a16" automatic="true"/>
-              </constraints>
-              <profiles>
-                <profile name="Ranged (Light/Heavy)" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="27c6-da0c-f8af-82d9">
-                  <characteristics>
-                    <characteristic name="Range" typeId="0d60-0078-7134-d302"/>
-                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585"/>
-                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c"/>
-                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d"/>
-                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Ranged (Heavy)" hidden="false" id="7c73-a593-2ca2-1c76" sortIndex="2">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="29f2-0d60-4b3e-857b" automatic="true"/>
@@ -3917,23 +3067,6 @@ If they do, they must then discard one card from their Hand.</characteristic>
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Impact" hidden="true" id="2f27-353d-1427-23bb" sortIndex="6">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0ce3-634c-c078-eb70" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a578-4779-90c8-9f89" automatic="true"/>
-              </constraints>
-              <profiles>
-                <profile name="Impact" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="c796-f9cf-fde5-ef9d">
-                  <characteristics>
-                    <characteristic name="Range" typeId="0d60-0078-7134-d302"/>
-                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585"/>
-                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c"/>
-                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d"/>
-                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -3962,7 +3095,7 @@ If they do, they must then discard one card from their Hand.</characteristic>
         </profile>
       </profiles>
       <selectionEntryGroups>
-        <selectionEntryGroup name="stats" id="9b0d-028f-29ed-8ebc" hidden="true" sortIndex="2">
+        <selectionEntryGroup name="stats" id="9b0d-028f-29ed-8ebc" hidden="true" sortIndex="3">
           <profiles>
             <profile name="Corsair Fighter Squadron" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="9e51-2fb7-478b-9b77">
               <characteristics>
@@ -4008,7 +3141,7 @@ If they do, they must then discard one card from their Hand.</characteristic>
             </profile>
           </profiles>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Bolstering AIRCRAFT" id="6c85-800a-a16a-fbab" hidden="false" import="false">
+        <selectionEntryGroup name="Bolstering AIRCRAFT" id="6c85-800a-a16a-fbab" hidden="false" import="false" sortIndex="2">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="05eb-f216-3225-6bc3"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="aa63-3a65-96a3-1506"/>
@@ -4043,7 +3176,7 @@ If they do, they must then discard one card from their Hand.</characteristic>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Weapons" id="662e-5312-e02e-5078" hidden="false">
+        <selectionEntryGroup name="Weapons" id="662e-5312-e02e-5078" hidden="false" sortIndex="1">
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Ranged (Light)" hidden="false" id="8a9a-95ca-d941-9d28" sortIndex="1">
               <constraints>
@@ -4058,40 +3191,6 @@ If they do, they must then discard one card from their Hand.</characteristic>
                     <characteristic name="2" typeId="9869-9545-e597-5da6">8</characteristic>
                     <characteristic name="3" typeId="cc94-143d-b205-52e3">11</characteristic>
                     <characteristic name="Qualities" typeId="f973-0012-4bcd-1728">Devastating</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Melee" hidden="true" id="cfd3-95d8-2d13-4848" sortIndex="5">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ab94-e1b9-54a6-7ec8" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6186-2358-ad88-4323" automatic="true"/>
-              </constraints>
-              <profiles>
-                <profile name="Melee" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="f724-14e6-e4dc-ae8a">
-                  <characteristics>
-                    <characteristic name="Range" typeId="0d60-0078-7134-d302"/>
-                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585"/>
-                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c"/>
-                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d"/>
-                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Ranged (Light/Heavy)" hidden="true" id="458b-ecf2-2817-812e" sortIndex="3">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3f46-465b-8daa-d366" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="79ef-5052-95ad-2340" automatic="true"/>
-              </constraints>
-              <profiles>
-                <profile name="Ranged (Light/Heavy)" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="78b2-0ac8-f044-7a90">
-                  <characteristics>
-                    <characteristic name="Range" typeId="0d60-0078-7134-d302"/>
-                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585"/>
-                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c"/>
-                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d"/>
-                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4126,23 +3225,6 @@ If they do, they must then discard one card from their Hand.</characteristic>
                     <characteristic name="3-4" typeId="8394-18d6-22d8-e03c">6</characteristic>
                     <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d">10</characteristic>
                     <characteristic name="Qualities" typeId="1569-2922-0e92-737b">Devastating</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Impact" hidden="true" id="afa9-bcc0-4824-22ff" sortIndex="6">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4eea-9487-aaec-7988" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dcb7-fe70-7f4d-3918" automatic="true"/>
-              </constraints>
-              <profiles>
-                <profile name="Impact" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="df29-03b2-f1a4-b8af">
-                  <characteristics>
-                    <characteristic name="Range" typeId="0d60-0078-7134-d302"/>
-                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585"/>
-                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c"/>
-                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d"/>
-                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b"/>
                   </characteristics>
                 </profile>
               </profiles>
