@@ -74,6 +74,8 @@
     <categoryEntry name="Order" id="10e0-63bd-3ed0-8740" hidden="false"/>
     <categoryEntry name="Unique" id="19f4-cd18-0cc2-f95d" hidden="false"/>
     <categoryEntry name="Sub-Zero" id="bec1-3746-2d61-d9f8" hidden="false"/>
+    <categoryEntry name="Sapper" id="b6ba-4c48-11fd-bf7f" hidden="false"/>
+    <categoryEntry name="Sturdy" id="4a71-3055-d165-8d8f" hidden="false"/>
   </categoryEntries>
   <selectionEntries>
     <selectionEntry type="unit" import="true" name="Example Unit" hidden="true" id="afc1-a3d2-a345-3a0c">

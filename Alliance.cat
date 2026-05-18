@@ -236,6 +236,7 @@
         <categoryLink name="Behemoth" hidden="false" id="7f83-5325-043d-18ef" targetId="26dd-e4ab-0a91-096a" primary="false"/>
         <categoryLink name="Commander" hidden="false" id="b5bb-1eaa-0277-c753" targetId="058b-06f1-5fc7-3c9a" primary="true"/>
         <categoryLink name="Armour (c)" hidden="false" id="efa9-e6de-d4bf-9429" targetId="fb51-77d5-9062-8c08" primary="false"/>
+        <categoryLink name="Transport" hidden="false" id="0230-44b9-31c7-8371" targetId="d78d-8ed7-fc30-5981" primary="false"/>
       </categoryLinks>
       <profiles>
         <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="3a44-27d8-f06c-217c" noindex="false">
@@ -332,7 +333,7 @@
           <entryLinks>
             <entryLink import="true" name="Full Strength Commander" hidden="false" id="89fb-7c11-200f-4e0e" type="selectionEntry" targetId="557e-4d5d-e6f0-5c87" sortIndex="3">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="440"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="420"/>
               </costs>
               <profiles>
                 <profile name="Ghent Landfortress" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="407a-878b-e721-86bb">
@@ -443,7 +444,7 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Bolstering INFANTRY" id="26d2-726b-fe2e-77eb" hidden="false" sortIndex="2">
+        <selectionEntryGroup name="Bolstering INFANTRY" id="26d2-726b-fe2e-77eb" hidden="false" sortIndex="3">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="374e-dff4-e373-192b"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7ecb-989c-07a9-65a5"/>
@@ -589,7 +590,7 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Bolstering INFANTRY" id="79ca-81b1-7132-47a3" hidden="false" sortIndex="2">
+        <selectionEntryGroup name="Bolstering INFANTRY" id="79ca-81b1-7132-47a3" hidden="false" sortIndex="3">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="13fa-a015-11ef-89db"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0479-320c-e6c8-be11"/>
@@ -924,7 +925,7 @@
       <profiles>
         <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="807d-1381-12d9-b14d" noindex="false">
           <characteristics>
-            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Automata, Flying, Shrouded, Soar (10”), Vanguard (15”)</characteristic>
+            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Automata, Flying, Shrouded, Soar (10”), Vanguard (15”), Stalker, </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1021,7 +1022,7 @@
                   <profiles>
                     <profile name="Ranged Light" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="532a-43bc-ccbe-5fcf">
                       <characteristics>
-                        <characteristic name="Range" typeId="0d60-0078-7134-d302">8&quot;/16&quot;</characteristic>
+                        <characteristic name="Range" typeId="0d60-0078-7134-d302">8&quot;/20&quot;</characteristic>
                         <characteristic name="1-2" typeId="5043-ac06-9bc2-0585">4</characteristic>
                         <characteristic name="3-4" typeId="8394-18d6-22d8-e03c">6</characteristic>
                         <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d">8</characteristic>
@@ -1038,7 +1039,7 @@
                   <profiles>
                     <profile name="Ranged Heavy" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="4f18-0ae7-7cbc-3470">
                       <characteristics>
-                        <characteristic name="Range" typeId="0d60-0078-7134-d302">8&quot;/16&quot;</characteristic>
+                        <characteristic name="Range" typeId="0d60-0078-7134-d302">8&quot;/20&quot;</characteristic>
                         <characteristic name="1-2" typeId="5043-ac06-9bc2-0585">3</characteristic>
                         <characteristic name="3-4" typeId="8394-18d6-22d8-e03c">5</characteristic>
                         <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d">7</characteristic>
@@ -1055,7 +1056,7 @@
                   <profiles>
                     <profile name="Ranged Aerial" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="2d37-3448-6dae-a299">
                       <characteristics>
-                        <characteristic name="Range" typeId="0d60-0078-7134-d302">8&quot;/16&quot;</characteristic>
+                        <characteristic name="Range" typeId="0d60-0078-7134-d302">8&quot;/20&quot;</characteristic>
                         <characteristic name="1-2" typeId="5043-ac06-9bc2-0585">3</characteristic>
                         <characteristic name="3-4" typeId="8394-18d6-22d8-e03c">5</characteristic>
                         <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d">7</characteristic>
@@ -1300,7 +1301,7 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Bolstering CAVALRY" id="c994-d0b0-3276-7633" hidden="false">
+        <selectionEntryGroup name="Bolstering CAVALRY" id="c994-d0b0-3276-7633" hidden="false" sortIndex="4">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="293c-faee-7a9e-fb02"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8cf2-c386-17a8-b18c"/>
@@ -1309,7 +1310,7 @@
             <modifier type="set" value="Bolstering" field="name"/>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="instanceOf" value="1" field="forces" scope="force" childId="b798-a1db-b4f8-a89f" shared="true" includeChildSelections="true"/>
+                <condition type="notInstanceOf" value="1" field="forces" scope="force" childId="c386-2b5e-ec49-5d18" shared="true" includeChildSelections="true" childName="Alliance Faction Battlegroup"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -1387,9 +1388,9 @@
               </profiles>
             </entryLink>
           </entryLinks>
-          <comment>Hidden if Conclave</comment>
+          <comment>Hidden if not faction battle</comment>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Bolstering Cav/Fort" id="4d3c-5c3f-44b8-ec8b" hidden="false">
+        <selectionEntryGroup name="Bolstering Cav/Fort" id="4d3c-5c3f-44b8-ec8b" hidden="false" sortIndex="3">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fbff-6195-9d98-6a32"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0d1d-a638-b231-bf4a"/>
@@ -1478,6 +1479,95 @@
           </entryLinks>
           <comment>Hidden if not Conclave</comment>
         </selectionEntryGroup>
+        <selectionEntryGroup name="Bolstering Inf/Cav" id="508f-cffa-3f47-765b" hidden="false" import="false" sortIndex="5">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f94c-ba3c-756a-49a1"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a343-60d0-e201-d1b1"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="Bolstering" field="name"/>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="forces" scope="force" childId="76dc-9282-c45b-5c5d" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <entryLinks>
+            <entryLink import="true" name="Basic Inf/Cav" hidden="false" id="a36e-4ef5-eb58-9db2" type="selectionEntry" targetId="226e-91f2-9c82-5c65" sortIndex="1">
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="80"/>
+              </costs>
+              <profiles>
+                <profile name="Charrette Armoured Vehicle" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="c278-d254-2ed1-65c6">
+                  <characteristics>
+                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Heavy</characteristic>
+                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">1</characteristic>
+                    <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
+                    <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
+                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">7&quot;</characteristic>
+                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">3</characteristic>
+                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">1</characteristic>
+                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">6</characteristic>
+                    <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="set" value="4" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="2" field="bb79-114d-2dc7-ca18"/>
+                  </modifiers>
+                </profile>
+              </profiles>
+            </entryLink>
+            <entryLink import="true" name="Reinforced Inf/Cav" hidden="false" id="329e-3ece-d04b-857c" type="selectionEntry" targetId="2be6-c945-c7aa-04a2" sortIndex="2">
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="135"/>
+              </costs>
+              <profiles>
+                <profile name="Charrette Armoured Vehicle" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="485b-ea31-ffbe-17f5">
+                  <characteristics>
+                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Heavy</characteristic>
+                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">1</characteristic>
+                    <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
+                    <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
+                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">7&quot;</characteristic>
+                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">3</characteristic>
+                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">1</characteristic>
+                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">6</characteristic>
+                    <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="set" value="8" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="3" field="bb79-114d-2dc7-ca18"/>
+                  </modifiers>
+                </profile>
+              </profiles>
+            </entryLink>
+            <entryLink import="true" name="Full Strength Inf/Cav" hidden="false" id="d547-cccd-8120-1fe8" type="selectionEntry" targetId="04aa-73c0-bce0-ad96" sortIndex="3">
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="210"/>
+              </costs>
+              <profiles>
+                <profile name="Charrette Armoured Vehicle" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="7b3b-bac3-cdae-300b">
+                  <characteristics>
+                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Heavy</characteristic>
+                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">1</characteristic>
+                    <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
+                    <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
+                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">7&quot;</characteristic>
+                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">3</characteristic>
+                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">1</characteristic>
+                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">6</characteristic>
+                    <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="set" value="12" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="4" field="bb79-114d-2dc7-ca18"/>
+                  </modifiers>
+                </profile>
+              </profiles>
+            </entryLink>
+          </entryLinks>
+          <comment>Hidden if not L&apos;aigles</comment>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="893d-8b74-bf97-3501" includeChildSelections="true"/>
@@ -1498,6 +1588,15 @@
           <modifiers>
             <modifier type="set-primary" value="dcf5-85cc-8ebc-e6c4" field="category"/>
           </modifiers>
+        </modifierGroup>
+        <modifierGroup type="and">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="76dc-9282-c45b-5c5d" shared="true" includeChildSelections="false" childName="L&apos;aigles Imperiaux Auxiliary Battlegroup"/>
+          </conditions>
+          <modifiers>
+            <modifier type="set-primary" value="763f-6d17-4a4b-c0df" field="category"/>
+          </modifiers>
+          <comment>inf/cav</comment>
         </modifierGroup>
       </modifierGroups>
     </selectionEntry>
@@ -1663,7 +1762,7 @@
             <modifier type="set" value="Bolstering" field="name"/>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="instanceOf" value="1" field="forces" scope="force" childId="b798-a1db-b4f8-a89f" shared="true" includeChildSelections="true"/>
+                <condition type="notInstanceOf" value="1" field="forces" scope="force" childId="c386-2b5e-ec49-5d18" shared="true" includeChildSelections="true" childName="Alliance Faction Battlegroup"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -1741,7 +1840,7 @@
               </profiles>
             </entryLink>
           </entryLinks>
-          <comment>Hidden if conclave</comment>
+          <comment>Hidden if not faction battlegroup</comment>
         </selectionEntryGroup>
         <selectionEntryGroup name="Bolstering Cav/Fort" id="2b6f-9984-941c-3847" hidden="false">
           <constraints>
@@ -1832,6 +1931,95 @@
           </entryLinks>
           <comment>Hidden if not Conclave</comment>
         </selectionEntryGroup>
+        <selectionEntryGroup name="Bolstering Inf/Cav" id="4f83-30a8-3bc6-2f7f" hidden="false" import="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9012-4b96-1a10-e1ad"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="50fe-db49-54e4-7883"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="Bolstering" field="name"/>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="forces" scope="force" childId="76dc-9282-c45b-5c5d" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <entryLinks>
+            <entryLink import="true" name="Basic Inf/Cav" hidden="false" id="af28-da7c-f211-56f5" type="selectionEntry" targetId="226e-91f2-9c82-5c65" sortIndex="1">
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="70"/>
+              </costs>
+              <profiles>
+                <profile name="Hellequin Armoured Vehicle" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="02b7-83f3-02f6-dd5f">
+                  <characteristics>
+                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Heavy</characteristic>
+                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">1</characteristic>
+                    <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
+                    <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
+                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">7&quot;</characteristic>
+                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">3</characteristic>
+                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">1</characteristic>
+                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">6</characteristic>
+                    <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="set" value="4" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="2" field="bb79-114d-2dc7-ca18"/>
+                  </modifiers>
+                </profile>
+              </profiles>
+            </entryLink>
+            <entryLink import="true" name="Reinforced Inf/Cav" hidden="false" id="43ad-c6fd-d090-07bf" type="selectionEntry" targetId="2be6-c945-c7aa-04a2" sortIndex="2">
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="120"/>
+              </costs>
+              <profiles>
+                <profile name="Hellequin Armoured Vehicle" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="11d3-db15-c6ea-b1bb">
+                  <characteristics>
+                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Heavy</characteristic>
+                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">1</characteristic>
+                    <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
+                    <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
+                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">7&quot;</characteristic>
+                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">3</characteristic>
+                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">1</characteristic>
+                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">6</characteristic>
+                    <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="set" value="8" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="3" field="bb79-114d-2dc7-ca18"/>
+                  </modifiers>
+                </profile>
+              </profiles>
+            </entryLink>
+            <entryLink import="true" name="Full Strength Inf/Cav" hidden="false" id="d852-1e80-5758-93c1" type="selectionEntry" targetId="04aa-73c0-bce0-ad96" sortIndex="3">
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="180"/>
+              </costs>
+              <profiles>
+                <profile name="Hellequin Armoured Vehicle" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="44bb-0cea-6e55-a890">
+                  <characteristics>
+                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Heavy</characteristic>
+                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">1</characteristic>
+                    <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
+                    <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
+                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">7&quot;</characteristic>
+                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">3</characteristic>
+                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">1</characteristic>
+                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">6</characteristic>
+                    <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="set" value="12" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="4" field="bb79-114d-2dc7-ca18"/>
+                  </modifiers>
+                </profile>
+              </profiles>
+            </entryLink>
+          </entryLinks>
+          <comment>Hidden if not L&apos;aigles</comment>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="6f67-bd54-6ab2-e3ad" includeChildSelections="true"/>
@@ -1845,6 +2033,15 @@
           <modifiers>
             <modifier type="set-primary" value="dcf5-85cc-8ebc-e6c4" field="category"/>
           </modifiers>
+        </modifierGroup>
+        <modifierGroup type="and">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="76dc-9282-c45b-5c5d" shared="true" includeChildSelections="false" childName="L&apos;aigles Imperiaux Auxiliary Battlegroup"/>
+          </conditions>
+          <modifiers>
+            <modifier type="set-primary" value="763f-6d17-4a4b-c0df" field="category"/>
+          </modifiers>
+          <comment>inf/cav</comment>
         </modifierGroup>
       </modifierGroups>
     </selectionEntry>
@@ -1976,7 +2173,7 @@
             <modifier type="set" value="Bolstering" field="name"/>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="instanceOf" value="1" field="forces" scope="force" childId="b798-a1db-b4f8-a89f" shared="true" includeChildSelections="true"/>
+                <condition type="notInstanceOf" value="1" field="forces" scope="force" childId="c386-2b5e-ec49-5d18" shared="true" includeChildSelections="true" childName="Alliance Faction Battlegroup"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -2007,7 +2204,7 @@
             </entryLink>
             <entryLink import="true" name="Reinforced CAVALRY" hidden="false" id="5642-283e-f898-92b1" type="selectionEntry" targetId="1291-4150-c342-4a76" sortIndex="2">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="135"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="130"/>
               </costs>
               <profiles>
                 <profile name="Destreza Bladestriders" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="08fe-251c-8d1d-2a61">
@@ -2031,7 +2228,7 @@
             </entryLink>
             <entryLink import="true" name="Full Strength CAVALRY" hidden="false" id="c986-3555-bb6f-e996" type="selectionEntry" targetId="af5c-b232-43cc-fa07" sortIndex="3">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="210"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="195"/>
               </costs>
               <profiles>
                 <profile name="Destreza Bladestriders" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="0e34-8941-5c41-3fe0">
@@ -2054,7 +2251,7 @@
               </profiles>
             </entryLink>
           </entryLinks>
-          <comment>Hidden if conclave</comment>
+          <comment>Hidden if not faction battle</comment>
         </selectionEntryGroup>
         <selectionEntryGroup name="Bolstering Cav/Fort" id="8540-be92-94de-d27b" hidden="false">
           <constraints>
@@ -2096,7 +2293,7 @@
             </entryLink>
             <entryLink import="true" name="Reinforced Cav/Fort" hidden="false" id="674d-76c0-2e75-2457" type="selectionEntry" targetId="99c2-90ac-5c43-89fc" sortIndex="2">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="135"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="130"/>
               </costs>
               <profiles>
                 <profile name="Destreza Bladestriders" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="8cdd-508f-b469-ee16">
@@ -2120,7 +2317,7 @@
             </entryLink>
             <entryLink import="true" name="Full Strength Cav/Fort" hidden="false" id="331a-7809-1ea4-38d5" type="selectionEntry" targetId="b14c-3e7b-5d1c-d84a" sortIndex="3">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="210"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="195"/>
               </costs>
               <profiles>
                 <profile name="Destreza Bladestriders" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="aa7c-f57c-4e12-510e">
@@ -2145,6 +2342,95 @@
           </entryLinks>
           <comment>Hidden if not Conclave</comment>
         </selectionEntryGroup>
+        <selectionEntryGroup name="Bolstering Inf/Cav" id="d21b-bff3-1d99-f78f" hidden="false" import="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fe26-10c6-3a61-078f"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0d2b-9c52-14a8-a5b1"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="Bolstering" field="name"/>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="forces" scope="force" childId="76dc-9282-c45b-5c5d" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <entryLinks>
+            <entryLink import="true" name="Basic Inf/Cav" hidden="false" id="330b-314b-ec8a-ff7d" type="selectionEntry" targetId="226e-91f2-9c82-5c65" sortIndex="1">
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="80"/>
+              </costs>
+              <profiles>
+                <profile name="Destreza Bladestriders" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="3061-3cc3-2a54-ec59">
+                  <characteristics>
+                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Light</characteristic>
+                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">2</characteristic>
+                    <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
+                    <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
+                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">6&quot;</characteristic>
+                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
+                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">2</characteristic>
+                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">8</characteristic>
+                    <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="set" value="4" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="3" field="bb79-114d-2dc7-ca18"/>
+                  </modifiers>
+                </profile>
+              </profiles>
+            </entryLink>
+            <entryLink import="true" name="Reinforced Inf/Cav" hidden="false" id="de9b-5c79-12bc-55e0" type="selectionEntry" targetId="2be6-c945-c7aa-04a2" sortIndex="2">
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="130"/>
+              </costs>
+              <profiles>
+                <profile name="Destreza Bladestriders" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="9c86-6f2a-aa01-dc54">
+                  <characteristics>
+                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Light</characteristic>
+                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">2</characteristic>
+                    <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
+                    <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
+                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">6&quot;</characteristic>
+                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
+                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">2</characteristic>
+                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">8</characteristic>
+                    <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="set" value="8" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="4" field="bb79-114d-2dc7-ca18"/>
+                  </modifiers>
+                </profile>
+              </profiles>
+            </entryLink>
+            <entryLink import="true" name="Full Strength Inf/Cav" hidden="false" id="7fc7-fb44-8522-3ab0" type="selectionEntry" targetId="04aa-73c0-bce0-ad96" sortIndex="3">
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="195"/>
+              </costs>
+              <profiles>
+                <profile name="Destreza Bladestriders" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="b4f0-71eb-38b8-6a3c">
+                  <characteristics>
+                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Light</characteristic>
+                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">2</characteristic>
+                    <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
+                    <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
+                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">6&quot;</characteristic>
+                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
+                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">2</characteristic>
+                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">8</characteristic>
+                    <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="set" value="12" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="5" field="bb79-114d-2dc7-ca18"/>
+                  </modifiers>
+                </profile>
+              </profiles>
+            </entryLink>
+          </entryLinks>
+          <comment>Hidden if not L&apos;aigles</comment>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="2cd1-b0be-3afe-aa7a" includeChildSelections="true"/>
@@ -2166,14 +2452,23 @@
             <modifier type="set-primary" value="dcf5-85cc-8ebc-e6c4" field="category"/>
           </modifiers>
         </modifierGroup>
+        <modifierGroup type="and">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="76dc-9282-c45b-5c5d" shared="true" includeChildSelections="false" childName="L&apos;aigles Imperiaux Auxiliary Battlegroup"/>
+          </conditions>
+          <modifiers>
+            <modifier type="set-primary" value="763f-6d17-4a4b-c0df" field="category"/>
+          </modifiers>
+          <comment>inf/cav</comment>
+        </modifierGroup>
       </modifierGroups>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Becerrillo War Dogs" hidden="false" id="94aa-3c3c-ea15-f019" sortIndex="5">
       <categoryLinks>
         <categoryLink name="Alliance" hidden="false" id="c72e-26dd-03d4-b807" targetId="db41-3349-0ff7-53da" primary="false"/>
         <categoryLink name="Light" hidden="false" id="56fc-781d-979b-d407" targetId="default-category" primary="false"/>
-        <categoryLink name="Cavalry" hidden="false" id="0a76-668c-d065-e6f3" targetId="d257-b36f-8e15-2d9b" primary="true"/>
         <categoryLink name="Faithful" hidden="false" id="2259-73c8-bc1f-1eef" targetId="3694-9392-62f4-1c1d" primary="false"/>
+        <categoryLink name="Infantry" hidden="false" id="d25a-622f-df02-4696" targetId="92f8-9d17-dd4d-a5ac" primary="true"/>
       </categoryLinks>
       <profiles>
         <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="166d-df05-a50c-c27c" noindex="false">
@@ -2248,26 +2543,26 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Bolstering CAVALRY" id="13f3-22dd-8842-0c99" hidden="false">
+        <selectionEntryGroup name="Bolstering Inf/Cav" id="37aa-b45c-1ca7-0b61" hidden="false" import="false" sortIndex="3">
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="bfcd-ab9c-240b-29ea"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f961-ecdc-e65b-b1a2"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3fd5-ff63-3b92-b719"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1afd-a732-fe23-9001"/>
           </constraints>
           <modifiers>
             <modifier type="set" value="Bolstering" field="name"/>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="instanceOf" value="1" field="forces" scope="force" childId="b798-a1db-b4f8-a89f" shared="true" includeChildSelections="true"/>
+                <condition type="notInstanceOf" value="1" field="forces" scope="force" childId="76dc-9282-c45b-5c5d" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
           </modifiers>
           <entryLinks>
-            <entryLink import="true" name="Basic CAVALRY" hidden="false" id="a2b9-50eb-530a-b787" type="selectionEntry" targetId="c2db-d09b-553a-9a4b" sortIndex="1">
+            <entryLink import="true" name="Basic Inf/Cav" hidden="false" id="ea78-0e42-c6f9-ae50" type="selectionEntry" targetId="226e-91f2-9c82-5c65" sortIndex="1">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="75"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="70"/>
               </costs>
               <profiles>
-                <profile name="Becerrillo War Dogs" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="8118-3667-404b-c182">
+                <profile name="Becerrillo War Dogs" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="6822-358a-8ade-1e96">
                   <characteristics>
                     <characteristic name="Target type" typeId="de47-7191-892f-3c71">Light</characteristic>
                     <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">1</characteristic>
@@ -2286,12 +2581,12 @@
                 </profile>
               </profiles>
             </entryLink>
-            <entryLink import="true" name="Reinforced CAVALRY" hidden="false" id="fc81-d71f-a832-ad1a" type="selectionEntry" targetId="1291-4150-c342-4a76" sortIndex="2">
+            <entryLink import="true" name="Reinforced Inf/Cav" hidden="false" id="1192-2c49-d4dd-dd00" type="selectionEntry" targetId="2be6-c945-c7aa-04a2" sortIndex="2">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="130"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="115"/>
               </costs>
               <profiles>
-                <profile name="Becerrillo War Dogs" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="bd50-67ba-2d48-f47c">
+                <profile name="Becerrillo War Dogs" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="5bb4-43f7-4c66-b2eb">
                   <characteristics>
                     <characteristic name="Target type" typeId="de47-7191-892f-3c71">Light</characteristic>
                     <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">1</characteristic>
@@ -2310,12 +2605,12 @@
                 </profile>
               </profiles>
             </entryLink>
-            <entryLink import="true" name="Full Strength CAVALRY" hidden="false" id="09ad-f091-8dc3-f437" type="selectionEntry" targetId="af5c-b232-43cc-fa07" sortIndex="3">
+            <entryLink import="true" name="Full Strength Inf/Cav" hidden="false" id="2825-4c6c-a16e-7d23" type="selectionEntry" targetId="04aa-73c0-bce0-ad96" sortIndex="3">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="195"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="170"/>
               </costs>
               <profiles>
-                <profile name="Becerrillo War Dogs" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="a1c9-a897-6958-0271">
+                <profile name="Becerrillo War Dogs" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="2660-3881-19c4-fa52">
                   <characteristics>
                     <characteristic name="Target type" typeId="de47-7191-892f-3c71">Light</characteristic>
                     <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">1</characteristic>
@@ -2335,28 +2630,28 @@
               </profiles>
             </entryLink>
           </entryLinks>
-          <comment>Hidden if conclave</comment>
+          <comment>Hidden if not L&apos;aigles</comment>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Bolstering Cav/Fort" id="c77e-be9c-ca98-46b3" hidden="false">
+        <selectionEntryGroup name="Bolstering INFANTRY" id="ae73-b17a-076f-f37b" hidden="false" import="false" sortIndex="4">
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2899-915b-c065-67ba"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c95c-1997-0f35-4d63"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4ac1-5a9d-7dd5-4bde"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d255-f37a-f8de-e535"/>
           </constraints>
           <modifiers>
             <modifier type="set" value="Bolstering" field="name"/>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="forces" scope="force" childId="b798-a1db-b4f8-a89f" shared="true" includeChildSelections="true"/>
+                <condition type="instanceOf" value="1" field="forces" scope="force" childId="76dc-9282-c45b-5c5d" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
           </modifiers>
           <entryLinks>
-            <entryLink import="true" name="Basic Cav/Fort" hidden="false" id="5719-64fc-cde6-4664" type="selectionEntry" targetId="ce31-a0ee-3c5e-e560" sortIndex="1">
+            <entryLink import="true" name="Basic INFANTRY" hidden="false" id="937c-64dc-5ffc-e509" type="selectionEntry" targetId="952e-27d7-d2ea-6833" sortIndex="1">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="75"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="70"/>
               </costs>
               <profiles>
-                <profile name="Becerrillo War Dogs" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="d794-a8b4-ebdd-4d45">
+                <profile name="Becerrillo War Dogs" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="0efb-5978-ddb0-5423">
                   <characteristics>
                     <characteristic name="Target type" typeId="de47-7191-892f-3c71">Light</characteristic>
                     <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">1</characteristic>
@@ -2375,12 +2670,12 @@
                 </profile>
               </profiles>
             </entryLink>
-            <entryLink import="true" name="Reinforced Cav/Fort" hidden="false" id="c908-2eaf-53c8-b41a" type="selectionEntry" targetId="99c2-90ac-5c43-89fc" sortIndex="2">
+            <entryLink import="true" name="Reinforced INFANTRY" hidden="false" id="bb00-60b3-a524-43d3" type="selectionEntry" targetId="c8bc-cdb4-d990-1a36" sortIndex="2">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="130"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="115"/>
               </costs>
               <profiles>
-                <profile name="Becerrillo War Dogs" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="1899-70c6-ea08-8fe3">
+                <profile name="Becerrillo War Dogs" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="3bd2-f2ec-dfb8-66a8">
                   <characteristics>
                     <characteristic name="Target type" typeId="de47-7191-892f-3c71">Light</characteristic>
                     <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">1</characteristic>
@@ -2399,12 +2694,12 @@
                 </profile>
               </profiles>
             </entryLink>
-            <entryLink import="true" name="Full Strength Cav/Fort" hidden="false" id="546f-1f04-af00-8f16" type="selectionEntry" targetId="b14c-3e7b-5d1c-d84a" sortIndex="3">
+            <entryLink import="true" name="Full Strength INFANTRY" hidden="false" id="af5c-631b-6b84-f284" type="selectionEntry" targetId="fa9a-066f-edfa-0452" sortIndex="3">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="195"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="170"/>
               </costs>
               <profiles>
-                <profile name="Becerrillo War Dogs" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="00c8-2531-31fb-795a">
+                <profile name="Becerrillo War Dogs" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="59c0-2f87-4436-6222">
                   <characteristics>
                     <characteristic name="Target type" typeId="de47-7191-892f-3c71">Light</characteristic>
                     <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">1</characteristic>
@@ -2424,13 +2719,13 @@
               </profiles>
             </entryLink>
           </entryLinks>
-          <comment>Hidden if not Conclave</comment>
+          <comment>hidden if l&apos;aigles</comment>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="7b58-09f0-ba6f-5844" includeChildSelections="true"/>
       </constraints>
-      <comment>Cavalry</comment>
+      <comment>Infantry</comment>
       <modifiers>
         <modifier type="set" value="2" field="7b58-09f0-ba6f-5844">
           <conditions>
@@ -2444,7 +2739,7 @@
             <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="b798-a1db-b4f8-a89f" shared="true" includeChildSelections="false"/>
           </conditions>
           <modifiers>
-            <modifier type="set-primary" value="dcf5-85cc-8ebc-e6c4" field="category"/>
+            <modifier type="set-primary" value="763f-6d17-4a4b-c0df" field="category"/>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
@@ -2808,6 +3103,7 @@
         <categoryLink name="Alliance" hidden="false" id="9d2c-53e2-b962-ca40" targetId="db41-3349-0ff7-53da" primary="false"/>
         <categoryLink name="Heavy" hidden="false" id="5937-3157-a437-46ee" targetId="6aad-4085-608f-dc2f" primary="false"/>
         <categoryLink name="Armour" hidden="false" id="0ee3-e5ff-47d0-b1bb" targetId="2c1d-3a57-3871-f158" primary="true"/>
+        <categoryLink name="Transport" hidden="false" id="4208-1b04-31db-d8bf" targetId="d78d-8ed7-fc30-5981" primary="false"/>
       </categoryLinks>
       <profiles>
         <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="2cb5-21fd-4fa7-f081" noindex="false">
@@ -2956,7 +3252,7 @@
           <entryLinks>
             <entryLink import="true" name="Basic ARMOUR" hidden="false" id="992a-f2d0-36e7-5b5f" type="selectionEntry" targetId="229b-1135-c928-ea26" sortIndex="1">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="55"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="50"/>
               </costs>
               <profiles>
                 <profile name="Corregedor Heavy Transport" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="266e-9bb7-0e9f-6929">
@@ -2980,7 +3276,7 @@
             </entryLink>
             <entryLink import="true" name="Reinforced ARMOUR" hidden="false" id="7ff6-9716-c2e5-1800" type="selectionEntry" targetId="0700-027c-f353-d794" sortIndex="2">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="95"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="80"/>
               </costs>
               <profiles>
                 <profile name="Corregedor Heavy Transport" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="5f5d-e241-c62b-9fbb">
@@ -3004,7 +3300,7 @@
             </entryLink>
             <entryLink import="true" name="Full Strength ARMOUR" hidden="false" id="296b-f742-3990-a7e7" type="selectionEntry" targetId="32ff-5717-fc91-6c29" sortIndex="3">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="145"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="120"/>
               </costs>
               <profiles>
                 <profile name="Corregedor Heavy Transport" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="4604-9f4c-793a-b9e2">
@@ -3044,7 +3340,7 @@
           <entryLinks>
             <entryLink import="true" name="Basic Arm/Fort" hidden="false" id="95f2-9f63-60a8-1409" type="selectionEntry" targetId="fd1a-cd32-ffa2-f5a1" sortIndex="1">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="55"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="50"/>
               </costs>
               <profiles>
                 <profile name="Corregedor Heavy Transport" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="fd0b-7914-ae6c-1c2e">
@@ -3068,7 +3364,7 @@
             </entryLink>
             <entryLink import="true" name="Reinforced Arm/Fort" hidden="false" id="19fd-6c10-4509-fc52" type="selectionEntry" targetId="5e82-9b2b-099a-ce47" sortIndex="2">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="95"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="80"/>
               </costs>
               <profiles>
                 <profile name="Corregedor Heavy Transport" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="dce2-452b-0aa2-dd1d">
@@ -3092,7 +3388,7 @@
             </entryLink>
             <entryLink import="true" name="Full Strength Arm/Fort" hidden="false" id="c23c-d408-b7fb-8159" type="selectionEntry" targetId="05c5-265c-4f9b-af48" sortIndex="3">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="145"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="120"/>
               </costs>
               <profiles>
                 <profile name="Corregedor Heavy Transport" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="924b-f5f8-c664-c28c">
@@ -3150,7 +3446,7 @@
       <profiles>
         <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="c183-338a-8bba-b526" noindex="false">
           <characteristics>
-            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Shrine of the Faithful (6”)</characteristic>
+            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Shrine of the Faithful (6”), Terrifying (Faithful)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3201,8 +3497,8 @@
                       <characteristics>
                         <characteristic name="Range" typeId="0d60-0078-7134-d302">8&quot;/8&quot;</characteristic>
                         <characteristic name="1-2" typeId="5043-ac06-9bc2-0585">3</characteristic>
-                        <characteristic name="3-4" typeId="8394-18d6-22d8-e03c">-</characteristic>
-                        <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d">-</characteristic>
+                        <characteristic name="3-4" typeId="8394-18d6-22d8-e03c">6</characteristic>
+                        <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d">9</characteristic>
                         <characteristic name="Qualities" typeId="1569-2922-0e92-737b">Devastating, Turret</characteristic>
                       </characteristics>
                     </profile>
@@ -3218,8 +3514,8 @@
                       <characteristics>
                         <characteristic name="Range" typeId="0d60-0078-7134-d302">-</characteristic>
                         <characteristic name="1-2" typeId="5043-ac06-9bc2-0585">4</characteristic>
-                        <characteristic name="3-4" typeId="8394-18d6-22d8-e03c">-</characteristic>
-                        <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d">-</characteristic>
+                        <characteristic name="3-4" typeId="8394-18d6-22d8-e03c">7</characteristic>
+                        <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d">11</characteristic>
                         <characteristic name="Qualities" typeId="1569-2922-0e92-737b">Suppressive</characteristic>
                       </characteristics>
                     </profile>
@@ -3229,10 +3525,10 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Bolstering ARMOUR" id="0250-806a-19a6-31a9" hidden="false">
+        <selectionEntryGroup name="Bolstering ARMOUR" id="1399-07b0-3975-be56" hidden="false">
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7e3d-d723-12fb-a6e1"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="966f-f981-63f2-d6b4"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a7eb-dbda-9227-44a1"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2ba7-23c3-8f48-51d3"/>
           </constraints>
           <modifiers>
             <modifier type="set" value="Bolstering" field="name"/>
@@ -3244,12 +3540,12 @@
             </modifier>
           </modifiers>
           <entryLinks>
-            <entryLink import="true" name="Basic ARMOUR" hidden="false" id="62b4-d013-0d60-7b0a" type="selectionEntry" targetId="229b-1135-c928-ea26" sortIndex="1">
+            <entryLink import="true" name="Basic ARMOUR" hidden="false" id="24c5-a1b7-7c86-00a8" type="selectionEntry" targetId="229b-1135-c928-ea26" sortIndex="1">
               <costs>
                 <cost name="Points" typeId="e58e-982d-7630-5342" value="70"/>
               </costs>
               <profiles>
-                <profile name="Avignon Mobile Chapel" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="65e8-9b1d-1eb7-107e">
+                <profile name="Avignon Mobile Chapel" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="1190-7656-639e-6ee0">
                   <characteristics>
                     <characteristic name="Target type" typeId="de47-7191-892f-3c71">Heavy</characteristic>
                     <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">2</characteristic>
@@ -3263,17 +3559,65 @@
                   </characteristics>
                   <modifiers>
                     <modifier type="set" value="2" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="2" field="bb79-114d-2dc7-ca18"/>
+                  </modifiers>
+                </profile>
+              </profiles>
+            </entryLink>
+            <entryLink import="true" name="Reinforced ARMOUR" hidden="false" id="9d2c-e2e8-5a3f-6ea5" type="selectionEntry" targetId="0700-027c-f353-d794" sortIndex="2">
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="120"/>
+              </costs>
+              <profiles>
+                <profile name="Avignon Mobile Chapel" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="13ce-5aad-10e4-8335">
+                  <characteristics>
+                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Heavy</characteristic>
+                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">2</characteristic>
+                    <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
+                    <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
+                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">6&quot;</characteristic>
+                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
+                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">4</characteristic>
+                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">5</characteristic>
+                    <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="set" value="4" field="3e5d-fadc-d9fb-6570"/>
                     <modifier type="set" value="3" field="bb79-114d-2dc7-ca18"/>
+                  </modifiers>
+                </profile>
+              </profiles>
+            </entryLink>
+            <entryLink import="true" name="Full Strength ARMOUR" hidden="false" id="c3d1-9cbc-e35c-0790" type="selectionEntry" targetId="32ff-5717-fc91-6c29" sortIndex="3">
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="180"/>
+              </costs>
+              <profiles>
+                <profile name="Avignon Mobile Chapel" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="3444-6b4a-5636-bcd9">
+                  <characteristics>
+                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Heavy</characteristic>
+                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">2</characteristic>
+                    <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
+                    <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
+                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">6&quot;</characteristic>
+                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
+                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">4</characteristic>
+                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">5</characteristic>
+                    <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="set" value="6" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="4" field="bb79-114d-2dc7-ca18"/>
                   </modifiers>
                 </profile>
               </profiles>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Bolstering Arm/Fort" id="1d99-ac55-698c-8934" hidden="false">
+        <selectionEntryGroup name="Bolstering Arm/Fort" id="53e9-4829-d44a-aebe" hidden="false">
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8b53-04aa-ae2a-7c1e"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9121-6db9-6556-3f87"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3741-ea50-e151-bc95"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c7f5-2fdd-08d5-cae4"/>
           </constraints>
           <modifiers>
             <modifier type="set" value="Bolstering" field="name"/>
@@ -3284,12 +3628,12 @@
             </modifier>
           </modifiers>
           <entryLinks>
-            <entryLink import="true" name="Basic Arm/Fort" hidden="false" id="cd6d-5696-1459-6d67" type="selectionEntry" targetId="fd1a-cd32-ffa2-f5a1" sortIndex="1">
+            <entryLink import="true" name="Basic Arm/Fort" hidden="false" id="c03b-2c04-2d53-ae17" type="selectionEntry" targetId="fd1a-cd32-ffa2-f5a1" sortIndex="1">
               <costs>
                 <cost name="Points" typeId="e58e-982d-7630-5342" value="70"/>
               </costs>
               <profiles>
-                <profile name="Avignon Mobile Chapel" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="1ffb-17c5-6cdd-b149">
+                <profile name="Avignon Mobile Chapel" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="cd3e-8b2d-dcba-bfea">
                   <characteristics>
                     <characteristic name="Target type" typeId="de47-7191-892f-3c71">Heavy</characteristic>
                     <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">2</characteristic>
@@ -3303,7 +3647,55 @@
                   </characteristics>
                   <modifiers>
                     <modifier type="set" value="2" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="2" field="bb79-114d-2dc7-ca18"/>
+                  </modifiers>
+                </profile>
+              </profiles>
+            </entryLink>
+            <entryLink import="true" name="Reinforced Arm/Fort" hidden="false" id="2ab8-0f46-a9be-02aa" type="selectionEntry" targetId="5e82-9b2b-099a-ce47" sortIndex="2">
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="120"/>
+              </costs>
+              <profiles>
+                <profile name="Avignon Mobile Chapel" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="6232-1e4b-5120-7bcc">
+                  <characteristics>
+                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Heavy</characteristic>
+                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">2</characteristic>
+                    <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
+                    <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
+                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">6&quot;</characteristic>
+                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
+                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">4</characteristic>
+                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">5</characteristic>
+                    <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="set" value="4" field="3e5d-fadc-d9fb-6570"/>
                     <modifier type="set" value="3" field="bb79-114d-2dc7-ca18"/>
+                  </modifiers>
+                </profile>
+              </profiles>
+            </entryLink>
+            <entryLink import="true" name="Full Strength Arm/Fort" hidden="false" id="c8f0-163f-efe9-c798" type="selectionEntry" targetId="05c5-265c-4f9b-af48" sortIndex="3">
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="180"/>
+              </costs>
+              <profiles>
+                <profile name="Avignon Mobile Chapel" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="97a5-4a4f-8398-baee">
+                  <characteristics>
+                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Heavy</characteristic>
+                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">2</characteristic>
+                    <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
+                    <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
+                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">6&quot;</characteristic>
+                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
+                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">4</characteristic>
+                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">5</characteristic>
+                    <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="set" value="6" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="4" field="bb79-114d-2dc7-ca18"/>
                   </modifiers>
                 </profile>
               </profiles>
@@ -3409,7 +3801,7 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Bolstering INFANTRY" id="f3c4-1021-983a-eb04" hidden="false" sortIndex="2">
+        <selectionEntryGroup name="Bolstering INFANTRY" id="f3c4-1021-983a-eb04" hidden="false" sortIndex="3">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a782-0bed-0b1a-2cc1"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d66f-935e-6493-d9fa"/>
@@ -3511,6 +3903,7 @@
         <categoryLink name="Heavy" hidden="false" id="f4ad-89f9-448b-3170" targetId="6aad-4085-608f-dc2f" primary="false"/>
         <categoryLink name="Fortification" hidden="false" id="8e4e-12a6-a480-d202" targetId="41d4-e90f-729f-92b9" primary="true"/>
         <categoryLink name="Legionnaire" hidden="false" id="60c0-fe1b-f6f9-b497" targetId="8485-3df2-61f6-b093" primary="false"/>
+        <categoryLink name="Transport" hidden="false" id="fb1a-8db8-f31e-fd9d" targetId="d78d-8ed7-fc30-5981" primary="false"/>
       </categoryLinks>
       <profiles>
         <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="6c29-fa9b-ab8b-d4a5" noindex="false">
@@ -3647,7 +4040,7 @@
           <entryLinks>
             <entryLink import="true" name="Basic FORTIFICATION" hidden="false" id="8fea-3cd1-0723-d770" type="selectionEntry" targetId="fbee-7dce-a4e1-85b4" sortIndex="1">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="80"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="70"/>
               </costs>
               <profiles>
                 <profile name="French Drop Capsules" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="37a0-3f6a-920e-5fec">
@@ -3671,7 +4064,7 @@
             </entryLink>
             <entryLink import="true" name="Reinforced FORTIFICATION" hidden="false" id="31eb-3dfa-7ae0-5d30" type="selectionEntry" targetId="8cf2-dc5e-40f2-2611" sortIndex="2">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="135"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="115"/>
               </costs>
               <profiles>
                 <profile name="French Drop Capsules" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="cd19-dc14-f40e-f670">
@@ -3695,7 +4088,7 @@
             </entryLink>
             <entryLink import="true" name="Full Strength FORTIFICATION" hidden="false" id="c1e8-cfb6-8fc9-c898" type="selectionEntry" targetId="238c-e430-a742-db75" sortIndex="3">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="210"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="170"/>
               </costs>
               <profiles>
                 <profile name="French Drop Capsules" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="9ed8-117d-c509-8533">
@@ -3736,7 +4129,7 @@
           <entryLinks>
             <entryLink import="true" name="Basic Arm/Fort" hidden="false" id="ad50-7d6c-7253-9e87" type="selectionEntry" targetId="fd1a-cd32-ffa2-f5a1" sortIndex="1">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="80"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="70"/>
               </costs>
               <profiles>
                 <profile name="French Drop Capsules" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="c5bf-68d8-1383-baf4">
@@ -3760,7 +4153,7 @@
             </entryLink>
             <entryLink import="true" name="Reinforced Arm/Fort" hidden="false" id="c492-3da9-7408-3ad5" type="selectionEntry" targetId="5e82-9b2b-099a-ce47" sortIndex="2">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="135"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="115"/>
               </costs>
               <profiles>
                 <profile name="French Drop Capsules" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="30f5-8f50-7912-5d12">
@@ -3784,7 +4177,7 @@
             </entryLink>
             <entryLink import="true" name="Full Strength Arm/Fort" hidden="false" id="7bcd-e4d9-de5d-1eee" type="selectionEntry" targetId="05c5-265c-4f9b-af48" sortIndex="3">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="210"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="170"/>
               </costs>
               <profiles>
                 <profile name="French Drop Capsules" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="24c4-35e6-659e-e264">
@@ -4340,7 +4733,7 @@
             <modifier type="set" value="Bolstering" field="name"/>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="instanceOf" value="1" field="forces" scope="force" childId="b798-a1db-b4f8-a89f" shared="true" includeChildSelections="true"/>
+                <condition type="notInstanceOf" value="1" field="forces" scope="force" childId="c386-2b5e-ec49-5d18" shared="true" includeChildSelections="true" childName="Alliance Faction Battlegroup"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -4418,7 +4811,7 @@
               </profiles>
             </entryLink>
           </entryLinks>
-          <comment>Hidden if conclave</comment>
+          <comment>Hidden if not faction battlegroup</comment>
         </selectionEntryGroup>
         <selectionEntryGroup name="Bolstering Cav/Fort" id="b6e7-9f8f-4ed7-81ef" hidden="false" sortIndex="3">
           <constraints>
@@ -4509,6 +4902,95 @@
           </entryLinks>
           <comment>Hidden if not Conclave</comment>
         </selectionEntryGroup>
+        <selectionEntryGroup name="Bolstering Inf/Cav" id="8633-a8d2-29f3-25a2" hidden="false" import="false" sortIndex="5">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f30c-4171-4b50-e3ea"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3263-5cdf-676d-58f5"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="Bolstering" field="name"/>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="forces" scope="force" childId="76dc-9282-c45b-5c5d" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <entryLinks>
+            <entryLink import="true" name="Basic Inf/Cav" hidden="false" id="7649-6fcb-1dd2-1126" type="selectionEntry" targetId="226e-91f2-9c82-5c65" sortIndex="1">
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="70"/>
+              </costs>
+              <profiles>
+                <profile name="Bersaglieri Outriders" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="f334-8149-ca3e-19a8">
+                  <characteristics>
+                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Light</characteristic>
+                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">1</characteristic>
+                    <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
+                    <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
+                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">10&quot;</characteristic>
+                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
+                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">1</characteristic>
+                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">7</characteristic>
+                    <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">2</characteristic>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="set" value="5" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="2" field="bb79-114d-2dc7-ca18"/>
+                  </modifiers>
+                </profile>
+              </profiles>
+            </entryLink>
+            <entryLink import="true" name="Reinforced Inf/Cav" hidden="false" id="34a9-cdb4-a23a-945b" type="selectionEntry" targetId="2be6-c945-c7aa-04a2" sortIndex="2">
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="120"/>
+              </costs>
+              <profiles>
+                <profile name="Bersaglieri Outriders" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="53a7-627e-9842-c29d">
+                  <characteristics>
+                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Light</characteristic>
+                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">1</characteristic>
+                    <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
+                    <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
+                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">10&quot;</characteristic>
+                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
+                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">1</characteristic>
+                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">7</characteristic>
+                    <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">2</characteristic>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="set" value="10" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="3" field="bb79-114d-2dc7-ca18"/>
+                  </modifiers>
+                </profile>
+              </profiles>
+            </entryLink>
+            <entryLink import="true" name="Full Strength Inf/Cav" hidden="false" id="a2a5-9482-5849-f729" type="selectionEntry" targetId="04aa-73c0-bce0-ad96" sortIndex="3">
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="180"/>
+              </costs>
+              <profiles>
+                <profile name="Bersaglieri Outriders" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="ea29-f167-f075-bbf7">
+                  <characteristics>
+                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Light</characteristic>
+                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">1</characteristic>
+                    <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
+                    <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
+                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">10&quot;</characteristic>
+                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
+                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">1</characteristic>
+                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">7</characteristic>
+                    <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">2</characteristic>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="set" value="15" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="4" field="bb79-114d-2dc7-ca18"/>
+                  </modifiers>
+                </profile>
+              </profiles>
+            </entryLink>
+          </entryLinks>
+          <comment>Hidden if not L&apos;aigles</comment>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="1856-2127-1efa-a1c8" includeChildSelections="true"/>
@@ -4522,6 +5004,16 @@
           <modifiers>
             <modifier type="set-primary" value="dcf5-85cc-8ebc-e6c4" field="category"/>
           </modifiers>
+          <comment>cav/fort</comment>
+        </modifierGroup>
+        <modifierGroup type="and">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="76dc-9282-c45b-5c5d" shared="true" includeChildSelections="false" childName="L&apos;aigles Imperiaux Auxiliary Battlegroup"/>
+          </conditions>
+          <modifiers>
+            <modifier type="set-primary" value="763f-6d17-4a4b-c0df" field="category"/>
+          </modifiers>
+          <comment>inf/cav</comment>
         </modifierGroup>
       </modifierGroups>
     </selectionEntry>
@@ -4996,8 +5488,9 @@ Once these cards have been drawn the General then selects one card and discard
           <profiles>
             <profile name="Last Rites" typeId="3f77-4198-5794-9684" typeName="Boons" hidden="false" id="3b32-498f-f295-bbb2">
               <characteristics>
-                <characteristic name="Effect" typeId="b7f2-49d8-a49a-0b0f">Once per Round, this General can immediately issue a Special Command to a unit that has been Annihilated.
-If the Command is successfully issued, the Victory Points Rating for that unit is 0. The opposing General can still claim Conquest Objectives as normal.</characteristic>
+                <characteristic name="Effect" typeId="b7f2-49d8-a49a-0b0f">Once per Round, this General can immediately issue a Special Command to a Faithful unit that has been Annihilated.
+If the Command is successfully issued, the Victory Points Rating for that unit is 0. The opposing General can still claim Conquest Objectives as normal.
+This Special Command cannot be issued to a Behemoth unit.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5158,6 +5651,13 @@ Units that are already Coordinated cannot benefit from this Commander Bonus.</ch
           <constraints>
             <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="8467-0181-4152-a3f4"/>
             <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="4013-cd82-c3aa-0743"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Infantry/Cavalry" hidden="false" id="0488-4bba-f1ad-7464" targetId="763f-6d17-4a4b-c0df">
+          <constraints>
+            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="785a-2491-11fc-8e75"/>
+            <constraint type="min" value="6" field="selections" scope="parent" shared="true" id="d04e-b053-d7b5-447e-min"/>
+            <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="d04e-b053-d7b5-447e-max"/>
           </constraints>
         </categoryLink>
         <categoryLink name="Rotorcraft" hidden="false" id="0e16-f854-a216-9aab" targetId="48db-6837-f5b1-49e2">
@@ -5585,7 +6085,7 @@ Units that are already Coordinated cannot benefit from this Commander Bonus.</ch
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
-              <comment>L&apos;aigles has zero Arm/Fort Stars - skirmish</comment>
+              <comment>L&apos;aigles has 0 Arm/fort Stars - skirmish</comment>
             </modifier>
             <modifier type="set" value="0" field="6438-bc9a-acee-f7d1">
               <conditionGroups>
@@ -5596,7 +6096,7 @@ Units that are already Coordinated cannot benefit from this Commander Bonus.</ch
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
-              <comment>Faction group has 0 Arm/Fort Stars - skirmish</comment>
+              <comment>Faction group has 0 Arm/fort Stars - skirmish</comment>
             </modifier>
             <modifier type="set" value="0" field="6438-bc9a-acee-f7d1">
               <conditionGroups>
@@ -5607,7 +6107,7 @@ Units that are already Coordinated cannot benefit from this Commander Bonus.</ch
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
-              <comment>Conclave has 0 Arm/Fort Stars - Skirmish</comment>
+              <comment>Conclave has 0 Arm/fort Stars - Skirmish</comment>
             </modifier>
           </modifiers>
         </modifierGroup>
@@ -5818,7 +6318,7 @@ Units that are already Coordinated cannot benefit from this Commander Bonus.</ch
               <comment>Skirmish selection</comment>
             </modifier>
             <modifier type="set" value="0" field="728a-01da-4642-2135">
-              <comment>Faction group has 0 Arm/Fort Stars - battle</comment>
+              <comment>Faction group has 0 Arm/fort Stars - battle</comment>
               <conditionGroups>
                 <conditionGroup type="and">
                   <conditions>
@@ -5829,7 +6329,7 @@ Units that are already Coordinated cannot benefit from this Commander Bonus.</ch
               </conditionGroups>
             </modifier>
             <modifier type="set" value="0" field="728a-01da-4642-2135">
-              <comment>L&apos;aigles has 0 Arm/Fort Stars - Battle</comment>
+              <comment>L&apos;aigles has 2 Arm/fort Stars - Battle</comment>
               <conditionGroups>
                 <conditionGroup type="and">
                   <conditions>
@@ -5840,7 +6340,7 @@ Units that are already Coordinated cannot benefit from this Commander Bonus.</ch
               </conditionGroups>
             </modifier>
             <modifier type="set" value="0" field="728a-01da-4642-2135">
-              <comment>Conclave has 0 Arm/Fort Stars - battle</comment>
+              <comment>Conclave has 0 Arm/fort Stars - battle</comment>
               <conditionGroups>
                 <conditionGroup type="and">
                   <conditions>
@@ -6064,6 +6564,111 @@ Units that are already Coordinated cannot benefit from this Commander Bonus.</ch
         </modifierGroup>
       </modifierGroups>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="false" name="Basic Inf/Cav" hidden="false" id="226e-91f2-9c82-5c65" sortIndex="28">
+      <modifiers>
+        <modifier type="set" value="Basic" field="name"/>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="false" name="Reinforced Inf/Cav" hidden="false" id="2be6-c945-c7aa-04a2" sortIndex="29">
+      <constraints>
+        <constraint type="max" value="-1" field="selections" scope="force" shared="true" id="b412-41d0-971a-56e3" includeChildSelections="true"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="Reinforced" field="name"/>
+      </modifiers>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="set" value="2" field="b412-41d0-971a-56e3">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="386f-773d-5fda-7090" shared="true" includeChildSelections="true" includeChildForces="true" sortIndex="2"/>
+                    <condition type="instanceOf" value="1" field="forces" scope="force" childId="76dc-9282-c45b-5c5d" shared="true" includeChildSelections="true" sortIndex="1"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+              <comment>L&apos;aigles has 2 Cav/Inf Stars - skirmish</comment>
+            </modifier>
+            <modifier type="set" value="0" field="b412-41d0-971a-56e3">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="386f-773d-5fda-7090" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="force" childId="c386-2b5e-ec49-5d18" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+              <comment>Faction group has 0 Cav/Inf Stars - skirmish</comment>
+            </modifier>
+            <modifier type="set" value="0" field="b412-41d0-971a-56e3">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="386f-773d-5fda-7090" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="force" childId="b798-a1db-b4f8-a89f" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+              <comment>Conclave has 0 Cav/Inf Stars - Skirmish</comment>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="false" name="Full Strength Inf/Cav" hidden="false" id="04aa-73c0-bce0-ad96" sortIndex="30">
+      <constraints>
+        <constraint type="max" value="-1" field="selections" scope="force" shared="true" id="13a9-4060-c411-33d5" includeChildSelections="true"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="Full Strength" field="name"/>
+      </modifiers>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="set" value="0" field="13a9-4060-c411-33d5">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="386f-773d-5fda-7090" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+              <comment>Skirmish selection</comment>
+            </modifier>
+            <modifier type="set" value="0" field="13a9-4060-c411-33d5">
+              <comment>Faction group has 0 Cav/Inf Stars - battle</comment>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="c986-901f-e13e-cdb4" shared="true" includeChildSelections="true" includeChildForces="true" sortIndex="2"/>
+                    <condition type="instanceOf" value="1" field="forces" scope="force" childId="c386-2b5e-ec49-5d18" shared="true" includeChildSelections="true" sortIndex="1"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" value="2" field="13a9-4060-c411-33d5">
+              <comment>L&apos;aigles has 2 Cav/Inf Stars - Battle</comment>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="c986-901f-e13e-cdb4" shared="true" includeChildSelections="true" includeChildForces="true" sortIndex="2"/>
+                    <condition type="instanceOf" value="1" field="forces" scope="force" childId="76dc-9282-c45b-5c5d" shared="true" includeChildSelections="true" sortIndex="1"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" value="0" field="13a9-4060-c411-33d5">
+              <comment>Conclave has 0 Cav/Inf Stars - battle</comment>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="c986-901f-e13e-cdb4" shared="true" includeChildSelections="true" includeChildForces="true" sortIndex="2"/>
+                    <condition type="instanceOf" value="1" field="forces" scope="force" childId="b798-a1db-b4f8-a89f" shared="true" includeChildSelections="true" sortIndex="1"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Bolstering INFANTRY" id="a9e3-8f2a-2a1c-41a5" hidden="false" sortIndex="2" import="false">
@@ -6203,6 +6808,26 @@ Units that are already Coordinated cannot benefit from this Commander Bonus.</ch
         <entryLink import="true" name="Full Strength Cav/Fort" hidden="false" id="af63-f164-9ea5-5374" type="selectionEntry" targetId="b14c-3e7b-5d1c-d84a" sortIndex="3"/>
       </entryLinks>
       <comment>Hidden if not Conclave</comment>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Bolstering Inf/Cav" id="82e7-b480-c987-d04c" hidden="false" sortIndex="8" import="false">
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a082-1666-f00a-5724"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b02d-060c-3044-d202"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="Bolstering" field="name"/>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="notInstanceOf" value="1" field="forces" scope="force" childId="76dc-9282-c45b-5c5d" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <entryLinks>
+        <entryLink import="true" name="Basic Inf/Cav" hidden="false" id="7249-66af-8e7e-35b4" type="selectionEntry" targetId="226e-91f2-9c82-5c65" sortIndex="1"/>
+        <entryLink import="true" name="Reinforced Inf/Cav" hidden="false" id="dfd4-a9d0-7dfc-9aa2" type="selectionEntry" targetId="2be6-c945-c7aa-04a2" sortIndex="2"/>
+        <entryLink import="true" name="Full Strength Inf/Cav" hidden="false" id="4381-f338-c115-74a9" type="selectionEntry" targetId="04aa-73c0-bce0-ad96" sortIndex="3"/>
+      </entryLinks>
+      <comment>Hidden if not L&apos;aigles</comment>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
 </catalogue>

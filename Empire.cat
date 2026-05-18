@@ -795,85 +795,51 @@ This is intentional!</characteristic>
         </profile>
       </profiles>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Bolstering" id="6d61-909a-c5e2-b4a4" hidden="true" sortIndex="2">
-          <entryLinks>
-            <entryLink import="true" name="Basic" hidden="false" id="1423-960a-f399-4622" type="selectionEntry" targetId="f088-e6d4-8fe3-0f3e" sortIndex="1">
-              <profiles>
-                <profile name="Green Banner Flame Teams" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="1c0e-aa21-a886-2ca4">
-                  <characteristics>
-                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Light</characteristic>
-                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">1</characteristic>
-                    <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
-                    <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
-                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">4&quot;</characteristic>
-                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
-                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">1</characteristic>
-                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">6</characteristic>
-                    <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">1</characteristic>
-                  </characteristics>
-                  <modifiers>
-                    <modifier type="set" value="4" field="3e5d-fadc-d9fb-6570"/>
-                    <modifier type="set" value="2" field="bb79-114d-2dc7-ca18"/>
-                  </modifiers>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="35"/>
-              </costs>
-            </entryLink>
-            <entryLink import="true" name="Full Strength" hidden="false" id="9007-7291-e837-161e" type="selectionEntry" targetId="e86e-71e1-9396-5526" sortIndex="3" flatten="false">
-              <profiles>
-                <profile name="Green Banner Flame Teams" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="b94c-d181-c8e3-0927">
-                  <characteristics>
-                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Light</characteristic>
-                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">1</characteristic>
-                    <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
-                    <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
-                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">4&quot;</characteristic>
-                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
-                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">1</characteristic>
-                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">6</characteristic>
-                    <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">1</characteristic>
-                  </characteristics>
-                  <modifiers>
-                    <modifier type="set" value="12" field="3e5d-fadc-d9fb-6570"/>
-                    <modifier type="set" value="6" field="bb79-114d-2dc7-ca18"/>
-                  </modifiers>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="90"/>
-              </costs>
-            </entryLink>
-            <entryLink import="true" name="Reinforced" hidden="false" id="9334-41b7-af1a-9d86" type="selectionEntry" targetId="85c2-43ee-a668-834f" sortIndex="2" flatten="false">
-              <profiles>
-                <profile name="Green Banner Flame Teams" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="aac5-3be1-01f9-1533">
-                  <characteristics>
-                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Light</characteristic>
-                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">1</characteristic>
-                    <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
-                    <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
-                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">4&quot;</characteristic>
-                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
-                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">1</characteristic>
-                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">6</characteristic>
-                    <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">1</characteristic>
-                  </characteristics>
-                  <modifiers>
-                    <modifier type="set" value="8" field="3e5d-fadc-d9fb-6570"/>
-                    <modifier type="set" value="4" field="bb79-114d-2dc7-ca18"/>
-                  </modifiers>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="60"/>
-              </costs>
-            </entryLink>
-          </entryLinks>
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a59e-5f41-d83d-c477"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8487-e637-4841-ce11"/>
-          </constraints>
+        <selectionEntryGroup name="Stats" id="6d61-909a-c5e2-b4a4" hidden="true" sortIndex="2">
+          <profiles>
+            <profile name="Green Banner Flame Teams" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="b94c-d181-c8e3-0927">
+              <characteristics>
+                <characteristic name="Target type" typeId="de47-7191-892f-3c71">Light</characteristic>
+                <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">1</characteristic>
+                <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570">4</characteristic>
+                <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18">2</characteristic>
+                <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">4&quot;</characteristic>
+                <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
+                <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">1</characteristic>
+                <characteristic name="Discipline" typeId="9692-df81-03cd-8583">6</characteristic>
+                <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">1</characteristic>
+              </characteristics>
+              <comment>Basic</comment>
+            </profile>
+            <profile name="Green Banner Flame Teams" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="e907-57d5-00ef-48f8">
+              <characteristics>
+                <characteristic name="Target type" typeId="de47-7191-892f-3c71">Light</characteristic>
+                <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">1</characteristic>
+                <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570">8</characteristic>
+                <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18">3</characteristic>
+                <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">4&quot;</characteristic>
+                <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
+                <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">1</characteristic>
+                <characteristic name="Discipline" typeId="9692-df81-03cd-8583">6</characteristic>
+                <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">1</characteristic>
+              </characteristics>
+              <comment>Reinforced</comment>
+            </profile>
+            <profile name="Green Banner Flame Teams" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="e482-1417-cde4-a3a7">
+              <characteristics>
+                <characteristic name="Target type" typeId="de47-7191-892f-3c71">Light</characteristic>
+                <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">1</characteristic>
+                <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570">12</characteristic>
+                <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18">4</characteristic>
+                <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">4&quot;</characteristic>
+                <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
+                <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">1</characteristic>
+                <characteristic name="Discipline" typeId="9692-df81-03cd-8583">6</characteristic>
+                <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">1</characteristic>
+              </characteristics>
+              <comment>Full strength</comment>
+            </profile>
+          </profiles>
         </selectionEntryGroup>
         <selectionEntryGroup name="Weapons" id="68d5-ecd5-c0a9-03ca" hidden="false" sortIndex="1">
           <selectionEntries>
@@ -932,73 +898,25 @@ This is intentional!</characteristic>
               <costs>
                 <cost name="Points" typeId="e58e-982d-7630-5342" value="35"/>
               </costs>
-              <profiles>
-                <profile name="Green Banner Flame Teams" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="4376-0e97-4631-3d12">
-                  <characteristics>
-                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Light</characteristic>
-                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">1</characteristic>
-                    <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
-                    <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
-                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">4&quot;</characteristic>
-                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
-                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">1</characteristic>
-                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">6</characteristic>
-                    <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">1</characteristic>
-                  </characteristics>
-                  <modifiers>
-                    <modifier type="set" value="4" field="3e5d-fadc-d9fb-6570"/>
-                    <modifier type="set" value="2" field="bb79-114d-2dc7-ca18"/>
-                  </modifiers>
-                </profile>
-              </profiles>
+              <infoLinks>
+                <infoLink name="Green Banner Flame Teams" id="622b-62f1-6bfb-ab28" hidden="false" type="profile" targetId="b94c-d181-c8e3-0927"/>
+              </infoLinks>
             </entryLink>
             <entryLink import="true" name="Reinforced INFANTRY" hidden="false" id="c2cf-1a7b-831a-68d0" type="selectionEntry" targetId="3e9f-23e1-0ca1-0826" sortIndex="2">
               <costs>
                 <cost name="Points" typeId="e58e-982d-7630-5342" value="60"/>
               </costs>
-              <profiles>
-                <profile name="Green Banner Flame Teams" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="22ba-3caa-638c-3d71">
-                  <characteristics>
-                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Light</characteristic>
-                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">1</characteristic>
-                    <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
-                    <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
-                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">4&quot;</characteristic>
-                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
-                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">1</characteristic>
-                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">6</characteristic>
-                    <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">1</characteristic>
-                  </characteristics>
-                  <modifiers>
-                    <modifier type="set" value="8" field="3e5d-fadc-d9fb-6570"/>
-                    <modifier type="set" value="4" field="bb79-114d-2dc7-ca18"/>
-                  </modifiers>
-                </profile>
-              </profiles>
+              <infoLinks>
+                <infoLink name="Green Banner Flame Teams" id="3168-9e13-31f4-f205" hidden="false" type="profile" targetId="e907-57d5-00ef-48f8"/>
+              </infoLinks>
             </entryLink>
             <entryLink import="true" name="Full Strength INFANTRY" hidden="false" id="e5a3-f0b0-b403-1ed6" type="selectionEntry" targetId="9bc4-d90e-6da8-2f0c" sortIndex="3">
               <costs>
                 <cost name="Points" typeId="e58e-982d-7630-5342" value="90"/>
               </costs>
-              <profiles>
-                <profile name="Green Banner Flame Teams" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="8f00-57f8-1d54-c6f1">
-                  <characteristics>
-                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Light</characteristic>
-                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">1</characteristic>
-                    <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
-                    <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
-                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">4&quot;</characteristic>
-                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
-                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">1</characteristic>
-                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">6</characteristic>
-                    <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">1</characteristic>
-                  </characteristics>
-                  <modifiers>
-                    <modifier type="set" value="12" field="3e5d-fadc-d9fb-6570"/>
-                    <modifier type="set" value="6" field="bb79-114d-2dc7-ca18"/>
-                  </modifiers>
-                </profile>
-              </profiles>
+              <infoLinks>
+                <infoLink name="Green Banner Flame Teams" id="8d59-c234-2ef7-3f4c" hidden="false" type="profile" targetId="e482-1417-cde4-a3a7"/>
+              </infoLinks>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
@@ -1021,85 +939,51 @@ This is intentional!</characteristic>
         </profile>
       </profiles>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Bolstering" id="3e53-78a7-9f51-ca56" hidden="true" sortIndex="2">
-          <entryLinks>
-            <entryLink import="true" name="Basic" hidden="false" id="db65-3568-dd20-51e8" type="selectionEntry" targetId="f088-e6d4-8fe3-0f3e" sortIndex="1">
-              <profiles>
-                <profile name="Green Banner Rocket Teams" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="24e0-5542-dcdc-45a6">
-                  <characteristics>
-                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Light</characteristic>
-                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">1</characteristic>
-                    <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
-                    <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
-                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">4&quot;</characteristic>
-                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
-                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">1</characteristic>
-                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">6</characteristic>
-                    <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">1</characteristic>
-                  </characteristics>
-                  <modifiers>
-                    <modifier type="set" value="4" field="3e5d-fadc-d9fb-6570"/>
-                    <modifier type="set" value="2" field="bb79-114d-2dc7-ca18"/>
-                  </modifiers>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="35"/>
-              </costs>
-            </entryLink>
-            <entryLink import="true" name="Full Strength" hidden="false" id="40be-babe-4a84-622b" type="selectionEntry" targetId="e86e-71e1-9396-5526" sortIndex="3" flatten="false">
-              <profiles>
-                <profile name="Green Banner Rocket Teams" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="ac9d-6e5c-6ff4-ec2b">
-                  <characteristics>
-                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Light</characteristic>
-                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">1</characteristic>
-                    <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
-                    <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
-                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">4&quot;</characteristic>
-                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
-                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">1</characteristic>
-                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">6</characteristic>
-                    <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">1</characteristic>
-                  </characteristics>
-                  <modifiers>
-                    <modifier type="set" value="12" field="3e5d-fadc-d9fb-6570"/>
-                    <modifier type="set" value="6" field="bb79-114d-2dc7-ca18"/>
-                  </modifiers>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="90"/>
-              </costs>
-            </entryLink>
-            <entryLink import="true" name="Reinforced" hidden="false" id="d046-2e9f-d8ee-b75c" type="selectionEntry" targetId="85c2-43ee-a668-834f" sortIndex="2" flatten="false">
-              <profiles>
-                <profile name="Green Banner Rocket Teams" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="e3ca-b6d9-7faa-93fb">
-                  <characteristics>
-                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Light</characteristic>
-                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">1</characteristic>
-                    <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
-                    <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
-                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">4&quot;</characteristic>
-                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
-                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">1</characteristic>
-                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">6</characteristic>
-                    <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">1</characteristic>
-                  </characteristics>
-                  <modifiers>
-                    <modifier type="set" value="8" field="3e5d-fadc-d9fb-6570"/>
-                    <modifier type="set" value="4" field="bb79-114d-2dc7-ca18"/>
-                  </modifiers>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="60"/>
-              </costs>
-            </entryLink>
-          </entryLinks>
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="be24-21ba-ac50-8489"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a1ce-5f96-0706-3fce"/>
-          </constraints>
+        <selectionEntryGroup name="Stats" id="3e53-78a7-9f51-ca56" hidden="true" sortIndex="2">
+          <profiles>
+            <profile name="Green Banner Rocket Teams" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="ac9d-6e5c-6ff4-ec2b">
+              <characteristics>
+                <characteristic name="Target type" typeId="de47-7191-892f-3c71">Light</characteristic>
+                <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">1</characteristic>
+                <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570">4</characteristic>
+                <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18">2</characteristic>
+                <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">4&quot;</characteristic>
+                <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
+                <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">1</characteristic>
+                <characteristic name="Discipline" typeId="9692-df81-03cd-8583">6</characteristic>
+                <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">1</characteristic>
+              </characteristics>
+              <comment>Basic</comment>
+            </profile>
+            <profile name="Green Banner Rocket Teams" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="f1a0-e55d-ed88-3b5d">
+              <characteristics>
+                <characteristic name="Target type" typeId="de47-7191-892f-3c71">Light</characteristic>
+                <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">1</characteristic>
+                <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570">8</characteristic>
+                <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18">3</characteristic>
+                <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">4&quot;</characteristic>
+                <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
+                <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">1</characteristic>
+                <characteristic name="Discipline" typeId="9692-df81-03cd-8583">6</characteristic>
+                <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">1</characteristic>
+              </characteristics>
+              <comment>Reinforced</comment>
+            </profile>
+            <profile name="Green Banner Rocket Teams" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="cdde-a8e7-f325-69b0">
+              <characteristics>
+                <characteristic name="Target type" typeId="de47-7191-892f-3c71">Light</characteristic>
+                <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">1</characteristic>
+                <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570">12</characteristic>
+                <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18">4</characteristic>
+                <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">4&quot;</characteristic>
+                <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
+                <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">1</characteristic>
+                <characteristic name="Discipline" typeId="9692-df81-03cd-8583">6</characteristic>
+                <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">1</characteristic>
+              </characteristics>
+              <comment>Full Strength</comment>
+            </profile>
+          </profiles>
         </selectionEntryGroup>
         <selectionEntryGroup name="Weapons" id="d81b-d426-bdfa-3b40" hidden="false" sortIndex="1">
           <selectionEntries>
@@ -1192,73 +1076,25 @@ This is intentional!</characteristic>
               <costs>
                 <cost name="Points" typeId="e58e-982d-7630-5342" value="35"/>
               </costs>
-              <profiles>
-                <profile name="Green Banner Rocket Teams" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="8f96-6fd5-2680-c2b1">
-                  <characteristics>
-                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Light</characteristic>
-                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">1</characteristic>
-                    <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
-                    <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
-                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">4&quot;</characteristic>
-                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
-                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">1</characteristic>
-                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">6</characteristic>
-                    <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">1</characteristic>
-                  </characteristics>
-                  <modifiers>
-                    <modifier type="set" value="4" field="3e5d-fadc-d9fb-6570"/>
-                    <modifier type="set" value="2" field="bb79-114d-2dc7-ca18"/>
-                  </modifiers>
-                </profile>
-              </profiles>
+              <infoLinks>
+                <infoLink name="Green Banner Rocket Teams" id="d318-31b9-19a2-0a68" hidden="false" type="profile" targetId="ac9d-6e5c-6ff4-ec2b"/>
+              </infoLinks>
             </entryLink>
             <entryLink import="true" name="Reinforced INFANTRY" hidden="false" id="e503-9952-b7b2-6320" type="selectionEntry" targetId="3e9f-23e1-0ca1-0826" sortIndex="2">
               <costs>
                 <cost name="Points" typeId="e58e-982d-7630-5342" value="60"/>
               </costs>
-              <profiles>
-                <profile name="Green Banner Rocket Teams" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="21a6-89e0-f8a5-d502">
-                  <characteristics>
-                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Light</characteristic>
-                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">1</characteristic>
-                    <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
-                    <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
-                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">4&quot;</characteristic>
-                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
-                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">1</characteristic>
-                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">6</characteristic>
-                    <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">1</characteristic>
-                  </characteristics>
-                  <modifiers>
-                    <modifier type="set" value="8" field="3e5d-fadc-d9fb-6570"/>
-                    <modifier type="set" value="4" field="bb79-114d-2dc7-ca18"/>
-                  </modifiers>
-                </profile>
-              </profiles>
+              <infoLinks>
+                <infoLink name="Green Banner Rocket Teams" id="5932-a778-a032-7516" hidden="false" type="profile" targetId="f1a0-e55d-ed88-3b5d"/>
+              </infoLinks>
             </entryLink>
             <entryLink import="true" name="Full Strength INFANTRY" hidden="false" id="b56c-0926-6342-c964" type="selectionEntry" targetId="9bc4-d90e-6da8-2f0c" sortIndex="3">
               <costs>
                 <cost name="Points" typeId="e58e-982d-7630-5342" value="90"/>
               </costs>
-              <profiles>
-                <profile name="Green Banner Rocket Teams" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="6f97-72df-d0c9-f979">
-                  <characteristics>
-                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Light</characteristic>
-                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">1</characteristic>
-                    <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
-                    <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
-                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">4&quot;</characteristic>
-                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
-                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">1</characteristic>
-                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">6</characteristic>
-                    <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">1</characteristic>
-                  </characteristics>
-                  <modifiers>
-                    <modifier type="set" value="12" field="3e5d-fadc-d9fb-6570"/>
-                    <modifier type="set" value="6" field="bb79-114d-2dc7-ca18"/>
-                  </modifiers>
-                </profile>
-              </profiles>
+              <infoLinks>
+                <infoLink name="Green Banner Rocket Teams" id="d361-6061-e391-5e7c" hidden="false" type="profile" targetId="cdde-a8e7-f325-69b0"/>
+              </infoLinks>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
@@ -1281,85 +1117,51 @@ This is intentional!</characteristic>
         </profile>
       </profiles>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Bolstering" id="3f91-7aa2-7cba-7058" hidden="true" sortIndex="3">
-          <entryLinks>
-            <entryLink import="true" name="Basic" hidden="false" id="71dd-e39b-c29b-ea4e" type="selectionEntry" targetId="f088-e6d4-8fe3-0f3e" sortIndex="1">
-              <profiles>
-                <profile name="Bulnabang Winged Infantry" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="daba-7fb2-8a08-14bd">
-                  <characteristics>
-                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Light</characteristic>
-                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">1</characteristic>
-                    <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
-                    <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
-                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">4&quot;</characteristic>
-                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
-                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">1</characteristic>
-                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">6</characteristic>
-                    <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">1</characteristic>
-                  </characteristics>
-                  <modifiers>
-                    <modifier type="set" value="4" field="3e5d-fadc-d9fb-6570"/>
-                    <modifier type="set" value="2" field="bb79-114d-2dc7-ca18"/>
-                  </modifiers>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="45"/>
-              </costs>
-            </entryLink>
-            <entryLink import="true" name="Full Strength" hidden="false" id="4cc4-5495-185b-c335" type="selectionEntry" targetId="e86e-71e1-9396-5526" sortIndex="3" flatten="false">
-              <profiles>
-                <profile name="Bulnabang Winged Infantry" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="509e-4263-e8be-b0f2">
-                  <characteristics>
-                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Light</characteristic>
-                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">1</characteristic>
-                    <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
-                    <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
-                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">4&quot;</characteristic>
-                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
-                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">1</characteristic>
-                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">7</characteristic>
-                    <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">1</characteristic>
-                  </characteristics>
-                  <modifiers>
-                    <modifier type="set" value="12" field="3e5d-fadc-d9fb-6570"/>
-                    <modifier type="set" value="6" field="bb79-114d-2dc7-ca18"/>
-                  </modifiers>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="115"/>
-              </costs>
-            </entryLink>
-            <entryLink import="true" name="Reinforced" hidden="false" id="9350-4cff-1008-ddc4" type="selectionEntry" targetId="85c2-43ee-a668-834f" sortIndex="2" flatten="false">
-              <profiles>
-                <profile name="Bulnabang Winged Infantry" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="5a6c-0bcd-2451-7eba">
-                  <characteristics>
-                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Light</characteristic>
-                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">1</characteristic>
-                    <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
-                    <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
-                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">4&quot;</characteristic>
-                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
-                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">1</characteristic>
-                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">7</characteristic>
-                    <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">1</characteristic>
-                  </characteristics>
-                  <modifiers>
-                    <modifier type="set" value="8" field="3e5d-fadc-d9fb-6570"/>
-                    <modifier type="set" value="4" field="bb79-114d-2dc7-ca18"/>
-                  </modifiers>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="75"/>
-              </costs>
-            </entryLink>
-          </entryLinks>
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="bb20-a161-dd5c-6c87"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7c46-e587-a70c-ac29"/>
-          </constraints>
+        <selectionEntryGroup name="Stats" id="3f91-7aa2-7cba-7058" hidden="true" sortIndex="3">
+          <profiles>
+            <profile name="Bulnabang Winged Infantry" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="509e-4263-e8be-b0f2">
+              <characteristics>
+                <characteristic name="Target type" typeId="de47-7191-892f-3c71">Light</characteristic>
+                <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">1</characteristic>
+                <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570">4</characteristic>
+                <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18">2</characteristic>
+                <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">4&quot;</characteristic>
+                <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
+                <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">1</characteristic>
+                <characteristic name="Discipline" typeId="9692-df81-03cd-8583">7</characteristic>
+                <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">1</characteristic>
+              </characteristics>
+              <comment>Basic</comment>
+            </profile>
+            <profile name="Bulnabang Winged Infantry" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="a4d2-a717-7282-a983">
+              <characteristics>
+                <characteristic name="Target type" typeId="de47-7191-892f-3c71">Light</characteristic>
+                <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">1</characteristic>
+                <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570">8</characteristic>
+                <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18">3</characteristic>
+                <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">4&quot;</characteristic>
+                <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
+                <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">1</characteristic>
+                <characteristic name="Discipline" typeId="9692-df81-03cd-8583">7</characteristic>
+                <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">1</characteristic>
+              </characteristics>
+              <comment>Reinforced</comment>
+            </profile>
+            <profile name="Bulnabang Winged Infantry" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="f257-9b89-c45f-e2d6">
+              <characteristics>
+                <characteristic name="Target type" typeId="de47-7191-892f-3c71">Light</characteristic>
+                <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">1</characteristic>
+                <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570">12</characteristic>
+                <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18">4</characteristic>
+                <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">4&quot;</characteristic>
+                <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
+                <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">1</characteristic>
+                <characteristic name="Discipline" typeId="9692-df81-03cd-8583">7</characteristic>
+                <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">1</characteristic>
+              </characteristics>
+              <comment>Full strength</comment>
+            </profile>
+          </profiles>
         </selectionEntryGroup>
         <selectionEntryGroup name="Weapons" id="5586-a1cd-4abc-fa60" hidden="false" sortIndex="2">
           <selectionEntries>
@@ -1435,73 +1237,25 @@ This is intentional!</characteristic>
               <costs>
                 <cost name="Points" typeId="e58e-982d-7630-5342" value="45"/>
               </costs>
-              <profiles>
-                <profile name="Bulnabang Winged Infantry" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="03e3-151a-63cd-af09">
-                  <characteristics>
-                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Light</characteristic>
-                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">1</characteristic>
-                    <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
-                    <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
-                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">4&quot;</characteristic>
-                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
-                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">1</characteristic>
-                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">6</characteristic>
-                    <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">1</characteristic>
-                  </characteristics>
-                  <modifiers>
-                    <modifier type="set" value="4" field="3e5d-fadc-d9fb-6570"/>
-                    <modifier type="set" value="2" field="bb79-114d-2dc7-ca18"/>
-                  </modifiers>
-                </profile>
-              </profiles>
+              <infoLinks>
+                <infoLink name="Bulnabang Winged Infantry" id="2fd5-c74f-355b-8d7d" hidden="false" type="profile" targetId="509e-4263-e8be-b0f2"/>
+              </infoLinks>
             </entryLink>
             <entryLink import="true" name="Reinforced INFANTRY" hidden="false" id="2a69-3513-62ba-d519" type="selectionEntry" targetId="3e9f-23e1-0ca1-0826" sortIndex="2">
               <costs>
                 <cost name="Points" typeId="e58e-982d-7630-5342" value="75"/>
               </costs>
-              <profiles>
-                <profile name="Bulnabang Winged Infantry" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="af77-19ea-8a84-03c6">
-                  <characteristics>
-                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Light</characteristic>
-                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">1</characteristic>
-                    <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
-                    <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
-                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">4&quot;</characteristic>
-                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
-                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">1</characteristic>
-                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">7</characteristic>
-                    <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">1</characteristic>
-                  </characteristics>
-                  <modifiers>
-                    <modifier type="set" value="8" field="3e5d-fadc-d9fb-6570"/>
-                    <modifier type="set" value="4" field="bb79-114d-2dc7-ca18"/>
-                  </modifiers>
-                </profile>
-              </profiles>
+              <infoLinks>
+                <infoLink name="Bulnabang Winged Infantry" id="de2e-1075-cfc6-46af" hidden="false" type="profile" targetId="a4d2-a717-7282-a983"/>
+              </infoLinks>
             </entryLink>
             <entryLink import="true" name="Full Strength INFANTRY" hidden="false" id="1e32-23fb-f1fc-05c0" type="selectionEntry" targetId="9bc4-d90e-6da8-2f0c" sortIndex="3">
               <costs>
                 <cost name="Points" typeId="e58e-982d-7630-5342" value="115"/>
               </costs>
-              <profiles>
-                <profile name="Bulnabang Winged Infantry" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="6f7f-b657-43c8-877c">
-                  <characteristics>
-                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Light</characteristic>
-                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">1</characteristic>
-                    <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
-                    <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
-                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">4&quot;</characteristic>
-                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
-                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">1</characteristic>
-                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">7</characteristic>
-                    <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">1</characteristic>
-                  </characteristics>
-                  <modifiers>
-                    <modifier type="set" value="12" field="3e5d-fadc-d9fb-6570"/>
-                    <modifier type="set" value="6" field="bb79-114d-2dc7-ca18"/>
-                  </modifiers>
-                </profile>
-              </profiles>
+              <infoLinks>
+                <infoLink name="Bulnabang Winged Infantry" id="fe0c-873e-750b-6a76" hidden="false" type="profile" targetId="f257-9b89-c45f-e2d6"/>
+              </infoLinks>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
@@ -1531,7 +1285,7 @@ This is intentional!</characteristic>
         </profile>
       </profiles>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Bolstering" id="2870-ee1a-794d-b5e0" hidden="true" sortIndex="3">
+        <selectionEntryGroup name="Bolstering" id="2870-ee1a-794d-b5e0" hidden="true" sortIndex="2">
           <entryLinks>
             <entryLink import="true" name="Basic" hidden="false" id="8685-f5ae-3cc4-fffd" type="selectionEntry" targetId="f088-e6d4-8fe3-0f3e" sortIndex="1">
               <profiles>
@@ -1611,7 +1365,7 @@ This is intentional!</characteristic>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d755-e89a-0790-2db6"/>
           </constraints>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Weapons" id="36bf-1a7b-8909-cf68" hidden="false" sortIndex="2">
+        <selectionEntryGroup name="Weapons" id="36bf-1a7b-8909-cf68" hidden="false" sortIndex="1">
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Melee" hidden="false" id="8770-92dd-4016-1aa6" sortIndex="5">
               <constraints>
@@ -1632,7 +1386,7 @@ This is intentional!</characteristic>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Bolstering INFANTRY" id="a24c-dbcb-22f3-add2" hidden="false" import="false">
+        <selectionEntryGroup name="Bolstering INFANTRY" id="a24c-dbcb-22f3-add2" hidden="false" import="false" sortIndex="3">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e55f-f945-a439-7753"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1f63-f465-4fce-11a8"/>
@@ -1649,7 +1403,7 @@ This is intentional!</characteristic>
           <entryLinks>
             <entryLink import="true" name="Basic INFANTRY" hidden="false" id="fede-5b9d-9326-6863" type="selectionEntry" targetId="00c0-246c-978b-933f" sortIndex="1">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="75"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="70"/>
               </costs>
               <profiles>
                 <profile name="Jianhuren Terracotta Automata" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="77ac-5b0e-a7fd-489d">
@@ -1673,7 +1427,7 @@ This is intentional!</characteristic>
             </entryLink>
             <entryLink import="true" name="Reinforced INFANTRY" hidden="false" id="9e68-d949-bb41-d8a6" type="selectionEntry" targetId="3e9f-23e1-0ca1-0826" sortIndex="2">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="130"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="115"/>
               </costs>
               <profiles>
                 <profile name="Jianhuren Terracotta Automata" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="70c4-7db7-6d0d-1d1d">
@@ -1697,7 +1451,7 @@ This is intentional!</characteristic>
             </entryLink>
             <entryLink import="true" name="Full Strength INFANTRY" hidden="false" id="e369-074c-0f23-62a3" type="selectionEntry" targetId="9bc4-d90e-6da8-2f0c" sortIndex="3">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="195"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="170"/>
               </costs>
               <profiles>
                 <profile name="Jianhuren Terracotta Automata" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="c518-3b1a-cac3-c912">
@@ -2426,7 +2180,7 @@ This is intentional!</characteristic>
       <profiles>
         <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="c326-bd29-19c4-9512" noindex="true">
           <characteristics>
-            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">-</characteristic>
+            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Stalker</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2542,7 +2296,7 @@ This is intentional!</characteristic>
                     <characteristic name="1-4" typeId="94b3-2e14-1b71-6757">6</characteristic>
                     <characteristic name="5-8" typeId="f891-f62d-9222-6a4f">10</characteristic>
                     <characteristic name="9-12" typeId="df36-9d51-a316-8d54">14</characteristic>
-                    <characteristic name="Qualities" typeId="9a3f-8a28-e735-e1eb">-</characteristic>
+                    <characteristic name="Qualities" typeId="9a3f-8a28-e735-e1eb">Devastating</characteristic>
                   </characteristics>
                 </profile>
               </profiles>

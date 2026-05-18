@@ -125,9 +125,9 @@
                 <profile name="Melee" typeId="ab7a-1a7e-f58b-4565" typeName="Type" hidden="false" id="5b54-0903-2ca5-8f46">
                   <characteristics>
                     <characteristic name="Range" typeId="ae86-2a51-4bd0-5c8c">-</characteristic>
-                    <characteristic name="1-8" typeId="a2ba-36af-bed3-a679">4(5)</characteristic>
-                    <characteristic name="9-16" typeId="085d-3a50-7d10-ef1b">8(10)</characteristic>
-                    <characteristic name="17-24" typeId="b6be-29a6-8c04-d4a7">12(15)</characteristic>
+                    <characteristic name="1-8" typeId="a2ba-36af-bed3-a679">4(6)</characteristic>
+                    <characteristic name="9-16" typeId="085d-3a50-7d10-ef1b">8(11)</characteristic>
+                    <characteristic name="17-24" typeId="b6be-29a6-8c04-d4a7">12(16)</characteristic>
                     <characteristic name="Qualities" typeId="ea86-3bb1-4fea-6f13">Shock</characteristic>
                   </characteristics>
                 </profile>
@@ -559,9 +559,9 @@
                 <profile name="Melee" typeId="ab7a-1a7e-f58b-4565" typeName="Type" hidden="false" id="57fd-bb14-afd8-6a8c">
                   <characteristics>
                     <characteristic name="Range" typeId="ae86-2a51-4bd0-5c8c">-</characteristic>
-                    <characteristic name="1-8" typeId="a2ba-36af-bed3-a679">4(5)</characteristic>
-                    <characteristic name="9-16" typeId="085d-3a50-7d10-ef1b">8(10)</characteristic>
-                    <characteristic name="17-24" typeId="b6be-29a6-8c04-d4a7">12(15)</characteristic>
+                    <characteristic name="1-8" typeId="a2ba-36af-bed3-a679">4(6)</characteristic>
+                    <characteristic name="9-16" typeId="085d-3a50-7d10-ef1b">8(11)</characteristic>
+                    <characteristic name="17-24" typeId="b6be-29a6-8c04-d4a7">12(16)</characteristic>
                     <characteristic name="Qualities" typeId="ea86-3bb1-4fea-6f13">Shock</characteristic>
                   </characteristics>
                 </profile>
@@ -845,7 +845,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="45"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="40"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Reinforced INFANTRY" hidden="false" id="c2d2-d392-88e2-65df" type="selectionEntry" targetId="220d-103a-a1c9-a008" sortIndex="2">
@@ -869,7 +869,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="75"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="70"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Full Strength INFANTRY" hidden="false" id="1472-78dc-6870-3dbc" type="selectionEntry" targetId="57a2-eb90-a80a-3a53" sortIndex="3">
@@ -893,7 +893,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="115"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="105"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -934,7 +934,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="45"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="40"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Reinforced Inf/Arm" hidden="false" id="22af-7ae5-f36c-8054" type="selectionEntry" targetId="61b0-f04e-a8ab-ab71" sortIndex="2">
@@ -958,7 +958,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="75"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="70"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Full Strength Inf/Arm" hidden="false" id="2db9-9194-0123-88ce" type="selectionEntry" targetId="d0b7-0112-b1da-b9f4" sortIndex="3">
@@ -982,7 +982,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="115"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="105"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -1024,7 +1024,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="45"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="40"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Reinforced Inf/Cav" hidden="false" id="8974-12bf-fd74-b34a" type="selectionEntry" targetId="ca48-435f-1c13-ce81" sortIndex="2">
@@ -1048,7 +1048,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="75"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="70"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Full Strength Inf/Cav" hidden="false" id="ac67-4f2e-730a-0de0" type="selectionEntry" targetId="7341-f285-20c3-429c" sortIndex="3">
@@ -1072,7 +1072,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="115"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="105"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -1204,7 +1204,7 @@
                     <characteristic name="1-5" typeId="6c2b-399d-3913-0c86">4</characteristic>
                     <characteristic name="6-10" typeId="e030-39ed-b345-ffd8">9</characteristic>
                     <characteristic name="11-15" typeId="3341-bdc5-ce8f-a06f">14</characteristic>
-                    <characteristic name="Qualities" typeId="e5a1-fc2f-d8b2-79b3">Devastating, Precision, Turret</characteristic>
+                    <characteristic name="Qualities" typeId="e5a1-fc2f-d8b2-79b3">Devastating, Precision,</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1238,7 +1238,7 @@
                     <characteristic name="1-5" typeId="6c2b-399d-3913-0c86">4</characteristic>
                     <characteristic name="6-10" typeId="e030-39ed-b345-ffd8">9</characteristic>
                     <characteristic name="11-15" typeId="3341-bdc5-ce8f-a06f">14</characteristic>
-                    <characteristic name="Qualities" typeId="e5a1-fc2f-d8b2-79b3">Devastating, Turret</characteristic>
+                    <characteristic name="Qualities" typeId="e5a1-fc2f-d8b2-79b3">Devastating,</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1262,7 +1262,7 @@
           <entryLinks>
             <entryLink import="true" name="Basic CAVALRY" hidden="false" id="a9fe-f722-27bb-9367" type="selectionEntry" targetId="7f46-0d06-3a55-3d4d" sortIndex="1">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="75"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="70"/>
               </costs>
               <profiles>
                 <profile name="Steppe Outrider Cavalry" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="fdd7-0a06-3b75-ba0d">
@@ -1274,7 +1274,7 @@
                     <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">8&quot;</characteristic>
                     <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
                     <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">1</characteristic>
-                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">5</characteristic>
+                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">7</characteristic>
                     <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">2</characteristic>
                   </characteristics>
                   <modifiers>
@@ -1286,7 +1286,7 @@
             </entryLink>
             <entryLink import="true" name="Reinforced CAVALRY" hidden="false" id="be9c-d8cc-1cdf-9fed" type="selectionEntry" targetId="0f47-d02c-45ba-e8e5" sortIndex="2">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="130"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="120"/>
               </costs>
               <profiles>
                 <profile name="Steppe Outrider Cavalry" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="2854-dc20-de2c-46f8">
@@ -1298,7 +1298,7 @@
                     <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">8&quot;</characteristic>
                     <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
                     <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">1</characteristic>
-                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">5</characteristic>
+                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">7</characteristic>
                     <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">2</characteristic>
                   </characteristics>
                   <modifiers>
@@ -1310,7 +1310,7 @@
             </entryLink>
             <entryLink import="true" name="Full Strength CAVALRY" hidden="false" id="b100-796f-3df8-6f37" type="selectionEntry" targetId="97be-82bc-622e-fd65" sortIndex="3">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="195"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="180"/>
               </costs>
               <profiles>
                 <profile name="Steppe Outrider Cavalry" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="ec36-d8a1-3a4b-0ab6">
@@ -1322,7 +1322,7 @@
                     <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">8&quot;</characteristic>
                     <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
                     <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">1</characteristic>
-                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">5</characteristic>
+                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">7</characteristic>
                     <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">2</characteristic>
                   </characteristics>
                   <modifiers>
@@ -1351,7 +1351,7 @@
           <entryLinks>
             <entryLink import="true" name="Basic Inf/Cav" hidden="false" id="373c-e7a6-4127-0bdb" type="selectionEntry" targetId="e717-7fca-885c-02eb" sortIndex="1">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="75"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="70"/>
               </costs>
               <profiles>
                 <profile name="Steppe Outrider Cavalry" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="100c-981e-193a-f33f">
@@ -1363,7 +1363,7 @@
                     <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">8&quot;</characteristic>
                     <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
                     <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">1</characteristic>
-                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">5</characteristic>
+                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">7</characteristic>
                     <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">2</characteristic>
                   </characteristics>
                   <modifiers>
@@ -1375,7 +1375,7 @@
             </entryLink>
             <entryLink import="true" name="Reinforced Inf/Cav" hidden="false" id="151a-746c-08ea-112a" type="selectionEntry" targetId="ca48-435f-1c13-ce81" sortIndex="2">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="130"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="120"/>
               </costs>
               <profiles>
                 <profile name="Steppe Outrider Cavalry" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="da26-caa9-7339-f31d">
@@ -1387,7 +1387,7 @@
                     <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">8&quot;</characteristic>
                     <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
                     <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">1</characteristic>
-                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">5</characteristic>
+                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">7</characteristic>
                     <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">2</characteristic>
                   </characteristics>
                   <modifiers>
@@ -1399,7 +1399,7 @@
             </entryLink>
             <entryLink import="true" name="Full Strength Inf/Cav" hidden="false" id="cbbf-2c50-d04e-5e34" type="selectionEntry" targetId="7341-f285-20c3-429c" sortIndex="3">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="195"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="180"/>
               </costs>
               <profiles>
                 <profile name="Steppe Outrider Cavalry" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="0097-371d-a74a-cf05">
@@ -1411,7 +1411,7 @@
                     <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">8&quot;</characteristic>
                     <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
                     <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">1</characteristic>
-                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">5</characteristic>
+                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">7</characteristic>
                     <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">2</characteristic>
                   </characteristics>
                   <modifiers>
@@ -1605,7 +1605,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="100"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="90"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Reinforced INFANTRY" hidden="false" id="d2be-b9fa-83e7-d78a" type="selectionEntry" targetId="220d-103a-a1c9-a008" sortIndex="2">
@@ -1629,7 +1629,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="170"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="145"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Full Strength INFANTRY" hidden="false" id="bd7e-80b0-457d-1949" type="selectionEntry" targetId="57a2-eb90-a80a-3a53" sortIndex="3">
@@ -1653,7 +1653,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="260"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="215"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -1694,7 +1694,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="100"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="90"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Reinforced Inf/Arm" hidden="false" id="2fb5-85e4-d018-5015" type="selectionEntry" targetId="61b0-f04e-a8ab-ab71" sortIndex="2">
@@ -1718,7 +1718,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="170"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="145"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Full Strength Inf/Arm" hidden="false" id="0e42-3fff-4e97-c193" type="selectionEntry" targetId="d0b7-0112-b1da-b9f4" sortIndex="3">
@@ -1742,7 +1742,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="260"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="215"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -1784,7 +1784,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="100"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="90"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Reinforced Inf/Cav" hidden="false" id="1fc8-a7f4-2830-2e77" type="selectionEntry" targetId="ca48-435f-1c13-ce81" sortIndex="2">
@@ -1808,7 +1808,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="170"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="145"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Full Strength Inf/Cav" hidden="false" id="13e7-675d-6e38-317c" type="selectionEntry" targetId="7341-f285-20c3-429c" sortIndex="3">
@@ -1832,7 +1832,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="260"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="215"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -2010,7 +2010,7 @@
           <entryLinks>
             <entryLink import="true" name="Basic CAVALRY" hidden="false" id="1218-573d-c98f-bae5" type="selectionEntry" targetId="7f46-0d06-3a55-3d4d" sortIndex="1">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="80"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="70"/>
               </costs>
               <profiles>
                 <profile name="Winged Hussar Treadbikes" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="1c72-13bc-445c-73c5">
@@ -2034,7 +2034,7 @@
             </entryLink>
             <entryLink import="true" name="Reinforced CAVALRY" hidden="false" id="ca92-a1b2-311f-bfba" type="selectionEntry" targetId="0f47-d02c-45ba-e8e5" sortIndex="2">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="135"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="115"/>
               </costs>
               <profiles>
                 <profile name="Winged Hussar Treadbikes" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="739c-8f2d-4821-6909">
@@ -2058,7 +2058,7 @@
             </entryLink>
             <entryLink import="true" name="Full Strength CAVALRY" hidden="false" id="b82e-4074-3200-962d" type="selectionEntry" targetId="97be-82bc-622e-fd65" sortIndex="3">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="210"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="170"/>
               </costs>
               <profiles>
                 <profile name="Winged Hussar Treadbikes" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="91f9-79b7-82f5-fd22">
@@ -2099,7 +2099,7 @@
           <entryLinks>
             <entryLink import="true" name="Basic Inf/Cav" hidden="false" id="f5aa-4582-11cf-2976" type="selectionEntry" targetId="e717-7fca-885c-02eb" sortIndex="1">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="80"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="70"/>
               </costs>
               <profiles>
                 <profile name="Winged Hussar Treadbikes" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="5404-b6a4-b11d-b1c4">
@@ -2123,7 +2123,7 @@
             </entryLink>
             <entryLink import="true" name="Reinforced Inf/Cav" hidden="false" id="c2d0-51a8-1072-7e76" type="selectionEntry" targetId="ca48-435f-1c13-ce81" sortIndex="2">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="135"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="115"/>
               </costs>
               <profiles>
                 <profile name="Winged Hussar Treadbikes" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="f92c-09df-0146-80d1">
@@ -2147,7 +2147,7 @@
             </entryLink>
             <entryLink import="true" name="Full Strength Inf/Cav" hidden="false" id="39fb-38a9-4a5b-b7be" type="selectionEntry" targetId="7341-f285-20c3-429c" sortIndex="3">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="210"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="170"/>
               </costs>
               <profiles>
                 <profile name="Winged Hussar Treadbikes" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="16aa-57ca-4fe9-4856">
@@ -2189,6 +2189,7 @@
         <categoryLink name="Light" hidden="false" id="972a-80f9-d507-4fd7" targetId="default-category" primary="false"/>
         <categoryLink targetId="5953-76d6-e748-661f" id="5c87-50f9-1af2-afe3" primary="false" name="Commonwealth"/>
         <categoryLink targetId="6e6a-9613-0607-95e1" id="726e-6a35-ea63-4c0c" primary="true" name="Field Gun"/>
+        <categoryLink name="Gun Carriage" hidden="false" id="6782-9525-96ba-3c79" targetId="7eaa-f766-9c80-8758" primary="false"/>
       </categoryLinks>
       <profiles>
         <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="e337-a56c-c57f-8161" noindex="false">
@@ -2344,7 +2345,7 @@
           <entryLinks>
             <entryLink import="true" name="Basic FIELD GUN" hidden="false" id="dc11-6ec8-3259-a356" type="selectionEntry" targetId="3d5d-6327-e572-895b" sortIndex="1">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="65"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="60"/>
               </costs>
               <profiles>
                 <profile name="Gobyata Field Guns" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="bdb4-4c50-f391-806d">
@@ -2368,7 +2369,7 @@
             </entryLink>
             <entryLink import="true" name="Reinforced FIELD GUN" hidden="false" id="fdac-9e9f-7dcc-62cb" type="selectionEntry" targetId="d4fd-6cf5-2cf0-2043" sortIndex="2">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="110"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="100"/>
               </costs>
               <profiles>
                 <profile name="Gobyata Field Guns" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="5094-9da9-b267-e775">
@@ -2392,7 +2393,7 @@
             </entryLink>
             <entryLink import="true" name="Full Strength FIELD GUN" hidden="false" id="2eaf-3dba-8705-c34b" type="selectionEntry" targetId="7bb6-1917-6a09-2c0b" sortIndex="3">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="170"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="155"/>
               </costs>
               <profiles>
                 <profile name="Gobyata Field Guns" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="9c84-a689-bd3f-142c">
@@ -2426,6 +2427,7 @@
         <categoryLink name="Light" hidden="false" id="44f2-669f-d015-e34a" targetId="default-category" primary="false"/>
         <categoryLink targetId="5953-76d6-e748-661f" id="8079-e053-fd19-6470" primary="false" name="Commonwealth"/>
         <categoryLink targetId="6e6a-9613-0607-95e1" id="50fe-9bd7-9b8e-3abd" primary="true" name="Field Gun"/>
+        <categoryLink name="Gun Carriage" hidden="false" id="3172-2590-5b5d-a8ce" targetId="7eaa-f766-9c80-8758" primary="false"/>
       </categoryLinks>
       <profiles>
         <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="2852-0c88-a6c5-4f18" noindex="false">
@@ -2581,7 +2583,7 @@
           <entryLinks>
             <entryLink import="true" name="Basic FIELD GUN" hidden="false" id="7a54-c6d0-fffe-8645" type="selectionEntry" targetId="3d5d-6327-e572-895b" sortIndex="1">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="70"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="65"/>
               </costs>
               <profiles>
                 <profile name="Tryasti Seismic Mortars" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="0666-fe95-ecfb-67d1">
@@ -2605,7 +2607,7 @@
             </entryLink>
             <entryLink import="true" name="Reinforced FIELD GUN" hidden="false" id="63fe-906b-593d-1202" type="selectionEntry" targetId="d4fd-6cf5-2cf0-2043" sortIndex="2">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="120"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="110"/>
               </costs>
               <profiles>
                 <profile name="Tryasti Seismic Mortars" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="d743-cc0d-de4e-43ff">
@@ -2629,7 +2631,7 @@
             </entryLink>
             <entryLink import="true" name="Full Strength FIELD GUN" hidden="false" id="481c-8fe2-8431-d1de" type="selectionEntry" targetId="7bb6-1917-6a09-2c0b" sortIndex="3">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="180"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="170"/>
               </costs>
               <profiles>
                 <profile name="Tryasti Seismic Mortars" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="2dfe-a52b-fc94-417a">
@@ -2826,7 +2828,7 @@
           <entryLinks>
             <entryLink import="true" name="Basic Inf/Arm" hidden="false" id="f4cf-b469-8a2d-b852" type="selectionEntry" targetId="e903-fdaa-02be-0150" sortIndex="1">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="130"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="120"/>
               </costs>
               <profiles>
                 <profile name="Dikobraz Artillery Borers" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="5a26-cfc5-746e-65c1">
@@ -2850,7 +2852,7 @@
             </entryLink>
             <entryLink import="true" name="Reinforced Inf/Arm" hidden="false" id="7f5c-79e9-4258-858e" type="selectionEntry" targetId="61b0-f04e-a8ab-ab71" sortIndex="2">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="220"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="205"/>
               </costs>
               <profiles>
                 <profile name="Dikobraz Artillery Borers" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="3212-f2de-56d0-030e">
@@ -2874,7 +2876,7 @@
             </entryLink>
             <entryLink import="true" name="Full Strength Inf/Arm" hidden="false" id="a2d9-3926-4149-6e3c" type="selectionEntry" targetId="d0b7-0112-b1da-b9f4" sortIndex="3">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="340"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="310"/>
               </costs>
               <profiles>
                 <profile name="Dikobraz Artillery Borers" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="de83-e907-ea89-1f42">
@@ -2916,7 +2918,7 @@
           <entryLinks>
             <entryLink import="true" name="Basic ARMOUR" hidden="false" id="03aa-43df-0e17-f4fb" type="selectionEntry" targetId="ffec-55dd-4245-36bc" sortIndex="1">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="130"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="120"/>
               </costs>
               <profiles>
                 <profile name="Dikobraz Artillery Borers" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="424d-4d07-1452-914d">
@@ -2940,7 +2942,7 @@
             </entryLink>
             <entryLink import="true" name="Reinforced ARMOUR" hidden="false" id="4826-5166-1955-7fa3" type="selectionEntry" targetId="a523-10fa-ff3d-a048" sortIndex="2">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="220"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="205"/>
               </costs>
               <profiles>
                 <profile name="Dikobraz Artillery Borers" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="88a7-ee73-8ef3-2f73">
@@ -2964,7 +2966,7 @@
             </entryLink>
             <entryLink import="true" name="Full Strength ARMOUR" hidden="false" id="cb0d-ae91-e627-650d" type="selectionEntry" targetId="56a3-cf92-9a38-7bf4" sortIndex="3">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="340"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="310"/>
               </costs>
               <profiles>
                 <profile name="Dikobraz Artillery Borers" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="9567-a440-0935-af70">
@@ -3155,7 +3157,7 @@
           <entryLinks>
             <entryLink import="true" name="Basic Inf/Arm" hidden="false" id="fa63-496c-7781-4a1c" type="selectionEntry" targetId="e903-fdaa-02be-0150" sortIndex="1">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="120"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="75"/>
               </costs>
               <profiles>
                 <profile name="Krot Armoured Borers" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="ff39-1159-3376-8956">
@@ -3179,7 +3181,7 @@
             </entryLink>
             <entryLink import="true" name="Reinforced Inf/Arm" hidden="false" id="9b54-badd-cb6c-5080" type="selectionEntry" targetId="61b0-f04e-a8ab-ab71" sortIndex="2">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="205"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="120"/>
               </costs>
               <profiles>
                 <profile name="Krot Armoured Borers" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="5f2d-01e8-5327-110f">
@@ -3203,7 +3205,7 @@
             </entryLink>
             <entryLink import="true" name="Full Strength Inf/Arm" hidden="false" id="17d2-3862-a49a-d949" type="selectionEntry" targetId="d0b7-0112-b1da-b9f4" sortIndex="3">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="310"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="180"/>
               </costs>
               <profiles>
                 <profile name="Krot Armoured Borers" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="2cd4-e085-894b-a5b0">
@@ -3245,7 +3247,7 @@
           <entryLinks>
             <entryLink import="true" name="Basic ARMOUR" hidden="false" id="45b8-ee78-93ba-b4ab" type="selectionEntry" targetId="ffec-55dd-4245-36bc" sortIndex="1">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="120"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="75"/>
               </costs>
               <profiles>
                 <profile name="Krot Armoured Borers" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="e6ae-7912-da01-76b2">
@@ -3269,7 +3271,7 @@
             </entryLink>
             <entryLink import="true" name="Reinforced ARMOUR" hidden="false" id="87cf-8120-bc93-0c0d" type="selectionEntry" targetId="a523-10fa-ff3d-a048" sortIndex="2">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="205"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="120"/>
               </costs>
               <profiles>
                 <profile name="Krot Armoured Borers" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="b904-fbed-f715-effd">
@@ -3293,7 +3295,7 @@
             </entryLink>
             <entryLink import="true" name="Full Strength ARMOUR" hidden="false" id="e85f-9796-9555-7bca" type="selectionEntry" targetId="56a3-cf92-9a38-7bf4" sortIndex="3">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="310"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="180"/>
               </costs>
               <profiles>
                 <profile name="Krot Armoured Borers" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="d0e1-e93b-bfcc-dafe">
@@ -3523,7 +3525,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="100"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="95"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Reinforced Inf/Arm" hidden="false" id="225d-31f5-54b1-3b32" type="selectionEntry" targetId="61b0-f04e-a8ab-ab71" sortIndex="2">
@@ -3547,7 +3549,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="170"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="160"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Full Strength Inf/Arm" hidden="false" id="1825-0113-dbd3-4820" type="selectionEntry" targetId="d0b7-0112-b1da-b9f4" sortIndex="3">
@@ -3571,7 +3573,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="260"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="250"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -3613,7 +3615,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="100"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="95"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Reinforced ARMOUR" hidden="false" id="18c0-8c56-4812-6e94" type="selectionEntry" targetId="a523-10fa-ff3d-a048" sortIndex="2">
@@ -3637,7 +3639,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="170"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="160"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Full Strength ARMOUR" hidden="false" id="1e5a-8b12-6468-40b6" type="selectionEntry" targetId="56a3-cf92-9a38-7bf4" sortIndex="3">
@@ -3661,7 +3663,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="260"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="250"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -3878,7 +3880,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="125"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="120"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Reinforced Inf/Arm" hidden="false" id="ad62-cfd7-3b97-ebc1" type="selectionEntry" targetId="61b0-f04e-a8ab-ab71" sortIndex="2">
@@ -3902,7 +3904,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="215"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="205"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Full Strength Inf/Arm" hidden="false" id="7f07-5e64-b455-4b44" type="selectionEntry" targetId="d0b7-0112-b1da-b9f4" sortIndex="3">
@@ -3926,7 +3928,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="325"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="310"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -3968,7 +3970,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="125"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="120"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Reinforced ARMOUR" hidden="false" id="84fd-a3c6-0448-476e" type="selectionEntry" targetId="a523-10fa-ff3d-a048" sortIndex="2">
@@ -3992,7 +3994,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="215"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="205"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Full Strength ARMOUR" hidden="false" id="9c50-971b-0a59-0d1d" type="selectionEntry" targetId="56a3-cf92-9a38-7bf4" sortIndex="3">
@@ -4016,7 +4018,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="325"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="310"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -4219,7 +4221,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="50"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="45"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Reinforced Inf/Arm" hidden="false" id="0dd2-7d70-47da-53d1" type="selectionEntry" targetId="61b0-f04e-a8ab-ab71" sortIndex="2">
@@ -4243,7 +4245,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="85"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="75"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Full Strength Inf/Arm" hidden="false" id="9cbd-824e-a24b-1f59" type="selectionEntry" targetId="d0b7-0112-b1da-b9f4" sortIndex="3">
@@ -4267,7 +4269,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="130"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="115"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -4309,7 +4311,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="50"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="45"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Reinforced ARMOUR" hidden="false" id="f909-c5aa-c059-01ad" type="selectionEntry" targetId="a523-10fa-ff3d-a048" sortIndex="2">
@@ -4333,7 +4335,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="85"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="75"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Full Strength ARMOUR" hidden="false" id="fe3d-3f98-7079-a67e" type="selectionEntry" targetId="56a3-cf92-9a38-7bf4" sortIndex="3">
@@ -4357,7 +4359,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="130"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="115"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -4517,7 +4519,7 @@
           <entryLinks>
             <entryLink import="true" name="Basic ROTORCRAFT" hidden="false" id="a0ef-44c8-4c93-b3bd" type="selectionEntry" targetId="068f-ea35-5950-7ecf" sortIndex="1">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="95"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="90"/>
               </costs>
               <profiles>
                 <profile name="Kheshig Sky Cutter Wings" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="cb66-c94a-6d3a-c5f3">
@@ -4534,14 +4536,14 @@
                   </characteristics>
                   <modifiers>
                     <modifier type="set" value="2" field="3e5d-fadc-d9fb-6570"/>
-                    <modifier type="set" value="3" field="bb79-114d-2dc7-ca18"/>
+                    <modifier type="set" value="2" field="bb79-114d-2dc7-ca18"/>
                   </modifiers>
                 </profile>
               </profiles>
             </entryLink>
             <entryLink import="true" name="Reinforced ROTORCRAFT" hidden="false" id="f5bb-4bc5-3de9-5695" type="selectionEntry" targetId="e427-43d8-e63b-6d39" sortIndex="2">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="160"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="155"/>
               </costs>
               <profiles>
                 <profile name="Kheshig Sky Cutter Wings" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="8b68-31ff-5c53-3dd0">
@@ -4558,14 +4560,14 @@
                   </characteristics>
                   <modifiers>
                     <modifier type="set" value="4" field="3e5d-fadc-d9fb-6570"/>
-                    <modifier type="set" value="4" field="bb79-114d-2dc7-ca18"/>
+                    <modifier type="set" value="3" field="bb79-114d-2dc7-ca18"/>
                   </modifiers>
                 </profile>
               </profiles>
             </entryLink>
             <entryLink import="true" name="Full Strength ROTORCRAFT" hidden="false" id="ee54-4336-7d52-976d" type="selectionEntry" targetId="1697-3c2a-20a7-f993" sortIndex="3">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="245"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="235"/>
               </costs>
               <profiles>
                 <profile name="Kheshig Sky Cutter Wings" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="82a4-4706-9120-137e">
@@ -4582,7 +4584,7 @@
                   </characteristics>
                   <modifiers>
                     <modifier type="set" value="6" field="3e5d-fadc-d9fb-6570"/>
-                    <modifier type="set" value="5" field="bb79-114d-2dc7-ca18"/>
+                    <modifier type="set" value="4" field="bb79-114d-2dc7-ca18"/>
                   </modifiers>
                 </profile>
               </profiles>
@@ -4745,7 +4747,7 @@
           <entryLinks>
             <entryLink import="true" name="Basic Commander" hidden="false" id="e038-73a3-6c6d-98ec" type="selectionEntry" targetId="b4e1-9593-47d9-9346" sortIndex="1">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="125"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="120"/>
               </costs>
               <profiles>
                 <profile name="Kheshig Sky Cutter Command Wings" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="0c93-4239-37ac-2ab5">
@@ -4762,14 +4764,14 @@
                   </characteristics>
                   <modifiers>
                     <modifier type="set" value="2" field="3e5d-fadc-d9fb-6570"/>
-                    <modifier type="set" value="4" field="bb79-114d-2dc7-ca18"/>
+                    <modifier type="set" value="3" field="bb79-114d-2dc7-ca18"/>
                   </modifiers>
                 </profile>
               </profiles>
             </entryLink>
             <entryLink import="true" name="Reinforced Commander" hidden="false" id="2b81-68e3-e87b-2f69" type="selectionEntry" targetId="a326-db0b-e35b-5e3f" sortIndex="2">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="190"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="185"/>
               </costs>
               <profiles>
                 <profile name="Kheshig Sky Cutter Command Wings" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="d317-f67d-751e-bcba">
@@ -4786,14 +4788,14 @@
                   </characteristics>
                   <modifiers>
                     <modifier type="set" value="4" field="3e5d-fadc-d9fb-6570"/>
-                    <modifier type="set" value="5" field="bb79-114d-2dc7-ca18"/>
+                    <modifier type="set" value="4" field="bb79-114d-2dc7-ca18"/>
                   </modifiers>
                 </profile>
               </profiles>
             </entryLink>
             <entryLink import="true" name="Full Strength Commander" hidden="false" id="f844-e8eb-9280-d734" type="selectionEntry" targetId="2981-c9f2-aef8-0182" sortIndex="3">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="275"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="265"/>
               </costs>
               <profiles>
                 <profile name="Kheshig Sky Cutter Command Wings" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="9be5-8edc-0db2-ba60">
@@ -4810,7 +4812,7 @@
                   </characteristics>
                   <modifiers>
                     <modifier type="set" value="6" field="3e5d-fadc-d9fb-6570"/>
-                    <modifier type="set" value="6" field="bb79-114d-2dc7-ca18"/>
+                    <modifier type="set" value="5" field="bb79-114d-2dc7-ca18"/>
                   </modifiers>
                 </profile>
               </profiles>
@@ -5067,7 +5069,7 @@
       <profiles>
         <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="48b2-4ccf-747a-c569" noindex="false">
           <characteristics>
-            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">All-Out Attack (3), Dynamic Entry (3”), Heavy Carrier (Armour), Large, Spectacular Demise (8), Sponsons (6)</characteristic>
+            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">All-Out Attack (3), Dynamic Entry (4”), Heavy Carrier (Armour), Large, Spectacular Demise (8), Sponsons (6)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5112,13 +5114,13 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0c8d-ce44-e19f-c915" automatic="true"/>
               </constraints>
               <profiles>
-                <profile name="Ranged (Light)" typeId="e5cb-a327-9927-e1c2" typeName="Type" hidden="false" id="9d6c-77ca-f755-57dd">
+                <profile name="Ranged (Light)" typeId="e268-4591-0098-0605" typeName="Type" hidden="false" id="9d6c-77ca-f755-57dd">
                   <characteristics>
-                    <characteristic name="Range" typeId="441f-d21a-ef2b-2c8a">4&quot;/28&quot;</characteristic>
-                    <characteristic name="6-7" typeId="695f-299c-7e58-f275">4</characteristic>
-                    <characteristic name="3-5" typeId="e27c-135a-2199-2587">5</characteristic>
-                    <characteristic name="0-2" typeId="7a70-c3bd-de13-ddd6">6</characteristic>
-                    <characteristic name="Qualities" typeId="e2c3-64fe-0b86-9ca8">Indirect, Seismic, Suppressive, Turret</characteristic>
+                    <characteristic name="Range" typeId="5bf6-fd07-7b49-fa88">4&quot;/28&quot;</characteristic>
+                    <characteristic name="7-9" typeId="e53c-163c-99e4-0d11">4</characteristic>
+                    <characteristic name="4-6" typeId="15cc-83fc-47e9-cbfc">5</characteristic>
+                    <characteristic name="0-3" typeId="9457-e067-5c45-6dc7">6</characteristic>
+                    <characteristic name="Qualities" typeId="e367-7cf4-db1a-9f8a">Indirect, Seismic, Suppressive, Turret</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5129,13 +5131,13 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8539-9d29-4c36-79f8" automatic="true"/>
               </constraints>
               <profiles>
-                <profile name="Ranged (Light/Heavy)" typeId="e5cb-a327-9927-e1c2" typeName="Type" hidden="false" id="8cf8-df55-48cf-569c">
+                <profile name="Ranged (Light/Heavy)" typeId="e268-4591-0098-0605" typeName="Type" hidden="false" id="8cf8-df55-48cf-569c">
                   <characteristics>
-                    <characteristic name="Range" typeId="441f-d21a-ef2b-2c8a">4&quot;/36&quot;</characteristic>
-                    <characteristic name="6-7" typeId="695f-299c-7e58-f275">4</characteristic>
-                    <characteristic name="3-5" typeId="e27c-135a-2199-2587">7</characteristic>
-                    <characteristic name="0-2" typeId="7a70-c3bd-de13-ddd6">10</characteristic>
-                    <characteristic name="Qualities" typeId="e2c3-64fe-0b86-9ca8">Devastating, Indirect, Suppressive, Turret</characteristic>
+                    <characteristic name="Range" typeId="5bf6-fd07-7b49-fa88">4&quot;/36&quot;</characteristic>
+                    <characteristic name="7-9" typeId="e53c-163c-99e4-0d11">4</characteristic>
+                    <characteristic name="4-6" typeId="15cc-83fc-47e9-cbfc">7</characteristic>
+                    <characteristic name="0-3" typeId="9457-e067-5c45-6dc7">10</characteristic>
+                    <characteristic name="Qualities" typeId="e367-7cf4-db1a-9f8a">Devastating, Indirect, Suppressive, Turret</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5146,13 +5148,13 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b477-6d36-e020-531c" automatic="true"/>
               </constraints>
               <profiles>
-                <profile name="Ranged (Aerial)" typeId="e5cb-a327-9927-e1c2" typeName="Type" hidden="false" id="aa55-f0ce-bd6c-f97f">
+                <profile name="Ranged (Aerial)" typeId="e268-4591-0098-0605" typeName="Type" hidden="false" id="aa55-f0ce-bd6c-f97f">
                   <characteristics>
-                    <characteristic name="Range" typeId="441f-d21a-ef2b-2c8a">6&quot;/20&quot;</characteristic>
-                    <characteristic name="6-7" typeId="695f-299c-7e58-f275">3</characteristic>
-                    <characteristic name="3-5" typeId="e27c-135a-2199-2587">5</characteristic>
-                    <characteristic name="0-2" typeId="7a70-c3bd-de13-ddd6">7</characteristic>
-                    <characteristic name="Qualities" typeId="e2c3-64fe-0b86-9ca8">Turret</characteristic>
+                    <characteristic name="Range" typeId="5bf6-fd07-7b49-fa88">6&quot;/20&quot;</characteristic>
+                    <characteristic name="7-9" typeId="e53c-163c-99e4-0d11">3</characteristic>
+                    <characteristic name="4-6" typeId="15cc-83fc-47e9-cbfc">5</characteristic>
+                    <characteristic name="0-3" typeId="9457-e067-5c45-6dc7">7</characteristic>
+                    <characteristic name="Qualities" typeId="e367-7cf4-db1a-9f8a">Turret</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5176,18 +5178,18 @@
           <entryLinks>
             <entryLink import="true" name="Full Strength Inf/Arm" hidden="false" id="bcc9-ee3b-7526-44da" type="selectionEntry" targetId="d0b7-0112-b1da-b9f4" sortIndex="3">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="425"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="400"/>
               </costs>
               <profiles>
                 <profile name="Miron Super-Heavy Borer" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="5965-544a-187f-d6af">
                   <characteristics>
                     <characteristic name="Target type" typeId="de47-7191-892f-3c71">Heavy</characteristic>
-                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">4</characteristic>
+                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">5</characteristic>
                     <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
                     <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
                     <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">-&quot;</characteristic>
                     <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">5</characteristic>
-                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">9</characteristic>
+                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">10</characteristic>
                     <characteristic name="Discipline" typeId="9692-df81-03cd-8583">7</characteristic>
                     <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
                   </characteristics>
@@ -5218,18 +5220,18 @@
           <entryLinks>
             <entryLink import="true" name="Full Strength ARMOUR" hidden="false" id="5219-52fc-c991-e7d2" type="selectionEntry" targetId="56a3-cf92-9a38-7bf4" sortIndex="3">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="425"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="400"/>
               </costs>
               <profiles>
                 <profile name="Miron Super-Heavy Borer" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="487d-b70e-fd09-d508">
                   <characteristics>
                     <characteristic name="Target type" typeId="de47-7191-892f-3c71">Heavy</characteristic>
-                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">4</characteristic>
+                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">5</characteristic>
                     <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
                     <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
                     <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">-&quot;</characteristic>
                     <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">5</characteristic>
-                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">9</characteristic>
+                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">10</characteristic>
                     <characteristic name="Discipline" typeId="9692-df81-03cd-8583">7</characteristic>
                     <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
                   </characteristics>
@@ -5258,6 +5260,9 @@
           </conditions>
         </modifier>
       </modifiers>
+      <infoLinks>
+        <infoLink name="Subterranean" id="cf09-7b5f-e50d-7d81" hidden="false" type="rule" targetId="ee55-da2d-3a6a-4bd3"/>
+      </infoLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Mamont Subterranean Cryo Transport" hidden="false" id="8f17-6057-2560-85ce" sortIndex="5">
       <categoryLinks>
@@ -5272,7 +5277,7 @@
       <profiles>
         <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="a222-b4a3-1e12-a335" noindex="false">
           <characteristics>
-            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">All-Out Attack (2), Assault Ramp, Capacity (15), Dynamic Entry (3”), Hoarfrost Aura (6”), Large, Obfuscating (6”), Restricted Access (Inhuman), Spectacular Demise (8), Sponsons (6)</characteristic>
+            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">All-Out Attack (2), Assault Ramp, Capacity (15), Dynamic Entry (4”), Hoarfrost Aura (6”), Large, Obfuscating (6”), Restricted Access (Inhuman), Spectacular Demise (8), Sponsons (6)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5317,13 +5322,13 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="17b9-988e-3444-29e2" automatic="true"/>
               </constraints>
               <profiles>
-                <profile name="Ranged (Light)" typeId="e5cb-a327-9927-e1c2" typeName="Type" hidden="false" id="8d98-faeb-1934-322b">
+                <profile name="Ranged (Light)" typeId="e268-4591-0098-0605" typeName="Type" hidden="false" id="8d98-faeb-1934-322b">
                   <characteristics>
-                    <characteristic name="Range" typeId="441f-d21a-ef2b-2c8a">4&quot;/28&quot;</characteristic>
-                    <characteristic name="6-7" typeId="695f-299c-7e58-f275">3</characteristic>
-                    <characteristic name="3-5" typeId="e27c-135a-2199-2587">4</characteristic>
-                    <characteristic name="0-2" typeId="7a70-c3bd-de13-ddd6">5</characteristic>
-                    <characteristic name="Qualities" typeId="e2c3-64fe-0b86-9ca8">Indirect, Seismic, Suppressive,Turret</characteristic>
+                    <characteristic name="Range" typeId="5bf6-fd07-7b49-fa88">4&quot;/28&quot;</characteristic>
+                    <characteristic name="7-9" typeId="e53c-163c-99e4-0d11">3</characteristic>
+                    <characteristic name="4-6" typeId="15cc-83fc-47e9-cbfc">4</characteristic>
+                    <characteristic name="0-3" typeId="9457-e067-5c45-6dc7">5</characteristic>
+                    <characteristic name="Qualities" typeId="e367-7cf4-db1a-9f8a">Indirect, Seismic, Suppressive,Turret</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5334,13 +5339,13 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2135-006f-604e-6c66" automatic="true"/>
               </constraints>
               <profiles>
-                <profile name="Ranged (Light/Heavy)" typeId="e5cb-a327-9927-e1c2" typeName="Type" hidden="false" id="f658-ba96-f8a6-89a2">
+                <profile name="Ranged (Light/Heavy)" typeId="e268-4591-0098-0605" typeName="Type" hidden="false" id="f658-ba96-f8a6-89a2">
                   <characteristics>
-                    <characteristic name="Range" typeId="441f-d21a-ef2b-2c8a">8&quot;/16&quot;</characteristic>
-                    <characteristic name="6-7" typeId="695f-299c-7e58-f275">5</characteristic>
-                    <characteristic name="3-5" typeId="e27c-135a-2199-2587">9</characteristic>
-                    <characteristic name="0-2" typeId="7a70-c3bd-de13-ddd6">13</characteristic>
-                    <characteristic name="Qualities" typeId="e2c3-64fe-0b86-9ca8">Cryo, Suppressive, Torrent</characteristic>
+                    <characteristic name="Range" typeId="5bf6-fd07-7b49-fa88">8&quot;/16&quot;</characteristic>
+                    <characteristic name="7-9" typeId="e53c-163c-99e4-0d11">5</characteristic>
+                    <characteristic name="4-6" typeId="15cc-83fc-47e9-cbfc">9</characteristic>
+                    <characteristic name="0-3" typeId="9457-e067-5c45-6dc7">13</characteristic>
+                    <characteristic name="Qualities" typeId="e367-7cf4-db1a-9f8a">Cryo, Suppressive, Torrent</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5364,18 +5369,18 @@
           <entryLinks>
             <entryLink import="true" name="Full Strength Inf/Arm" hidden="false" id="d706-f954-acc7-62e4" type="selectionEntry" targetId="d0b7-0112-b1da-b9f4" sortIndex="3">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="465"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="440"/>
               </costs>
               <profiles>
                 <profile name="Miron Super-Heavy Borer" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="4f07-1257-6000-0a71">
                   <characteristics>
                     <characteristic name="Target type" typeId="de47-7191-892f-3c71">Heavy</characteristic>
-                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">4</characteristic>
+                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">5</characteristic>
                     <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
                     <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
                     <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">-&quot;</characteristic>
                     <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">5</characteristic>
-                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">9</characteristic>
+                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">10</characteristic>
                     <characteristic name="Discipline" typeId="9692-df81-03cd-8583">7</characteristic>
                     <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
                   </characteristics>
@@ -5406,18 +5411,18 @@
           <entryLinks>
             <entryLink import="true" name="Full Strength ARMOUR" hidden="false" id="f343-06a8-2a3e-5291" type="selectionEntry" targetId="56a3-cf92-9a38-7bf4" sortIndex="3">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="465"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="440"/>
               </costs>
               <profiles>
                 <profile name="Miron Super-Heavy Borer" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="8299-53ab-6be5-0311">
                   <characteristics>
                     <characteristic name="Target type" typeId="de47-7191-892f-3c71">Heavy</characteristic>
-                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">4</characteristic>
+                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">5</characteristic>
                     <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
                     <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
                     <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">-&quot;</characteristic>
                     <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">5</characteristic>
-                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">9</characteristic>
+                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">10</characteristic>
                     <characteristic name="Discipline" typeId="9692-df81-03cd-8583">7</characteristic>
                     <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
                   </characteristics>
@@ -5446,6 +5451,9 @@
           </conditions>
         </modifier>
       </modifiers>
+      <infoLinks>
+        <infoLink name="Subterranean" id="06fb-7d70-14f6-cd94" hidden="false" type="rule" targetId="ee55-da2d-3a6a-4bd3"/>
+      </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Boons and bonuses" hidden="false" id="2db4-193f-4320-0428" sortIndex="0">
       <selectionEntries>
@@ -5586,7 +5594,7 @@ If the command is successfully issued, this Close Quarters Combat ends in a Stal
             </profile>
             <profile name="The Deluge" typeId="3f77-4198-5794-9684" typeName="Boons" hidden="false" id="e008-5939-1372-6d97">
               <characteristics>
-                <characteristic name="Effect" typeId="b7f2-49d8-a49a-0b0f">After a Commonwealth unit in this Force has rolled the dice for a Close Quarters Attack targeting a unit with the Suppressed status, its General may discard a Command &amp; Conquest card to re-roll any dice showing a Blank result.</characteristic>
+                <characteristic name="Effect" typeId="b7f2-49d8-a49a-0b0f">After a Commonwealth unit in this Force has rolled the dice for a Close Quarters Attack targeting a unit with the Suppressed status, its General may re-roll any dice showing a Blank result.</characteristic>
               </characteristics>
               <modifiers>
                 <modifier type="set" value="true" field="hidden">
@@ -5662,7 +5670,7 @@ A unit can benefit from this Commander Bonus even if it is on On Lookout, and do
         </profile>
       </profiles>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Bolstering" id="ef35-454d-4374-84fe" hidden="true" sortIndex="3">
+        <selectionEntryGroup name="Bolstering" id="ef35-454d-4374-84fe" hidden="true" sortIndex="2">
           <entryLinks>
             <entryLink import="true" name="Basic" hidden="false" id="ee19-1327-6ca5-7029" type="selectionEntry" targetId="f088-e6d4-8fe3-0f3e" sortIndex="1">
               <profiles>
@@ -5742,7 +5750,7 @@ A unit can benefit from this Commander Bonus even if it is on On Lookout, and do
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="04e5-2220-3481-2d27"/>
           </constraints>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Weapons" id="7b5d-c930-e80b-0a8b" hidden="false" sortIndex="2">
+        <selectionEntryGroup name="Weapons" id="7b5d-c930-e80b-0a8b" hidden="false" sortIndex="1">
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Ranged (Light)" hidden="false" id="760e-7ddf-bbb8-3c8d" sortIndex="1">
               <constraints>
@@ -5797,7 +5805,7 @@ A unit can benefit from this Commander Bonus even if it is on On Lookout, and do
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Bolstering INFANTRY" id="c28f-eb83-d808-a090" hidden="false" import="false">
+        <selectionEntryGroup name="Bolstering INFANTRY" id="c28f-eb83-d808-a090" hidden="false" import="false" sortIndex="5">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0cd9-74ae-a708-d8c9"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1e87-cda1-7881-531a"/>
@@ -5838,7 +5846,7 @@ A unit can benefit from this Commander Bonus even if it is on On Lookout, and do
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="50"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="45"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Reinforced INFANTRY" hidden="false" id="ecd0-6ae6-42e0-bdfd" type="selectionEntry" targetId="220d-103a-a1c9-a008" sortIndex="2">
@@ -5862,7 +5870,7 @@ A unit can benefit from this Commander Bonus even if it is on On Lookout, and do
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="85"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="75"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Full Strength INFANTRY" hidden="false" id="9b5e-45ff-84ba-c1a2" type="selectionEntry" targetId="57a2-eb90-a80a-3a53" sortIndex="3">
@@ -5886,12 +5894,12 @@ A unit can benefit from this Commander Bonus even if it is on On Lookout, and do
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="130"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="115"/>
               </costs>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Bolstering Inf/Arm" id="2f5e-b1d5-ada9-bfd5" hidden="false" import="false">
+        <selectionEntryGroup name="Bolstering Inf/Arm" id="2f5e-b1d5-ada9-bfd5" hidden="false" import="false" sortIndex="3">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c9e5-1d37-c794-392b"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="185c-68b8-34d7-177b"/>
@@ -5927,7 +5935,7 @@ A unit can benefit from this Commander Bonus even if it is on On Lookout, and do
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="50"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="45"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Reinforced Inf/Arm" hidden="false" id="9816-f667-d671-df0c" type="selectionEntry" targetId="61b0-f04e-a8ab-ab71" sortIndex="2">
@@ -5951,7 +5959,7 @@ A unit can benefit from this Commander Bonus even if it is on On Lookout, and do
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="85"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="75"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Full Strength Inf/Arm" hidden="false" id="bdcf-e5ec-ec18-93d2" type="selectionEntry" targetId="d0b7-0112-b1da-b9f4" sortIndex="3">
@@ -5975,13 +5983,13 @@ A unit can benefit from this Commander Bonus even if it is on On Lookout, and do
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="130"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="115"/>
               </costs>
             </entryLink>
           </entryLinks>
           <comment>JAD</comment>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Bolstering Inf/Cav" id="7f0d-cefb-71f3-2d67" hidden="false" import="false">
+        <selectionEntryGroup name="Bolstering Inf/Cav" id="7f0d-cefb-71f3-2d67" hidden="false" import="false" sortIndex="4">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0760-69eb-519b-25cb"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="57a2-c625-8062-7e2b"/>
@@ -6017,7 +6025,7 @@ A unit can benefit from this Commander Bonus even if it is on On Lookout, and do
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="50"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="45"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Reinforced Inf/Cav" hidden="false" id="af45-6976-d14f-95b2" type="selectionEntry" targetId="ca48-435f-1c13-ce81" sortIndex="2">
@@ -6041,7 +6049,7 @@ A unit can benefit from this Commander Bonus even if it is on On Lookout, and do
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="85"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="75"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Full Strength Inf/Cav" hidden="false" id="cac8-8b0c-81c1-1196" type="selectionEntry" targetId="7341-f285-20c3-429c" sortIndex="3">
@@ -6065,7 +6073,7 @@ A unit can benefit from this Commander Bonus even if it is on On Lookout, and do
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="130"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="115"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -6547,7 +6555,7 @@ A unit can benefit from this Commander Bonus even if it is on On Lookout, and do
           <entryLinks>
             <entryLink import="true" name="Basic FIELD GUN" hidden="false" id="39b7-c8c2-1b2b-877c" type="selectionEntry" targetId="3d5d-6327-e572-895b" sortIndex="1">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="75"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="70"/>
               </costs>
               <infoLinks>
                 <infoLink name="Krio Rocket Battery" id="b8c8-b408-7929-5872" hidden="false" type="profile" targetId="6efb-3943-fc0c-e49b">
@@ -6560,7 +6568,7 @@ A unit can benefit from this Commander Bonus even if it is on On Lookout, and do
             </entryLink>
             <entryLink import="true" name="Reinforced FIELD GUN" hidden="false" id="bef5-55f7-359d-ae13" type="selectionEntry" targetId="d4fd-6cf5-2cf0-2043" sortIndex="2">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="125"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="120"/>
               </costs>
               <infoLinks>
                 <infoLink name="Krio Rocket Battery" id="d706-0f09-1170-c986" hidden="false" type="profile" targetId="6efb-3943-fc0c-e49b">
@@ -6573,7 +6581,7 @@ A unit can benefit from this Commander Bonus even if it is on On Lookout, and do
             </entryLink>
             <entryLink import="true" name="Full Strength FIELD GUN" hidden="false" id="0b54-3e36-48af-6624" type="selectionEntry" targetId="7bb6-1917-6a09-2c0b" sortIndex="3">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="165"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="180"/>
               </costs>
               <infoLinks>
                 <infoLink name="Krio Rocket Battery" id="c045-dac0-7ae8-4910" hidden="false" type="profile" targetId="6efb-3943-fc0c-e49b">
@@ -6768,7 +6776,7 @@ A unit can benefit from this Commander Bonus even if it is on On Lookout, and do
           <entryLinks>
             <entryLink import="true" name="Basic FIELD GUN" hidden="false" id="f3fa-bc56-55ef-1a53" type="selectionEntry" targetId="3d5d-6327-e572-895b" sortIndex="1">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="50"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="45"/>
               </costs>
               <infoLinks>
                 <infoLink name="Molniya Flak Guns" id="839a-076c-4437-f170" hidden="false" type="profile" targetId="8100-918d-f779-5411">
@@ -6781,7 +6789,7 @@ A unit can benefit from this Commander Bonus even if it is on On Lookout, and do
             </entryLink>
             <entryLink import="true" name="Reinforced FIELD GUN" hidden="false" id="dd40-0d6c-1fa9-156c" type="selectionEntry" targetId="d4fd-6cf5-2cf0-2043" sortIndex="2">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="85"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="75"/>
               </costs>
               <infoLinks>
                 <infoLink name="Molniya Flak Guns" id="5988-1cbd-55d0-a812" hidden="false" type="profile" targetId="8100-918d-f779-5411">
@@ -6794,7 +6802,7 @@ A unit can benefit from this Commander Bonus even if it is on On Lookout, and do
             </entryLink>
             <entryLink import="true" name="Full Strength FIELD GUN" hidden="false" id="43f5-fe51-dfe3-33a4" type="selectionEntry" targetId="7bb6-1917-6a09-2c0b" sortIndex="3">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="140"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="115"/>
               </costs>
               <infoLinks>
                 <infoLink name="Molniya Flak Guns" id="f1e5-b862-21cf-cc5b" hidden="false" type="profile" targetId="8100-918d-f779-5411">
@@ -6853,13 +6861,13 @@ A unit can benefit from this Commander Bonus even if it is on On Lookout, and do
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="aa71-1453-e99f-7e1c" automatic="true"/>
               </constraints>
               <profiles>
-                <profile name="Impact" typeId="344a-022d-aebf-7e7a" typeName="Type" hidden="false" id="adb2-dfe7-7908-3dc1">
+                <profile name="Impact" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="adb2-dfe7-7908-3dc1">
                   <characteristics>
-                    <characteristic name="Range" typeId="db9e-9452-9fc5-3877">-</characteristic>
-                    <characteristic name="1-4" typeId="94b3-2e14-1b71-6757">2</characteristic>
-                    <characteristic name="5-8" typeId="f891-f62d-9222-6a4f">4</characteristic>
-                    <characteristic name="9-12" typeId="df36-9d51-a316-8d54">6</characteristic>
-                    <characteristic name="Qualities" typeId="9a3f-8a28-e735-e1eb">-</characteristic>
+                    <characteristic name="Range" typeId="0d60-0078-7134-d302">-</characteristic>
+                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585">2</characteristic>
+                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c">4</characteristic>
+                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d">6</characteristic>
+                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b">-</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -6888,7 +6896,7 @@ A unit can benefit from this Commander Bonus even if it is on On Lookout, and do
               <infoLinks>
                 <infoLink name="Gerlach Gun Tractors" id="a145-a0ac-5ec4-47d1" hidden="false" type="profile" targetId="2af1-bf3c-89b8-318c">
                   <modifiers>
-                    <modifier type="set" value="4" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="2" field="3e5d-fadc-d9fb-6570"/>
                     <modifier type="set" value="2" field="bb79-114d-2dc7-ca18"/>
                   </modifiers>
                 </infoLink>
@@ -6901,7 +6909,7 @@ A unit can benefit from this Commander Bonus even if it is on On Lookout, and do
               <infoLinks>
                 <infoLink name="Gerlach Gun Tractors" id="2f7a-d18e-4f83-ba74" hidden="false" type="profile" targetId="2af1-bf3c-89b8-318c">
                   <modifiers>
-                    <modifier type="set" value="8" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="4" field="3e5d-fadc-d9fb-6570"/>
                     <modifier type="set" value="3" field="bb79-114d-2dc7-ca18"/>
                   </modifiers>
                 </infoLink>
@@ -6909,12 +6917,12 @@ A unit can benefit from this Commander Bonus even if it is on On Lookout, and do
             </entryLink>
             <entryLink import="true" name="Full Strength Inf/Arm" hidden="false" id="e2ef-f850-f357-d775" type="selectionEntry" targetId="d0b7-0112-b1da-b9f4" sortIndex="3">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="65"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="60"/>
               </costs>
               <infoLinks>
                 <infoLink name="Gerlach Gun Tractors" id="993f-7196-eada-42ea" hidden="false" type="profile" targetId="2af1-bf3c-89b8-318c">
                   <modifiers>
-                    <modifier type="set" value="12" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="6" field="3e5d-fadc-d9fb-6570"/>
                     <modifier type="set" value="4" field="bb79-114d-2dc7-ca18"/>
                   </modifiers>
                 </infoLink>
@@ -6945,7 +6953,7 @@ A unit can benefit from this Commander Bonus even if it is on On Lookout, and do
               <infoLinks>
                 <infoLink name="Gerlach Gun Tractors" id="e8a0-4f94-c844-645d" hidden="false" type="profile" targetId="2af1-bf3c-89b8-318c">
                   <modifiers>
-                    <modifier type="set" value="4" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="2" field="3e5d-fadc-d9fb-6570"/>
                     <modifier type="set" value="2" field="bb79-114d-2dc7-ca18"/>
                   </modifiers>
                 </infoLink>
@@ -6958,7 +6966,7 @@ A unit can benefit from this Commander Bonus even if it is on On Lookout, and do
               <infoLinks>
                 <infoLink name="Gerlach Gun Tractors" id="45b9-bdf7-e2ca-9fa0" hidden="false" type="profile" targetId="2af1-bf3c-89b8-318c">
                   <modifiers>
-                    <modifier type="set" value="8" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="4" field="3e5d-fadc-d9fb-6570"/>
                     <modifier type="set" value="3" field="bb79-114d-2dc7-ca18"/>
                   </modifiers>
                 </infoLink>
@@ -6966,12 +6974,12 @@ A unit can benefit from this Commander Bonus even if it is on On Lookout, and do
             </entryLink>
             <entryLink import="true" name="Full Strength ARMOUR" hidden="false" id="96f5-108c-708c-976f" type="selectionEntry" targetId="56a3-cf92-9a38-7bf4" sortIndex="3">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="65"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="60"/>
               </costs>
               <infoLinks>
                 <infoLink name="Gerlach Gun Tractors" id="ebbb-c5b8-4edb-eabb" hidden="false" type="profile" targetId="2af1-bf3c-89b8-318c">
                   <modifiers>
-                    <modifier type="set" value="12" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="6" field="3e5d-fadc-d9fb-6570"/>
                     <modifier type="set" value="4" field="bb79-114d-2dc7-ca18"/>
                   </modifiers>
                 </infoLink>
@@ -7063,7 +7071,7 @@ A unit can benefit from this Commander Bonus even if it is on On Lookout, and do
           <entryLinks>
             <entryLink import="true" name="Basic Inf/Arm" hidden="false" id="a232-8d6e-3135-62df" type="selectionEntry" targetId="e903-fdaa-02be-0150" sortIndex="1">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="45"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="40"/>
               </costs>
               <infoLinks>
                 <infoLink name="Matryona Heavy Transports" id="e155-8b7e-293b-b8c2" hidden="false" type="profile" targetId="fd0b-cb42-0a10-1e3e">
@@ -7076,7 +7084,7 @@ A unit can benefit from this Commander Bonus even if it is on On Lookout, and do
             </entryLink>
             <entryLink import="true" name="Reinforced Inf/Arm" hidden="false" id="5b7b-772e-7628-8527" type="selectionEntry" targetId="61b0-f04e-a8ab-ab71" sortIndex="2">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="85"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="65"/>
               </costs>
               <infoLinks>
                 <infoLink name="Matryona Heavy Transports" id="0a16-4449-c804-fe5a" hidden="false" type="profile" targetId="fd0b-cb42-0a10-1e3e">
@@ -7089,7 +7097,7 @@ A unit can benefit from this Commander Bonus even if it is on On Lookout, and do
             </entryLink>
             <entryLink import="true" name="Full Strength Inf/Arm" hidden="false" id="7fbf-c8b8-265c-ddfe" type="selectionEntry" targetId="d0b7-0112-b1da-b9f4" sortIndex="3">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="120"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="95"/>
               </costs>
               <infoLinks>
                 <infoLink name="Matryona Heavy Transports" id="c86a-43fe-21b2-5364" hidden="false" type="profile" targetId="fd0b-cb42-0a10-1e3e">
@@ -7120,7 +7128,7 @@ A unit can benefit from this Commander Bonus even if it is on On Lookout, and do
           <entryLinks>
             <entryLink import="true" name="Basic ARMOUR" hidden="false" id="b0c4-2b8e-cc53-4a15" type="selectionEntry" targetId="ffec-55dd-4245-36bc" sortIndex="1">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="45"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="40"/>
               </costs>
               <infoLinks>
                 <infoLink name="Matryona Heavy Transports" id="1fbb-0a4f-a1d4-56fe" hidden="false" type="profile" targetId="fd0b-cb42-0a10-1e3e">
@@ -7133,7 +7141,7 @@ A unit can benefit from this Commander Bonus even if it is on On Lookout, and do
             </entryLink>
             <entryLink import="true" name="Reinforced ARMOUR" hidden="false" id="435b-be41-1f0a-d5ce" type="selectionEntry" targetId="a523-10fa-ff3d-a048" sortIndex="2">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="85"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="65"/>
               </costs>
               <infoLinks>
                 <infoLink name="Matryona Heavy Transports" id="ef90-c1ef-60cb-d8de" hidden="false" type="profile" targetId="fd0b-cb42-0a10-1e3e">
@@ -7146,7 +7154,7 @@ A unit can benefit from this Commander Bonus even if it is on On Lookout, and do
             </entryLink>
             <entryLink import="true" name="Full Strength ARMOUR" hidden="false" id="10ca-765e-96c6-e9a1" type="selectionEntry" targetId="56a3-cf92-9a38-7bf4" sortIndex="3">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="120"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="95"/>
               </costs>
               <infoLinks>
                 <infoLink name="Matryona Heavy Transports" id="1c64-8738-bf00-4d1e" hidden="false" type="profile" targetId="fd0b-cb42-0a10-1e3e">
@@ -7261,7 +7269,7 @@ A unit can benefit from this Commander Bonus even if it is on On Lookout, and do
           <entryLinks>
             <entryLink import="true" name="Basic Inf/Arm" hidden="false" id="3aac-7b88-89cf-71f7" type="selectionEntry" targetId="e903-fdaa-02be-0150" sortIndex="1">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="45"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="55"/>
               </costs>
               <infoLinks>
                 <infoLink name="Omsk Cryo Transports" id="b2dc-d187-21aa-e760" hidden="false" type="profile" targetId="01d6-0b7e-e006-3836">
@@ -7274,7 +7282,7 @@ A unit can benefit from this Commander Bonus even if it is on On Lookout, and do
             </entryLink>
             <entryLink import="true" name="Reinforced Inf/Arm" hidden="false" id="432b-5db8-8fa2-c65b" type="selectionEntry" targetId="61b0-f04e-a8ab-ab71" sortIndex="2">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="85"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="90"/>
               </costs>
               <infoLinks>
                 <infoLink name="Omsk Cryo Transports" id="967e-6db4-16e6-68e5" hidden="false" type="profile" targetId="01d6-0b7e-e006-3836">
@@ -7287,7 +7295,7 @@ A unit can benefit from this Commander Bonus even if it is on On Lookout, and do
             </entryLink>
             <entryLink import="true" name="Full Strength Inf/Arm" hidden="false" id="40ba-f6b7-1dda-6e75" type="selectionEntry" targetId="d0b7-0112-b1da-b9f4" sortIndex="3">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="120"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="135"/>
               </costs>
               <infoLinks>
                 <infoLink name="Omsk Cryo Transports" id="5e28-e1c2-2ff9-07f8" hidden="false" type="profile" targetId="01d6-0b7e-e006-3836">
@@ -7318,7 +7326,7 @@ A unit can benefit from this Commander Bonus even if it is on On Lookout, and do
           <entryLinks>
             <entryLink import="true" name="Basic ARMOUR" hidden="false" id="f909-f6c1-d894-e3aa" type="selectionEntry" targetId="ffec-55dd-4245-36bc" sortIndex="1">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="45"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="55"/>
               </costs>
               <infoLinks>
                 <infoLink name="Omsk Cryo Transports" id="d22d-dcf9-5c10-6874" hidden="false" type="profile" targetId="01d6-0b7e-e006-3836">
@@ -7331,7 +7339,7 @@ A unit can benefit from this Commander Bonus even if it is on On Lookout, and do
             </entryLink>
             <entryLink import="true" name="Reinforced ARMOUR" hidden="false" id="8240-28d1-1887-50f1" type="selectionEntry" targetId="a523-10fa-ff3d-a048" sortIndex="2">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="85"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="90"/>
               </costs>
               <infoLinks>
                 <infoLink name="Omsk Cryo Transports" id="043f-bf55-d413-3cd1" hidden="false" type="profile" targetId="01d6-0b7e-e006-3836">
@@ -7344,7 +7352,7 @@ A unit can benefit from this Commander Bonus even if it is on On Lookout, and do
             </entryLink>
             <entryLink import="true" name="Full Strength ARMOUR" hidden="false" id="e6c3-b631-5bdc-f658" type="selectionEntry" targetId="56a3-cf92-9a38-7bf4" sortIndex="3">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="120"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="135"/>
               </costs>
               <infoLinks>
                 <infoLink name="Omsk Cryo Transports" id="ada8-c57b-9c09-3e2f" hidden="false" type="profile" targetId="01d6-0b7e-e006-3836">
@@ -7378,7 +7386,7 @@ A unit can benefit from this Commander Bonus even if it is on On Lookout, and do
       <profiles>
         <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="65db-0f11-16dd-d281" noindex="false">
           <characteristics>
-            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Resilient (Front, Flanks), Sponsons (2)</characteristic>
+            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Resilient (Front), Sponsons (2)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7474,7 +7482,7 @@ A unit can benefit from this Commander Bonus even if it is on On Lookout, and do
                 </infoLink>
               </infoLinks>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="130"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="105"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Reinforced Artillery" hidden="false" id="3ed3-1e6b-256c-5344" type="selectionEntry" targetId="6115-1168-9812-0987" sortIndex="2">
@@ -7487,7 +7495,7 @@ A unit can benefit from this Commander Bonus even if it is on On Lookout, and do
                 </infoLink>
               </infoLinks>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="220"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="180"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Full Strength Artillery" hidden="false" id="d887-74da-244f-1e39" type="selectionEntry" targetId="e54d-ebd1-501f-f6f4" sortIndex="3">
@@ -7500,7 +7508,7 @@ A unit can benefit from this Commander Bonus even if it is on On Lookout, and do
                 </infoLink>
               </infoLinks>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="335"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="275"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -7519,7 +7527,7 @@ A unit can benefit from this Commander Bonus even if it is on On Lookout, and do
       <profiles>
         <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="ef88-120b-8944-98ef" noindex="false">
           <characteristics>
-            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Resilient (Front, Flanks), Sponsons (2)</characteristic>
+            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Resilient (Front), Sponsons (2)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7624,7 +7632,7 @@ A unit can benefit from this Commander Bonus even if it is on On Lookout, and do
                 </infoLink>
               </infoLinks>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="120"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="100"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Reinforced Artillery" hidden="false" id="cd77-2c8a-155b-8935" type="selectionEntry" targetId="6115-1168-9812-0987" sortIndex="2">
@@ -7637,7 +7645,7 @@ A unit can benefit from this Commander Bonus even if it is on On Lookout, and do
                 </infoLink>
               </infoLinks>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="205"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="170"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Full Strength Artillery" hidden="false" id="8064-e633-a454-a6d5" type="selectionEntry" targetId="e54d-ebd1-501f-f6f4" sortIndex="3">
@@ -7650,7 +7658,7 @@ A unit can benefit from this Commander Bonus even if it is on On Lookout, and do
                 </infoLink>
               </infoLinks>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="310"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="260"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -7779,24 +7787,45 @@ A unit can benefit from this Commander Bonus even if it is on On Lookout, and do
       <description>Commonwealth Forces can field Subterranean units.
 
 
-In the Deployment Step, all units with the Subterranean trait must be placed in Reserve.
-When a unit is placed in Reserve in this manner, their General must place a Subterranean Marker anywhere in their Deployment Zone.
-This Marker is treated as having the Vanguard (8”) special rule, but ignores all Terrain and enemy units when making its free Advance manoeuvre.
-After the Deploy Reserves Step of each Round, the General can choose to move any of these markers up to 8”, in a straight line, ignoring all Terrain and enemy units.
-A Subterranean Marker cannot end this move within the Footprint of another model or marker.
-Any units that a Subterranean Marker moves through must take a Suppression Test at the end of this move.
-Aircraft, Rotorcraft, and units with the Large special rule are unaffected.
+In the Deployment Step, all units with the Subterranean trait must be placed in Reserve. When a unit is placed in Reserve in this manner, their General must place a
+Subterranean Marker anywhere in their Deployment Zone.
 
 
-If a Subterranean Marker moves through a Defensible Building, its General must roll an Attack Die at the end of its move. If the die scores a Heroic Strike, place a Wrecked status token on the building - it can no longer be Garrisoned by units that do not have the Occupy special rule, and is treated as Blocking Terrain for the rest of the game. If there is a unit Garrisoning the building, it must make an immediate Exit manoeuvre (as described on page 43 of the Armoured Clash Rulebook).
+If, at the start of the Clash, either General has any units in Reserve with the Subterranean trait, then do not skip the Deploy Reserves step of the first round Ready Phase.
 
 
-From the second Round onwards, a General may choose to Activate a Subterranean unit in Reserve.
-This unit is deployed onto the Battlefield so that it is within 3” of one of the General’s Subterranean Markers, with no models within 1” of any enemy units, Defensible Buildings or Strategic Objective Markers.
+At the start of the Deploy Reserves Step of each Round, the General can choose to move any of these markers up to 10”, in a straight line, ignoring all Terrain and enemy
+units.
 
 
-Note that Subterranean Markers are not tied to any particular unit, so any Subterranean unit that is still in Reserve can enter the Battlefield from any Subterranean Marker.
-The Subterranean Marker is immediately removed from the battlefield and the unit Activates as normal.
+A Subterranean Marker cannot end this move within the Footprint of another model, Terrain Feature or marker.
+
+
+Any units that a Subterranean Marker moves through must take a Suppression Test at the end of this move. Aircraft, Rotorcraft, and units with the Large special rule are unaffected. Similarly, all units can move across Subterranean Markers. An Aerial unit cannot end its move within the Footprint of a Subterranean Marker.
+
+
+If any other unit ends its move within the Footprint of a Subterranean Marker, then the opposing General must move it the minimum distance to ensure it is no longer
+being overlapped. 
+If a unit moves through or onto a Subterranean Marker, the unit must take a Suppression Test at the end of its move. Aircraft, Rotorcraft, and units with the Large special rule do not have to take this Suppression Test.
+
+
+If a Subterranean Marker moves through a Defensible Building, its General must roll an Attack Die at the end of its move. If the die scores a Heroic Strike, place a Wrecked status token on the building - it can no longer be Garrisoned by units that do not have the Occupy special rule, and is treated as Blocking Terrain for the rest of the game.
+
+
+If there is a unit Garrisoning the building, it must make an immediate Exit manoeuvre (as described on page 43 of the Armoured Clash Rulebook).
+
+
+Instead of Activating a unit on the Battlefield, a General may choose to Activate a Subterranean unit in Reserve. This unit is immediately deployed onto the Battlefield so
+that it is within 3” of one of the General’s Subterranean Markers, with no models within 1” of any enemy units, Defensible Buildings or Strategic Objective Markers.
+
+
+If a Subterranean unit is activated during the First Round, then it must be deployed wholly within its General’s Deployment Zone. Note that Subterranean Markers
+are not tied to any particular unit, so any Subterranean unit that is still in Reserve can enter the Battlefield from any Subterranean Marker.
+
+
+The Subterranean Marker is immediately removed from the battlefield and the unit Activates as normal.
+
+
 Subterranean units cannot be deployed in the final round of a Clash. Any Subterranean units that are still in Reserve at this point will take no part in the battle.</description>
     </rule>
   </rules>

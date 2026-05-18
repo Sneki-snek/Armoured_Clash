@@ -10,7 +10,7 @@ If the unit has the Reloading status at the start of an All-Out Attack, the stat
 This cannot be used to remove a Reloading status that was gained during the step.</description>
     </rule>
     <rule name="Ammo Supply" id="4146-de6f-40a8-87b4" hidden="false">
-      <description>Any units with the X trait within 3” of this unit gain an additional Combat Rating Bonus to Ranged Attacks.</description>
+      <description>Friendly units with the X trait within 3” of this unit gain an additional Combat Rating Bonus to Ranged Attacks.</description>
     </rule>
     <rule name="Storming Party" id="fc02-3ba6-9f7e-7c8a" hidden="false">
       <description>This unit can make a Garrison Action in its Movement Step, as though it were a Manoeuvre, instead of in its Attack Step.
@@ -94,27 +94,21 @@ In addition, when this unit makes a Ranged Attack, it can confirm Target Acquis
 When this is the case, only half of the models in the unit (rounding up) are counted when determining the number of Attack Dice that are rolled in the Roll Attack Pool step.</description>
     </rule>
     <rule name="Large" id="cf34-5837-9484-717f" hidden="false">
-      <description>When this unit moves, it treats Difficult Terrain and Dense Terrain as Open Terrain, and treats Blocking Terrain as Dense Terrain as long as its Size is at least two points higher than the Terrain’s Size.
+      <description>When this unit moves, it treats Difficult Terrain and Dense Terrain as Open Terrain, and treats Blocking Terrain as Dense Terrain as long as its Size is at least two points higher than the Terrain’s Size.
+During an enemy unit’s Ranged Attack, models in this unit Blocks the attacking Officer’s Line of Sight instead of Obscuring it.
 
-When checking Visibility for another unit’s Ranged Attack, Line of Sight is Blocked if it passes through a model in this unit.
 
-When the unit is Destroyed, it is not removed from play.
-Instead, it gains the Wrecked status.
-
-If this unit is deployed from Reserve, it cannot have a Flank Attack Special Command issued to it.</description>
+When the unit is Destroyed, it is not removed from play. Instead, it gains the Wrecked status.
+If this unit is deployed from Reserve, it cannot have a Flank Attack Special  command issued to it.</description>
     </rule>
     <rule name="Occupy" id="a1f8-5d8a-59d5-1d71" hidden="false">
       <description>This unit can Garrison a Wrecked Building or Wrecked Behemoth unit as though it were a Defensible Building.
 While the unit is Garrisoning the Behemoth, opposing units can attack it as though it were a Defensible Building, but if they win a Close Quarters Combat they cannot Garrison the Behemoth unless they also have this Special Rule.</description>
     </rule>
     <rule name="Overrun" id="fa0a-a4e0-f7fd-7edb" hidden="false">
-      <description>If this unit wins a Close Quarters Combat during its own Activation, and the target unit has not been Annihilated, its General can discard a Command &amp; Conquest Card from their hand to declare that this unit will Overrun the enemy.
-
-If they do so, this unit immediately makes a Charge manoeuvre, ending in contact with the target unit.
-
-This unit then makes a Close Quarters Attack, with an additional Combat Rating Penalty. The target unit can Retaliate as normal, if it has a Melee attack.
-
-A unit can only Overrun the enemy once per Activation.</description>
+      <description>If this unit wins a Close Quarters Combat during its own Activation, and the target unit has not been Annihilated, its General can discard a Command &amp; Conquest Card from their hand to declare that this unit will Overrun the enemy.
+If they do so, this unit immediately makes a Charge manoeuvre, ending in contact with the target unit. This unit then makes a Close Quarters Attack.
+The target unit can Retaliate as normal, if it has a Melee attack. A unit can only Overrun the enemy once per Activation. </description>
     </rule>
     <rule name="Pioneers" id="bcfc-cd99-99cc-ac5b" hidden="false">
       <description>When this unit moves, it treats Difficult Terrain and Dense Terrain as Open Terrain. In addition, when this unit makes a Ranged Attack, ignore any Dense Terrain within 3” of its Officer when confirming Visibility.
@@ -185,7 +179,9 @@ Note: This means that the unit could, for example, make a Double Time manoeuvre
 Any rules which prevent the unit from gaining the On Lookout status still prevent it from doing so.</description>
     </rule>
     <rule name="Tail Gunner" id="4190-9dcd-d38e-e1b3" hidden="false" publicationId="18e3-7a99-b38b-66f2">
-      <description>If this unit is the target of a Ranged Attack from an enemy Aerial unit during its Reaction Step then, once the attack has been resolved, this unit can immediately make a Weakened Attack Roll against that enemy unit using X Attack Dice.</description>
+      <description>If an Intercept special command is issued to this unit, treat the Command &amp; Conquest Card’s Value as 1 point higher, to a maximum of 12.
+If an Intercept special command is issued to an enemy unit during this unit’s activation, treat the Value of any Command &amp; Conquest Cards used to Interfere as 1 point 
+higher, to a maximum of 12.</description>
     </rule>
     <rule name="Vanguard" id="6ed6-c6c5-519a-6879" hidden="false">
       <description>After both Forces have been Deployed, but before the first Round begins, this unit can make a free Advance manoeuvre, with a Movement Limit of X” (instead of its Speed).
@@ -517,7 +513,8 @@ Note: When determining the Footprint of a model with this Special Rule, the leg
       <description>During this unit’s Activation, the opposing General can only act during one of its Reaction Steps, instead of once per Reaction Step.</description>
     </rule>
     <rule name="Support" id="4704-e67f-ed44-8806" hidden="false">
-      <description>At the end of this unit’s Activation, a single friendly X unit within 3” of it immediately Activates. Units that have the Activated status or that are Coordinated cannot be Activated by this Special Rule.</description>
+      <description>At the end of this unit’s Activation, its General may immediately Activate a single friendly X unit within 3”.
+Units that have the Activated status or that are Coordinated cannot be Activated by this Special Rule.</description>
     </rule>
     <rule name="Throw" id="7d7c-0f09-60c3-15ce" hidden="false">
       <description>At the end of this unit’s Activation, if it Destroyed at least one enemy model during a Close Quarters Combat during the Activation, its General can declare that it will make a Throw attack.
@@ -594,9 +591,9 @@ Note: If this attack has multiple targets (for example, if the attack also has 
 This is a powerful effect, but with the potential for a lot of self-inflicted Damage as the result of rolling Blanks...</description>
     </rule>
     <rule name="Penetrating" id="0a5b-aa35-9d32-99e5" hidden="false">
-      <description>If the target suffers at least one Damage from this attack, and has at least one accumulated Damage after the attack has been resolved, one model in the unit is immediately 
+      <description>If the target suffers at least one Damage from this attack, and has at least one accumulated Damage after the attack has been resolved, one model in the unit is immediately
 Destroyed and the unit’s accumulated Damage reset to zero.
-If the target unit is a Behemoth or a Fortification, a model is not Destroyed, and the accumulated Damage is not reset to zero; instead, the unit suffers one additional point of  Damage.</description>
+If the target unit is a Behemoth, a Fortification, or Sturdy, a model is not Destroyed and the accumulated Damage is not reset to zero; instead, the unit suffers one additional point of Damage.</description>
     </rule>
     <rule name="Reactive" id="c207-2ad0-ab50-bd0d" hidden="false">
       <description>This attack can only be made when the unit’s General declares Opportunity Fire.
@@ -619,8 +616,9 @@ While it is in Open Formation, this unit cannot control Strategic Objectives, 
 At the end of this unit’s next Movement Step, it must reassume Close Formation. Any models that are unable to move within Unit Coherency are Abandoned.</description>
     </rule>
     <rule name="Trap" id="905d-bd51-4498-d8cf" hidden="false">
-      <description>Rather than drawing Line of Sight from this unit’s Officer, this attack can be made against an enemy unit that has at least one model in Difficult Terrain.
-This attack is always Improved regardless of any Combat Rating Bonuses or Penalties that may apply.
+      <description>Rather than drawing Line of Sight from this unit’s Officer, this attack must be made against an enemy unit that starts or ends its Movement Step Garrisoning a Defensible
+Building or with at least one model in Difficult or Dense Terrain.
+This attack is always Improved regardless of any Combat Rating Bonuses or Penalties that may apply and ignores any Defence increase from Garrisioning a Defensible  Building.
 Additionally, once this attack has been resolved, the target unit must take a Suppression Test, even if it would not otherwise need to.</description>
     </rule>
     <rule name="Pathfinders" id="faa0-964c-a5e5-bd36" hidden="false">
@@ -720,7 +718,28 @@ and Exit Portal are removed from the Battlefield.</description>
 This unit cannot make a Double Time manoeuvre, and when it makes a Charge manoeuvre, it can only move a number of inches up to its Speed.</description>
     </rule>
     <rule name="Ambushers" id="4acd-e161-f885-ad00" hidden="false">
-      <description>When successfully issued a Flank Attack special command, this unit can be placed within 3” of Difficult Terrain, instead of along a Battlefield Edge. No models can be placed within the enemy Deployment Zone.</description>
+      <description>When successfully issued with a Flank Attack special command, this unit can be placed within 3” of Dense Terrain or Difficult Terrain, instead of along a Battlefield Edge.
+No models can be placed within the enemy Deployment Zone.</description>
+    </rule>
+    <rule name="Construction Team" id="9e54-2805-87e4-9c8a" hidden="false">
+      <description>During this unit’s Attack Step it can make an Entrench special action.
+If it does so, select either this unit or a friendly Light unit that is within 4” of the active unit and in Close Formation.
+The selected unit gains the Entrenched status. Place one or more Barricade Tokens along the Entrenched unit’s Front arc to denote this.
+
+
+When targeted by a Ranged Attack, the Entrenched unit is counted as a Heavy target instead of Light, as long as the attacking unit’s Line of Sight crosses its Front arc.
+When targeted by a Charge manoeuvre the attacker suffers an additional Combat Rating Penalty.
+After the Close Quarters Attack has been resolved, the unit is no longer Entrenched and all Barricade Tokens are removed.
+If an Entrenched unit moves or makes any Manoeuvre other than Aim, it loses the Entrenched status and any Barricade Tokens it has are removed.</description>
+    </rule>
+    <rule name="Extended Footprint" id="c466-8a9a-0c0a-01cd" hidden="false">
+      <description>The Footprint of each model in this unit is defined both by the edge of that model’s base and its main body (see page 10 of Armoured Clash: the Rules), as viewed from above. This means that any part of a model’s main body that overhangs the edge of its base is also counted towards its Footprint.</description>
+    </rule>
+    <rule name="Repair" id="67a4-7526-08f4-dd62" hidden="false">
+      <description>During this unit’s Attack Step, it may make a Special Action to repair another unit. Make a Discipline Test for the active unit.
+If it is passed, a friendly unit with the X trait within 2” recovers an amount of Damage depending on the current number of models in the unit.
+If there are 1-4 models, recover one point of Damage; if there are 5 or more, recover two points of Damage.
+Destroyed models may not be returned to the Battlefield with this rule. </description>
     </rule>
   </sharedRules>
 </catalogue>

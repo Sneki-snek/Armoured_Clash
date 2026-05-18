@@ -696,10 +696,10 @@
                 <profile name="Ranged (Light)" typeId="344a-022d-aebf-7e7a" typeName="Type" hidden="false" id="a298-e475-fb17-7824">
                   <characteristics>
                     <characteristic name="Range" typeId="db9e-9452-9fc5-3877">4&quot;/16&quot;</characteristic>
-                    <characteristic name="1-4" typeId="94b3-2e14-1b71-6757">4</characteristic>
-                    <characteristic name="5-8" typeId="f891-f62d-9222-6a4f">8</characteristic>
-                    <characteristic name="9-12" typeId="df36-9d51-a316-8d54">12</characteristic>
-                    <characteristic name="Qualities" typeId="9a3f-8a28-e735-e1eb">Devastating, Suppressive</characteristic>
+                    <characteristic name="1-4" typeId="94b3-2e14-1b71-6757">4(6)</characteristic>
+                    <characteristic name="5-8" typeId="f891-f62d-9222-6a4f">8(12)</characteristic>
+                    <characteristic name="9-12" typeId="df36-9d51-a316-8d54">12(17)</characteristic>
+                    <characteristic name="Qualities" typeId="9a3f-8a28-e735-e1eb">Devastating, Suppressive, Point Blank, </characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1061,7 +1061,7 @@
           <entryLinks>
             <entryLink import="true" name="Basic INFANTRY" hidden="false" id="ac25-3888-3e85-acf4" type="selectionEntry" targetId="eec7-01cd-2a33-f030" sortIndex="1">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="55"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="50"/>
               </costs>
               <profiles>
                 <profile name="Brute Warden Cohort" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="5a5d-61fd-a958-cd0c">
@@ -1085,7 +1085,7 @@
             </entryLink>
             <entryLink import="true" name="Reinforced INFANTRY" hidden="false" id="422b-106e-601b-8a2a" type="selectionEntry" targetId="1d6f-5b63-462d-1319" sortIndex="2">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="95"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="80"/>
               </costs>
               <profiles>
                 <profile name="Brute Warden Cohort" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="f833-c80d-188c-223b">
@@ -1109,7 +1109,7 @@
             </entryLink>
             <entryLink import="true" name="Full Strength INFANTRY" hidden="false" id="75f4-119a-7b6a-59de" type="selectionEntry" targetId="b7e1-0bff-1ebd-3add" sortIndex="3">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="145"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="120"/>
               </costs>
               <profiles>
                 <profile name="Brute Warden Cohort" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="f7f9-d477-71fe-ea3a">
@@ -1150,7 +1150,7 @@
           <entryLinks>
             <entryLink import="true" name="Basic Inf/Cav" hidden="false" id="0023-b036-257b-df8c" type="selectionEntry" targetId="b11e-812c-5712-6b6d" sortIndex="1">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="55"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="50"/>
               </costs>
               <profiles>
                 <profile name="Brute Warden Cohort" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="7c17-e527-d82d-4fa4">
@@ -1174,7 +1174,7 @@
             </entryLink>
             <entryLink import="true" name="Reinforced Inf/Cav" hidden="false" id="7fd0-3c96-0e8a-bee7" type="selectionEntry" targetId="8eb2-2bee-e79d-b38e" sortIndex="2">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="95"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="80"/>
               </costs>
               <profiles>
                 <profile name="Brute Warden Cohort" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="14c1-5229-2af2-a9a9">
@@ -1198,7 +1198,7 @@
             </entryLink>
             <entryLink import="true" name="Full Strength Inf/Cav" hidden="false" id="aca5-a5df-fed6-2a2f" type="selectionEntry" targetId="533e-3463-cf89-7ba2" sortIndex="3">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="145"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="120"/>
               </costs>
               <profiles>
                 <profile name="Brute Warden Cohort" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="c7a9-2001-504a-0e10">
@@ -1394,7 +1394,7 @@
           <entryLinks>
             <entryLink import="true" name="Basic INFANTRY" hidden="false" id="2901-47fe-6ed0-7cbf" type="selectionEntry" targetId="eec7-01cd-2a33-f030" sortIndex="1">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="85"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="80"/>
               </costs>
               <profiles>
                 <profile name="Heavy Construct Devastator Cohort" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="96ed-1a81-c944-36c4">
@@ -1418,7 +1418,7 @@
             </entryLink>
             <entryLink import="true" name="Reinforced INFANTRY" hidden="false" id="b842-af48-aede-f64f" type="selectionEntry" targetId="1d6f-5b63-462d-1319" sortIndex="2">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="145"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="130"/>
               </costs>
               <profiles>
                 <profile name="Heavy Construct Devastator Cohort" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="f7cf-4b36-d82c-8281">
@@ -1442,7 +1442,7 @@
             </entryLink>
             <entryLink import="true" name="Full Strength INFANTRY" hidden="false" id="b22f-d2e6-ed21-1cef" type="selectionEntry" targetId="b7e1-0bff-1ebd-3add" sortIndex="3">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="220"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="190"/>
               </costs>
               <profiles>
                 <profile name="Heavy Construct Devastator Cohort" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="9974-ca1f-4227-607f">
@@ -1483,7 +1483,7 @@
           <entryLinks>
             <entryLink import="true" name="Basic Inf/Cav" hidden="false" id="b5eb-0b25-9f18-528e" type="selectionEntry" targetId="b11e-812c-5712-6b6d" sortIndex="1">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="85"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="80"/>
               </costs>
               <profiles>
                 <profile name="Heavy Construct Devastator Cohort" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="2450-8ba8-9951-72ba">
@@ -1507,7 +1507,7 @@
             </entryLink>
             <entryLink import="true" name="Reinforced Inf/Cav" hidden="false" id="4758-be79-aa9d-6993" type="selectionEntry" targetId="8eb2-2bee-e79d-b38e" sortIndex="2">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="145"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="130"/>
               </costs>
               <profiles>
                 <profile name="Heavy Construct Devastator Cohort" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="37c3-9c15-df24-d219">
@@ -1531,7 +1531,7 @@
             </entryLink>
             <entryLink import="true" name="Full Strength Inf/Cav" hidden="false" id="a7c0-03c8-9999-6f96" type="selectionEntry" targetId="533e-3463-cf89-7ba2" sortIndex="3">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="220"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="190"/>
               </costs>
               <profiles>
                 <profile name="Heavy Construct Devastator Cohort" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="8914-cdd2-1111-e8ab">
@@ -1710,7 +1710,7 @@
           <entryLinks>
             <entryLink import="true" name="Basic INFANTRY" hidden="false" id="ccd6-fbc4-a84e-6f2a" type="selectionEntry" targetId="eec7-01cd-2a33-f030" sortIndex="1">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="40"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="35"/>
               </costs>
               <profiles>
                 <profile name="Hellion Cohort" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="dfcf-2bbc-04ac-5273">
@@ -1734,7 +1734,7 @@
             </entryLink>
             <entryLink import="true" name="Reinforced INFANTRY" hidden="false" id="a4c5-d848-5710-6599" type="selectionEntry" targetId="1d6f-5b63-462d-1319" sortIndex="2">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="70"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="55"/>
               </costs>
               <profiles>
                 <profile name="Hellion Cohort" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="1057-0757-44fb-e7fb">
@@ -1758,7 +1758,7 @@
             </entryLink>
             <entryLink import="true" name="Full Strength INFANTRY" hidden="false" id="db11-ab18-71f5-be03" type="selectionEntry" targetId="b7e1-0bff-1ebd-3add" sortIndex="3">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="105"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="85"/>
               </costs>
               <profiles>
                 <profile name="Hellion Cohort" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="5a59-32d1-863d-054c">
@@ -1799,7 +1799,7 @@
           <entryLinks>
             <entryLink import="true" name="Basic Inf/Cav" hidden="false" id="5f8c-f1d4-0c11-4078" type="selectionEntry" targetId="b11e-812c-5712-6b6d" sortIndex="1">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="40"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="35"/>
               </costs>
               <profiles>
                 <profile name="Hellion Cohort" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="3c4d-e888-8fe9-f107">
@@ -1823,7 +1823,7 @@
             </entryLink>
             <entryLink import="true" name="Reinforced Inf/Cav" hidden="false" id="0984-b4a1-9258-5cf5" type="selectionEntry" targetId="8eb2-2bee-e79d-b38e" sortIndex="2">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="70"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="55"/>
               </costs>
               <profiles>
                 <profile name="Hellion Cohort" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="bad5-c346-3cce-4092">
@@ -1847,7 +1847,7 @@
             </entryLink>
             <entryLink import="true" name="Full Strength Inf/Cav" hidden="false" id="6e2b-3db8-070d-83c9" type="selectionEntry" targetId="533e-3463-cf89-7ba2" sortIndex="3">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="105"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="85"/>
               </costs>
               <profiles>
                 <profile name="Hellion Cohort" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="feb8-57c0-acfe-9dc1">
@@ -3047,7 +3047,7 @@
           <entryLinks>
             <entryLink import="true" name="Basic Inf/Cav" hidden="false" id="8763-c125-ac84-d827" type="selectionEntry" targetId="b11e-812c-5712-6b6d" sortIndex="1">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="70"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="65"/>
               </costs>
               <profiles>
                 <profile name="Strider Cav Cohort" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="b57e-f0c5-8dec-d110">
@@ -3071,7 +3071,7 @@
             </entryLink>
             <entryLink import="true" name="Reinforced Inf/Cav" hidden="false" id="0500-f4c2-d34e-17d6" type="selectionEntry" targetId="8eb2-2bee-e79d-b38e" sortIndex="2">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="120"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="105"/>
               </costs>
               <profiles>
                 <profile name="Strider Cav Cohort" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="e376-b348-2f00-263d">
@@ -3095,7 +3095,7 @@
             </entryLink>
             <entryLink import="true" name="Full Strength Inf/Cav" hidden="false" id="2a81-bbb9-2337-9bd8" type="selectionEntry" targetId="533e-3463-cf89-7ba2" sortIndex="3">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="180"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="155"/>
               </costs>
               <profiles>
                 <profile name="Strider Cav Cohort" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="2b05-0628-0898-24b8">
@@ -3142,7 +3142,7 @@
           <entryLinks>
             <entryLink import="true" name="Basic CAVALRY" hidden="false" id="c07e-5cff-0aa4-e2f6" type="selectionEntry" targetId="9c07-f8e7-5a52-f23c" sortIndex="1">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="70"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="65"/>
               </costs>
               <profiles>
                 <profile name="Strider Cav Cohort" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="c7ad-953d-1a63-72bc">
@@ -3166,7 +3166,7 @@
             </entryLink>
             <entryLink import="true" name="Reinforced CAVALRY" hidden="false" id="b308-3c41-3b91-caa8" type="selectionEntry" targetId="c7fa-7f7c-407f-a2b1" sortIndex="2">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="120"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="105"/>
               </costs>
               <profiles>
                 <profile name="Strider Cav Cohort" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="3a25-d636-cd09-2a6f">
@@ -3190,7 +3190,7 @@
             </entryLink>
             <entryLink import="true" name="Full Strength CAVALRY" hidden="false" id="c2a8-5c33-f3e6-29ad" type="selectionEntry" targetId="bead-c636-07d4-b5d6" sortIndex="3">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="180"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="155"/>
               </costs>
               <profiles>
                 <profile name="Strider Cav Cohort" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="3cb0-30ee-3902-82bd">
@@ -3245,90 +3245,56 @@
       <profiles>
         <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="1c85-ff62-9cd7-ee86" noindex="false">
           <characteristics>
-            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Hunter, Stoic Defence</characteristic>
+            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Hunter, Stoic Defence, Overrun</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Bolstering" id="4054-1efd-3b3e-923a" hidden="true" sortIndex="3">
-          <entryLinks>
-            <entryLink import="true" name="Basic" hidden="false" id="4b0c-5ad8-eb70-bfe5" type="selectionEntry" targetId="f088-e6d4-8fe3-0f3e" sortIndex="1">
-              <profiles>
-                <profile name="Callisto Assault Gatherers" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="cf3b-be6c-555f-42df">
-                  <characteristics>
-                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Heavy</characteristic>
-                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">2</characteristic>
-                    <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
-                    <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
-                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">4&quot;</characteristic>
-                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">3</characteristic>
-                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">3</characteristic>
-                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">5</characteristic>
-                    <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
-                  </characteristics>
-                  <modifiers>
-                    <modifier type="set" value="2" field="3e5d-fadc-d9fb-6570"/>
-                    <modifier type="set" value="4" field="bb79-114d-2dc7-ca18"/>
-                  </modifiers>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="80"/>
-              </costs>
-            </entryLink>
-            <entryLink import="true" name="Full Strength" hidden="false" id="9922-c00b-837b-0ef8" type="selectionEntry" targetId="e86e-71e1-9396-5526" sortIndex="3" flatten="false">
-              <profiles>
-                <profile name="Callisto Assault Gatherers" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="b803-8e46-5380-ed38">
-                  <characteristics>
-                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Heavy</characteristic>
-                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">2</characteristic>
-                    <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
-                    <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
-                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">4&quot;</characteristic>
-                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">3</characteristic>
-                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">3</characteristic>
-                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">5</characteristic>
-                    <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
-                  </characteristics>
-                  <modifiers>
-                    <modifier type="set" value="6" field="3e5d-fadc-d9fb-6570"/>
-                    <modifier type="set" value="6" field="bb79-114d-2dc7-ca18"/>
-                  </modifiers>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="210"/>
-              </costs>
-            </entryLink>
-            <entryLink import="true" name="Reinforced" hidden="false" id="c604-b7ed-8a8e-5015" type="selectionEntry" targetId="85c2-43ee-a668-834f" sortIndex="2" flatten="false">
-              <profiles>
-                <profile name="Callisto Assault Gatherers" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="4d82-3ba2-966d-14a2">
-                  <characteristics>
-                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Heavy</characteristic>
-                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">2</characteristic>
-                    <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
-                    <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
-                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">4&quot;</characteristic>
-                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">3</characteristic>
-                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">3</characteristic>
-                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">5</characteristic>
-                    <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
-                  </characteristics>
-                  <modifiers>
-                    <modifier type="set" value="4" field="3e5d-fadc-d9fb-6570"/>
-                    <modifier type="set" value="5" field="bb79-114d-2dc7-ca18"/>
-                  </modifiers>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="135"/>
-              </costs>
-            </entryLink>
-          </entryLinks>
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b5ed-4b9c-be71-92ff"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d63f-8317-0e41-a1b7"/>
-          </constraints>
+        <selectionEntryGroup name="Stats" id="4054-1efd-3b3e-923a" hidden="true" sortIndex="3">
+          <profiles>
+            <profile name="Callisto Assault Gatherers" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="b803-8e46-5380-ed38">
+              <characteristics>
+                <characteristic name="Target type" typeId="de47-7191-892f-3c71">Heavy</characteristic>
+                <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">2</characteristic>
+                <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570">2</characteristic>
+                <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18">4</characteristic>
+                <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">5&quot;</characteristic>
+                <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">3</characteristic>
+                <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">3</characteristic>
+                <characteristic name="Discipline" typeId="9692-df81-03cd-8583">5</characteristic>
+                <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
+              </characteristics>
+              <comment>Basic</comment>
+            </profile>
+            <profile name="Callisto Assault Gatherers" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="75e8-ab03-1a8a-7e33">
+              <characteristics>
+                <characteristic name="Target type" typeId="de47-7191-892f-3c71">Heavy</characteristic>
+                <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">2</characteristic>
+                <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570">4</characteristic>
+                <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18">5</characteristic>
+                <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">5&quot;</characteristic>
+                <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">3</characteristic>
+                <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">3</characteristic>
+                <characteristic name="Discipline" typeId="9692-df81-03cd-8583">5</characteristic>
+                <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
+              </characteristics>
+              <comment>Reinforced</comment>
+            </profile>
+            <profile name="Callisto Assault Gatherers" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="7cdb-d805-b7da-cf3c">
+              <characteristics>
+                <characteristic name="Target type" typeId="de47-7191-892f-3c71">Heavy</characteristic>
+                <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">2</characteristic>
+                <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570">6</characteristic>
+                <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18">6</characteristic>
+                <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">5&quot;</characteristic>
+                <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">3</characteristic>
+                <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">3</characteristic>
+                <characteristic name="Discipline" typeId="9692-df81-03cd-8583">5</characteristic>
+                <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
+              </characteristics>
+              <comment>Full strength</comment>
+            </profile>
+          </profiles>
         </selectionEntryGroup>
         <selectionEntryGroup name="Weapons" id="c3e9-f70e-9228-41df" hidden="false" sortIndex="2">
           <selectionEntries>
@@ -3341,10 +3307,10 @@
                 <profile name="Melee" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="bcf3-4b9e-f4dc-6fec">
                   <characteristics>
                     <characteristic name="Range" typeId="0d60-0078-7134-d302">-</characteristic>
-                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585">3(5)</characteristic>
-                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c">7(10)</characteristic>
-                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d">12(15)</characteristic>
-                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b">Shock</characteristic>
+                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585">6</characteristic>
+                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c">11</characteristic>
+                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d">16</characteristic>
+                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b">Precision</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3368,75 +3334,27 @@
           <entryLinks>
             <entryLink import="true" name="Basic ARMOUR" hidden="false" id="df86-1492-3191-a6a8" type="selectionEntry" targetId="2df7-f15e-f61d-ac3e" sortIndex="1">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="80"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="75"/>
               </costs>
-              <profiles>
-                <profile name="Callisto Assault Gatherers" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="b059-d841-8b57-e610">
-                  <characteristics>
-                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Heavy</characteristic>
-                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">2</characteristic>
-                    <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
-                    <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
-                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">4&quot;</characteristic>
-                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">3</characteristic>
-                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">3</characteristic>
-                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">5</characteristic>
-                    <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
-                  </characteristics>
-                  <modifiers>
-                    <modifier type="set" value="2" field="3e5d-fadc-d9fb-6570"/>
-                    <modifier type="set" value="4" field="bb79-114d-2dc7-ca18"/>
-                  </modifiers>
-                </profile>
-              </profiles>
+              <infoLinks>
+                <infoLink name="Callisto Assault Gatherers" id="af10-9196-4b1c-e123" hidden="false" type="profile" targetId="b803-8e46-5380-ed38"/>
+              </infoLinks>
             </entryLink>
             <entryLink import="true" name="Reinforced ARMOUR" hidden="false" id="cd3f-741e-5a81-ffc5" type="selectionEntry" targetId="f07f-93ae-0813-bad0" sortIndex="2">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="135"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="120"/>
               </costs>
-              <profiles>
-                <profile name="Callisto Assault Gatherers" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="63e0-7897-c412-98c3">
-                  <characteristics>
-                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Heavy</characteristic>
-                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">2</characteristic>
-                    <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
-                    <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
-                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">4&quot;</characteristic>
-                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">3</characteristic>
-                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">3</characteristic>
-                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">5</characteristic>
-                    <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
-                  </characteristics>
-                  <modifiers>
-                    <modifier type="set" value="4" field="3e5d-fadc-d9fb-6570"/>
-                    <modifier type="set" value="5" field="bb79-114d-2dc7-ca18"/>
-                  </modifiers>
-                </profile>
-              </profiles>
+              <infoLinks>
+                <infoLink name="Callisto Assault Gatherers" id="8955-907c-cc70-2f00" hidden="false" type="profile" targetId="75e8-ab03-1a8a-7e33"/>
+              </infoLinks>
             </entryLink>
             <entryLink import="true" name="Full Strength ARMOUR" hidden="false" id="f600-fc6b-3740-786e" type="selectionEntry" targetId="d304-75ab-abe2-7de9" sortIndex="3">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="210"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="180"/>
               </costs>
-              <profiles>
-                <profile name="Callisto Assault Gatherers" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="ccda-ea5d-7dc8-b017">
-                  <characteristics>
-                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Heavy</characteristic>
-                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">2</characteristic>
-                    <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
-                    <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
-                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">4&quot;</characteristic>
-                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">3</characteristic>
-                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">3</characteristic>
-                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">5</characteristic>
-                    <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
-                  </characteristics>
-                  <modifiers>
-                    <modifier type="set" value="6" field="3e5d-fadc-d9fb-6570"/>
-                    <modifier type="set" value="6" field="bb79-114d-2dc7-ca18"/>
-                  </modifiers>
-                </profile>
-              </profiles>
+              <infoLinks>
+                <infoLink name="Callisto Assault Gatherers" id="4913-37c1-0a19-5a74" hidden="false" type="profile" targetId="7cdb-d805-b7da-cf3c"/>
+              </infoLinks>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
@@ -3457,75 +3375,27 @@
           <entryLinks>
             <entryLink import="true" name="Basic Arm/Art" hidden="false" id="4bc9-f974-f896-3056" type="selectionEntry" targetId="0b8e-b745-ef0c-4acb" sortIndex="1">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="80"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="75"/>
               </costs>
-              <profiles>
-                <profile name="Callisto Assault Gatherers" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="d15e-e2a4-c72e-08ef">
-                  <characteristics>
-                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Heavy</characteristic>
-                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">2</characteristic>
-                    <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
-                    <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
-                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">4&quot;</characteristic>
-                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">3</characteristic>
-                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">3</characteristic>
-                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">5</characteristic>
-                    <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
-                  </characteristics>
-                  <modifiers>
-                    <modifier type="set" value="2" field="3e5d-fadc-d9fb-6570"/>
-                    <modifier type="set" value="4" field="bb79-114d-2dc7-ca18"/>
-                  </modifiers>
-                </profile>
-              </profiles>
+              <infoLinks>
+                <infoLink name="Callisto Assault Gatherers" id="2265-c9d3-5d51-8da9" hidden="false" type="profile" targetId="b803-8e46-5380-ed38"/>
+              </infoLinks>
             </entryLink>
             <entryLink import="true" name="Reinforced Arm/Art" hidden="false" id="32f5-971e-a3da-28e5" type="selectionEntry" targetId="9124-ea78-0445-af38" sortIndex="2">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="135"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="120"/>
               </costs>
-              <profiles>
-                <profile name="Callisto Assault Gatherers" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="332c-a40d-72ba-9d2a">
-                  <characteristics>
-                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Heavy</characteristic>
-                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">2</characteristic>
-                    <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
-                    <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
-                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">4&quot;</characteristic>
-                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">3</characteristic>
-                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">3</characteristic>
-                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">5</characteristic>
-                    <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
-                  </characteristics>
-                  <modifiers>
-                    <modifier type="set" value="4" field="3e5d-fadc-d9fb-6570"/>
-                    <modifier type="set" value="5" field="bb79-114d-2dc7-ca18"/>
-                  </modifiers>
-                </profile>
-              </profiles>
+              <infoLinks>
+                <infoLink name="Callisto Assault Gatherers" id="da43-5d3d-27bb-1aca" hidden="false" type="profile" targetId="75e8-ab03-1a8a-7e33"/>
+              </infoLinks>
             </entryLink>
             <entryLink import="true" name="Full Strength Arm/Art" hidden="false" id="335a-b59b-fa13-6a84" type="selectionEntry" targetId="0447-bc45-62e6-b99c" sortIndex="3">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="210"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="180"/>
               </costs>
-              <profiles>
-                <profile name="Callisto Assault Gatherers" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="fe4d-083f-f10b-9ee2">
-                  <characteristics>
-                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Heavy</characteristic>
-                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">2</characteristic>
-                    <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
-                    <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
-                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">4&quot;</characteristic>
-                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">3</characteristic>
-                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">3</characteristic>
-                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">5</characteristic>
-                    <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
-                  </characteristics>
-                  <modifiers>
-                    <modifier type="set" value="6" field="3e5d-fadc-d9fb-6570"/>
-                    <modifier type="set" value="6" field="bb79-114d-2dc7-ca18"/>
-                  </modifiers>
-                </profile>
-              </profiles>
+              <infoLinks>
+                <infoLink name="Callisto Assault Gatherers" id="5ebe-3005-18e9-e8b1" hidden="false" type="profile" targetId="7cdb-d805-b7da-cf3c"/>
+              </infoLinks>
             </entryLink>
           </entryLinks>
           <comment>Faction</comment>
@@ -4398,7 +4268,7 @@
           <entryLinks>
             <entryLink import="true" name="Basic ARMOUR" hidden="false" id="f8f1-9fe2-8a77-eea3" type="selectionEntry" targetId="2df7-f15e-f61d-ac3e" sortIndex="1">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="135"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="120"/>
               </costs>
               <profiles>
                 <profile name="Phobos Assault Tripods" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="1336-ff50-0f43-3142">
@@ -4422,7 +4292,7 @@
             </entryLink>
             <entryLink import="true" name="Reinforced ARMOUR" hidden="false" id="c11a-452b-6e6b-8939" type="selectionEntry" targetId="f07f-93ae-0813-bad0" sortIndex="2">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="230"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="205"/>
               </costs>
               <profiles>
                 <profile name="Phobos Assault Tripods" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="5ec9-25be-da20-d34f">
@@ -4446,7 +4316,7 @@
             </entryLink>
             <entryLink import="true" name="Full Strength ARMOUR" hidden="false" id="a30c-2b14-24ad-efc2" type="selectionEntry" targetId="d304-75ab-abe2-7de9" sortIndex="3">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="350"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="300"/>
               </costs>
               <profiles>
                 <profile name="Phobos Assault Tripods" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="a2a5-1324-7a82-0a26">
@@ -4487,7 +4357,7 @@
           <entryLinks>
             <entryLink import="true" name="Basic Arm/Art" hidden="false" id="b71e-88a5-33d9-83e5" type="selectionEntry" targetId="0b8e-b745-ef0c-4acb" sortIndex="1">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="135"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="120"/>
               </costs>
               <profiles>
                 <profile name="Phobos Assault Tripods" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="010b-a055-1e12-56d0">
@@ -4511,7 +4381,7 @@
             </entryLink>
             <entryLink import="true" name="Reinforced Arm/Art" hidden="false" id="ef60-fde0-ab7e-e881" type="selectionEntry" targetId="9124-ea78-0445-af38" sortIndex="2">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="230"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="205"/>
               </costs>
               <profiles>
                 <profile name="Phobos Assault Tripods" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="0cd6-bb00-bbac-78b6">
@@ -4535,7 +4405,7 @@
             </entryLink>
             <entryLink import="true" name="Full Strength Arm/Art" hidden="false" id="9259-2863-8749-01de" type="selectionEntry" targetId="0447-bc45-62e6-b99c" sortIndex="3">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="350"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="300"/>
               </costs>
               <profiles>
                 <profile name="Phobos Assault Tripods" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="58ef-748f-419d-8fb1">
@@ -4595,85 +4465,51 @@
         </profile>
       </profiles>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Bolstering" id="bc41-8ded-988f-e5fb" hidden="true" sortIndex="3">
-          <entryLinks>
-            <entryLink import="true" name="Basic" hidden="false" id="d114-36aa-ab7e-41ac" type="selectionEntry" targetId="f088-e6d4-8fe3-0f3e" sortIndex="1">
-              <profiles>
-                <profile name="Enceladus Mortar Crawlers" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="91ac-d376-2c72-7598">
-                  <characteristics>
-                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Heavy</characteristic>
-                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">2</characteristic>
-                    <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
-                    <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
-                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">4&quot;</characteristic>
-                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">3</characteristic>
-                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">3</characteristic>
-                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">5</characteristic>
-                    <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
-                  </characteristics>
-                  <modifiers>
-                    <modifier type="set" value="2" field="3e5d-fadc-d9fb-6570"/>
-                    <modifier type="set" value="4" field="bb79-114d-2dc7-ca18"/>
-                  </modifiers>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="110"/>
-              </costs>
-            </entryLink>
-            <entryLink import="true" name="Full Strength" hidden="false" id="e21c-d0a1-9e1f-292f" type="selectionEntry" targetId="e86e-71e1-9396-5526" sortIndex="3" flatten="false">
-              <profiles>
-                <profile name="Enceladus Mortar Crawlers" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="48ed-2a28-40cb-9385">
-                  <characteristics>
-                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Heavy</characteristic>
-                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">2</characteristic>
-                    <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
-                    <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
-                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">4&quot;</characteristic>
-                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">3</characteristic>
-                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">3</characteristic>
-                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">5</characteristic>
-                    <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
-                  </characteristics>
-                  <modifiers>
-                    <modifier type="set" value="6" field="3e5d-fadc-d9fb-6570"/>
-                    <modifier type="set" value="6" field="bb79-114d-2dc7-ca18"/>
-                  </modifiers>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="285"/>
-              </costs>
-            </entryLink>
-            <entryLink import="true" name="Reinforced" hidden="false" id="7956-e01b-0e18-3c32" type="selectionEntry" targetId="85c2-43ee-a668-834f" sortIndex="2" flatten="false">
-              <profiles>
-                <profile name="Enceladus Mortar Crawlers" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="40fe-77f4-eb9a-ac94">
-                  <characteristics>
-                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Heavy</characteristic>
-                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">2</characteristic>
-                    <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
-                    <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
-                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">4&quot;</characteristic>
-                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">3</characteristic>
-                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">3</characteristic>
-                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">5</characteristic>
-                    <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
-                  </characteristics>
-                  <modifiers>
-                    <modifier type="set" value="4" field="3e5d-fadc-d9fb-6570"/>
-                    <modifier type="set" value="5" field="bb79-114d-2dc7-ca18"/>
-                  </modifiers>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="185"/>
-              </costs>
-            </entryLink>
-          </entryLinks>
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c0e9-411f-e9bf-db29"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8abb-6ded-6975-9ca7"/>
-          </constraints>
+        <selectionEntryGroup name="Stats" id="bc41-8ded-988f-e5fb" hidden="true" sortIndex="3">
+          <profiles>
+            <profile name="Enceladus Mortar Crawlers" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="48ed-2a28-40cb-9385">
+              <characteristics>
+                <characteristic name="Target type" typeId="de47-7191-892f-3c71">Heavy</characteristic>
+                <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">2</characteristic>
+                <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570">2</characteristic>
+                <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18">4</characteristic>
+                <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">5&quot;</characteristic>
+                <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">3</characteristic>
+                <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">3</characteristic>
+                <characteristic name="Discipline" typeId="9692-df81-03cd-8583">5</characteristic>
+                <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
+              </characteristics>
+              <comment>Basic</comment>
+            </profile>
+            <profile name="Enceladus Mortar Crawlers" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="ecf0-7d8a-887a-ea99">
+              <characteristics>
+                <characteristic name="Target type" typeId="de47-7191-892f-3c71">Heavy</characteristic>
+                <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">2</characteristic>
+                <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570">4</characteristic>
+                <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18">5</characteristic>
+                <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">5&quot;</characteristic>
+                <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">3</characteristic>
+                <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">3</characteristic>
+                <characteristic name="Discipline" typeId="9692-df81-03cd-8583">5</characteristic>
+                <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
+              </characteristics>
+              <comment>Reinforced</comment>
+            </profile>
+            <profile name="Enceladus Mortar Crawlers" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="3b74-9d74-2fb6-1099">
+              <characteristics>
+                <characteristic name="Target type" typeId="de47-7191-892f-3c71">Heavy</characteristic>
+                <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">2</characteristic>
+                <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570">6</characteristic>
+                <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18">6</characteristic>
+                <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">5&quot;</characteristic>
+                <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">3</characteristic>
+                <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">3</characteristic>
+                <characteristic name="Discipline" typeId="9692-df81-03cd-8583">5</characteristic>
+                <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
+              </characteristics>
+              <comment>Full Strength</comment>
+            </profile>
+          </profiles>
         </selectionEntryGroup>
         <selectionEntryGroup name="Weapons" id="7572-bb82-43d7-51b7" hidden="false" sortIndex="2">
           <selectionEntries>
@@ -4766,73 +4602,25 @@
               <costs>
                 <cost name="Points" typeId="e58e-982d-7630-5342" value="110"/>
               </costs>
-              <profiles>
-                <profile name="Enceladus Mortar Crawlers" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="fc67-6074-6ec3-166c">
-                  <characteristics>
-                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Heavy</characteristic>
-                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">2</characteristic>
-                    <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
-                    <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
-                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">4&quot;</characteristic>
-                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">3</characteristic>
-                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">3</characteristic>
-                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">5</characteristic>
-                    <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
-                  </characteristics>
-                  <modifiers>
-                    <modifier type="set" value="2" field="3e5d-fadc-d9fb-6570"/>
-                    <modifier type="set" value="4" field="bb79-114d-2dc7-ca18"/>
-                  </modifiers>
-                </profile>
-              </profiles>
+              <infoLinks>
+                <infoLink name="Enceladus Mortar Crawlers" id="fb65-3d07-4baf-3a35" hidden="false" type="profile" targetId="48ed-2a28-40cb-9385"/>
+              </infoLinks>
             </entryLink>
             <entryLink import="true" name="Reinforced ARTILLERY" hidden="false" id="02de-bded-4bb3-2755" type="selectionEntry" targetId="706e-bb89-f532-c9e5" sortIndex="2">
               <costs>
                 <cost name="Points" typeId="e58e-982d-7630-5342" value="185"/>
               </costs>
-              <profiles>
-                <profile name="Enceladus Mortar Crawlers" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="f428-af9d-f200-ada6">
-                  <characteristics>
-                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Heavy</characteristic>
-                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">2</characteristic>
-                    <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
-                    <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
-                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">4&quot;</characteristic>
-                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">3</characteristic>
-                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">3</characteristic>
-                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">5</characteristic>
-                    <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
-                  </characteristics>
-                  <modifiers>
-                    <modifier type="set" value="4" field="3e5d-fadc-d9fb-6570"/>
-                    <modifier type="set" value="5" field="bb79-114d-2dc7-ca18"/>
-                  </modifiers>
-                </profile>
-              </profiles>
+              <infoLinks>
+                <infoLink name="Enceladus Mortar Crawlers" id="082d-3103-5a99-e5c9" hidden="false" type="profile" targetId="ecf0-7d8a-887a-ea99"/>
+              </infoLinks>
             </entryLink>
             <entryLink import="true" name="Full Strength ARTILLERY" hidden="false" id="0e32-2b7e-aaee-85fe" type="selectionEntry" targetId="e68d-41c6-f7d7-4170" sortIndex="3">
               <costs>
                 <cost name="Points" typeId="e58e-982d-7630-5342" value="285"/>
               </costs>
-              <profiles>
-                <profile name="Enceladus Mortar Crawlers" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="f05d-9e88-2ae7-4142">
-                  <characteristics>
-                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Heavy</characteristic>
-                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">2</characteristic>
-                    <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
-                    <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
-                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">4&quot;</characteristic>
-                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">3</characteristic>
-                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">3</characteristic>
-                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">5</characteristic>
-                    <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
-                  </characteristics>
-                  <modifiers>
-                    <modifier type="set" value="6" field="3e5d-fadc-d9fb-6570"/>
-                    <modifier type="set" value="6" field="bb79-114d-2dc7-ca18"/>
-                  </modifiers>
-                </profile>
-              </profiles>
+              <infoLinks>
+                <infoLink name="Enceladus Mortar Crawlers" id="62c1-ff3f-70ad-0ff7" hidden="false" type="profile" targetId="3b74-9d74-2fb6-1099"/>
+              </infoLinks>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
@@ -4855,73 +4643,25 @@
               <costs>
                 <cost name="Points" typeId="e58e-982d-7630-5342" value="110"/>
               </costs>
-              <profiles>
-                <profile name="Enceladus Mortar Crawlers" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="4bfe-efbf-f2b7-ff98">
-                  <characteristics>
-                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Heavy</characteristic>
-                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">2</characteristic>
-                    <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
-                    <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
-                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">4&quot;</characteristic>
-                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">3</characteristic>
-                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">3</characteristic>
-                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">5</characteristic>
-                    <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
-                  </characteristics>
-                  <modifiers>
-                    <modifier type="set" value="2" field="3e5d-fadc-d9fb-6570"/>
-                    <modifier type="set" value="4" field="bb79-114d-2dc7-ca18"/>
-                  </modifiers>
-                </profile>
-              </profiles>
+              <infoLinks>
+                <infoLink name="Enceladus Mortar Crawlers" id="3c9f-60e9-1f9f-30c4" hidden="false" type="profile" targetId="48ed-2a28-40cb-9385"/>
+              </infoLinks>
             </entryLink>
             <entryLink import="true" name="Reinforced Arm/Art" hidden="false" id="9209-0be6-2597-1378" type="selectionEntry" targetId="9124-ea78-0445-af38" sortIndex="2">
               <costs>
                 <cost name="Points" typeId="e58e-982d-7630-5342" value="185"/>
               </costs>
-              <profiles>
-                <profile name="Enceladus Mortar Crawlers" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="3139-88ff-89f8-406d">
-                  <characteristics>
-                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Heavy</characteristic>
-                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">2</characteristic>
-                    <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
-                    <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
-                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">4&quot;</characteristic>
-                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">3</characteristic>
-                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">3</characteristic>
-                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">5</characteristic>
-                    <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
-                  </characteristics>
-                  <modifiers>
-                    <modifier type="set" value="4" field="3e5d-fadc-d9fb-6570"/>
-                    <modifier type="set" value="5" field="bb79-114d-2dc7-ca18"/>
-                  </modifiers>
-                </profile>
-              </profiles>
+              <infoLinks>
+                <infoLink name="Enceladus Mortar Crawlers" id="184d-e842-689f-0846" hidden="false" type="profile" targetId="ecf0-7d8a-887a-ea99"/>
+              </infoLinks>
             </entryLink>
             <entryLink import="true" name="Full Strength Arm/Art" hidden="false" id="87d2-16dc-e8b1-8932" type="selectionEntry" targetId="0447-bc45-62e6-b99c" sortIndex="3">
               <costs>
                 <cost name="Points" typeId="e58e-982d-7630-5342" value="285"/>
               </costs>
-              <profiles>
-                <profile name="Enceladus Mortar Crawlers" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="633b-4419-8768-2e6f">
-                  <characteristics>
-                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Heavy</characteristic>
-                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">2</characteristic>
-                    <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
-                    <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
-                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">4&quot;</characteristic>
-                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">3</characteristic>
-                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">3</characteristic>
-                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">5</characteristic>
-                    <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
-                  </characteristics>
-                  <modifiers>
-                    <modifier type="set" value="6" field="3e5d-fadc-d9fb-6570"/>
-                    <modifier type="set" value="6" field="bb79-114d-2dc7-ca18"/>
-                  </modifiers>
-                </profile>
-              </profiles>
+              <infoLinks>
+                <infoLink name="Enceladus Mortar Crawlers" id="03ed-8c5b-0b16-4101" hidden="false" type="profile" targetId="3b74-9d74-2fb6-1099"/>
+              </infoLinks>
             </entryLink>
           </entryLinks>
           <comment>Faction</comment>
@@ -4956,85 +4696,51 @@
         </profile>
       </profiles>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Bolstering" id="faa5-74d9-9c11-f72d" hidden="true" sortIndex="3">
-          <entryLinks>
-            <entryLink import="true" name="Basic" hidden="false" id="5c0a-47e5-45b0-6076" type="selectionEntry" targetId="f088-e6d4-8fe3-0f3e" sortIndex="1">
-              <profiles>
-                <profile name="Europa Artillery Crawlers" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="d705-724a-a701-2be7">
-                  <characteristics>
-                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Heavy</characteristic>
-                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">2</characteristic>
-                    <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
-                    <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
-                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">4&quot;</characteristic>
-                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">3</characteristic>
-                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">3</characteristic>
-                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">5</characteristic>
-                    <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
-                  </characteristics>
-                  <modifiers>
-                    <modifier type="set" value="2" field="3e5d-fadc-d9fb-6570"/>
-                    <modifier type="set" value="4" field="bb79-114d-2dc7-ca18"/>
-                  </modifiers>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="105"/>
-              </costs>
-            </entryLink>
-            <entryLink import="true" name="Full Strength" hidden="false" id="5add-bbee-77a7-bc8b" type="selectionEntry" targetId="e86e-71e1-9396-5526" sortIndex="3" flatten="false">
-              <profiles>
-                <profile name="Europa Artillery Crawlers" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="4d11-e34d-1770-5c9d">
-                  <characteristics>
-                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Heavy</characteristic>
-                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">2</characteristic>
-                    <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
-                    <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
-                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">4&quot;</characteristic>
-                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">3</characteristic>
-                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">3</characteristic>
-                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">5</characteristic>
-                    <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
-                  </characteristics>
-                  <modifiers>
-                    <modifier type="set" value="6" field="3e5d-fadc-d9fb-6570"/>
-                    <modifier type="set" value="6" field="bb79-114d-2dc7-ca18"/>
-                  </modifiers>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="275"/>
-              </costs>
-            </entryLink>
-            <entryLink import="true" name="Reinforced" hidden="false" id="a7a1-2ba4-1c6e-e1d9" type="selectionEntry" targetId="85c2-43ee-a668-834f" sortIndex="2" flatten="false">
-              <profiles>
-                <profile name="Europa Artillery Crawlers" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="5b09-e02e-3133-4ef7">
-                  <characteristics>
-                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Heavy</characteristic>
-                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">2</characteristic>
-                    <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
-                    <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
-                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">4&quot;</characteristic>
-                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">3</characteristic>
-                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">3</characteristic>
-                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">5</characteristic>
-                    <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
-                  </characteristics>
-                  <modifiers>
-                    <modifier type="set" value="4" field="3e5d-fadc-d9fb-6570"/>
-                    <modifier type="set" value="5" field="bb79-114d-2dc7-ca18"/>
-                  </modifiers>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="180"/>
-              </costs>
-            </entryLink>
-          </entryLinks>
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="857e-cb13-4873-fb63"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2466-3016-3d04-c8f9"/>
-          </constraints>
+        <selectionEntryGroup name="Stats" id="faa5-74d9-9c11-f72d" hidden="true" sortIndex="3">
+          <profiles>
+            <profile name="Europa Artillery Crawlers" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="4d11-e34d-1770-5c9d">
+              <characteristics>
+                <characteristic name="Target type" typeId="de47-7191-892f-3c71">Heavy</characteristic>
+                <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">2</characteristic>
+                <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570">2</characteristic>
+                <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18">4</characteristic>
+                <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">5&quot;</characteristic>
+                <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">3</characteristic>
+                <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">3</characteristic>
+                <characteristic name="Discipline" typeId="9692-df81-03cd-8583">5</characteristic>
+                <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
+              </characteristics>
+              <comment>Basic</comment>
+            </profile>
+            <profile name="Europa Artillery Crawlers" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="93ec-a987-4923-4a56">
+              <characteristics>
+                <characteristic name="Target type" typeId="de47-7191-892f-3c71">Heavy</characteristic>
+                <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">2</characteristic>
+                <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570">4</characteristic>
+                <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18">5</characteristic>
+                <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">5&quot;</characteristic>
+                <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">3</characteristic>
+                <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">3</characteristic>
+                <characteristic name="Discipline" typeId="9692-df81-03cd-8583">5</characteristic>
+                <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
+              </characteristics>
+              <comment>Reinforced</comment>
+            </profile>
+            <profile name="Europa Artillery Crawlers" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="b4ad-9ce2-e0b6-84b9">
+              <characteristics>
+                <characteristic name="Target type" typeId="de47-7191-892f-3c71">Heavy</characteristic>
+                <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">2</characteristic>
+                <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570">6</characteristic>
+                <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18">6</characteristic>
+                <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">5&quot;</characteristic>
+                <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">3</characteristic>
+                <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">3</characteristic>
+                <characteristic name="Discipline" typeId="9692-df81-03cd-8583">5</characteristic>
+                <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
+              </characteristics>
+              <comment>Full Strength</comment>
+            </profile>
+          </profiles>
         </selectionEntryGroup>
         <selectionEntryGroup name="Weapons" id="5709-a18c-dc5e-4151" hidden="false" sortIndex="2">
           <selectionEntries>
@@ -5110,73 +4816,25 @@
               <costs>
                 <cost name="Points" typeId="e58e-982d-7630-5342" value="105"/>
               </costs>
-              <profiles>
-                <profile name="Europa Artillery Crawlers" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="4841-35c7-5a5e-e870">
-                  <characteristics>
-                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Heavy</characteristic>
-                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">2</characteristic>
-                    <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
-                    <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
-                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">4&quot;</characteristic>
-                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">3</characteristic>
-                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">3</characteristic>
-                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">5</characteristic>
-                    <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
-                  </characteristics>
-                  <modifiers>
-                    <modifier type="set" value="2" field="3e5d-fadc-d9fb-6570"/>
-                    <modifier type="set" value="4" field="bb79-114d-2dc7-ca18"/>
-                  </modifiers>
-                </profile>
-              </profiles>
+              <infoLinks>
+                <infoLink name="Europa Artillery Crawlers" id="7cc6-998d-137e-1516" hidden="false" type="profile" targetId="4d11-e34d-1770-5c9d"/>
+              </infoLinks>
             </entryLink>
             <entryLink import="true" name="Reinforced ARTILLERY" hidden="false" id="6e4a-b152-52c2-94f8" type="selectionEntry" targetId="706e-bb89-f532-c9e5" sortIndex="2">
               <costs>
                 <cost name="Points" typeId="e58e-982d-7630-5342" value="180"/>
               </costs>
-              <profiles>
-                <profile name="Europa Artillery Crawlers" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="417a-4f13-575c-b267">
-                  <characteristics>
-                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Heavy</characteristic>
-                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">2</characteristic>
-                    <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
-                    <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
-                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">4&quot;</characteristic>
-                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">3</characteristic>
-                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">3</characteristic>
-                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">5</characteristic>
-                    <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
-                  </characteristics>
-                  <modifiers>
-                    <modifier type="set" value="4" field="3e5d-fadc-d9fb-6570"/>
-                    <modifier type="set" value="5" field="bb79-114d-2dc7-ca18"/>
-                  </modifiers>
-                </profile>
-              </profiles>
+              <infoLinks>
+                <infoLink name="Europa Artillery Crawlers" id="d497-490f-a5e4-8628" hidden="false" type="profile" targetId="93ec-a987-4923-4a56"/>
+              </infoLinks>
             </entryLink>
             <entryLink import="true" name="Full Strength ARTILLERY" hidden="false" id="eef0-4d97-47a1-5780" type="selectionEntry" targetId="e68d-41c6-f7d7-4170" sortIndex="3">
               <costs>
                 <cost name="Points" typeId="e58e-982d-7630-5342" value="275"/>
               </costs>
-              <profiles>
-                <profile name="Europa Artillery Crawlers" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="97e0-d3a0-d1c6-cdca">
-                  <characteristics>
-                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Heavy</characteristic>
-                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">2</characteristic>
-                    <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
-                    <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
-                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">4&quot;</characteristic>
-                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">3</characteristic>
-                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">3</characteristic>
-                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">5</characteristic>
-                    <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
-                  </characteristics>
-                  <modifiers>
-                    <modifier type="set" value="6" field="3e5d-fadc-d9fb-6570"/>
-                    <modifier type="set" value="6" field="bb79-114d-2dc7-ca18"/>
-                  </modifiers>
-                </profile>
-              </profiles>
+              <infoLinks>
+                <infoLink name="Europa Artillery Crawlers" id="5f52-f97a-ec08-28b6" hidden="false" type="profile" targetId="b4ad-9ce2-e0b6-84b9"/>
+              </infoLinks>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
@@ -5199,73 +4857,25 @@
               <costs>
                 <cost name="Points" typeId="e58e-982d-7630-5342" value="105"/>
               </costs>
-              <profiles>
-                <profile name="Europa Artillery Crawlers" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="be2e-1f2e-d73d-9dcd">
-                  <characteristics>
-                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Heavy</characteristic>
-                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">2</characteristic>
-                    <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
-                    <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
-                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">4&quot;</characteristic>
-                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">3</characteristic>
-                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">3</characteristic>
-                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">5</characteristic>
-                    <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
-                  </characteristics>
-                  <modifiers>
-                    <modifier type="set" value="2" field="3e5d-fadc-d9fb-6570"/>
-                    <modifier type="set" value="4" field="bb79-114d-2dc7-ca18"/>
-                  </modifiers>
-                </profile>
-              </profiles>
+              <infoLinks>
+                <infoLink name="Europa Artillery Crawlers" id="819a-153c-ad88-aff1" hidden="false" type="profile" targetId="4d11-e34d-1770-5c9d"/>
+              </infoLinks>
             </entryLink>
             <entryLink import="true" name="Reinforced Arm/Art" hidden="false" id="c39f-7556-cf08-3e18" type="selectionEntry" targetId="9124-ea78-0445-af38" sortIndex="2">
               <costs>
                 <cost name="Points" typeId="e58e-982d-7630-5342" value="180"/>
               </costs>
-              <profiles>
-                <profile name="Europa Artillery Crawlers" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="2eac-05ea-8775-dea1">
-                  <characteristics>
-                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Heavy</characteristic>
-                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">2</characteristic>
-                    <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
-                    <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
-                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">4&quot;</characteristic>
-                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">3</characteristic>
-                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">3</characteristic>
-                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">5</characteristic>
-                    <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
-                  </characteristics>
-                  <modifiers>
-                    <modifier type="set" value="4" field="3e5d-fadc-d9fb-6570"/>
-                    <modifier type="set" value="5" field="bb79-114d-2dc7-ca18"/>
-                  </modifiers>
-                </profile>
-              </profiles>
+              <infoLinks>
+                <infoLink name="Europa Artillery Crawlers" id="889e-fd6a-ba26-2033" hidden="false" type="profile" targetId="93ec-a987-4923-4a56"/>
+              </infoLinks>
             </entryLink>
             <entryLink import="true" name="Full Strength Arm/Art" hidden="false" id="f5f7-c985-2019-237e" type="selectionEntry" targetId="0447-bc45-62e6-b99c" sortIndex="3">
               <costs>
                 <cost name="Points" typeId="e58e-982d-7630-5342" value="275"/>
               </costs>
-              <profiles>
-                <profile name="Europa Artillery Crawlers" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="e6d2-b44f-1b29-783d">
-                  <characteristics>
-                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Heavy</characteristic>
-                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">2</characteristic>
-                    <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
-                    <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
-                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">4&quot;</characteristic>
-                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">3</characteristic>
-                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">3</characteristic>
-                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">5</characteristic>
-                    <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
-                  </characteristics>
-                  <modifiers>
-                    <modifier type="set" value="6" field="3e5d-fadc-d9fb-6570"/>
-                    <modifier type="set" value="6" field="bb79-114d-2dc7-ca18"/>
-                  </modifiers>
-                </profile>
-              </profiles>
+              <infoLinks>
+                <infoLink name="Europa Artillery Crawlers" id="f40f-f44a-c8de-0a0c" hidden="false" type="profile" targetId="b4ad-9ce2-e0b6-84b9"/>
+              </infoLinks>
             </entryLink>
           </entryLinks>
           <comment>Faction</comment>
@@ -6004,216 +5614,12 @@
       </modifiers>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Boons and bonuses" hidden="false" id="4c93-f07a-2645-12dd" sortIndex="1">
-      <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Ready For Anything" hidden="false" id="221e-5535-8ff3-a90c" sortIndex="3">
-          <costs>
-            <cost name="Points" typeId="e58e-982d-7630-5342" value="20"/>
-          </costs>
-          <profiles>
-            <profile name="Ready For Anything" typeId="3f77-4198-5794-9684" typeName="Boons" hidden="false" id="440a-37d0-08c6-ae01">
-              <characteristics>
-                <characteristic name="Effect" typeId="b7f2-49d8-a49a-0b0f">A single unit in the General’s Force that has been deployed at the start of the Clash begins the Clash with the On Lookout status.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3e30-3bc2-b8e5-583d" automatic="false"/>
-            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="627c-fc1b-795c-0cbd" automatic="false" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
-        </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Countercharge" hidden="false" id="966f-303c-03af-4e6d" sortIndex="4">
-          <profiles>
-            <profile name="Countercharge" typeId="3f77-4198-5794-9684" typeName="Boons" hidden="false" id="8e8b-48ec-8e86-b00b">
-              <characteristics>
-                <characteristic name="Effect" typeId="b7f2-49d8-a49a-0b0f">Once per Round, the General can issue this Special Command to one of their units that has the On Lookout status, in place of declaring Opportunity Fire.
-
-
-If the Command is successfully issued, the unit immediately makes a Charge manoeuvre, ending in contact with the active enemy unit.
-
-
-This unit then immediately makes a Close Quarters Attack. (The active enemy unit can Retaliate as normal, if it has a Melee attack.) After doing so, this unit loses its On Lookout status.
-
-
-
-
-Note: This effectively counts as declaring Opportunity Fire, meaning that a General cannot use this Special Command and Opportunity Fire in the same turn.
- 
-If the unit is unable to end its Charge manoeuvre in contact with the active enemy unit, this Special Command cannot be issued.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="Points" typeId="e58e-982d-7630-5342" value="30"/>
-          </costs>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5424-c8d8-8004-f0a8" automatic="false"/>
-            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="0756-8d85-a2fd-7fa1" automatic="false" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
-        </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Entropic Shielding" hidden="false" id="391a-70c7-5c64-41f6" sortIndex="5">
-          <profiles>
-            <profile name="Entropic Shielding" typeId="3f77-4198-5794-9684" typeName="Boons" hidden="false" id="a17a-7b0c-1583-9cfd">
-              <characteristics>
-                <characteristic name="Effect" typeId="b7f2-49d8-a49a-0b0f">This is a Special Command that can be issued to a unit of Enlightened Armour or Artillery that is the target of a Ranged Attack, before any dice have been rolled.
-
-It can only be issued once per round.
-
-If the Command is successfully issued, this unit gains the Durable special rule for the duration of the Ranged Attack.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="Points" typeId="e58e-982d-7630-5342" value="40"/>
-          </costs>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="eb77-d983-d546-97ea" automatic="false"/>
-            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="2ff7-0f1f-09f3-2190" automatic="false" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
-        </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Weaponised Hubris" hidden="false" id="6ea8-6cb5-f204-8450" sortIndex="7">
-          <profiles>
-            <profile name="Weaponised Hubris" typeId="3f77-4198-5794-9684" typeName="Boons" hidden="false" id="e41d-2587-8b6c-f9d2">
-              <characteristics>
-                <characteristic name="Effect" typeId="b7f2-49d8-a49a-0b0f">This is a Special Command that can be issued to an Enlightened unit with the Spectacular Demise (X) special rule when it is Annihilated, but before the opposing General has rolled the Attack Die to see what happens. 
-
-
-If the Command is successfully issued, rather than an attack die being rolled, the unit immediately suffers the effects of a Cataclysmic Detonation. Instead of affecting each unit within 8”, it affects  each unit within a number of inches equal to the Card Value of the card that was used to issue this Command.
-
-
-Once this Command has been successfully issued, it cannot be issued again for the rest of the Clash.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="Points" typeId="e58e-982d-7630-5342" value="70"/>
-          </costs>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="128b-e2a7-4122-1da4" automatic="false"/>
-            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="b35e-2c45-ff6c-0109" automatic="true" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
-        </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Battlegroup Bonus:" hidden="false" id="197e-b0e5-7fc9-67ca" sortIndex="1">
-          <profiles>
-            <profile name="Synchronised Assault Protocols" typeId="3f77-4198-5794-9684" typeName="Boons" hidden="false" id="3bab-bd27-9650-e904">
-              <characteristics>
-                <characteristic name="Effect" typeId="b7f2-49d8-a49a-0b0f">Once per Round, when the General of this Battlegroup issues a Flank Attack Special Command, they can declare that they are enacting Synchronised Assault Protocols.
-
-
-They must do so before their opponent decides whether they will Interfere.
-
-
-If they do so, the Card Value of the card that is used to issue this Command is treated as being 2 higher for the purposes of determining whether Interference is successful.</characteristic>
-              </characteristics>
-              <modifiers>
-                <modifier type="set" value="true" field="hidden">
-                  <conditions>
-                    <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="3354-eccd-443c-fdc5" shared="true" includeChildSelections="false"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-            </profile>
-            <profile name="Let Slip The Leash (Command)" typeId="3f77-4198-5794-9684" typeName="Boons" hidden="false" id="9a91-408b-1142-3d07">
-              <characteristics>
-                <characteristic name="Effect" typeId="b7f2-49d8-a49a-0b0f">This Battlegroup’s General can issue this Special Command to an Enlightened Armour unit at the end of its Activation.
-
-
-It cannot be issued to a unit that has the Commander trait or the Suppressed status.
-
-
-If the Command is successfully issued, the unit makes either an Advance manoeuvre and then a Ranged Attack, or a Charge manoeuvre and then a Close Quarters Attack.
-
-
-During either manoeuvre, models in the unit cannot move further than 3”, and during the Attack, the unit has an additional Combat Rating Penalty.
-
-
-Then, the active unit immediately gains the Suppressed status.</characteristic>
-              </characteristics>
-              <modifiers>
-                <modifier type="set" value="true" field="hidden">
-                  <conditions>
-                    <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="dba7-afe0-49d9-35c2" shared="true" includeChildSelections="false"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-            </profile>
-            <profile name="Uncanny Reconstruction (Command)" typeId="3f77-4198-5794-9684" typeName="Boons" hidden="false" id="5cf5-1d8c-24b5-5c89">
-              <characteristics>
-                <characteristic name="Effect" typeId="b7f2-49d8-a49a-0b0f">This Battlegroup’s General can issue this Special Command to an Enlightened unit at the end of its Activation, so long as it is within X” of another Enlightened unit in this Force that has the Peer  Review (X ) Special Rule.
-
-
-If the Command is successfully issued, this unit Recovers 1 Damage.</characteristic>
-              </characteristics>
-              <modifiers>
-                <modifier type="set" value="true" field="hidden">
-                  <conditions>
-                    <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="1a31-700b-07b7-ddbb" shared="true" includeChildSelections="false"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-            </profile>
-          </profiles>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2f60-4615-5ca1-8d21"/>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7e46-28f4-8b78-a8a4"/>
-          </constraints>
-          <modifiers>
-            <modifier type="append" value="Synchronised Assault Protocols" field="name">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="3354-eccd-443c-fdc5" shared="true" includeChildSelections="false"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" value="Let Slip The Leash" field="name">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="dba7-afe0-49d9-35c2" shared="true" includeChildSelections="false"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" value="Uncanny Reconstruction" field="name">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="1a31-700b-07b7-ddbb" shared="true" includeChildSelections="false"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Headstrong Commander" hidden="false" id="3718-5760-9aba-03a2" sortIndex="6">
-          <costs>
-            <cost name="Points" typeId="e58e-982d-7630-5342" value="45"/>
-          </costs>
-          <profiles>
-            <profile name="Headstrong Commander" typeId="3f77-4198-5794-9684" typeName="Boons" hidden="false" id="cd04-d342-ea37-4917">
-              <characteristics>
-                <characteristic name="Effect" typeId="b7f2-49d8-a49a-0b0f">During the Draw Cards step of each Ready Phase, after drawing cards from their Command &amp; Conquest deck, the General can choose to draw one additional card and add it to their Hand.
-If they do, they must then discard one card from their Hand.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f2eb-3559-3998-4e60" automatic="false"/>
-            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="7d8c-9c4a-0989-cd98" automatic="false" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
-        </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Forlorn Hope" hidden="false" id="cb35-bbe3-b271-f13f" sortIndex="2">
-          <profiles>
-            <profile name="Forlorn Hope" typeId="3f77-4198-5794-9684" typeName="Boons" hidden="false" id="be6d-f807-3c6f-93ae">
-              <characteristics>
-                <characteristic name="Effect" typeId="b7f2-49d8-a49a-0b0f">A single unit in the General’s Force that has been deployed at the start of the Clash gains the Vanguard (X”) special rule, with an (X) value 2” higher than its Speed. (For example, a unit with Speed 6” would gain the Vanguard (8”) special rule.)
-If the chosen unit already has the Vanguard (X ) special rule it uses the highest (X) value of the two available.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="Points" typeId="e58e-982d-7630-5342" value="15"/>
-          </costs>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="f344-5384-c850-e0f7" automatic="false" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
-        </selectionEntry>
-      </selectionEntries>
       <categoryLinks>
         <categoryLink name="Boons" hidden="false" id="5886-f136-f498-bb05" targetId="9588-4200-697f-615f" primary="true"/>
       </categoryLinks>
-      <constraints>
-        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="152a-02f0-2a95-6c0a" automatic="true" includeChildSelections="true" includeChildForces="true"/>
-      </constraints>
+      <entryLinks>
+        <entryLink import="true" name="Boons" hidden="false" id="fdc1-6ef5-0def-c0d4" type="selectionEntryGroup" targetId="463a-ef88-92c1-6997"/>
+      </entryLinks>
     </selectionEntry>
   </selectionEntries>
   <forceEntries>
@@ -6503,6 +5909,222 @@ If the chosen unit already has the Vanguard (X ) special rule it uses the highe
         <entryLink import="true" name="Full Strength Arm/Art" hidden="false" id="6f06-0ec8-c22b-fee6" type="selectionEntry" targetId="0447-bc45-62e6-b99c" sortIndex="3"/>
       </entryLinks>
       <comment>Faction</comment>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Boons" id="463a-ef88-92c1-6997" hidden="false" flatten="true">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Battlegroup Bonus:" hidden="false" id="ab8f-b2d1-67e6-3bf4" sortIndex="1">
+          <profiles>
+            <profile name="Synchronised Assault Protocols" typeId="3f77-4198-5794-9684" typeName="Boons" hidden="false" id="6af4-8480-89cd-c85f">
+              <characteristics>
+                <characteristic name="Effect" typeId="b7f2-49d8-a49a-0b0f">Once per Round, when the General of this Battlegroup issues a Flank Attack Special Command, they can declare that they are enacting Synchronised Assault Protocols.
+
+
+They must do so before their opponent decides whether they will Interfere.
+
+
+If they do so, the Card Value of the card that is used to issue this Command is treated as being 2 higher for the purposes of determining whether Interference is successful.</characteristic>
+              </characteristics>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="3354-eccd-443c-fdc5" shared="true" includeChildSelections="false"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </profile>
+            <profile name="Let Slip The Leash (Command)" typeId="3f77-4198-5794-9684" typeName="Boons" hidden="false" id="d1ce-2a36-8021-aa22">
+              <characteristics>
+                <characteristic name="Effect" typeId="b7f2-49d8-a49a-0b0f">This Battlegroup’s General can issue this Special Command to an Enlightened Armour unit at the end of its Activation.
+
+
+It cannot be issued to a unit that has the Commander trait or the Suppressed status.
+
+
+If the Command is successfully issued, the unit makes either an Advance manoeuvre and then a Ranged Attack, or a Charge manoeuvre and then a Close Quarters Attack.
+
+
+During either manoeuvre, models in the unit cannot move further than 3”, and during the Attack, the unit has an additional Combat Rating Penalty.
+
+
+Then, the active unit immediately gains the Suppressed status.</characteristic>
+              </characteristics>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="dba7-afe0-49d9-35c2" shared="true" includeChildSelections="false"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </profile>
+            <profile name="Uncanny Reconstruction (Command)" typeId="3f77-4198-5794-9684" typeName="Boons" hidden="false" id="e335-ead0-fe60-ea21">
+              <characteristics>
+                <characteristic name="Effect" typeId="b7f2-49d8-a49a-0b0f">This Battlegroup’s General can issue this Special Command to an Enlightened unit at the end of its Activation, so long as it is within X” of another Enlightened unit in this Force that has the Peer  Review (X ) Special Rule.
+
+
+If the Command is successfully issued, this unit Recovers 1 Damage.</characteristic>
+              </characteristics>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="1a31-700b-07b7-ddbb" shared="true" includeChildSelections="false"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e946-06f6-2c5c-b43f"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0d4a-c11d-37b8-8a81"/>
+          </constraints>
+          <modifiers>
+            <modifier type="append" value="Synchronised Assault Protocols" field="name">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="3354-eccd-443c-fdc5" shared="true" includeChildSelections="false"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" value="Let Slip The Leash" field="name">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="dba7-afe0-49d9-35c2" shared="true" includeChildSelections="false"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" value="Uncanny Reconstruction" field="name">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="1a31-700b-07b7-ddbb" shared="true" includeChildSelections="false"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Selectable boons" id="9c44-602a-b559-58d0" hidden="false" flatten="true">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="None" hidden="false" id="297d-985e-a044-2e32" sortIndex="1"/>
+            <selectionEntry type="upgrade" import="true" name="Forlorn Hope" hidden="false" id="1845-accc-b4b4-605d" sortIndex="2">
+              <profiles>
+                <profile name="Forlorn Hope" typeId="3f77-4198-5794-9684" typeName="Boons" hidden="false" id="c813-bc60-9785-062b">
+                  <characteristics>
+                    <characteristic name="Effect" typeId="b7f2-49d8-a49a-0b0f">A single unit in the General’s Force that has been deployed at the start of the Clash gains the Vanguard (X”) special rule, with an (X) value 2” higher than its Speed. (For example, a unit with Speed 6” would gain the Vanguard (8”) special rule.)
+If the chosen unit already has the Vanguard (X ) special rule it uses the highest (X) value of the two available.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="15"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="210c-6b43-64c0-417c" automatic="true" includeChildSelections="true" includeChildForces="true"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Ready For Anything" hidden="false" id="00c0-9718-68b2-f785" sortIndex="3">
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="20"/>
+              </costs>
+              <profiles>
+                <profile name="Ready For Anything" typeId="3f77-4198-5794-9684" typeName="Boons" hidden="false" id="3650-32dd-3a67-6219">
+                  <characteristics>
+                    <characteristic name="Effect" typeId="b7f2-49d8-a49a-0b0f">A single unit in the General’s Force that has been deployed at the start of the Clash begins the Clash with the On Lookout status.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="f7ab-3b43-7f73-26cb" automatic="true" includeChildSelections="true" includeChildForces="true"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Countercharge" hidden="false" id="ff73-e82d-6ee9-2c45" sortIndex="4">
+              <profiles>
+                <profile name="Countercharge" typeId="3f77-4198-5794-9684" typeName="Boons" hidden="false" id="57b5-ce65-ad39-04f2">
+                  <characteristics>
+                    <characteristic name="Effect" typeId="b7f2-49d8-a49a-0b0f">Once per Round, the General can issue this Special Command to one of their units that has the On Lookout status, in place of declaring Opportunity Fire.
+
+
+If the Command is successfully issued, the unit immediately makes a Charge manoeuvre, ending in contact with the active enemy unit.
+
+
+This unit then immediately makes a Close Quarters Attack. (The active enemy unit can Retaliate as normal, if it has a Melee attack.) After doing so, this unit loses its On Lookout status.
+
+
+
+
+Note: This effectively counts as declaring Opportunity Fire, meaning that a General cannot use this Special Command and Opportunity Fire in the same turn.
+ 
+If the unit is unable to end its Charge manoeuvre in contact with the active enemy unit, this Special Command cannot be issued.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="30"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="40f7-0a14-53f8-e73d" automatic="true" includeChildSelections="true" includeChildForces="true"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Entropic Shielding" hidden="false" id="64d4-4cf7-01c6-6625" sortIndex="5">
+              <profiles>
+                <profile name="Entropic Shielding" typeId="3f77-4198-5794-9684" typeName="Boons" hidden="false" id="f632-33a8-0b3f-e80f">
+                  <characteristics>
+                    <characteristic name="Effect" typeId="b7f2-49d8-a49a-0b0f">This is a Special Command that can be issued to a unit of Enlightened Armour or Artillery that is the target of a Ranged Attack, before any dice have been rolled.
+
+It can only be issued once per round.
+
+If the Command is successfully issued, this unit gains the Durable special rule for the duration of the Ranged Attack.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="40"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="f412-d30c-e0ae-67c8" automatic="true" includeChildSelections="true" includeChildForces="true"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Headstrong Commander" hidden="false" id="7232-7df9-29b1-8e96" sortIndex="6">
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="45"/>
+              </costs>
+              <profiles>
+                <profile name="Headstrong Commander" typeId="3f77-4198-5794-9684" typeName="Boons" hidden="false" id="75d1-d3b7-a400-4f6e">
+                  <characteristics>
+                    <characteristic name="Effect" typeId="b7f2-49d8-a49a-0b0f">During the Draw Cards step of each Ready Phase, after drawing cards from their Command &amp; Conquest deck, the General can choose to draw one additional card and add it to their Hand.
+If they do, they must then discard one card from their Hand.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="5938-0f74-dbb7-4274" automatic="true" includeChildSelections="true" includeChildForces="true"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Weaponised Hubris" hidden="false" id="e104-ddad-b5c2-627d" sortIndex="7">
+              <profiles>
+                <profile name="Weaponised Hubris" typeId="3f77-4198-5794-9684" typeName="Boons" hidden="false" id="5c13-9f9a-1714-4614">
+                  <characteristics>
+                    <characteristic name="Effect" typeId="b7f2-49d8-a49a-0b0f">This is a Special Command that can be issued to an Enlightened unit with the Spectacular Demise (X) special rule when it is Annihilated, but before the opposing General has rolled the Attack Die to see what happens. 
+
+
+If the Command is successfully issued, rather than an attack die being rolled, the unit immediately suffers the effects of a Cataclysmic Detonation. Instead of affecting each unit within 8”, it affects  each unit within a number of inches equal to the Card Value of the card that was used to issue this Command.
+
+
+Once this Command has been successfully issued, it cannot be issued again for the rest of the Clash.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="70"/>
+              </costs>
+              <constraints>
+                <constraint type="min" value="-1" field="selections" scope="force" shared="true" id="f744-6256-69b1-6307" includeChildSelections="true" automatic="true" includeChildForces="true"/>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="e013-0f19-8a29-36bd" includeChildSelections="true" includeChildForces="true" automatic="true"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="1" field="f744-6256-69b1-6307">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="e104-ddad-b5c2-627d" shared="true" childName="Weaponised Hubris" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedSelectionEntries>
@@ -7425,7 +7047,4 @@ If the chosen unit already has the Vanguard (X ) special rule it uses the highe
       </modifiers>
     </selectionEntry>
   </sharedSelectionEntries>
-  <sharedAssociations>
-    <association min="1" max="1" scope="parent" childId="any" name="Boons" id="3059-e67e-a29c-2ef8"/>
-  </sharedAssociations>
 </catalogue>
