@@ -1824,7 +1824,7 @@ If they do, they must then discard one card from their Hand.</characteristic>
       <profiles>
         <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="6f9d-c8b9-bd0d-c496" noindex="false">
           <characteristics>
-            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Resilient (Front), Sponsons (3), Stalker, </characteristic>
+            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Resilient (Front), Sponsons (3), Stalker,</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2115,6 +2115,67 @@ If they do, they must then discard one card from their Hand.</characteristic>
           </conditions>
         </modifier>
       </modifiers>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="add" value="Required to be the second Bolstered element" field="warning">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="equalTo" value="2" field="selections" scope="force" childId="7967-fbd1-0a4f-fc64" shared="true" childName="Full Strength ARMOUR" includeChildSelections="true"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="7f34-2485-8ed6-f9ed" shared="true" includeChildSelections="true" childName="Ironhide Transports"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="lessThan" value="1" field="selections" scope="7f34-2485-8ed6-f9ed" childId="45ff-243b-2df2-80cc" shared="true" childName="Full Strength ARMOUR" includeChildSelections="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="c986-901f-e13e-cdb4" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+              <comment>Full bolster warning</comment>
+            </modifier>
+            <modifier type="add" value="Required to be the second Bolstered element" field="warning">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="equalTo" value="2" field="selections" scope="force" childId="76ca-f644-c584-b390" shared="true" childName="Reinforced ARMOUR" includeChildSelections="true"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="7f34-2485-8ed6-f9ed" shared="true" includeChildSelections="true" childName="Ironhide Transports"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="lessThan" value="1" field="selections" scope="7f34-2485-8ed6-f9ed" childId="e462-abf4-502b-09cf" shared="true" childName="Reinforced ARMOUR" includeChildSelections="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="386f-773d-5fda-7090" shared="true" includeChildSelections="true" includeChildForces="true" childName="Skirmish"/>
+              </conditions>
+              <comment>reinforce bolster warning</comment>
+            </modifier>
+          </modifiers>
+          <comment>Bolster warnings</comment>
+        </modifierGroup>
+      </modifierGroups>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Reaper Arc Tanks" hidden="false" id="1495-3bd6-581c-fbd6" sortIndex="16">
       <categoryLinks>
@@ -5475,6 +5536,24 @@ If they do, they must then discard one card from their Hand.</characteristic>
               </conditionGroups>
               <comment>awe has 0 Arm Stars - skirmish</comment>
             </modifier>
+            <modifier type="increment" value="1" field="9521-8c6b-fc70-427a">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="386f-773d-5fda-7090" shared="true" includeChildSelections="true" includeChildForces="true" childName="Skirmish"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="force" childId="84ba-b491-5e71-9b8e" shared="true" includeChildSelections="true" childName="Union Faction Battlegroup"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="7f34-2485-8ed6-f9ed" shared="true" includeChildSelections="true" includeChildForces="true" childName="Ironhide Transports"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+              <comment>ironhide conditinal bolster</comment>
+            </modifier>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
@@ -5527,6 +5606,24 @@ If they do, they must then discard one card from their Hand.</characteristic>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
+            </modifier>
+            <modifier type="increment" value="1" field="91dc-0730-8c52-68e1">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="c986-901f-e13e-cdb4" shared="true" includeChildSelections="true" includeChildForces="true" childName="Battle"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="force" childId="84ba-b491-5e71-9b8e" shared="true" includeChildSelections="true" childName="Union Faction Battlegroup"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="7f34-2485-8ed6-f9ed" shared="true" includeChildSelections="true" includeChildForces="true" childName="Ironhide Transports"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+              <comment>Ironhide conditinal bolster</comment>
             </modifier>
           </modifiers>
         </modifierGroup>

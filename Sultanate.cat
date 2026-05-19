@@ -115,7 +115,7 @@
       <profiles>
         <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="7cac-e564-1c2f-5a7e" noindex="false">
           <characteristics>
-            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">All-Out Attack (4), Hover, Hurtling, Large, Ponderous, Spectacular Demise (6), Sponsons (6), Extended Footprint, </characteristic>
+            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">All-Out Attack (4), Hover, Hurtling, Large, Ponderous, Spectacular Demise (6), Sponsons (6), Extended Footprint,</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1756,6 +1756,67 @@
         <categoryLink name="Heavy" hidden="false" id="01a8-597c-e590-ccf1" targetId="6aad-4085-608f-dc2f" primary="false"/>
         <categoryLink name="Transport" hidden="false" id="0fa0-242e-d0ab-0216" targetId="d78d-8ed7-fc30-5981" primary="false"/>
       </categoryLinks>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="add" value="Required to be the second Bolstered element" field="warning">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="equalTo" value="2" field="selections" scope="force" childId="4d2d-16e7-8945-d682" shared="true" childName="Full Strength ARMOUR" includeChildSelections="true"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="a531-baec-548b-0602" shared="true" includeChildSelections="true" childName="Mergen Transports"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="lessThan" value="1" field="selections" scope="a531-baec-548b-0602" childId="2190-5e69-f712-30e5" shared="true" childName="Full Strength ARMOUR" includeChildSelections="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="c986-901f-e13e-cdb4" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+              <comment>Full bolster warning</comment>
+            </modifier>
+            <modifier type="add" value="Required to be the second Bolstered element" field="warning">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="equalTo" value="2" field="selections" scope="force" childId="bcac-efdf-cce7-7775" shared="true" childName="Reinforced ARMOUR" includeChildSelections="true"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="a531-baec-548b-0602" shared="true" includeChildSelections="true" childName="Mergen Transports"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="lessThan" value="1" field="selections" scope="a531-baec-548b-0602" childId="20a9-ef54-b104-4045" shared="true" childName="Reinforced ARMOUR" includeChildSelections="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="386f-773d-5fda-7090" shared="true" includeChildSelections="true" includeChildForces="true" childName="Skirmish"/>
+              </conditions>
+              <comment>reinforce bolster warning</comment>
+            </modifier>
+          </modifiers>
+          <comment>Bolster warnings</comment>
+        </modifierGroup>
+      </modifierGroups>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Parlama ATV" hidden="false" id="f619-257c-70d1-19f0" sortIndex="15">
       <profiles>
@@ -3616,6 +3677,24 @@ If this command is successfully issued, the selected unit immediately loses a m
                 </conditionGroup>
               </conditionGroups>
             </modifier>
+            <modifier type="increment" value="1" field="937e-70b3-ee79-34c8">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="c986-901f-e13e-cdb4" shared="true" includeChildSelections="true" includeChildForces="true" childName="Battle"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="force" childId="e5d1-c616-ca94-290c" shared="true" includeChildSelections="true" childName="Sultanate Faction Battlegroup"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="a531-baec-548b-0602" shared="true" includeChildSelections="true" includeChildForces="true" childName="Mergen Transports"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+              <comment>mergen conditinal bolster</comment>
+            </modifier>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
@@ -3908,6 +3987,24 @@ If this command is successfully issued, the selected unit immediately loses a m
                 </conditionGroup>
               </conditionGroups>
               <comment>Order has 1 Arm Stars - skirmish</comment>
+            </modifier>
+            <modifier type="increment" value="1" field="8411-6bcc-64ea-1fd1">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="386f-773d-5fda-7090" shared="true" includeChildSelections="true" includeChildForces="true" childName="Skirmish"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="force" childId="e5d1-c616-ca94-290c" shared="true" includeChildSelections="true" childName="Sultanate Faction Battlegroup"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="a531-baec-548b-0602" shared="true" includeChildSelections="true" includeChildForces="true" childName="Mergen Transports"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+              <comment>mergen conditinal bolster</comment>
             </modifier>
           </modifiers>
         </modifierGroup>

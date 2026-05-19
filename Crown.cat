@@ -4019,6 +4019,113 @@
           </conditions>
         </modifier>
       </modifiers>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="add" value="or {Stirling Armoured Transports} are Required to be the second Bolstered element F" field="warning">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="0134-28b3-d7e0-aeba" shared="true" childName="Full Strength ARMOUR" includeChildSelections="true"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition type="lessThan" value="1" field="selections" scope="50b3-c77f-a288-26ec" childId="b989-1d32-83ed-7d06" shared="true" childName="Full Strength ARMOUR" includeChildSelections="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="force" childId="50b3-c77f-a288-26ec" shared="true" includeChildSelections="true" childName="Tristan Assault Transports"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                      <comment>Tristan</comment>
+                    </conditionGroup>
+                    <conditionGroup type="or">
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="equalTo" value="1" field="selections" scope="force" childId="ec18-2322-a928-89ca" shared="true" includeChildSelections="true" childName="Stirling Armoured Transports"/>
+                          </conditions>
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition type="lessThan" value="1" field="selections" scope="roster" childId="e2fc-6291-3f21-de7a" shared="true" childName="Full Strength ARMOUR" includeChildSelections="true" includeChildForces="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </conditionGroup>
+                      </conditionGroups>
+                      <comment>Stirlings</comment>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="c986-901f-e13e-cdb4" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+              <comment>Full bolster warning</comment>
+            </modifier>
+            <modifier type="add" value="or {Stirling Armoured Transports} are Required to be the second Bolstered element R" field="warning">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="1dd5-4e60-78cb-32d9" shared="true" childName="Reinforced ARMOUR" includeChildSelections="true" sortIndex="1"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or" sortIndex="2">
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditionGroups>
+                            <conditionGroup type="and" sortIndex="2">
+                              <conditions>
+                                <condition type="lessThan" value="1" field="selections" scope="50b3-c77f-a288-26ec" childId="d50a-08b8-2388-590e" shared="true" childName="Reinforced ARMOUR" includeChildSelections="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="force" childId="50b3-c77f-a288-26ec" shared="true" includeChildSelections="true" childName="Tristan Assault Transports" sortIndex="1"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                      <comment>Tristan</comment>
+                    </conditionGroup>
+                    <conditionGroup type="or" sortIndex="3">
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="equalTo" value="1" field="selections" scope="force" childId="ec18-2322-a928-89ca" shared="true" includeChildSelections="true" childName="Stirling Armoured Transports" sortIndex="1"/>
+                          </conditions>
+                          <conditionGroups>
+                            <conditionGroup type="and" sortIndex="2">
+                              <conditions>
+                                <condition type="lessThan" value="1" field="selections" scope="force" childId="c4e4-5524-0b30-feff" shared="true" childName="Reinforced ARMOUR" includeChildSelections="true" includeChildForces="false">
+                                  <comment>Stirling lookup</comment>
+                                </condition>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </conditionGroup>
+                      </conditionGroups>
+                      <comment>Stirling</comment>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="386f-773d-5fda-7090" shared="true" includeChildSelections="true" includeChildForces="true" childName="Skirmish"/>
+              </conditions>
+              <comment>reinforce bolster warning</comment>
+            </modifier>
+          </modifiers>
+          <comment>Bolster warnings</comment>
+        </modifierGroup>
+      </modifierGroups>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Galahad Main Battle Tanks" hidden="false" id="eb63-c5e9-07b4-a9ee" sortIndex="10">
       <categoryLinks>
@@ -5038,6 +5145,113 @@
           </conditions>
         </modifier>
       </modifiers>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="add" value="or {Tristan} are Required to be the second Bolstered element F" field="warning">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="0134-28b3-d7e0-aeba" shared="true" childName="Full Strength ARMOUR" includeChildSelections="true"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition type="lessThan" value="1" field="selections" scope="force" childId="b989-1d32-83ed-7d06" shared="true" childName="Full Strength ARMOUR" includeChildSelections="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="force" childId="50b3-c77f-a288-26ec" shared="true" includeChildSelections="true" childName="Tristan Assault Transports"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                      <comment>Tristan</comment>
+                    </conditionGroup>
+                    <conditionGroup type="or">
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="equalTo" value="1" field="selections" scope="force" childId="ec18-2322-a928-89ca" shared="true" includeChildSelections="true" childName="Stirling Armoured Transports"/>
+                          </conditions>
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition type="lessThan" value="1" field="selections" scope="ec18-2322-a928-89ca" childId="e2fc-6291-3f21-de7a" shared="true" childName="Full Strength ARMOUR" includeChildSelections="true" includeChildForces="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </conditionGroup>
+                      </conditionGroups>
+                      <comment>Stirlings</comment>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="c986-901f-e13e-cdb4" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+              <comment>Full bolster warning</comment>
+            </modifier>
+            <modifier type="add" value="or {Tristan} are Required to be the second Bolstered element R" field="warning">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="1dd5-4e60-78cb-32d9" shared="true" childName="Reinforced ARMOUR" includeChildSelections="true" sortIndex="1"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or" sortIndex="2">
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditionGroups>
+                            <conditionGroup type="and" sortIndex="2">
+                              <conditions>
+                                <condition type="lessThan" value="1" field="selections" scope="force" childId="d50a-08b8-2388-590e" shared="true" childName="Reinforced ARMOUR" includeChildSelections="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="force" childId="50b3-c77f-a288-26ec" shared="true" includeChildSelections="true" childName="Tristan Assault Transports" sortIndex="1"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                      <comment>Tristan</comment>
+                    </conditionGroup>
+                    <conditionGroup type="or" sortIndex="3">
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="equalTo" value="1" field="selections" scope="force" childId="ec18-2322-a928-89ca" shared="true" includeChildSelections="true" childName="Stirling Armoured Transports" sortIndex="1"/>
+                          </conditions>
+                          <conditionGroups>
+                            <conditionGroup type="and" sortIndex="2">
+                              <conditions>
+                                <condition type="lessThan" value="1" field="selections" scope="ec18-2322-a928-89ca" childId="c4e4-5524-0b30-feff" shared="true" childName="Reinforced ARMOUR" includeChildSelections="true" includeChildForces="false">
+                                  <comment>Stirling lookup</comment>
+                                </condition>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </conditionGroup>
+                      </conditionGroups>
+                      <comment>Stirling</comment>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="386f-773d-5fda-7090" shared="true" includeChildSelections="true" includeChildForces="true" childName="Skirmish"/>
+              </conditions>
+              <comment>reinforce bolster warning</comment>
+            </modifier>
+          </modifiers>
+          <comment>Bolster warnings</comment>
+        </modifierGroup>
+      </modifierGroups>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Bors Heavy Bombards" hidden="false" id="e413-164a-e537-566f" sortIndex="15">
       <categoryLinks>
@@ -5954,7 +6168,7 @@ Slow to Fire, Torrent</characteristic>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="632f-2a2f-533f-38dc" automatic="true"/>
               </constraints>
               <profiles>
-                <profile name="Impact" typeId="0c67-8016-f67e-f791" typeName="Type" hidden="false" id="db9a-bd0a-5241-17d7">
+                <profile name="Impact" typeId="0c67-8016-f67e-f791" hidden="false" id="db9a-bd0a-5241-17d7">
                   <characteristics>
                     <characteristic name="Range" typeId="7b43-1a60-41b2-4144">-</characteristic>
                     <characteristic name="10-11" typeId="cc2d-007d-1643-b17a">4</characteristic>
@@ -7052,23 +7266,6 @@ This is intentional!</characteristic>
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Melee" hidden="true" id="b1f9-b1da-727e-3c0d" sortIndex="5">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="265d-ad4f-0d13-0cae" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="52b8-524e-fea4-3d81" automatic="true"/>
-              </constraints>
-              <profiles>
-                <profile name="Melee" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="6c80-3cb6-b4bb-e776">
-                  <characteristics>
-                    <characteristic name="Range" typeId="0d60-0078-7134-d302"/>
-                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585"/>
-                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c"/>
-                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d"/>
-                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Ranged (Light/Heavy)" hidden="false" id="9474-bc21-4ebd-b75a" sortIndex="3">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c386-82dd-4a8a-7e98" automatic="true"/>
@@ -7082,40 +7279,6 @@ This is intentional!</characteristic>
                     <characteristic name="1" typeId="db59-f4c6-a5fd-3270">8(12)</characteristic>
                     <characteristic name="2" typeId="2d5f-f4fd-ec9b-533c">14(18)</characteristic>
                     <characteristic name="Qualities" typeId="c0ae-a911-dfaa-cf54">Point Blank, Suppressive</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Ranged (Heavy)" hidden="true" id="c946-23a8-8110-95b0" sortIndex="2">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ba4c-a232-c036-88ef" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="96e3-0be4-df49-fbee" automatic="true"/>
-              </constraints>
-              <profiles>
-                <profile name="Ranged (Heavy)" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="9dfa-3932-6fc6-394e">
-                  <characteristics>
-                    <characteristic name="Range" typeId="0d60-0078-7134-d302"/>
-                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585"/>
-                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c"/>
-                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d"/>
-                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Ranged (Aerial)" hidden="true" id="2a11-ea82-d811-1d3d" sortIndex="4">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="219a-5144-90fd-374a" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="385e-e02c-47c5-b273" automatic="true"/>
-              </constraints>
-              <profiles>
-                <profile name="Ranged (Aerial)" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="c0ed-4e31-697c-ea15">
-                  <characteristics>
-                    <characteristic name="Range" typeId="0d60-0078-7134-d302"/>
-                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585"/>
-                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c"/>
-                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d"/>
-                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7284,40 +7447,6 @@ This is intentional!</characteristic>
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Melee" hidden="true" id="72ab-ef6a-e09e-6030" sortIndex="5">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="00c7-c2a4-588b-b7d2" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fb67-0ae8-e026-5afc" automatic="true"/>
-              </constraints>
-              <profiles>
-                <profile name="Melee" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="9519-1b82-e072-a9cb">
-                  <characteristics>
-                    <characteristic name="Range" typeId="0d60-0078-7134-d302"/>
-                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585"/>
-                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c"/>
-                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d"/>
-                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Ranged (Light/Heavy)" hidden="true" id="90a9-53b8-7ff5-0cdf" sortIndex="3">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="207b-5e12-df44-ed95" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4ec9-05d7-913b-ffe2" automatic="true"/>
-              </constraints>
-              <profiles>
-                <profile name="Ranged (Light/Heavy)" typeId="d1b4-f39c-7290-45f6" typeName="Type" hidden="false" id="3ef2-c4b6-c7d1-aa22">
-                  <characteristics>
-                    <characteristic name="Range" typeId="0b90-061d-404c-be2b">10&quot;/20&quot;</characteristic>
-                    <characteristic name="-" typeId="1fca-084c-f5d7-2679">-</characteristic>
-                    <characteristic name="1" typeId="db59-f4c6-a5fd-3270">8(12)</characteristic>
-                    <characteristic name="2" typeId="2d5f-f4fd-ec9b-533c">14(18)</characteristic>
-                    <characteristic name="Qualities" typeId="c0ae-a911-dfaa-cf54">Point Blank, Suppressive</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Ranged (Heavy)" hidden="false" id="85f2-c9c5-9ee3-a019" sortIndex="2">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="655e-5989-15fb-64f5" automatic="true"/>
@@ -7331,23 +7460,6 @@ This is intentional!</characteristic>
                     <characteristic name="3-4" typeId="8394-18d6-22d8-e03c">9</characteristic>
                     <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d">15</characteristic>
                     <characteristic name="Qualities" typeId="1569-2922-0e92-737b">Devastating, Precision</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Ranged (Aerial)" hidden="true" id="7e10-d6c2-34cc-c186" sortIndex="4">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f3e4-c347-6f18-6684" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e416-dd71-5eb4-556e" automatic="true"/>
-              </constraints>
-              <profiles>
-                <profile name="Ranged (Aerial)" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="1492-ebf1-4b5b-7b23">
-                  <characteristics>
-                    <characteristic name="Range" typeId="0d60-0078-7134-d302"/>
-                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585"/>
-                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c"/>
-                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d"/>
-                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7432,40 +7544,6 @@ This is intentional!</characteristic>
         </selectionEntryGroup>
         <selectionEntryGroup name="Weapons" id="995e-858c-bc88-6e79" hidden="false" sortIndex="1">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Ranged (Light)" hidden="true" id="2886-26dd-e7f6-08c7" sortIndex="1">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f0c5-4639-5fde-56d2" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8f64-2570-919d-d8c4" automatic="true"/>
-              </constraints>
-              <profiles>
-                <profile name="Ranged (Light)" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="af5d-e6c6-9306-eb68">
-                  <characteristics>
-                    <characteristic name="Range" typeId="0d60-0078-7134-d302"/>
-                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585"/>
-                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c"/>
-                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d"/>
-                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Melee" hidden="true" id="5c5e-737a-6f70-920f" sortIndex="5">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e622-7f54-f59d-5bf4" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0347-8f03-2bba-3ed9" automatic="true"/>
-              </constraints>
-              <profiles>
-                <profile name="Melee" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="b495-de49-5500-3e45">
-                  <characteristics>
-                    <characteristic name="Range" typeId="0d60-0078-7134-d302"/>
-                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585"/>
-                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c"/>
-                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d"/>
-                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Ranged (Light/Heavy)" hidden="false" id="6f74-1b4d-6baa-3295" sortIndex="3">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7eaf-d8ba-ef97-cc6b" automatic="true"/>
@@ -7479,57 +7557,6 @@ This is intentional!</characteristic>
                     <characteristic name="1" typeId="db59-f4c6-a5fd-3270">8(12)</characteristic>
                     <characteristic name="2" typeId="2d5f-f4fd-ec9b-533c">14(18)</characteristic>
                     <characteristic name="Qualities" typeId="c0ae-a911-dfaa-cf54">Point Blank, Suppresive, Turret</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Ranged (Heavy)" hidden="true" id="5b25-3851-ba0d-fbab" sortIndex="2">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="870d-d16e-8348-c146" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fb14-9711-7533-cddb" automatic="true"/>
-              </constraints>
-              <profiles>
-                <profile name="Ranged (Heavy)" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="7694-2527-7e9e-2958">
-                  <characteristics>
-                    <characteristic name="Range" typeId="0d60-0078-7134-d302"/>
-                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585"/>
-                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c"/>
-                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d"/>
-                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Ranged (Aerial)" hidden="true" id="a032-8e16-e7f1-90e5" sortIndex="4">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0a75-f71f-6c6f-5854" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2f5f-dd15-c21e-371d" automatic="true"/>
-              </constraints>
-              <profiles>
-                <profile name="Ranged (Aerial)" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="6988-8552-cda0-ee78">
-                  <characteristics>
-                    <characteristic name="Range" typeId="0d60-0078-7134-d302"/>
-                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585"/>
-                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c"/>
-                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d"/>
-                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Impact" hidden="true" id="615f-a47d-d62c-f50b" sortIndex="6">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5f6e-8634-fe88-afb0" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fcef-5003-3630-6f3a" automatic="true"/>
-              </constraints>
-              <profiles>
-                <profile name="Impact" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="0de4-8b66-20c6-b284">
-                  <characteristics>
-                    <characteristic name="Range" typeId="0d60-0078-7134-d302"/>
-                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585"/>
-                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c"/>
-                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d"/>
-                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7633,40 +7660,6 @@ This is intentional!</characteristic>
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Melee" hidden="true" id="914c-3102-1162-84a4" sortIndex="5">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3557-9d23-ef5e-8a47" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7717-2e5d-6cf9-6536" automatic="true"/>
-              </constraints>
-              <profiles>
-                <profile name="Melee" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="eda5-2958-baf9-cf9c">
-                  <characteristics>
-                    <characteristic name="Range" typeId="0d60-0078-7134-d302"/>
-                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585"/>
-                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c"/>
-                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d"/>
-                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Ranged (Light/Heavy)" hidden="true" id="978f-1abd-a744-13b1" sortIndex="3">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e4f0-0f97-3b7e-009b" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dfc3-be52-b985-142e" automatic="true"/>
-              </constraints>
-              <profiles>
-                <profile name="Ranged (Light/Heavy)" typeId="d1b4-f39c-7290-45f6" typeName="Type" hidden="false" id="6c88-2305-b7f0-22a5">
-                  <characteristics>
-                    <characteristic name="Range" typeId="0b90-061d-404c-be2b">10&quot;/20&quot;</characteristic>
-                    <characteristic name="-" typeId="1fca-084c-f5d7-2679">-</characteristic>
-                    <characteristic name="1" typeId="db59-f4c6-a5fd-3270">8(12)</characteristic>
-                    <characteristic name="2" typeId="2d5f-f4fd-ec9b-533c">14(18)</characteristic>
-                    <characteristic name="Qualities" typeId="c0ae-a911-dfaa-cf54">Point Blank, Suppresive, Turret</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Ranged (Heavy)" hidden="false" id="3526-b5cd-c307-9c52" sortIndex="2">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e4a8-c08b-7072-dedb" automatic="true"/>
@@ -7680,40 +7673,6 @@ This is intentional!</characteristic>
                     <characteristic name="1" typeId="db59-f4c6-a5fd-3270">9</characteristic>
                     <characteristic name="2" typeId="2d5f-f4fd-ec9b-533c">15</characteristic>
                     <characteristic name="Qualities" typeId="c0ae-a911-dfaa-cf54">Devastating, Precision, Turret</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Ranged (Aerial)" hidden="true" id="3b58-067e-6c44-037e" sortIndex="4">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7019-4491-9809-d6e6" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d8d4-09de-f2c5-86fd" automatic="true"/>
-              </constraints>
-              <profiles>
-                <profile name="Ranged (Aerial)" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="8226-20fe-70fd-18d6">
-                  <characteristics>
-                    <characteristic name="Range" typeId="0d60-0078-7134-d302"/>
-                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585"/>
-                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c"/>
-                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d"/>
-                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Impact" hidden="true" id="e63b-51db-ddcf-285a" sortIndex="6">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3727-c41e-3ab8-4e1f" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fe34-e62c-82bb-bde4" automatic="true"/>
-              </constraints>
-              <profiles>
-                <profile name="Impact" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="d31e-1b27-980a-29b5">
-                  <characteristics>
-                    <characteristic name="Range" typeId="0d60-0078-7134-d302"/>
-                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585"/>
-                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c"/>
-                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d"/>
-                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -8037,6 +7996,25 @@ This is intentional!</characteristic>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
+            </modifier>
+            <modifier type="increment" value="1" field="fb1d-f831-de44-9c7b">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="c986-901f-e13e-cdb4" shared="true" includeChildSelections="true" includeChildForces="true" childName="Battle"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="force" childId="f353-6a14-0887-e50c" shared="true" includeChildSelections="true" childName="Crown Faction Battlegroup"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="roster" childId="ec18-2322-a928-89ca" shared="true" includeChildSelections="true" includeChildForces="true" childName="Stirling Armoured Transports"/>
+                        <condition type="equalTo" value="1" field="selections" scope="roster" childId="50b3-c77f-a288-26ec" shared="true" includeChildSelections="true" includeChildForces="true" childName="Tristan Assault Transports"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+              <comment>tristan and stirling conditinal bolster</comment>
             </modifier>
           </modifiers>
         </modifierGroup>
@@ -8489,6 +8467,25 @@ This is intentional!</characteristic>
                 </conditionGroup>
               </conditionGroups>
               <comment>Support has 0 Arm Stars - skirmish</comment>
+            </modifier>
+            <modifier type="increment" value="1" field="8da3-d505-7a00-0641">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="386f-773d-5fda-7090" shared="true" includeChildSelections="true" includeChildForces="true" childName="Skirmish"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="force" childId="f353-6a14-0887-e50c" shared="true" includeChildSelections="true" childName="Crown Faction Battlegroup"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="roster" childId="ec18-2322-a928-89ca" shared="true" includeChildSelections="true" includeChildForces="true" childName="Stirling Armoured Transports"/>
+                        <condition type="equalTo" value="1" field="selections" scope="roster" childId="50b3-c77f-a288-26ec" shared="true" includeChildSelections="true" includeChildForces="true" childName="Tristan Assault Transports"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+              <comment>tristan and stirling conditinal bolster</comment>
             </modifier>
           </modifiers>
         </modifierGroup>

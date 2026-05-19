@@ -3338,6 +3338,113 @@
       <infoLinks>
         <infoLink name="Subterranean" id="dd73-d5a9-ee79-0b82" hidden="false" type="rule" targetId="ee55-da2d-3a6a-4bd3"/>
       </infoLinks>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="add" value="or {Matryona Heavy Transports} are Required to be the second Bolstered element" field="warning">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="equalTo" value="2" field="selections" scope="force" childId="56a3-cf92-9a38-7bf4" shared="true" childName="Full Strength ARMOUR" includeChildSelections="true"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition type="lessThan" value="1" field="selections" scope="09bb-a0d8-7118-e5b1" childId="e85f-9796-9555-7bca" shared="true" childName="Full Strength ARMOUR" includeChildSelections="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="force" childId="09bb-a0d8-7118-e5b1" shared="true" includeChildSelections="true" childName="Krot Armoured Borers"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                      <comment>Krot</comment>
+                    </conditionGroup>
+                    <conditionGroup type="or">
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="force" childId="5571-7b34-a54f-e8f0" shared="true" includeChildSelections="true" childName="Matryona Heavy Transports"/>
+                          </conditions>
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition type="lessThan" value="1" field="selections" scope="force" childId="10ca-765e-96c6-e9a1" shared="true" childName="Full Strength ARMOUR" includeChildSelections="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </conditionGroup>
+                      </conditionGroups>
+                      <comment>Matryona</comment>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="c986-901f-e13e-cdb4" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+              <comment>Full bolster warning</comment>
+            </modifier>
+            <modifier type="add" value="or {Matryona Heavy Transports} are Required to be the second Bolstered element" field="warning">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="equalTo" value="2" field="selections" scope="force" childId="a523-10fa-ff3d-a048" shared="true" childName="Reinforced ARMOUR" includeChildSelections="true"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition type="lessThan" value="1" field="selections" scope="09bb-a0d8-7118-e5b1" childId="87cf-8120-bc93-0c0d" shared="true" childName="Reinforced ARMOUR" includeChildSelections="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="force" childId="09bb-a0d8-7118-e5b1" shared="true" includeChildSelections="true" childName="Krot Armoured Borers"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                      <comment>Krot</comment>
+                    </conditionGroup>
+                    <conditionGroup type="or">
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="force" childId="5571-7b34-a54f-e8f0" shared="true" includeChildSelections="true" childName="Matryona Heavy Transports"/>
+                          </conditions>
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition type="lessThan" value="1" field="selections" scope="force" childId="435b-be41-1f0a-d5ce" shared="true" childName="Reinforced ARMOUR" includeChildSelections="true" includeChildForces="false">
+                                  <comment>matryona lookup</comment>
+                                </condition>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </conditionGroup>
+                      </conditionGroups>
+                      <comment>Matryona</comment>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="386f-773d-5fda-7090" shared="true" includeChildSelections="true" includeChildForces="true" childName="Skirmish"/>
+              </conditions>
+              <comment>reinforce bolster warning</comment>
+            </modifier>
+          </modifiers>
+          <comment>Bolster warnings</comment>
+        </modifierGroup>
+      </modifierGroups>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Tsar Battle Tanks" hidden="false" id="5718-b989-80f1-19a3" sortIndex="5">
       <categoryLinks>
@@ -7178,6 +7285,113 @@ A unit can benefit from this Commander Bonus even if it is on On Lookout, and do
           </conditions>
         </modifier>
       </modifiers>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="add" value="or {Krot Armoured Borers} are Required to be the second Bolstered element" field="warning">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="equalTo" value="2" field="selections" scope="force" childId="56a3-cf92-9a38-7bf4" shared="true" childName="Full Strength ARMOUR" includeChildSelections="true"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition type="lessThan" value="1" field="selections" scope="force" childId="e85f-9796-9555-7bca" shared="true" childName="Full Strength ARMOUR" includeChildSelections="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="force" childId="09bb-a0d8-7118-e5b1" shared="true" includeChildSelections="true" childName="Krot Armoured Borers"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                      <comment>Krot</comment>
+                    </conditionGroup>
+                    <conditionGroup type="or">
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="force" childId="5571-7b34-a54f-e8f0" shared="true" includeChildSelections="true" childName="Matryona Heavy Transports"/>
+                          </conditions>
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition type="lessThan" value="1" field="selections" scope="5571-7b34-a54f-e8f0" childId="10ca-765e-96c6-e9a1" shared="true" childName="Full Strength ARMOUR" includeChildSelections="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </conditionGroup>
+                      </conditionGroups>
+                      <comment>Matryona</comment>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="c986-901f-e13e-cdb4" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+              <comment>Full bolster warning</comment>
+            </modifier>
+            <modifier type="add" value="or {Krot Armoured Borers} are Required to be the second Bolstered element" field="warning">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="equalTo" value="2" field="selections" scope="force" childId="a523-10fa-ff3d-a048" shared="true" childName="Reinforced ARMOUR" includeChildSelections="true"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition type="lessThan" value="1" field="selections" scope="force" childId="87cf-8120-bc93-0c0d" shared="true" childName="Reinforced ARMOUR" includeChildSelections="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="force" childId="09bb-a0d8-7118-e5b1" shared="true" includeChildSelections="true" childName="Krot Armoured Borers"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                      <comment>Krot</comment>
+                    </conditionGroup>
+                    <conditionGroup type="or">
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="force" childId="5571-7b34-a54f-e8f0" shared="true" includeChildSelections="true" childName="Matryona Heavy Transports"/>
+                          </conditions>
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition type="lessThan" value="1" field="selections" scope="5571-7b34-a54f-e8f0" childId="435b-be41-1f0a-d5ce" shared="true" childName="Reinforced ARMOUR" includeChildSelections="true" includeChildForces="false">
+                                  <comment>matryona lookup</comment>
+                                </condition>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </conditionGroup>
+                      </conditionGroups>
+                      <comment>Matryona</comment>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="386f-773d-5fda-7090" shared="true" includeChildSelections="true" includeChildForces="true" childName="Skirmish"/>
+              </conditions>
+              <comment>reinforce bolster warning</comment>
+            </modifier>
+          </modifiers>
+          <comment>Bolster warnings</comment>
+        </modifierGroup>
+      </modifierGroups>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Omsk Cryo Transports" hidden="false" id="32a9-f109-daa4-17bc" sortIndex="5">
       <categoryLinks>
@@ -8169,6 +8383,25 @@ Subterranean units cannot be deployed in the final round of a Clash. Any Subter
               </conditionGroups>
               <comment>JAD has 0 Arm Stars - skirmish</comment>
             </modifier>
+            <modifier type="increment" value="1" field="b2b2-648b-de7e-151e">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="386f-773d-5fda-7090" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="force" childId="9720-ada4-14a9-5282" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="roster" childId="5571-7b34-a54f-e8f0" shared="true" includeChildSelections="true" includeChildForces="true" childName="Matryona Heavy Transports"/>
+                        <condition type="equalTo" value="1" field="selections" scope="roster" childId="09bb-a0d8-7118-e5b1" shared="true" includeChildSelections="true" includeChildForces="true" childName="Krot Armoured Borers"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+              <comment>krot and matryona condition bolsters</comment>
+            </modifier>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
@@ -8219,6 +8452,25 @@ Subterranean units cannot be deployed in the final round of a Clash. Any Subter
                     <condition type="atLeast" value="1" field="selections" scope="roster" childId="c986-901f-e13e-cdb4" shared="true" includeChildSelections="true" includeChildForces="true" sortIndex="2"/>
                     <condition type="instanceOf" value="1" field="forces" scope="force" childId="3813-f906-8fb4-bba5" shared="true" includeChildSelections="true" sortIndex="1"/>
                   </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" value="1" field="9d35-5939-98d1-1deb">
+              <comment>krot and matryona condition bolsters</comment>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="c986-901f-e13e-cdb4" shared="true" includeChildSelections="true" includeChildForces="true" sortIndex="2"/>
+                    <condition type="instanceOf" value="1" field="forces" scope="force" childId="9720-ada4-14a9-5282" shared="true" includeChildSelections="true" sortIndex="1"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="roster" childId="5571-7b34-a54f-e8f0" shared="true" includeChildSelections="true" includeChildForces="true" childName="Matryona Heavy Transports"/>
+                        <condition type="equalTo" value="1" field="selections" scope="roster" childId="09bb-a0d8-7118-e5b1" shared="true" includeChildSelections="true" includeChildForces="true" childName="Krot Armoured Borers"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
                 </conditionGroup>
               </conditionGroups>
             </modifier>

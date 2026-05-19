@@ -3446,6 +3446,65 @@
             <modifier type="set-primary" value="0ff1-ceab-b6f4-ce15" field="category"/>
           </modifiers>
         </modifierGroup>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="add" value="Required to be the second Bolstered element" field="warning">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="equalTo" value="2" field="selections" scope="force" childId="32ff-5717-fc91-6c29" shared="true" childName="Full Strength ARMOUR" includeChildSelections="true"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="2164-f159-1a35-0cc0" shared="true" includeChildSelections="true" childName="Corregedor Heavy Transport"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="lessThan" value="1" field="selections" scope="2164-f159-1a35-0cc0" childId="296b-f742-3990-a7e7" shared="true" childName="Full Strength ARMOUR" includeChildSelections="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="c986-901f-e13e-cdb4" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+              <comment>Full bolster warning</comment>
+            </modifier>
+            <modifier type="add" value="Required to be the second Bolstered element" field="warning">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="equalTo" value="2" field="selections" scope="force" childId="0700-027c-f353-d794" shared="true" childName="Reinforced ARMOUR" includeChildSelections="true"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="2164-f159-1a35-0cc0" shared="true" includeChildSelections="true" childName="Corregedor Heavy Transport"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="lessThan" value="1" field="selections" scope="2164-f159-1a35-0cc0" childId="7ff6-9716-c2e5-1800" shared="true" childName="Reinforced ARMOUR" includeChildSelections="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="386f-773d-5fda-7090" shared="true" includeChildSelections="true" includeChildForces="true" childName="Skirmish"/>
+              </conditions>
+              <comment>reinforce bolster warning</comment>
+            </modifier>
+          </modifiers>
+          <comment>Bolster warnings</comment>
+        </modifierGroup>
       </modifierGroups>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Avignon Mobile Chapel" hidden="false" id="4909-bf66-6e33-43ae" sortIndex="10">
@@ -5850,6 +5909,24 @@ Units that are already Coordinated cannot benefit from this Commander Bonus.</ch
               </conditionGroups>
               <comment>Conclave has 1 Arm Stars - Skirmish</comment>
             </modifier>
+            <modifier type="increment" value="1" field="a4ac-3f72-1a7c-9d28">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="386f-773d-5fda-7090" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="force" childId="c386-2b5e-ec49-5d18" shared="true" includeChildSelections="true" childName="Alliance Faction Battlegroup"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="roster" childId="2164-f159-1a35-0cc0" shared="true" includeChildSelections="true" includeChildForces="true" childName="Corregedor Heavy Transport"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+              <comment>Corregedor conditinal bolster</comment>
+            </modifier>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
@@ -5966,6 +6043,24 @@ Units that are already Coordinated cannot benefit from this Commander Bonus.</ch
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
+            </modifier>
+            <modifier type="increment" value="1" field="f8dd-0431-78dd-a4a1">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="c986-901f-e13e-cdb4" shared="true" includeChildSelections="true" includeChildForces="true" childName="Battle"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="force" childId="c386-2b5e-ec49-5d18" shared="true" includeChildSelections="true" childName="Alliance Faction Battlegroup"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="roster" childId="2164-f159-1a35-0cc0" shared="true" includeChildSelections="true" includeChildForces="true" childName="Corregedor Heavy Transport"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+              <comment>Corregedor conditinal bolster</comment>
             </modifier>
           </modifiers>
         </modifierGroup>

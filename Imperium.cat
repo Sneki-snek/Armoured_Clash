@@ -2332,7 +2332,73 @@
             <condition type="instanceOf" value="1" field="selections" scope="force" childId="028c-27e1-2161-cbda" shared="true" includeChildSelections="false"/>
           </conditions>
         </modifier>
+        <modifier type="increment" value="1" field="2386-c59e-4eec-9c38">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="028c-27e1-2161-cbda" shared="true" includeChildSelections="false" childName="Imperium Gelve Auxiliary Battlegroup"/>
+          </conditions>
+        </modifier>
       </modifiers>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="add" value="Required to be the second Bolstered element" field="warning">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="equalTo" value="2" field="selections" scope="force" childId="42b5-3bb8-f641-c7b2" shared="true" childName="Full Strength ARMOUR" includeChildSelections="true"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="f3a6-a03b-380f-caf7" shared="true" includeChildSelections="true" childName="Panzerwagen Armoured Transport"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="lessThan" value="1" field="selections" scope="f3a6-a03b-380f-caf7" childId="bdaf-3e77-d259-4606" shared="true" childName="Full Strength ARMOUR" includeChildSelections="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="c986-901f-e13e-cdb4" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+              <comment>Full bolster warning</comment>
+            </modifier>
+            <modifier type="add" value="Required to be the second Bolstered element" field="warning">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="equalTo" value="2" field="selections" scope="force" childId="9707-681b-2280-3ab7" shared="true" childName="Reinforced ARMOUR" includeChildSelections="true"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="f3a6-a03b-380f-caf7" shared="true" includeChildSelections="true" childName="Panzerwagen Armoured Transport"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="lessThan" value="1" field="selections" scope="f3a6-a03b-380f-caf7" childId="c065-83a0-9d0d-455f" shared="true" childName="Reinforced ARMOUR" includeChildSelections="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="386f-773d-5fda-7090" shared="true" includeChildSelections="true" includeChildForces="true" childName="Skirmish"/>
+              </conditions>
+              <comment>reinforce bolster warning</comment>
+            </modifier>
+          </modifiers>
+          <comment>Bolster warnings</comment>
+        </modifierGroup>
+      </modifierGroups>
     </selectionEntry>
     <selectionEntry type="unit" import="false" name="Donnerschlag Artillery Walkers" hidden="false" id="2da7-7f3b-0ec0-d966" sortIndex="15">
       <categoryLinks>
@@ -4271,6 +4337,24 @@ If the chosen unit already has the Vanguard (X ) special rule it uses the highe
                 </conditionGroup>
               </conditionGroups>
             </modifier>
+            <modifier type="increment" value="1" field="6df7-abe2-3904-4d18">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="c986-901f-e13e-cdb4" shared="true" includeChildSelections="true" includeChildForces="true" childName="Battle"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="force" childId="028c-27e1-2161-cbda" shared="true" includeChildSelections="true" childName="Imperium Gelve Auxiliary Battlegroup"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="f3a6-a03b-380f-caf7" shared="true" includeChildSelections="true" includeChildForces="true" childName="Panzerwagen Armoured Transport"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+              <comment>Panzerwagen conditinal bolster</comment>
+            </modifier>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
@@ -4828,6 +4912,24 @@ If the chosen unit already has the Vanguard (X ) special rule it uses the highe
                 </conditionGroup>
               </conditionGroups>
               <comment>gel has 1 Arm Stars - skirmish</comment>
+            </modifier>
+            <modifier type="increment" value="1" field="b4c8-d9fa-4082-e4d7">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="386f-773d-5fda-7090" shared="true" includeChildSelections="true" includeChildForces="true" childName="Skirmish"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="force" childId="028c-27e1-2161-cbda" shared="true" includeChildSelections="true" childName="Imperium Gelve Auxiliary Battlegroup"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="f3a6-a03b-380f-caf7" shared="true" includeChildSelections="true" includeChildForces="true" childName="Panzerwagen Armoured Transport"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+              <comment>Panzerwagen conditinal bolster</comment>
             </modifier>
           </modifiers>
         </modifierGroup>
