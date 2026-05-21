@@ -385,7 +385,7 @@ If they do, they must then discard one card from their Hand.</characteristic>
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="723e-4b9f-8e7e-d219" includeChildSelections="true"/>
       </constraints>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Lakota Super Heavy Engine" hidden="false" id="62b7-416b-6de8-edb5" sortIndex="2">
+    <selectionEntry type="unit" import="true" name="Lakota Super Heavy Engine" hidden="false" id="62b7-416b-6de8-edb5" sortIndex="2" subType="unit-group">
       <categoryLinks>
         <categoryLink name="Commander" hidden="false" id="a03d-2276-4432-27c9" targetId="058b-06f1-5fc7-3c9a" primary="true"/>
         <categoryLink targetId="a412-ee13-0709-09cf" id="12f4-891a-5577-438a" primary="false" name="Union"/>
@@ -1515,7 +1515,7 @@ If they do, they must then discard one card from their Hand.</characteristic>
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="5c0a-4af3-427f-79ae" includeChildSelections="true"/>
       </constraints>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Durango Heavy Shunter" hidden="false" id="dcc4-7e19-3bdb-4f99" sortIndex="12">
+    <selectionEntry type="unit" import="true" name="Durango Heavy Shunter" hidden="false" id="dcc4-7e19-3bdb-4f99" sortIndex="12" subType="unit-group">
       <categoryLinks>
         <categoryLink targetId="a412-ee13-0709-09cf" id="b1ca-6721-b1b2-5617" primary="false" name="Union"/>
         <categoryLink targetId="2c1d-3a57-3871-f158" id="b466-11c2-2f42-071c" primary="true" name="Armour"/>
@@ -4340,14 +4340,24 @@ If they do, they must then discard one card from their Hand.</characteristic>
       </constraints>
       <modifiers>
         <modifier type="set" value="2" field="0dd5-9b11-f98e-5ae5">
-          <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="parent" childId="85c2-43ee-a668-834f" shared="true"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="parent" childId="76ca-f644-c584-b390" shared="true" childName="Reinforced ARMOUR"/>
+                <condition type="instanceOf" value="1" field="selections" scope="parent" childId="ac54-83cc-9435-9b13" shared="true" childName="Reinforced Commander"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
         <modifier type="set" value="4" field="0dd5-9b11-f98e-5ae5">
-          <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="parent" childId="e86e-71e1-9396-5526" shared="true"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="parent" childId="7967-fbd1-0a4f-fc64" shared="true" childName="Full Strength ARMOUR"/>
+                <condition type="instanceOf" value="1" field="selections" scope="parent" childId="314f-c518-7358-3e19" shared="true" childName="Full Strength Commander"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
     </selectionEntryGroup>
