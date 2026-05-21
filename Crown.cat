@@ -6662,13 +6662,9 @@ This is intentional!</characteristic>
             <modifier type="set" value="Bolstering" field="name"/>
             <modifier type="set" value="true" field="hidden">
               <comment>Hidden if NOT Support</comment>
-              <conditionGroups>
-                <conditionGroup type="not">
-                  <conditions>
-                    <condition type="instanceOf" value="1" field="forces" scope="force" childId="49f7-b3f5-f33b-afd7" shared="true" includeChildSelections="true"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="forces" scope="force" childId="49f7-b3f5-f33b-afd7" shared="true" includeChildSelections="true"/>
+              </conditions>
             </modifier>
           </modifiers>
           <entryLinks>
