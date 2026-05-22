@@ -7183,8 +7183,8 @@ A unit can benefit from this Commander Bonus even if it is on On Lookout, and do
               <infoLinks>
                 <infoLink name="Matryona Heavy Transports" id="e155-8b7e-293b-b8c2" hidden="false" type="profile" targetId="fd0b-cb42-0a10-1e3e">
                   <modifiers>
-                    <modifier type="set" value="4" field="3e5d-fadc-d9fb-6570"/>
-                    <modifier type="set" value="2" field="bb79-114d-2dc7-ca18"/>
+                    <modifier type="set" value="2" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="3" field="bb79-114d-2dc7-ca18"/>
                   </modifiers>
                 </infoLink>
               </infoLinks>
@@ -7196,8 +7196,8 @@ A unit can benefit from this Commander Bonus even if it is on On Lookout, and do
               <infoLinks>
                 <infoLink name="Matryona Heavy Transports" id="0a16-4449-c804-fe5a" hidden="false" type="profile" targetId="fd0b-cb42-0a10-1e3e">
                   <modifiers>
-                    <modifier type="set" value="8" field="3e5d-fadc-d9fb-6570"/>
-                    <modifier type="set" value="3" field="bb79-114d-2dc7-ca18"/>
+                    <modifier type="set" value="4" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="4" field="bb79-114d-2dc7-ca18"/>
                   </modifiers>
                 </infoLink>
               </infoLinks>
@@ -7209,8 +7209,8 @@ A unit can benefit from this Commander Bonus even if it is on On Lookout, and do
               <infoLinks>
                 <infoLink name="Matryona Heavy Transports" id="c86a-43fe-21b2-5364" hidden="false" type="profile" targetId="fd0b-cb42-0a10-1e3e">
                   <modifiers>
-                    <modifier type="set" value="12" field="3e5d-fadc-d9fb-6570"/>
-                    <modifier type="set" value="4" field="bb79-114d-2dc7-ca18"/>
+                    <modifier type="set" value="6" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="5" field="bb79-114d-2dc7-ca18"/>
                   </modifiers>
                 </infoLink>
               </infoLinks>
@@ -7240,8 +7240,8 @@ A unit can benefit from this Commander Bonus even if it is on On Lookout, and do
               <infoLinks>
                 <infoLink name="Matryona Heavy Transports" id="1fbb-0a4f-a1d4-56fe" hidden="false" type="profile" targetId="fd0b-cb42-0a10-1e3e">
                   <modifiers>
-                    <modifier type="set" value="4" field="3e5d-fadc-d9fb-6570"/>
-                    <modifier type="set" value="2" field="bb79-114d-2dc7-ca18"/>
+                    <modifier type="set" value="2" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="3" field="bb79-114d-2dc7-ca18"/>
                   </modifiers>
                 </infoLink>
               </infoLinks>
@@ -7253,8 +7253,8 @@ A unit can benefit from this Commander Bonus even if it is on On Lookout, and do
               <infoLinks>
                 <infoLink name="Matryona Heavy Transports" id="ef90-c1ef-60cb-d8de" hidden="false" type="profile" targetId="fd0b-cb42-0a10-1e3e">
                   <modifiers>
-                    <modifier type="set" value="8" field="3e5d-fadc-d9fb-6570"/>
-                    <modifier type="set" value="3" field="bb79-114d-2dc7-ca18"/>
+                    <modifier type="set" value="4" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="4" field="bb79-114d-2dc7-ca18"/>
                   </modifiers>
                 </infoLink>
               </infoLinks>
@@ -7266,8 +7266,8 @@ A unit can benefit from this Commander Bonus even if it is on On Lookout, and do
               <infoLinks>
                 <infoLink name="Matryona Heavy Transports" id="1c64-8738-bf00-4d1e" hidden="false" type="profile" targetId="fd0b-cb42-0a10-1e3e">
                   <modifiers>
-                    <modifier type="set" value="12" field="3e5d-fadc-d9fb-6570"/>
-                    <modifier type="set" value="4" field="bb79-114d-2dc7-ca18"/>
+                    <modifier type="set" value="6" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="5" field="bb79-114d-2dc7-ca18"/>
                   </modifiers>
                 </infoLink>
               </infoLinks>
@@ -7488,8 +7488,8 @@ A unit can benefit from this Commander Bonus even if it is on On Lookout, and do
               <infoLinks>
                 <infoLink name="Omsk Cryo Transports" id="b2dc-d187-21aa-e760" hidden="false" type="profile" targetId="01d6-0b7e-e006-3836">
                   <modifiers>
-                    <modifier type="set" value="4" field="3e5d-fadc-d9fb-6570"/>
-                    <modifier type="set" value="2" field="bb79-114d-2dc7-ca18"/>
+                    <modifier type="set" value="2" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="3" field="bb79-114d-2dc7-ca18"/>
                   </modifiers>
                 </infoLink>
               </infoLinks>
@@ -7501,8 +7501,8 @@ A unit can benefit from this Commander Bonus even if it is on On Lookout, and do
               <infoLinks>
                 <infoLink name="Omsk Cryo Transports" id="967e-6db4-16e6-68e5" hidden="false" type="profile" targetId="01d6-0b7e-e006-3836">
                   <modifiers>
-                    <modifier type="set" value="8" field="3e5d-fadc-d9fb-6570"/>
-                    <modifier type="set" value="3" field="bb79-114d-2dc7-ca18"/>
+                    <modifier type="set" value="4" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="4" field="bb79-114d-2dc7-ca18"/>
                   </modifiers>
                 </infoLink>
               </infoLinks>
@@ -7514,8 +7514,8 @@ A unit can benefit from this Commander Bonus even if it is on On Lookout, and do
               <infoLinks>
                 <infoLink name="Omsk Cryo Transports" id="5e28-e1c2-2ff9-07f8" hidden="false" type="profile" targetId="01d6-0b7e-e006-3836">
                   <modifiers>
-                    <modifier type="set" value="12" field="3e5d-fadc-d9fb-6570"/>
-                    <modifier type="set" value="4" field="bb79-114d-2dc7-ca18"/>
+                    <modifier type="set" value="6" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="5" field="bb79-114d-2dc7-ca18"/>
                   </modifiers>
                 </infoLink>
               </infoLinks>
@@ -7545,8 +7545,8 @@ A unit can benefit from this Commander Bonus even if it is on On Lookout, and do
               <infoLinks>
                 <infoLink name="Omsk Cryo Transports" id="d22d-dcf9-5c10-6874" hidden="false" type="profile" targetId="01d6-0b7e-e006-3836">
                   <modifiers>
-                    <modifier type="set" value="4" field="3e5d-fadc-d9fb-6570"/>
-                    <modifier type="set" value="2" field="bb79-114d-2dc7-ca18"/>
+                    <modifier type="set" value="2" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="3" field="bb79-114d-2dc7-ca18"/>
                   </modifiers>
                 </infoLink>
               </infoLinks>
@@ -7558,8 +7558,8 @@ A unit can benefit from this Commander Bonus even if it is on On Lookout, and do
               <infoLinks>
                 <infoLink name="Omsk Cryo Transports" id="043f-bf55-d413-3cd1" hidden="false" type="profile" targetId="01d6-0b7e-e006-3836">
                   <modifiers>
-                    <modifier type="set" value="8" field="3e5d-fadc-d9fb-6570"/>
-                    <modifier type="set" value="3" field="bb79-114d-2dc7-ca18"/>
+                    <modifier type="set" value="4" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="4" field="bb79-114d-2dc7-ca18"/>
                   </modifiers>
                 </infoLink>
               </infoLinks>
@@ -7571,8 +7571,8 @@ A unit can benefit from this Commander Bonus even if it is on On Lookout, and do
               <infoLinks>
                 <infoLink name="Omsk Cryo Transports" id="ada8-c57b-9c09-3e2f" hidden="false" type="profile" targetId="01d6-0b7e-e006-3836">
                   <modifiers>
-                    <modifier type="set" value="12" field="3e5d-fadc-d9fb-6570"/>
-                    <modifier type="set" value="4" field="bb79-114d-2dc7-ca18"/>
+                    <modifier type="set" value="6" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="5" field="bb79-114d-2dc7-ca18"/>
                   </modifiers>
                 </infoLink>
               </infoLinks>
