@@ -5610,7 +5610,7 @@
       <profiles>
         <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="2bb0-fecf-a13b-adde" noindex="true">
           <characteristics>
-            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">All Out Attack (3),Capacity (12), Chain of Command (12”), Inspiring (3), Large, Open Top, Ponderous, Slow, Spectacular Demise (6), Sponsons (3), Strongpoint</characteristic>
+            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">All-Out Attack (3),Capacity (12), Chain of Command (12”), Inspiring (3), Large, Open Top, Ponderous, Slow, Spectacular Demise (6), Sponsons (3), Strongpoint</characteristic>
           </characteristics>
         </profile>
       </profiles>
