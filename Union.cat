@@ -3881,7 +3881,7 @@ If they do, they must then discard one card from their Hand.</characteristic>
       <profiles>
         <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="7aaa-69d5-9248-da6d" noindex="false">
           <characteristics>
-            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Ambushers, Hit &amp; Run (3”), Irregular, Pioneers, Rapid Response, Parent Unit (2)</characteristic>
+            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Ambushers, Hit &amp; Run (3”), Irregular, Pioneers, Rapid Response</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3945,13 +3945,6 @@ If they do, they must then discard one card from their Hand.</characteristic>
               <costs>
                 <cost name="Points" typeId="e58e-982d-7630-5342" value="80"/>
               </costs>
-              <entryLinks>
-                <entryLink import="true" name="Fireteam" hidden="false" id="b5fe-2b2f-c2d8-614c" type="selectionEntryGroup" targetId="2a1b-0962-8903-e24b">
-                  <constraints>
-                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="cb8c-8daa-6c2b-9bf9" includeChildSelections="false"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
               <infoLinks>
                 <infoLink name="Frontier Rangers" id="7749-b913-0deb-3cac" hidden="false" type="profile" targetId="244a-9327-d825-7be6"/>
               </infoLinks>
@@ -3960,13 +3953,6 @@ If they do, they must then discard one card from their Hand.</characteristic>
               <costs>
                 <cost name="Points" typeId="e58e-982d-7630-5342" value="135"/>
               </costs>
-              <entryLinks>
-                <entryLink import="true" name="Fireteam" hidden="false" id="f4f9-0e91-81f9-a7b1" type="selectionEntryGroup" targetId="ce51-0aae-c19e-3582">
-                  <constraints>
-                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="9a46-0e74-4d2b-aecf" includeChildSelections="false"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
               <infoLinks>
                 <infoLink name="Frontier Rangers" id="32b5-2390-10f1-152f" hidden="false" type="profile" targetId="b406-b069-ccb0-a06c"/>
               </infoLinks>
@@ -3975,13 +3961,6 @@ If they do, they must then discard one card from their Hand.</characteristic>
               <costs>
                 <cost name="Points" typeId="e58e-982d-7630-5342" value="210"/>
               </costs>
-              <entryLinks>
-                <entryLink import="true" name="Fireteam" hidden="false" id="40af-75c5-db93-847f" type="selectionEntryGroup" targetId="dde4-219a-8c56-138d">
-                  <constraints>
-                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="8cb6-652c-14a9-01b5" includeChildSelections="false"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
               <infoLinks>
                 <infoLink name="Frontier Rangers" id="cefe-1504-4ef6-9e21" hidden="false" type="profile" targetId="8e69-b4d7-d5a3-6659"/>
               </infoLinks>
