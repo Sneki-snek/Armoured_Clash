@@ -108,7 +108,7 @@ While the unit is Garrisoning the Behemoth, opposing units can attack it as tho
     <rule name="Overrun" id="fa0a-a4e0-f7fd-7edb" hidden="false">
       <description>If this unit wins a Close Quarters Combat during its own Activation, and the target unit has not been Annihilated, its General can discard a Command &amp; Conquest Card from their hand to declare that this unit will Overrun the enemy.
 If they do so, this unit immediately makes a Charge manoeuvre, ending in contact with the target unit. This unit then makes a Close Quarters Attack.
-The target unit can Retaliate as normal, if it has a Melee attack. A unit can only Overrun the enemy once per Activation. </description>
+The target unit can Retaliate as normal, if it has a Melee attack. A unit can only Overrun the enemy once per Activation.</description>
     </rule>
     <rule name="Pioneers" id="bcfc-cd99-99cc-ac5b" hidden="false">
       <description>When this unit moves, it treats Difficult Terrain and Dense Terrain as Open Terrain. In addition, when this unit makes a Ranged Attack, ignore any Dense Terrain within 3” of its Officer when confirming Visibility.
@@ -609,6 +609,7 @@ Aircraft, Rotorcraft and units with the Hover special rule are immune to the ef
     </rule>
     <rule name="Suppressive" id="55ad-e68a-c008-45de" hidden="false">
       <description>If a Suppression Test is made as the result of this attack, the target has a -1 Discipline modifier.</description>
+      <alias>Suppresive</alias>
     </rule>
     <rule name="Rabble" id="d554-4673-dda6-ba59" hidden="false">
       <description>If this unit Falls Back as the result of a failed Suppression Test, it immediately assumes Open Formation.
@@ -739,7 +740,32 @@ If an Entrenched unit moves or makes any Manoeuvre other than Aim, it loses the
       <description>During this unit’s Attack Step, it may make a Special Action to repair another unit. Make a Discipline Test for the active unit.
 If it is passed, a friendly unit with the X trait within 2” recovers an amount of Damage depending on the current number of models in the unit.
 If there are 1-4 models, recover one point of Damage; if there are 5 or more, recover two points of Damage.
-Destroyed models may not be returned to the Battlefield with this rule. </description>
+Destroyed models may not be returned to the Battlefield with this rule.</description>
+    </rule>
+    <rule name="Support Unit" id="0f9a-22e9-e697-ff4e" hidden="false">
+      <description>A Fireteam cannot be selected as the target of a Ranged Attack if it is In Formation and the attacking unit’s Officer is more than 6” away from it.
+This does not apply if either the Fireteam or its Parent unit is Garrisoned or Embarked and the other is not, or if the Ranged Attack has the Precision quality.</description>
+    </rule>
+    <rule name="Hostile Territory Drop" id="c3e8-ecf2-8717-a586" hidden="false">
+      <description>If an (X) unit is included in this Force, this unit gains +2 to the value of the Command &amp; Conquest Card when it is issued the Flank Attack Special Command.
+Only one unit may benefit from this rule per (X) unit in this Force.
+
+
+*For example, a Union commander holds two units of Frontier Dustcutters with the Hostile Territory Drop (Talon Rotors) special rule in Reserve.
+Also in their force is a single unit of Talon Rotors. During the Deploy Reserves step of the second round, the Union commander wishes to issue the Flank Attack special command to both units of Frontier Dustcutters.
+As such, one of them will gain a +2 to the value of the Command &amp; Conquest card but the other does not as there is only a single unit of Talon Rotors in the force.*
+
+**Any decision as to which unit benefits from this rule must be made before any cards are played.**</description>
+    </rule>
+    <rule name="Adaptable Deployment" id="92c0-cf8a-9072-592b" hidden="false">
+      <description>This unit begins the game with either the *Aerial Assault* or *Vanguard (8”)* special rule. The General must declare which before Deployment begins.
+If both Generals have units with this Special Rule, then General A must make this decision for all their units first.</description>
+    </rule>
+    <rule name="Regroup" id="75d1-7d04-7bde-eb72" hidden="false">
+      <description>If this unit would ever Fall Back, remove it from the battlefield and place it into Reserve. The unit loses any status effects or other tokens but keeps any Damage it has taken.</description>
+    </rule>
+    <rule name="Jump Ramp" id="2e88-14f2-9784-60d2" hidden="false">
+      <description>In this unit’s Attack Step, it can make a Special Action to allow an Embarked unit with the Soar (X ) special rule to immediately perform a free Disembark manoeuvre.</description>
     </rule>
   </sharedRules>
 </catalogue>
