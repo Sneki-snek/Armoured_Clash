@@ -6942,7 +6942,7 @@ This is intentional!</characteristic>
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Camlan Superheavy Transport" hidden="true" id="9fc3-12cd-fadf-61ad" sortIndex="14">
+    <selectionEntry type="unit" import="true" name="Camlan Superheavy Transport" hidden="false" id="9fc3-12cd-fadf-61ad" sortIndex="14">
       <profiles>
         <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="4ce2-0b43-0df0-5780" noindex="false">
           <characteristics>
