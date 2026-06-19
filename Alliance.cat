@@ -5701,12 +5701,6 @@ Units that are already Coordinated cannot benefit from this Commander Bonus.</ch
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="6e38-5261-0cfa-2a99"/>
           </constraints>
         </categoryLink>
-        <categoryLink name="Cavalry" hidden="false" id="112f-4258-006c-586c" targetId="d257-b36f-8e15-2d9b">
-          <constraints>
-            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="8467-0181-4152-a3f4"/>
-            <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="4013-cd82-c3aa-0743"/>
-          </constraints>
-        </categoryLink>
         <categoryLink name="Infantry/Cavalry" hidden="false" id="0488-4bba-f1ad-7464" targetId="763f-6d17-4a4b-c0df">
           <constraints>
             <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="785a-2491-11fc-8e75"/>
