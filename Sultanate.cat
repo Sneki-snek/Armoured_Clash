@@ -3808,8 +3808,8 @@ If this command is successfully issued, the selected unit immediately loses a m
               </conditions>
               <comment>Skirmish selection</comment>
             </modifier>
-            <modifier type="set" value="0" field="e8c1-4414-cabd-1c3d">
-              <comment>Faction has 0 inf Stars - battle</comment>
+            <modifier type="set" value="1" field="e8c1-4414-cabd-1c3d">
+              <comment>Faction has 1 inf Stars - battle</comment>
               <conditionGroups>
                 <conditionGroup type="and">
                   <conditions>
