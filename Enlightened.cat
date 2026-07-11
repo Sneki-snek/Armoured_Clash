@@ -11,7 +11,7 @@
       <profiles>
         <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="df58-64cc-1547-7151" noindex="false">
           <characteristics>
-            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Construct, Command Signals, Peer Review (6)</characteristic>
+            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Command Signals, Peer Review (6&quot;)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -699,7 +699,7 @@
                     <characteristic name="1-4" typeId="94b3-2e14-1b71-6757">4(6)</characteristic>
                     <characteristic name="5-8" typeId="f891-f62d-9222-6a4f">8(12)</characteristic>
                     <characteristic name="9-12" typeId="df36-9d51-a316-8d54">12(17)</characteristic>
-                    <characteristic name="Qualities" typeId="9a3f-8a28-e735-e1eb">Devastating, Suppressive, Point Blank, </characteristic>
+                    <characteristic name="Qualities" typeId="9a3f-8a28-e735-e1eb">Devastating, Suppressive, Point Blank,</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5330,7 +5330,7 @@
       <profiles>
         <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="4a53-6344-a019-5972" noindex="false">
           <characteristics>
-            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">All-Out Attack (3), Large, Peer Review (6), Shockwave, Shrouded, Spectacular Demise (12), Stilted (2)</characteristic>
+            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">All-Out Attack (3), Large, Peer Review (6&quot;), Shockwave, Shrouded, Spectacular Demise (12), Stilted (2)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5494,7 +5494,7 @@
       <profiles>
         <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="7e1e-2318-4497-9c7d" noindex="false">
           <characteristics>
-            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">All-Out Attack (2), Hunter, Large, Peer Review (6), Shockwave, Shrouded, Spectacular Demise (12), Stilted (2), Stoic Defence, Throw (12)</characteristic>
+            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">All-Out Attack (2), Hunter, Large, Peer Review (6&quot;), Shockwave, Shrouded, Spectacular Demise (12), Stilted (2), Stoic Defence, Throw (12)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5621,6 +5621,1473 @@
         <entryLink import="true" name="Boons" hidden="false" id="fdc1-6ef5-0def-c0d4" type="selectionEntryGroup" targetId="463a-ef88-92c1-6997"/>
       </entryLinks>
     </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Reclamator Canceris Constructs" hidden="false" id="bbe3-54e2-a044-583a">
+      <profiles>
+        <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="873a-5388-879c-3324" noindex="false">
+          <characteristics>
+            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Construct, Occupy, Pioneers, Repair (Heavy), Storming Party</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Stats" id="4033-ccc4-c143-ea71" hidden="true" sortIndex="4">
+          <profiles>
+            <profile name="Reclamator Canceris Constructs" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="8771-ea56-7321-8af1">
+              <characteristics>
+                <characteristic name="Target type" typeId="de47-7191-892f-3c71">Light</characteristic>
+                <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">1</characteristic>
+                <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570">4</characteristic>
+                <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18">1</characteristic>
+                <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">4&quot;</characteristic>
+                <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">1</characteristic>
+                <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">4</characteristic>
+                <characteristic name="Discipline" typeId="9692-df81-03cd-8583">7</characteristic>
+                <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">1</characteristic>
+              </characteristics>
+              <comment>Basic</comment>
+            </profile>
+            <profile name="Reclamator Canceris Constructs" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="6318-2a2f-23c1-2fde">
+              <characteristics>
+                <characteristic name="Target type" typeId="de47-7191-892f-3c71">Light</characteristic>
+                <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">1</characteristic>
+                <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570">8</characteristic>
+                <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18">2</characteristic>
+                <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">4&quot;</characteristic>
+                <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">1</characteristic>
+                <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">4</characteristic>
+                <characteristic name="Discipline" typeId="9692-df81-03cd-8583">7</characteristic>
+                <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">1</characteristic>
+              </characteristics>
+              <comment>Reinforced</comment>
+            </profile>
+            <profile name="Reclamator Canceris Constructs" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="7b25-93c6-e573-bb17">
+              <characteristics>
+                <characteristic name="Target type" typeId="de47-7191-892f-3c71">Light</characteristic>
+                <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">1</characteristic>
+                <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570">12</characteristic>
+                <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18">3</characteristic>
+                <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">4&quot;</characteristic>
+                <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">1</characteristic>
+                <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">4</characteristic>
+                <characteristic name="Discipline" typeId="9692-df81-03cd-8583">7</characteristic>
+                <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">1</characteristic>
+              </characteristics>
+              <comment>Full</comment>
+            </profile>
+          </profiles>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Weapons" id="64b7-89c9-dadf-c1e0" hidden="false" sortIndex="1">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Melee" hidden="false" id="7079-eeae-f33e-b078" sortIndex="5">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1c8c-bd78-aac7-5451" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="87e6-8c22-2ee0-a691" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Melee" typeId="344a-022d-aebf-7e7a" typeName="Type" hidden="false" id="f18b-c185-f8c3-f8ea">
+                  <characteristics>
+                    <characteristic name="Range" typeId="db9e-9452-9fc5-3877">-</characteristic>
+                    <characteristic name="1-4" typeId="94b3-2e14-1b71-6757">4</characteristic>
+                    <characteristic name="5-8" typeId="f891-f62d-9222-6a4f">6</characteristic>
+                    <characteristic name="9-12" typeId="df36-9d51-a316-8d54">8</characteristic>
+                    <characteristic name="Qualities" typeId="9a3f-8a28-e735-e1eb">Overcharge, Suppressive</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Bolstering Inf/Cav" id="2db1-3093-b7a0-ca62" hidden="false" import="false" sortIndex="2">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0d27-5640-3725-ac84"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4fb7-2f0d-e5aa-2220"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="Bolstering" field="name"/>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="forces" scope="force" childId="1a31-700b-07b7-ddbb" shared="true" includeChildSelections="true"/>
+              </conditions>
+              <comment>Hidden if Faction</comment>
+            </modifier>
+          </modifiers>
+          <entryLinks>
+            <entryLink import="true" name="Basic Inf/Cav" hidden="false" id="5b67-78e9-3a97-7734" type="selectionEntry" targetId="b11e-812c-5712-6b6d" sortIndex="1">
+              <infoLinks>
+                <infoLink name="Reclamator Canceris Constructs" id="abcc-e6c5-c206-33ea" hidden="false" type="profile" targetId="8771-ea56-7321-8af1"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="40"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Reinforced Inf/Cav" hidden="false" id="351f-1825-ab3e-8411" type="selectionEntry" targetId="8eb2-2bee-e79d-b38e" sortIndex="2">
+              <infoLinks>
+                <infoLink name="Reclamator Canceris Constructs" id="393f-a186-189c-d84a" hidden="false" type="profile" targetId="6318-2a2f-23c1-2fde"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="65"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Full Strength Inf/Cav" hidden="false" id="856b-c5c2-daf4-7d9f" type="selectionEntry" targetId="533e-3463-cf89-7ba2" sortIndex="3">
+              <infoLinks>
+                <infoLink name="Reclamator Canceris Constructs" id="4c37-3eda-5a07-8c9b" hidden="false" type="profile" targetId="7b25-93c6-e573-bb17"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="100"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+          <comment>Faction</comment>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Bolstering INFANTRY" id="a0df-37d6-5f25-3ba1" hidden="false" import="false" sortIndex="3">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="723b-c6b4-d726-8285"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d421-b7d5-e6ea-fb2d"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="Bolstering" field="name"/>
+            <modifier type="set" value="true" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="forces" scope="force" childId="3354-eccd-443c-fdc5" shared="true" includeChildSelections="true"/>
+                    <condition type="instanceOf" value="1" field="forces" scope="force" childId="dba7-afe0-49d9-35c2" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+              <comment>Hidden if Crab or surg</comment>
+            </modifier>
+          </modifiers>
+          <entryLinks>
+            <entryLink import="true" name="Basic INFANTRY" hidden="false" id="7c24-485e-b482-c0d2" type="selectionEntry" targetId="eec7-01cd-2a33-f030" sortIndex="1">
+              <infoLinks>
+                <infoLink name="Reclamator Canceris Constructs" id="3abf-126f-7f2f-df8e" hidden="false" type="profile" targetId="8771-ea56-7321-8af1"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="40"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Reinforced INFANTRY" hidden="false" id="f529-d80e-3618-7a58" type="selectionEntry" targetId="1d6f-5b63-462d-1319" sortIndex="2">
+              <infoLinks>
+                <infoLink name="Reclamator Canceris Constructs" id="d008-53e1-f243-9fa0" hidden="false" type="profile" targetId="6318-2a2f-23c1-2fde"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="65"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Full Strength INFANTRY" hidden="false" id="bc94-de1c-92aa-430b" type="selectionEntry" targetId="b7e1-0bff-1ebd-3add" sortIndex="3">
+              <infoLinks>
+                <infoLink name="Reclamator Canceris Constructs" id="a5a4-47a0-bf07-bab2" hidden="false" type="profile" targetId="7b25-93c6-e573-bb17"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="100"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="8035-db25-4c5b-a7c0" includeChildSelections="true"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink name="Enlightened" hidden="false" id="fd2e-5993-574c-dc5b" targetId="42f4-f9ca-4d81-75b4" primary="false"/>
+        <categoryLink name="Light" hidden="false" id="48ce-8850-e6d9-5414" targetId="default-category" primary="false"/>
+        <categoryLink name="Infantry" hidden="false" id="596b-f6db-d3e5-0da1" targetId="92f8-9d17-dd4d-a5ac" primary="true"/>
+        <categoryLink name="Scuttler" hidden="false" id="fe2f-4eea-21f0-3976" targetId="0068-9baa-7dfc-6ddc" primary="false"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Aegis Support Creepers" hidden="false" id="91b5-3303-5907-db64">
+      <profiles>
+        <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="c074-418d-b309-bbea" noindex="false">
+          <characteristics>
+            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Construct, Pioneers, Shield Generator (6”), Spectacular Demise (4)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Stats" id="43b7-5fde-ac0a-df4b" hidden="true" sortIndex="4">
+          <profiles>
+            <profile name="Aegis Support Creepers" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="7904-afac-0440-b032">
+              <characteristics>
+                <characteristic name="Target type" typeId="de47-7191-892f-3c71">Light</characteristic>
+                <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">1</characteristic>
+                <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570">2</characteristic>
+                <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18">3</characteristic>
+                <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">6&quot;</characteristic>
+                <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">3</characteristic>
+                <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">2</characteristic>
+                <characteristic name="Discipline" typeId="9692-df81-03cd-8583">5</characteristic>
+                <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">1</characteristic>
+              </characteristics>
+              <comment>Basic</comment>
+            </profile>
+            <profile name="Aegis Support Creepers" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="a7f7-eee2-8132-9cf8">
+              <characteristics>
+                <characteristic name="Target type" typeId="de47-7191-892f-3c71">Light</characteristic>
+                <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">1</characteristic>
+                <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570">4</characteristic>
+                <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18">4</characteristic>
+                <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">6&quot;</characteristic>
+                <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">3</characteristic>
+                <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">2</characteristic>
+                <characteristic name="Discipline" typeId="9692-df81-03cd-8583">5</characteristic>
+                <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">1</characteristic>
+              </characteristics>
+              <comment>Reinforced</comment>
+            </profile>
+            <profile name="Aegis Support Creepers" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="a8b6-c860-7ae8-34d7">
+              <characteristics>
+                <characteristic name="Target type" typeId="de47-7191-892f-3c71">Light</characteristic>
+                <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">1</characteristic>
+                <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570">6</characteristic>
+                <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18">5</characteristic>
+                <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">6&quot;</characteristic>
+                <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">3</characteristic>
+                <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">2</characteristic>
+                <characteristic name="Discipline" typeId="9692-df81-03cd-8583">5</characteristic>
+                <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">1</characteristic>
+              </characteristics>
+              <comment>Full</comment>
+            </profile>
+          </profiles>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Weapons" id="a5d4-e0e5-7915-fa31" hidden="false" sortIndex="1">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Ranged (Light)" hidden="false" id="e90f-3d62-f144-e39d" sortIndex="1">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a767-bafd-7a84-c5ba" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4e75-9801-951f-df6f" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Ranged (Light)" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="5a86-26f8-1218-f103">
+                  <characteristics>
+                    <characteristic name="Range" typeId="0d60-0078-7134-d302">4&quot;/10&quot;</characteristic>
+                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585">4</characteristic>
+                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c">6</characteristic>
+                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d">8</characteristic>
+                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Melee" hidden="false" id="b811-8326-076c-0115" sortIndex="5">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fbbc-aef1-682f-d2b7" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f653-bd06-34ef-7edc" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Melee" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="292c-a8ad-2c62-5628">
+                  <characteristics>
+                    <characteristic name="Range" typeId="0d60-0078-7134-d302">-</characteristic>
+                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585">4</characteristic>
+                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c">6</characteristic>
+                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d">8</characteristic>
+                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b">Arc</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Bolstering Inf/Cav" id="2ac1-37c7-aaca-ad67" hidden="false" import="false" sortIndex="3">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1680-e6d1-71e7-95e2"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9c3b-667e-1bd6-10da"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="Bolstering" field="name"/>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="forces" scope="force" childId="1a31-700b-07b7-ddbb" shared="true" includeChildSelections="true"/>
+              </conditions>
+              <comment>Hidden if Faction</comment>
+            </modifier>
+          </modifiers>
+          <entryLinks>
+            <entryLink import="true" name="Basic Inf/Cav" hidden="false" id="61d5-6db1-8508-2758" type="selectionEntry" targetId="b11e-812c-5712-6b6d" sortIndex="1">
+              <infoLinks>
+                <infoLink name="Aegin Support Creepers" id="432b-47ce-7729-74bf" hidden="false" type="profile" targetId="7904-afac-0440-b032"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="70"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Reinforced Inf/Cav" hidden="false" id="3f6e-33f4-613c-e216" type="selectionEntry" targetId="8eb2-2bee-e79d-b38e" sortIndex="2">
+              <infoLinks>
+                <infoLink name="Aegin Support Creepers" id="6e88-9b6e-efe4-2f8f" hidden="false" type="profile" targetId="a7f7-eee2-8132-9cf8"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="120"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Full Strength Inf/Cav" hidden="false" id="7b73-356c-7db7-2f49" type="selectionEntry" targetId="533e-3463-cf89-7ba2" sortIndex="3">
+              <infoLinks>
+                <infoLink name="Aegin Support Creepers" id="bae9-148b-db23-c3d4" hidden="false" type="profile" targetId="a8b6-c860-7ae8-34d7"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="180"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+          <comment>Faction</comment>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Bolstering CAVALRY" id="b7b2-9a91-79e8-bbf3" hidden="false" import="false" sortIndex="2">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0da1-15bf-d1fa-0a2b"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4bad-d660-d278-e3dc"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="Bolstering" field="name"/>
+            <modifier type="set" value="true" field="hidden">
+              <comment>Hidden if Crab or surg</comment>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="forces" scope="force" childId="3354-eccd-443c-fdc5" shared="true" includeChildSelections="true"/>
+                    <condition type="instanceOf" value="1" field="forces" scope="force" childId="dba7-afe0-49d9-35c2" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <entryLinks>
+            <entryLink import="true" name="Basic CAVALRY" hidden="false" id="7777-8ca7-4fe3-42ea" type="selectionEntry" targetId="9c07-f8e7-5a52-f23c" sortIndex="1">
+              <infoLinks>
+                <infoLink name="Aegin Support Creepers" id="a776-5ca0-28b1-2289" hidden="false" type="profile" targetId="7904-afac-0440-b032"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="70"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Reinforced CAVALRY" hidden="false" id="e41d-eba4-19d1-848e" type="selectionEntry" targetId="c7fa-7f7c-407f-a2b1" sortIndex="2">
+              <infoLinks>
+                <infoLink name="Aegin Support Creepers" id="8b3b-480b-9f93-bc5b" hidden="false" type="profile" targetId="a7f7-eee2-8132-9cf8"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="120"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Full Strength CAVALRY" hidden="false" id="99d4-1099-fde8-dd8a" type="selectionEntry" targetId="bead-c636-07d4-b5d6" sortIndex="3">
+              <infoLinks>
+                <infoLink name="Aegin Support Creepers" id="7bc6-6064-1ab1-ee1c" hidden="false" type="profile" targetId="a8b6-c860-7ae8-34d7"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="180"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="49a7-1c4e-e7fe-8434" includeChildSelections="true"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink name="Enlightened" hidden="false" id="739a-c411-0e8b-32fe" targetId="42f4-f9ca-4d81-75b4" primary="false"/>
+        <categoryLink name="Light" hidden="false" id="e70c-fd77-f4f7-f8dc" targetId="default-category" primary="false"/>
+        <categoryLink name="Cavalry" hidden="false" id="92ab-6e80-0cac-05e1" targetId="d257-b36f-8e15-2d9b" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Atlas Heavy Assault Walker" hidden="false" id="e541-9caa-6e9e-2b22">
+      <profiles>
+        <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="b283-b594-3a17-0793" noindex="false">
+          <characteristics>
+            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Assault Ramp, Capacity (8), Large, Manufacturer (Scuttler), Peer Review (3”), Restricted Access (Scuttler), Spectacular Demise (8), Stilted (2)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Stats" id="d040-8c56-d8fa-75f3" hidden="true" sortIndex="4">
+          <profiles>
+            <profile name="Atlas Heavy Assault Walker" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="c8e1-4db8-f52d-8a89">
+              <characteristics>
+                <characteristic name="Target type" typeId="de47-7191-892f-3c71">Heavy</characteristic>
+                <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">3</characteristic>
+                <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570">1</characteristic>
+                <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18">6</characteristic>
+                <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">5&quot;</characteristic>
+                <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">3</characteristic>
+                <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">10</characteristic>
+                <characteristic name="Discipline" typeId="9692-df81-03cd-8583">8</characteristic>
+                <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
+              </characteristics>
+              <comment>Reinforced</comment>
+            </profile>
+            <profile name="Atlas Heavy Assault Walker" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="cf16-e498-d024-835b">
+              <characteristics>
+                <characteristic name="Target type" typeId="de47-7191-892f-3c71">Heavy</characteristic>
+                <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">3</characteristic>
+                <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570">2</characteristic>
+                <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18">8</characteristic>
+                <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">5&quot;</characteristic>
+                <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">3</characteristic>
+                <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">10</characteristic>
+                <characteristic name="Discipline" typeId="9692-df81-03cd-8583">8</characteristic>
+                <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
+              </characteristics>
+              <comment>Full</comment>
+            </profile>
+          </profiles>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Weapons" id="0fd2-eac5-c39e-6d20" hidden="false" sortIndex="1">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Ranged (Light)" hidden="false" id="6e65-5683-6137-9580" sortIndex="1">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fe38-c25c-a025-d227" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e6e8-9bfc-e119-7ce5" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Ranged (Light)" typeId="f396-5e56-907b-123a" typeName="Type" hidden="false" id="918b-90d9-7223-ea57">
+                  <characteristics>
+                    <characteristic name="Range" typeId="cb98-2460-8e29-0c43">4&quot;/8&quot;</characteristic>
+                    <characteristic name="-" typeId="2d40-1fae-1b22-5bc1">-</characteristic>
+                    <characteristic name="1" typeId="4200-e763-30c7-f005">6</characteristic>
+                    <characteristic name="2" typeId="1ea9-2334-bb39-087d">10</characteristic>
+                    <characteristic name="Qualities" typeId="9ce8-df79-3ef0-23c5">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Melee" hidden="false" id="4954-d80d-dab4-a44c" sortIndex="5">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5345-1bf5-b4a2-be6b" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b4c2-e279-7adb-aaf2" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Melee" typeId="f396-5e56-907b-123a" typeName="Type" hidden="false" id="836e-3523-3402-a661">
+                  <characteristics>
+                    <characteristic name="Range" typeId="cb98-2460-8e29-0c43">-</characteristic>
+                    <characteristic name="-" typeId="2d40-1fae-1b22-5bc1">-</characteristic>
+                    <characteristic name="1" typeId="4200-e763-30c7-f005">12</characteristic>
+                    <characteristic name="2" typeId="1ea9-2334-bb39-087d">16</characteristic>
+                    <characteristic name="Qualities" typeId="9ce8-df79-3ef0-23c5">Devastating, Suppressive</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Ranged (Aerial)" hidden="false" id="d4e1-077b-c826-59b1" sortIndex="4">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="dcd0-627b-bf61-9f09" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="de3a-129f-096a-5773" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Ranged (Aerial)" typeId="f396-5e56-907b-123a" typeName="Type" hidden="false" id="eb10-b0e7-f81e-b79b">
+                  <characteristics>
+                    <characteristic name="Range" typeId="cb98-2460-8e29-0c43">6&quot;/12&quot;</characteristic>
+                    <characteristic name="-" typeId="2d40-1fae-1b22-5bc1">-</characteristic>
+                    <characteristic name="1" typeId="4200-e763-30c7-f005">8</characteristic>
+                    <characteristic name="2" typeId="1ea9-2334-bb39-087d">16</characteristic>
+                    <characteristic name="Qualities" typeId="9ce8-df79-3ef0-23c5">Turret</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Bolstering Arm/Art" id="0588-d84d-c098-5c03" hidden="false" import="false" sortIndex="3">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5a5a-01e0-0648-d9b6"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d4ff-04ca-8a82-1958"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="Bolstering" field="name"/>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="forces" scope="force" childId="3354-eccd-443c-fdc5" shared="true" includeChildSelections="true"/>
+              </conditions>
+              <comment>Hidden if NOT surg</comment>
+            </modifier>
+          </modifiers>
+          <entryLinks>
+            <entryLink import="true" name="Reinforced Arm/Art" hidden="false" id="0918-8638-c2d7-28c1" type="selectionEntry" targetId="9124-ea78-0445-af38" sortIndex="2">
+              <infoLinks>
+                <infoLink name="Atlas Heavy Walker" id="9d92-f6e5-7ad0-c3c3" hidden="false" type="profile" targetId="c8e1-4db8-f52d-8a89"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="220"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Full Strength Arm/Art" hidden="false" id="7505-6cde-bedd-76e0" type="selectionEntry" targetId="0447-bc45-62e6-b99c" sortIndex="3">
+              <infoLinks>
+                <infoLink name="Atlas Heavy Walker" id="958d-029f-a215-93a2" hidden="false" type="profile" targetId="cf16-e498-d024-835b"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="350"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+          <comment>Faction</comment>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Bolstering ARMOUR" id="bd05-dc99-e23f-a411" hidden="false" import="false" sortIndex="2">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="22be-1824-a826-406d"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7666-5da2-e865-c01e"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="Bolstering" field="name"/>
+            <modifier type="set" value="true" field="hidden">
+              <comment>Hidden if surg</comment>
+              <conditions>
+                <condition type="instanceOf" value="1" field="forces" scope="force" childId="3354-eccd-443c-fdc5" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <entryLinks>
+            <entryLink import="true" name="Reinforced ARMOUR" hidden="false" id="c207-dbfa-e6f4-481c" type="selectionEntry" targetId="f07f-93ae-0813-bad0" sortIndex="2">
+              <infoLinks>
+                <infoLink name="Atlas Heavy Walker" id="6f7b-5fe5-bfe7-2ee4" hidden="false" type="profile" targetId="c8e1-4db8-f52d-8a89"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="220"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Full Strength ARMOUR" hidden="false" id="abc8-8552-819b-35df" type="selectionEntry" targetId="d304-75ab-abe2-7de9" sortIndex="3">
+              <infoLinks>
+                <infoLink name="Atlas Heavy Walker" id="432a-f08a-0cd1-a670" hidden="false" type="profile" targetId="cf16-e498-d024-835b"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="350"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="e789-d262-de66-6bbd" includeChildSelections="true"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink name="Enlightened" hidden="false" id="f79b-94b7-d297-2f08" targetId="42f4-f9ca-4d81-75b4" primary="false"/>
+        <categoryLink name="Heavy" hidden="false" id="379f-fe32-1a59-4df6" targetId="6aad-4085-608f-dc2f" primary="false"/>
+        <categoryLink name="Sturdy" hidden="false" id="205b-60b2-a757-a511" targetId="4a71-3055-d165-8d8f" primary="false"/>
+        <categoryLink name="Transport" hidden="false" id="1739-6015-73a4-edb3" targetId="d78d-8ed7-fc30-5981" primary="false"/>
+        <categoryLink name="Armour" hidden="false" id="54e0-aa38-53e1-0b5e" targetId="2c1d-3a57-3871-f158" primary="true"/>
+        <categoryLink name="Peer" hidden="false" id="2d68-0217-f8ea-ec42" targetId="db03-411a-14d2-699a" primary="false"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Hephaestus Strike Creepers" hidden="false" id="828a-701d-57ae-6778">
+      <profiles>
+        <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="0ee5-23ee-bcd4-ac1a" noindex="false">
+          <characteristics>
+            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Construct, Irregular, Pioneers, Veteran (2)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Stats" id="774d-ea44-a6ab-762c" hidden="true" sortIndex="4">
+          <profiles>
+            <profile name="Hephaestus Strike Creepers" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="98d7-3e20-ed2c-98b7">
+              <characteristics>
+                <characteristic name="Target type" typeId="de47-7191-892f-3c71">Light</characteristic>
+                <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">1</characteristic>
+                <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570">2</characteristic>
+                <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18">2</characteristic>
+                <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">6&quot;</characteristic>
+                <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">3</characteristic>
+                <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">2</characteristic>
+                <characteristic name="Discipline" typeId="9692-df81-03cd-8583">7</characteristic>
+                <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">1</characteristic>
+              </characteristics>
+              <comment>Basic</comment>
+            </profile>
+            <profile name="Hephaestus Strike Creepers" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="ed4c-3c39-3911-31a3">
+              <characteristics>
+                <characteristic name="Target type" typeId="de47-7191-892f-3c71">Light</characteristic>
+                <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">1</characteristic>
+                <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570">4</characteristic>
+                <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18">3</characteristic>
+                <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">6&quot;</characteristic>
+                <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">3</characteristic>
+                <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">2</characteristic>
+                <characteristic name="Discipline" typeId="9692-df81-03cd-8583">7</characteristic>
+                <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">1</characteristic>
+              </characteristics>
+              <comment>Reinforced</comment>
+            </profile>
+            <profile name="Hephaestus Strike Creepers" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="f32e-a6c1-aef3-161b">
+              <characteristics>
+                <characteristic name="Target type" typeId="de47-7191-892f-3c71">Light</characteristic>
+                <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">1</characteristic>
+                <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570">6</characteristic>
+                <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18">4</characteristic>
+                <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">6&quot;</characteristic>
+                <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">3</characteristic>
+                <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">2</characteristic>
+                <characteristic name="Discipline" typeId="9692-df81-03cd-8583">7</characteristic>
+                <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">1</characteristic>
+              </characteristics>
+              <comment>Full</comment>
+            </profile>
+          </profiles>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Weapons" id="e5c1-fe31-004e-23b6" hidden="false" sortIndex="1">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Ranged (Light)" hidden="false" id="5fc0-f4e5-84d2-30ab" sortIndex="1">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4a58-8bab-bd66-29c5" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="11a4-9210-4622-e18a" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Ranged (Light)" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="9c30-4a1a-c5b8-65f7">
+                  <characteristics>
+                    <characteristic name="Range" typeId="0d60-0078-7134-d302">12&quot;/12&quot;</characteristic>
+                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585">4</characteristic>
+                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c">6</characteristic>
+                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d">8</characteristic>
+                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b">Devastating, Overcharge, Siegebreaker</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Melee" hidden="false" id="d54e-a921-e973-c95a" sortIndex="5">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a8b7-fb07-326a-e6be" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7375-cf22-355c-b67c" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Melee" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="6e70-7bc2-8a56-a8d3">
+                  <characteristics>
+                    <characteristic name="Range" typeId="0d60-0078-7134-d302">-</characteristic>
+                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585">3</characteristic>
+                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c">5</characteristic>
+                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d">7</characteristic>
+                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Ranged (Heavy)" hidden="false" id="1b5f-25ee-a508-6bca" sortIndex="2">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2d64-6f1d-726a-7eb5" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b987-be75-50cc-0336" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Ranged (Heavy)" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="b8cb-2b54-567c-fd60">
+                  <characteristics>
+                    <characteristic name="Range" typeId="0d60-0078-7134-d302">16&quot;/16&quot;</characteristic>
+                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585">6</characteristic>
+                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c">10</characteristic>
+                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d">14</characteristic>
+                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b">Devastating, Overcharge</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Bolstering Inf/Cav" id="5a33-6c3a-e271-d894" hidden="false" import="false" sortIndex="3">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="849d-d9b9-ed63-1f89"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="be54-b318-6402-2933"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="Bolstering" field="name"/>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="forces" scope="force" childId="1a31-700b-07b7-ddbb" shared="true" includeChildSelections="true"/>
+              </conditions>
+              <comment>Hidden if Faction</comment>
+            </modifier>
+          </modifiers>
+          <entryLinks>
+            <entryLink import="true" name="Basic Inf/Cav" hidden="false" id="f7a7-3e15-bf19-3953" type="selectionEntry" targetId="b11e-812c-5712-6b6d" sortIndex="1">
+              <infoLinks>
+                <infoLink name="Hephaestus Strike Creepers" id="f189-4b27-6312-2d12" hidden="false" type="profile" targetId="98d7-3e20-ed2c-98b7"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="85"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Reinforced Inf/Cav" hidden="false" id="1577-5feb-c4c1-b27c" type="selectionEntry" targetId="8eb2-2bee-e79d-b38e" sortIndex="2">
+              <infoLinks>
+                <infoLink name="Hephaestus Strike Creepers" id="b5e6-049d-d1cd-3e40" hidden="false" type="profile" targetId="ed4c-3c39-3911-31a3"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="145"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Full Strength Inf/Cav" hidden="false" id="9731-ac72-5e30-c217" type="selectionEntry" targetId="533e-3463-cf89-7ba2" sortIndex="3">
+              <infoLinks>
+                <infoLink name="Hephaestus Strike Creepers" id="a28b-0e3a-ec4b-3e6b" hidden="false" type="profile" targetId="f32e-a6c1-aef3-161b"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="220"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+          <comment>Faction</comment>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Bolstering CAVALRY" id="eaf7-ff88-7172-8e03" hidden="false" import="false" sortIndex="2">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="60db-830d-57e0-d2d4"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0a62-0416-9cb9-ce57"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="Bolstering" field="name"/>
+            <modifier type="set" value="true" field="hidden">
+              <comment>Hidden if Crab or surg</comment>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="forces" scope="force" childId="3354-eccd-443c-fdc5" shared="true" includeChildSelections="true"/>
+                    <condition type="instanceOf" value="1" field="forces" scope="force" childId="dba7-afe0-49d9-35c2" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <entryLinks>
+            <entryLink import="true" name="Basic CAVALRY" hidden="false" id="74f7-9a97-0a99-2a87" type="selectionEntry" targetId="9c07-f8e7-5a52-f23c" sortIndex="1">
+              <infoLinks>
+                <infoLink name="Hephaestus Strike Creepers" id="ceb7-a561-5558-5375" hidden="false" type="profile" targetId="98d7-3e20-ed2c-98b7"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="85"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Reinforced CAVALRY" hidden="false" id="a83c-8e6c-0766-09b4" type="selectionEntry" targetId="c7fa-7f7c-407f-a2b1" sortIndex="2">
+              <infoLinks>
+                <infoLink name="Hephaestus Strike Creepers" id="73a6-f799-5d20-fbf8" hidden="false" type="profile" targetId="ed4c-3c39-3911-31a3"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="145"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Full Strength CAVALRY" hidden="false" id="412d-1f04-5c7c-5aff" type="selectionEntry" targetId="bead-c636-07d4-b5d6" sortIndex="3">
+              <infoLinks>
+                <infoLink name="Hephaestus Strike Creepers" id="b0ac-3056-4456-82d5" hidden="false" type="profile" targetId="f32e-a6c1-aef3-161b"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="220"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="b5df-d208-0793-2f70" includeChildSelections="true"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink name="Enlightened" hidden="false" id="051f-2e5a-27ee-8333" targetId="42f4-f9ca-4d81-75b4" primary="false"/>
+        <categoryLink name="Light" hidden="false" id="daed-a125-d8d7-d129" targetId="default-category" primary="false"/>
+        <categoryLink name="Cavalry" hidden="false" id="daa9-820b-3729-b031" targetId="d257-b36f-8e15-2d9b" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Hyperion Heavy Battle Walker" hidden="false" id="4e57-16b0-cd75-73aa">
+      <profiles>
+        <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="75c5-751e-d937-ec38" noindex="false">
+          <characteristics>
+            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">All-Out Attack (2), Iron Resolve, Large, Peer Review (3”), Stilted (2), Spectacular Demise (8)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Stats" id="17ed-d112-ac9c-e9f8" hidden="true" sortIndex="4">
+          <profiles>
+            <profile name="Hyperion Heavy Battle Walker" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="b3c0-9e09-ca6b-4a40">
+              <characteristics>
+                <characteristic name="Target type" typeId="de47-7191-892f-3c71">Heavy</characteristic>
+                <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">3</characteristic>
+                <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570">1</characteristic>
+                <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18">6</characteristic>
+                <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">5&quot;</characteristic>
+                <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">3</characteristic>
+                <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">10</characteristic>
+                <characteristic name="Discipline" typeId="9692-df81-03cd-8583">8</characteristic>
+                <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
+              </characteristics>
+              <comment>Reinforced</comment>
+            </profile>
+            <profile name="Hyperion Heavy Battle Walker" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="995c-9136-258e-9e5a">
+              <characteristics>
+                <characteristic name="Target type" typeId="de47-7191-892f-3c71">Heavy</characteristic>
+                <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">3</characteristic>
+                <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570">2</characteristic>
+                <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18">8</characteristic>
+                <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">5&quot;</characteristic>
+                <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">3</characteristic>
+                <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">10</characteristic>
+                <characteristic name="Discipline" typeId="9692-df81-03cd-8583">8</characteristic>
+                <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
+              </characteristics>
+              <comment>Full</comment>
+            </profile>
+          </profiles>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Weapons" id="b03b-a685-ae4c-63de" hidden="false" sortIndex="1">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Ranged (Light)" hidden="false" id="6993-ae1c-eec0-a1bc" sortIndex="1">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1e47-d0f1-4b80-f91f" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fe28-ed5c-8796-a1cb" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Ranged (Light)" typeId="f396-5e56-907b-123a" typeName="Type" hidden="false" id="788c-2b99-d214-44a4">
+                  <characteristics>
+                    <characteristic name="Range" typeId="cb98-2460-8e29-0c43">6&quot;/10&quot;</characteristic>
+                    <characteristic name="-" typeId="2d40-1fae-1b22-5bc1">-</characteristic>
+                    <characteristic name="1" typeId="4200-e763-30c7-f005">8(12)</characteristic>
+                    <characteristic name="2" typeId="1ea9-2334-bb39-087d">12(16)</characteristic>
+                    <characteristic name="Qualities" typeId="9ce8-df79-3ef0-23c5">Overcharge, Point Blank, Suppressive</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Melee" hidden="false" id="22e1-29ab-4f40-217d" sortIndex="5">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2c38-54a8-e7cd-88dd" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="24ad-1af6-60a5-3bbd" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Melee" typeId="f396-5e56-907b-123a" typeName="Type" hidden="false" id="6ce3-f84e-85cf-2172">
+                  <characteristics>
+                    <characteristic name="Range" typeId="cb98-2460-8e29-0c43">-</characteristic>
+                    <characteristic name="-" typeId="2d40-1fae-1b22-5bc1">-</characteristic>
+                    <characteristic name="1" typeId="4200-e763-30c7-f005">8</characteristic>
+                    <characteristic name="2" typeId="1ea9-2334-bb39-087d">10</characteristic>
+                    <characteristic name="Qualities" typeId="9ce8-df79-3ef0-23c5">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Ranged (Aerial)" hidden="false" id="7f19-0bd8-29ca-5f38" sortIndex="4">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0c42-d5e8-a8b0-44d0" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="04f4-468a-6f00-4f05" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Ranged (Aerial)" typeId="f396-5e56-907b-123a" typeName="Type" hidden="false" id="d370-0d13-f6b4-471f">
+                  <characteristics>
+                    <characteristic name="Range" typeId="cb98-2460-8e29-0c43">6&quot;/12&quot;</characteristic>
+                    <characteristic name="-" typeId="2d40-1fae-1b22-5bc1">-</characteristic>
+                    <characteristic name="1" typeId="4200-e763-30c7-f005">8</characteristic>
+                    <characteristic name="2" typeId="1ea9-2334-bb39-087d">16</characteristic>
+                    <characteristic name="Qualities" typeId="9ce8-df79-3ef0-23c5">Turret</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Ranged (Heavy)" hidden="false" id="1e4e-73c9-ad65-df54" sortIndex="2">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6b30-99bd-6eb3-3321" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="620c-da82-5f33-e864" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Ranged (Heavy)" typeId="f396-5e56-907b-123a" typeName="Type" hidden="false" id="1863-7208-9c78-02d5">
+                  <characteristics>
+                    <characteristic name="Range" typeId="cb98-2460-8e29-0c43">8&quot;/22&quot;</characteristic>
+                    <characteristic name="-" typeId="2d40-1fae-1b22-5bc1">-</characteristic>
+                    <characteristic name="1" typeId="4200-e763-30c7-f005">8(12)</characteristic>
+                    <characteristic name="2" typeId="1ea9-2334-bb39-087d">12(16)</characteristic>
+                    <characteristic name="Qualities" typeId="9ce8-df79-3ef0-23c5">Overcharge, Point Blank, Turret</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Bolstering Arm/Art" id="a165-ae87-34d7-058f" hidden="false" import="false" sortIndex="3">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e01d-55d4-5f89-efe1"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9cbf-cd85-a6b3-25ac"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="Bolstering" field="name"/>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="forces" scope="force" childId="3354-eccd-443c-fdc5" shared="true" includeChildSelections="true"/>
+              </conditions>
+              <comment>Hidden if NOT surg</comment>
+            </modifier>
+          </modifiers>
+          <entryLinks>
+            <entryLink import="true" name="Reinforced Arm/Art" hidden="false" id="23d9-b00d-8c85-0013" type="selectionEntry" targetId="9124-ea78-0445-af38" sortIndex="2">
+              <infoLinks>
+                <infoLink name="Hyperion Heavy Battle Walker" id="488e-77ff-bd9f-670e" hidden="false" type="profile" targetId="b3c0-9e09-ca6b-4a40"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="245"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Full Strength Arm/Art" hidden="false" id="bf29-25db-da30-8122" type="selectionEntry" targetId="0447-bc45-62e6-b99c" sortIndex="3">
+              <infoLinks>
+                <infoLink name="Hyperion Heavy Battle Walker" id="4243-98b8-d2e7-52d0" hidden="false" type="profile" targetId="995c-9136-258e-9e5a"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="390"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+          <comment>Faction</comment>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Bolstering ARMOUR" id="6515-acf9-870f-19f2" hidden="false" import="false" sortIndex="2">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="dc63-012e-80f0-c5b1"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="460e-84bf-13b4-e1d2"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="Bolstering" field="name"/>
+            <modifier type="set" value="true" field="hidden">
+              <comment>Hidden if surg</comment>
+              <conditions>
+                <condition type="instanceOf" value="1" field="forces" scope="force" childId="3354-eccd-443c-fdc5" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <entryLinks>
+            <entryLink import="true" name="Reinforced ARMOUR" hidden="false" id="da34-dbe1-941e-7cd2" type="selectionEntry" targetId="f07f-93ae-0813-bad0" sortIndex="2">
+              <infoLinks>
+                <infoLink name="Hyperion Heavy Battle Walker" id="3aa8-b6c6-97e7-823c" hidden="false" type="profile" targetId="b3c0-9e09-ca6b-4a40"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="245"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Full Strength ARMOUR" hidden="false" id="cce2-9abb-817a-a3fe" type="selectionEntry" targetId="d304-75ab-abe2-7de9" sortIndex="3">
+              <infoLinks>
+                <infoLink name="Hyperion Heavy Battle Walker" id="88cf-1545-2a00-78e5" hidden="false" type="profile" targetId="995c-9136-258e-9e5a"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="390"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="f248-d15c-079a-919e" includeChildSelections="true"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink name="Enlightened" hidden="false" id="83ee-1fcc-aa72-34de" targetId="42f4-f9ca-4d81-75b4" primary="false"/>
+        <categoryLink name="Heavy" hidden="false" id="af14-4187-0ce1-03e6" targetId="6aad-4085-608f-dc2f" primary="false"/>
+        <categoryLink name="Sturdy" hidden="false" id="509e-b15d-a2d1-aa9c" targetId="4a71-3055-d165-8d8f" primary="false"/>
+        <categoryLink name="Armour" hidden="false" id="d776-e2d5-2abc-3854" targetId="2c1d-3a57-3871-f158" primary="true"/>
+        <categoryLink name="Peer" hidden="false" id="4f57-d445-5836-9f8a" targetId="db03-411a-14d2-699a" primary="false"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Undertaker Automata Servitors" hidden="false" id="61b2-f9ac-2e17-bb99">
+      <profiles>
+        <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="9736-72ed-b630-9b10" noindex="false">
+          <characteristics>
+            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Automata, Flexible Programming, Jamming (3”), Stilted (5), Throw (6)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Stats" id="5624-a7b3-e31a-f57b" hidden="true" sortIndex="4">
+          <profiles>
+            <profile name="Undertaker Automata Servitors" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="9e54-0332-36fb-5825">
+              <characteristics>
+                <characteristic name="Target type" typeId="de47-7191-892f-3c71">Heavy</characteristic>
+                <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">3</characteristic>
+                <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570">2</characteristic>
+                <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18">2</characteristic>
+                <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">7&quot;</characteristic>
+                <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">3</characteristic>
+                <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">2</characteristic>
+                <characteristic name="Discipline" typeId="9692-df81-03cd-8583">6</characteristic>
+                <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
+              </characteristics>
+              <comment>Basic</comment>
+            </profile>
+            <profile name="Undertaker Automata Servitors" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="bc00-5c36-6b6e-a83b">
+              <characteristics>
+                <characteristic name="Target type" typeId="de47-7191-892f-3c71">Heavy</characteristic>
+                <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">3</characteristic>
+                <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570">4</characteristic>
+                <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18">3</characteristic>
+                <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">7&quot;</characteristic>
+                <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">3</characteristic>
+                <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">2</characteristic>
+                <characteristic name="Discipline" typeId="9692-df81-03cd-8583">6</characteristic>
+                <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
+              </characteristics>
+              <comment>Reinforced</comment>
+            </profile>
+            <profile name="Undertaker Automata Servitors" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="81e1-03b7-b8d3-05f4">
+              <characteristics>
+                <characteristic name="Target type" typeId="de47-7191-892f-3c71">Heavy</characteristic>
+                <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">3</characteristic>
+                <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570">6</characteristic>
+                <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18">4</characteristic>
+                <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">7&quot;</characteristic>
+                <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">3</characteristic>
+                <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">2</characteristic>
+                <characteristic name="Discipline" typeId="9692-df81-03cd-8583">6</characteristic>
+                <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
+              </characteristics>
+              <comment>Full</comment>
+            </profile>
+          </profiles>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Weapons" id="c6a9-54c3-4463-0a29" hidden="false" sortIndex="1">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Ranged (Light)" hidden="false" id="f5b6-ddea-6c37-f0e0" sortIndex="1">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1aa5-c263-a903-799e" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4a29-acc3-900b-f3c0" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Ranged (Light)" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="b3d1-cea8-2365-763d">
+                  <characteristics>
+                    <characteristic name="Range" typeId="0d60-0078-7134-d302">6&quot;/6&quot;</characteristic>
+                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585">4</characteristic>
+                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c">8</characteristic>
+                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d">12</characteristic>
+                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b">Torrent, Turret, Suppressive</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Melee" hidden="false" id="9322-c68e-2d9b-aba4" sortIndex="5">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="44c4-f178-7c84-2338" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bb2b-1e64-cad5-4e95" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Melee" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="410a-7c60-f4e7-96b1">
+                  <characteristics>
+                    <characteristic name="Range" typeId="0d60-0078-7134-d302">-</characteristic>
+                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585">5</characteristic>
+                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c">10</characteristic>
+                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d">15</characteristic>
+                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b">Precision</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Bolstering Arm/Art" id="1e60-d912-6faa-98db" hidden="false" import="false" sortIndex="3">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e0ae-e774-661f-2c31"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1edf-d8a5-4060-0c44"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="Bolstering" field="name"/>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="forces" scope="force" childId="3354-eccd-443c-fdc5" shared="true" includeChildSelections="true"/>
+              </conditions>
+              <comment>Hidden if NOT surg</comment>
+            </modifier>
+          </modifiers>
+          <entryLinks>
+            <entryLink import="true" name="Basic Arm/Art" hidden="false" id="6ce6-72a2-7750-3bf8" type="selectionEntry" targetId="0b8e-b745-ef0c-4acb" sortIndex="1">
+              <infoLinks>
+                <infoLink name="Undertaker Automata Servitors" id="6a2e-356e-e613-675e" hidden="false" type="profile" targetId="9e54-0332-36fb-5825"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="80"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Reinforced Arm/Art" hidden="false" id="1bb0-448b-d5b7-f43d" type="selectionEntry" targetId="9124-ea78-0445-af38" sortIndex="2">
+              <infoLinks>
+                <infoLink name="Undertaker Automata Servitors" id="4e15-4dc5-76a9-7c7f" hidden="false" type="profile" targetId="bc00-5c36-6b6e-a83b"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="135"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Full Strength Arm/Art" hidden="false" id="93fd-08a9-e1af-1c8e" type="selectionEntry" targetId="0447-bc45-62e6-b99c" sortIndex="3">
+              <infoLinks>
+                <infoLink name="Undertaker Automata Servitors" id="5890-ff6e-3bd8-94b3" hidden="false" type="profile" targetId="81e1-03b7-b8d3-05f4"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="200"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+          <comment>Faction</comment>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Bolstering ARMOUR" id="5611-d402-cd34-4fbd" hidden="false" import="false" sortIndex="2">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d513-b9c0-772d-2855"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="097e-fb14-1e83-62d9"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="Bolstering" field="name"/>
+            <modifier type="set" value="true" field="hidden">
+              <comment>Hidden if surg</comment>
+              <conditions>
+                <condition type="instanceOf" value="1" field="forces" scope="force" childId="3354-eccd-443c-fdc5" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <entryLinks>
+            <entryLink import="true" name="Basic ARMOUR" hidden="false" id="519b-ad20-7494-fba8" type="selectionEntry" targetId="2df7-f15e-f61d-ac3e" sortIndex="1">
+              <infoLinks>
+                <infoLink name="Undertaker Automata Servitors" id="5598-6aa5-2ce4-2e8a" hidden="false" type="profile" targetId="9e54-0332-36fb-5825"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="80"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Reinforced ARMOUR" hidden="false" id="ebe4-7613-44c5-e61f" type="selectionEntry" targetId="f07f-93ae-0813-bad0" sortIndex="2">
+              <infoLinks>
+                <infoLink name="Undertaker Automata Servitors" id="dfe8-a2e6-0945-c41b" hidden="false" type="profile" targetId="bc00-5c36-6b6e-a83b"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="135"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Full Strength ARMOUR" hidden="false" id="8629-531c-85db-5140" type="selectionEntry" targetId="d304-75ab-abe2-7de9" sortIndex="3">
+              <infoLinks>
+                <infoLink name="Undertaker Automata Servitors" id="ba1d-13c3-5dab-1139" hidden="false" type="profile" targetId="81e1-03b7-b8d3-05f4"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="200"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="c31b-4bc8-25f9-d62e" includeChildSelections="true"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink name="Enlightened" hidden="false" id="1d83-37a1-252c-511a" targetId="42f4-f9ca-4d81-75b4" primary="false"/>
+        <categoryLink name="Heavy" hidden="false" id="a576-33a4-1833-ad82" targetId="6aad-4085-608f-dc2f" primary="false"/>
+        <categoryLink name="Armour" hidden="false" id="fe7f-7ebb-3fe0-7793" targetId="2c1d-3a57-3871-f158" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Selene Attack Rotors" hidden="false" id="5d3a-aa8c-f3d5-b002">
+      <profiles>
+        <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="57f7-1777-9b10-d09f" noindex="false">
+          <characteristics>
+            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Adaptable Deployment, Dynamic Entry (3”), Flying, Peer Review (3”), Shrouded</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Stats" id="a4ff-dede-c575-fd5e" hidden="true" sortIndex="2">
+          <profiles>
+            <profile name="Selene Attack Rotors" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="ebc1-6ce0-f728-0512">
+              <characteristics>
+                <characteristic name="Target type" typeId="de47-7191-892f-3c71">Aerial</characteristic>
+                <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">6</characteristic>
+                <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570">1</characteristic>
+                <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18">3</characteristic>
+                <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">8&quot;</characteristic>
+                <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">3</characteristic>
+                <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">4</characteristic>
+                <characteristic name="Discipline" typeId="9692-df81-03cd-8583">6</characteristic>
+                <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
+              </characteristics>
+              <comment>Basic</comment>
+            </profile>
+            <profile name="Selene Attack Rotors" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="ccfa-77ee-e847-8300">
+              <characteristics>
+                <characteristic name="Target type" typeId="de47-7191-892f-3c71">Aerial</characteristic>
+                <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">6</characteristic>
+                <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570">2</characteristic>
+                <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18">4</characteristic>
+                <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">8&quot;</characteristic>
+                <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">3</characteristic>
+                <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">4</characteristic>
+                <characteristic name="Discipline" typeId="9692-df81-03cd-8583">6</characteristic>
+                <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
+              </characteristics>
+              <comment>Reinforced</comment>
+            </profile>
+            <profile name="Selene Attack Rotors" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="835a-a779-2e2e-becb">
+              <characteristics>
+                <characteristic name="Target type" typeId="de47-7191-892f-3c71">Aerial</characteristic>
+                <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">6</characteristic>
+                <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570">3</characteristic>
+                <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18">5</characteristic>
+                <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">8&quot;</characteristic>
+                <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">3</characteristic>
+                <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">4</characteristic>
+                <characteristic name="Discipline" typeId="9692-df81-03cd-8583">6</characteristic>
+                <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
+              </characteristics>
+              <comment>Full</comment>
+            </profile>
+          </profiles>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Weapons" id="f443-dd99-3a5f-a0d6" hidden="false" sortIndex="1">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Ranged (Light)" hidden="false" id="c950-6849-8e56-267d" sortIndex="1">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e236-ff37-2886-ecf0" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c702-42f0-a8d5-7163" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Ranged (Light)" typeId="ae82-73aa-c9d6-d719" typeName="Type" hidden="false" id="5ab8-678f-43d6-d6f8">
+                  <characteristics>
+                    <characteristic name="Range" typeId="c7d4-8837-db2a-853e">4&quot;/8&quot;</characteristic>
+                    <characteristic name="1" typeId="d488-d433-55e3-87c0">3(6)</characteristic>
+                    <characteristic name="2" typeId="9869-9545-e597-5da6">6(10)</characteristic>
+                    <characteristic name="3" typeId="cc94-143d-b205-52e3">9(14)</characteristic>
+                    <characteristic name="Qualities" typeId="f973-0012-4bcd-1728">Point Blank, Turret</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Ranged (Heavy)" hidden="false" id="eb40-076f-cb97-f9c4" sortIndex="2">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6333-0ac8-5bff-d965" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="87fc-68fc-e54b-887e" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Ranged (Heavy)" typeId="ae82-73aa-c9d6-d719" typeName="Type" hidden="false" id="1105-75f4-1656-db16">
+                  <characteristics>
+                    <characteristic name="Range" typeId="c7d4-8837-db2a-853e">6&quot;/10&quot;</characteristic>
+                    <characteristic name="1" typeId="d488-d433-55e3-87c0">4(6)</characteristic>
+                    <characteristic name="2" typeId="9869-9545-e597-5da6">7(10)</characteristic>
+                    <characteristic name="3" typeId="cc94-143d-b205-52e3">10(14)</characteristic>
+                    <characteristic name="Qualities" typeId="f973-0012-4bcd-1728">Overcharge, Point Blank, Slow to Fire, Turret</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Ranged (Aerial)" hidden="false" id="34b8-ea4c-b2a3-8b8e" sortIndex="4">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="cfda-2dee-674c-b1ca" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c1ba-d8cd-d9bd-3337" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Ranged (Aerial)" typeId="ae82-73aa-c9d6-d719" typeName="Type" hidden="false" id="ddd2-a183-65ed-bfe2">
+                  <characteristics>
+                    <characteristic name="Range" typeId="c7d4-8837-db2a-853e">4&quot;/8&quot;</characteristic>
+                    <characteristic name="1" typeId="d488-d433-55e3-87c0">4</characteristic>
+                    <characteristic name="2" typeId="9869-9545-e597-5da6">8</characteristic>
+                    <characteristic name="3" typeId="cc94-143d-b205-52e3">12</characteristic>
+                    <characteristic name="Qualities" typeId="f973-0012-4bcd-1728">Turret</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Bolstering ROTORCRAFT" id="4795-7ed3-d71d-ba6c" hidden="false" import="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="17ab-9fd0-904f-814d"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f87a-ad9c-2b67-23ca"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="Bolstering" field="name"/>
+          </modifiers>
+          <entryLinks>
+            <entryLink import="true" name="Basic ROTORCRAFT" hidden="false" id="e429-c2a7-b01b-c8dd" type="selectionEntry" targetId="b044-f462-e89f-1a18" sortIndex="1">
+              <infoLinks>
+                <infoLink name="Selene Attack Rotors" id="93d8-35db-dd49-5fdf" hidden="false" type="profile" targetId="ebc1-6ce0-f728-0512"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="90"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Reinforced ROTORCRAFT" hidden="false" id="5201-a181-6591-f41b" type="selectionEntry" targetId="3689-8afd-5816-aedd" sortIndex="2">
+              <infoLinks>
+                <infoLink name="Selene Attack Rotors" id="e7d8-aeb8-e696-b93d" hidden="false" type="profile" targetId="ccfa-77ee-e847-8300"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="155"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Full Strength ROTORCRAFT" hidden="false" id="6597-03e3-9b92-4b32" type="selectionEntry" targetId="1140-3c2a-2c15-7b90" sortIndex="3">
+              <infoLinks>
+                <infoLink name="Selene Attack Rotors" id="de24-443c-e5c5-3ee8" hidden="false" type="profile" targetId="835a-a779-2e2e-becb"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="235"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="1c36-9476-d6ad-3c46" includeChildSelections="true"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink name="Enlightened" hidden="false" id="65df-771b-5b47-ddb3" targetId="42f4-f9ca-4d81-75b4" primary="false"/>
+        <categoryLink name="Aerial" hidden="false" id="de63-16a0-5ecc-6535" targetId="e3f5-6c6c-0532-1c43" primary="false"/>
+        <categoryLink name="Peer" hidden="false" id="3705-fdc3-f263-c635" targetId="db03-411a-14d2-699a" primary="false"/>
+        <categoryLink name="Rotorcraft" hidden="false" id="e69f-8f13-1f2b-3f41" targetId="48db-6837-f5b1-49e2" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Pandora Transport Rotors" hidden="false" id="28d9-3533-bf6c-be8d">
+      <profiles>
+        <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="0304-e7b3-3d21-41a9" noindex="false">
+          <characteristics>
+            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Adaptable Deployment, Ammo Supply (Enlightened), Assault Ramp, Capacity (8), Carrier (Cavalry), Dynamic Entry (3”), Flying</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Stats" id="eed2-0ee2-b232-4023" hidden="true" sortIndex="2">
+          <profiles>
+            <profile name="Pandora Transport Rotors" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="6af7-f924-addc-6cc4">
+              <characteristics>
+                <characteristic name="Target type" typeId="de47-7191-892f-3c71">Aerial</characteristic>
+                <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">6</characteristic>
+                <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570">1</characteristic>
+                <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18">3</characteristic>
+                <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">8&quot;</characteristic>
+                <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">3</characteristic>
+                <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">4</characteristic>
+                <characteristic name="Discipline" typeId="9692-df81-03cd-8583">6</characteristic>
+                <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
+              </characteristics>
+              <comment>Basic</comment>
+            </profile>
+            <profile name="Pandora Transport Rotors" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="b05a-f5a4-4413-2275">
+              <characteristics>
+                <characteristic name="Target type" typeId="de47-7191-892f-3c71">Aerial</characteristic>
+                <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">6</characteristic>
+                <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570">2</characteristic>
+                <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18">4</characteristic>
+                <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">8&quot;</characteristic>
+                <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">3</characteristic>
+                <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">4</characteristic>
+                <characteristic name="Discipline" typeId="9692-df81-03cd-8583">6</characteristic>
+                <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
+              </characteristics>
+              <comment>Reinforced</comment>
+            </profile>
+            <profile name="Pandora Transport Rotors" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="fcef-07ea-b3e6-db98">
+              <characteristics>
+                <characteristic name="Target type" typeId="de47-7191-892f-3c71">Aerial</characteristic>
+                <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">6</characteristic>
+                <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570">3</characteristic>
+                <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18">5</characteristic>
+                <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">8&quot;</characteristic>
+                <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">3</characteristic>
+                <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">4</characteristic>
+                <characteristic name="Discipline" typeId="9692-df81-03cd-8583">6</characteristic>
+                <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
+              </characteristics>
+              <comment>Full</comment>
+            </profile>
+          </profiles>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Weapons" id="1dad-dc35-4aae-3096" hidden="false" sortIndex="1">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Ranged (Light)" hidden="false" id="b548-570e-3b57-8740" sortIndex="1">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6395-56d2-d7d9-4d8d" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6106-d282-fb99-b77e" automatic="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Ranged (Light)" typeId="ae82-73aa-c9d6-d719" typeName="Type" hidden="false" id="7ba0-dcf2-52bc-cd79">
+                  <characteristics>
+                    <characteristic name="Range" typeId="c7d4-8837-db2a-853e">4&quot;/8&quot;</characteristic>
+                    <characteristic name="1" typeId="d488-d433-55e3-87c0">3</characteristic>
+                    <characteristic name="2" typeId="9869-9545-e597-5da6">6</characteristic>
+                    <characteristic name="3" typeId="cc94-143d-b205-52e3">9</characteristic>
+                    <characteristic name="Qualities" typeId="f973-0012-4bcd-1728">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Bolstering ROTORCRAFT" id="4e6a-4bb6-9faa-86d9" hidden="false" import="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="63e0-7411-4059-0a8b"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6ee3-61eb-0911-9dda"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="Bolstering" field="name"/>
+          </modifiers>
+          <entryLinks>
+            <entryLink import="true" name="Basic ROTORCRAFT" hidden="false" id="4a1c-48ca-6993-da37" type="selectionEntry" targetId="b044-f462-e89f-1a18" sortIndex="1">
+              <infoLinks>
+                <infoLink name="Pandora Transport Rotors" id="8df5-778e-ca0b-fff4" hidden="false" type="profile" targetId="6af7-f924-addc-6cc4"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="65"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Reinforced ROTORCRAFT" hidden="false" id="cd81-a4f5-6594-d6e2" type="selectionEntry" targetId="3689-8afd-5816-aedd" sortIndex="2">
+              <infoLinks>
+                <infoLink name="Pandora Transport Rotors" id="fe41-6fe9-fd93-b86c" hidden="false" type="profile" targetId="b05a-f5a4-4413-2275"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="110"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Full Strength ROTORCRAFT" hidden="false" id="93e7-4aa0-6d23-7d81" type="selectionEntry" targetId="1140-3c2a-2c15-7b90" sortIndex="3">
+              <infoLinks>
+                <infoLink name="Pandora Transport Rotors" id="59e1-c9aa-5415-95d5" hidden="false" type="profile" targetId="fcef-07ea-b3e6-db98"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="160"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="b876-cef4-eab1-65f3" includeChildSelections="true"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink name="Enlightened" hidden="false" id="def1-4199-bf27-5621" targetId="42f4-f9ca-4d81-75b4" primary="false"/>
+        <categoryLink name="Aerial" hidden="false" id="50c3-4f29-5131-3be2" targetId="e3f5-6c6c-0532-1c43" primary="false"/>
+        <categoryLink name="Transport" hidden="false" id="9914-36ff-1e95-30cf" targetId="d78d-8ed7-fc30-5981" primary="false"/>
+        <categoryLink name="Rotorcraft" hidden="false" id="cb9e-157b-57bb-022f" targetId="48db-6837-f5b1-49e2" primary="true"/>
+      </categoryLinks>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="add" value="Required to be the conditional Bolstered element" field="warning">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="equalTo" value="2" field="selections" scope="force" childId="1140-3c2a-2c15-7b90" shared="true" childName="Full Strength ROTORCRAFT" includeChildSelections="true"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="28d9-3533-bf6c-be8d" shared="true" includeChildSelections="true" childName="Pandora Transport Rotors"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="lessThan" value="1" field="selections" scope="28d9-3533-bf6c-be8d" childId="93e7-4aa0-6d23-7d81" shared="true" childName="Full Strength ROTORCRAFT" includeChildSelections="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="c986-901f-e13e-cdb4" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+              <comment>Full bolster warning</comment>
+            </modifier>
+            <modifier type="add" value="Required to be the conditional Bolstered element" field="warning">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="equalTo" value="2" field="selections" scope="force" childId="3689-8afd-5816-aedd" shared="true" childName="Reinforced ROTORCRAFT" includeChildSelections="true"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="28d9-3533-bf6c-be8d" shared="true" includeChildSelections="true" childName="Pandora Transport Rotors"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="lessThan" value="1" field="selections" scope="28d9-3533-bf6c-be8d" childId="cd81-a4f5-6594-d6e2" shared="true" childName="Reinforced ROTORCRAFT" includeChildSelections="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="386f-773d-5fda-7090" shared="true" includeChildSelections="true" includeChildForces="true" childName="Skirmish"/>
+              </conditions>
+              <comment>reinforce bolster warning</comment>
+            </modifier>
+          </modifiers>
+          <comment>Bolster warnings</comment>
+        </modifierGroup>
+      </modifierGroups>
+    </selectionEntry>
   </selectionEntries>
   <forceEntries>
     <forceEntry name="Enlightened Faction Battlegroup" id="1a31-700b-07b7-ddbb" hidden="false" sortIndex="1">
@@ -5656,7 +7123,7 @@
         </categoryLink>
         <categoryLink name="Rotorcraft" hidden="false" id="79cc-7a2e-c678-a69f" targetId="48db-6837-f5b1-49e2">
           <constraints>
-            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="00fc-b89e-01f2-b391" includeChildSelections="false"/>
+            <constraint type="max" value="2" field="selections" scope="force" shared="true" id="00fc-b89e-01f2-b391" includeChildSelections="false"/>
           </constraints>
         </categoryLink>
         <categoryLink name="Aircraft" hidden="false" id="290e-306f-34fa-a285" targetId="554f-0054-70cc-dc43">
@@ -5958,7 +7425,7 @@ Then, the active unit immediately gains the Suppressed status.</characteristic>
             </profile>
             <profile name="Uncanny Reconstruction (Command)" typeId="3f77-4198-5794-9684" typeName="Boons" hidden="false" id="e335-ead0-fe60-ea21">
               <characteristics>
-                <characteristic name="Effect" typeId="b7f2-49d8-a49a-0b0f">This Battlegroup’s General can issue this Special Command to an Enlightened unit at the end of its Activation, so long as it is within X” of another Enlightened unit in this Force that has the Peer  Review (X ) Special Rule.
+                <characteristic name="Effect" typeId="b7f2-49d8-a49a-0b0f">This Battlegroup’s General can issue this Special Command to an Enlightened unit at the end of its Activation, so long as it is Under Review.
 
 
 If the Command is successfully issued, this unit Recovers 1 Damage.</characteristic>
@@ -6015,7 +7482,7 @@ If the chosen unit already has the Vanguard (X ) special rule it uses the highe
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="210c-6b43-64c0-417c" automatic="true" includeChildSelections="true" includeChildForces="true"/>
               </constraints>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Ready For Anything" hidden="false" id="00c0-9718-68b2-f785" sortIndex="3">
+            <selectionEntry type="upgrade" import="true" name="Ready For Anything" hidden="false" id="00c0-9718-68b2-f785" sortIndex="4">
               <costs>
                 <cost name="Points" typeId="e58e-982d-7630-5342" value="20"/>
               </costs>
@@ -6030,7 +7497,7 @@ If the chosen unit already has the Vanguard (X ) special rule it uses the highe
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="f7ab-3b43-7f73-26cb" automatic="true" includeChildSelections="true" includeChildForces="true"/>
               </constraints>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Countercharge" hidden="false" id="ff73-e82d-6ee9-2c45" sortIndex="4">
+            <selectionEntry type="upgrade" import="true" name="Countercharge" hidden="false" id="ff73-e82d-6ee9-2c45" sortIndex="5">
               <profiles>
                 <profile name="Countercharge" typeId="3f77-4198-5794-9684" typeName="Boons" hidden="false" id="57b5-ce65-ad39-04f2">
                   <characteristics>
@@ -6058,7 +7525,7 @@ If the unit is unable to end its Charge manoeuvre in contact with the active en
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="40f7-0a14-53f8-e73d" automatic="true" includeChildSelections="true" includeChildForces="true"/>
               </constraints>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Entropic Shielding" hidden="false" id="64d4-4cf7-01c6-6625" sortIndex="5">
+            <selectionEntry type="upgrade" import="true" name="Entropic Shielding" hidden="false" id="64d4-4cf7-01c6-6625" sortIndex="6">
               <profiles>
                 <profile name="Entropic Shielding" typeId="3f77-4198-5794-9684" typeName="Boons" hidden="false" id="f632-33a8-0b3f-e80f">
                   <characteristics>
@@ -6077,7 +7544,7 @@ If the Command is successfully issued, this unit gains the Durable special rule
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="f412-d30c-e0ae-67c8" automatic="true" includeChildSelections="true" includeChildForces="true"/>
               </constraints>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Headstrong Commander" hidden="false" id="7232-7df9-29b1-8e96" sortIndex="6">
+            <selectionEntry type="upgrade" import="true" name="Headstrong Commander" hidden="false" id="7232-7df9-29b1-8e96" sortIndex="7">
               <costs>
                 <cost name="Points" typeId="e58e-982d-7630-5342" value="45"/>
               </costs>
@@ -6093,7 +7560,7 @@ If they do, they must then discard one card from their Hand.</characteristic>
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="5938-0f74-dbb7-4274" automatic="true" includeChildSelections="true" includeChildForces="true"/>
               </constraints>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Weaponised Hubris" hidden="false" id="e104-ddad-b5c2-627d" sortIndex="7">
+            <selectionEntry type="upgrade" import="true" name="Weaponised Hubris" hidden="false" id="e104-ddad-b5c2-627d" sortIndex="8">
               <profiles>
                 <profile name="Weaponised Hubris" typeId="3f77-4198-5794-9684" typeName="Boons" hidden="false" id="5c13-9f9a-1714-4614">
                   <characteristics>
@@ -6121,6 +7588,21 @@ Once this Command has been successfully issued, it cannot be issued again for t
                   </conditions>
                 </modifier>
               </modifiers>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Seeded Swarms" hidden="false" id="d884-e931-215e-c6ff" sortIndex="3">
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="15"/>
+              </costs>
+              <profiles>
+                <profile name="Seeded Swarms" typeId="3f77-4198-5794-9684" typeName="Boons" hidden="false" id="aec4-0574-e6a5-8517">
+                  <characteristics>
+                    <characteristic name="Effect" typeId="b7f2-49d8-a49a-0b0f">All Scuttler units in this Force gain the Ambushers special rule (see Ambushers in the Glossary of Special Rules &amp; Qualities) for the duration of the Clash.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="5129-099c-efa4-4407" automatic="true" includeChildSelections="true" includeChildForces="true"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -6170,6 +7652,24 @@ Once this Command has been successfully issued, it cannot be issued again for t
                 </conditionGroup>
               </conditionGroups>
               <comment>surg has 1 Roto Stars - skirmish</comment>
+            </modifier>
+            <modifier type="increment" value="1" field="b5c4-502b-938c-9ee4">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="386f-773d-5fda-7090" shared="true" includeChildSelections="true" includeChildForces="true" childName="Skirmish"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="force" childId="1a31-700b-07b7-ddbb" shared="true" includeChildSelections="true" childName="Enlightened Faction Battlegroup"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="28d9-3533-bf6c-be8d" shared="true" includeChildSelections="true" includeChildForces="true" childName="Pandora Transport Rotors"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+              <comment>Pandora conditinal bolster</comment>
             </modifier>
           </modifiers>
         </modifierGroup>
@@ -6563,6 +8063,24 @@ Once this Command has been successfully issued, it cannot be issued again for t
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
+            </modifier>
+            <modifier type="increment" value="1" field="d9bd-4245-ff10-c3f4">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="c986-901f-e13e-cdb4" shared="true" includeChildSelections="true" includeChildForces="true" childName="Battle"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="force" childId="1a31-700b-07b7-ddbb" shared="true" includeChildSelections="true" childName="Enlightened Faction Battlegroup"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="28d9-3533-bf6c-be8d" shared="true" includeChildSelections="true" includeChildForces="true" childName="Pandora Transport Rotors"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+              <comment>Pandora conditinal bolster</comment>
             </modifier>
           </modifiers>
         </modifierGroup>
@@ -7047,4 +8565,7 @@ Once this Command has been successfully issued, it cannot be issued again for t
       </modifiers>
     </selectionEntry>
   </sharedSelectionEntries>
+  <categoryEntries>
+    <categoryEntry name="lihg" id="d30c-fe5d-1804-5e7e" hidden="false"/>
+  </categoryEntries>
 </catalogue>

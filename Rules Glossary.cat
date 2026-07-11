@@ -477,7 +477,8 @@ Note: This means that the unit does not lose the Taking Cover status at the sta
 It also means that the increased Defence applies in all cases, not just against Ranged Attacks where the Concealed Combat Rating Penalty applies.</description>
     </rule>
     <rule name="Peer Review" id="1783-92d5-99f3-b014" hidden="false">
-      <description>All friendly units within X” of this unit automatically pass all Suppression and Rally Tests.</description>
+      <description>All friendly units within X” of this unit are Under Review.
+A unit which is Under Review automatically passes all Suppression and Rally Tests.</description>
     </rule>
     <rule name="Rolling Stock" id="97e5-a887-5070-591e" hidden="false">
       <description>This model does not have standard Arcs. Instead, it has two Front Arcs, and two Flank Arcs.
@@ -766,6 +767,70 @@ If both Generals have units with this Special Rule, then General A must make t
     </rule>
     <rule name="Jump Ramp" id="2e88-14f2-9784-60d2" hidden="false">
       <description>In this unit’s Attack Step, it can make a Special Action to allow an Embarked unit with the Soar (X ) special rule to immediately perform a free Disembark manoeuvre.</description>
+    </rule>
+    <rule name="Shield Generator" id="ce4c-318d-8f47-8c50" hidden="false">
+      <description>Unless this unit has the Disordered status, it and all friendly Light units within X” of it are Shielded. While this unit has the Taking Cover status, unless it has the Disordered status, this unit and all friendly Light and Heavy units within X” of it are Shielded. 
+Each time a Shielded unit is targeted by a Ranged Attack, add 1 to the Shielded unit’s Defence until that Attack is resolved.</description>
+    </rule>
+    <rule name="Manufacturer" id="72aa-b38e-2485-3dfd" hidden="false">
+      <description>When a friendly unit with the X trait starts its Activation within 3” of a model with this special rule, its General can immediately restore up to two models that were previously Destroyed.
+This cannot take the unit above its starting number of models. Once this has been resolved, the unit begins its Movement Step as normal.
+A unit gains no benefit from this special rule while it is Garrisoning a Defensible Building or Embarked on a Transport unit.</description>
+    </rule>
+    <rule name="Flexible Programming" id="ed32-fa69-b699-70bb" hidden="false">
+      <description>Whenever this unit Activates, it immediately removes any Status tokens it has. Then, its General may choose to perform a Programming Check.
+To do so, they reveal the top card of their Command and Conquest deck, note its Value, discard the card, then consult the table below.
+Alternatively, if this unit is Under Review (see Peer Review (X”) in the Glossary of Special Rules &amp; Qualities), its General may discard a card from their hand, using its Value instead.
+This unit ceases to be affected by its Selected Programming as soon as it loses the relevant Status Token.
+
+
+&lt;style type=&quot;text/css&quot;&gt;
+.tg {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-2fdn{border-color:#9b9b9b;text-align:left;vertical-align:top}
+&lt;/style&gt;
+&lt;table class=&quot;tg&quot;&gt;&lt;thead&gt;
+  &lt;tr&gt;
+    &lt;th class=&quot;tg-2fdn&quot;&gt;Card Value&lt;/th&gt;
+    &lt;th class=&quot;tg-2fdn&quot;&gt;Program&lt;/th&gt;
+  &lt;/tr&gt;&lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+    &lt;td class=&quot;tg-2fdn&quot;&gt;1-4&lt;/td&gt;
+    &lt;td class=&quot;tg-2fdn&quot;&gt;Error: This unit gains the Disordered
+status, which it cannot lose until its next
+Activation. During this Activation, this
+unit can use either its Movement Step or
+its Attack Step, not both, as if it had failed
+a Rally Test. &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&quot;tg-2fdn&quot;&gt;5-8&lt;/td&gt;
+    &lt;td class=&quot;tg-2fdn&quot;&gt;Collect: This unit gains the
+Suppressed status, which it cannot lose
+until its next Activation. When this
+unit makes a Melee Attack while it is
+Suppressed, each Strike scores two Hits
+instead of one. &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&quot;tg-2fdn&quot;&gt;9-12&lt;/td&gt;
+    &lt;td class=&quot;tg-2fdn&quot;&gt;Observe: This unit gains the On
+Lookout status, which it cannot lose
+during this Activation, even if it moves
+or makes contact with an enemy unit.
+After resolving Opportunity Fire, it
+immediately loses the On Lookout
+status as normal. Additionally, this unit
+is able to control Strategic Objectives
+as if it were Infantry as long as it has this
+Status Token. &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;</description>
     </rule>
   </sharedRules>
 </catalogue>

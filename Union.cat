@@ -748,7 +748,7 @@ If they do, they must then discard one card from their Hand.</characteristic>
                 <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
                 <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">1</characteristic>
                 <characteristic name="Discipline" typeId="9692-df81-03cd-8583">7</characteristic>
-                <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">2</characteristic>
+                <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">1</characteristic>
               </characteristics>
               <comment>b</comment>
             </profile>
@@ -762,7 +762,7 @@ If they do, they must then discard one card from their Hand.</characteristic>
                 <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
                 <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">1</characteristic>
                 <characteristic name="Discipline" typeId="9692-df81-03cd-8583">7</characteristic>
-                <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">2</characteristic>
+                <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">1</characteristic>
               </characteristics>
               <comment>r</comment>
             </profile>
@@ -776,7 +776,7 @@ If they do, they must then discard one card from their Hand.</characteristic>
                 <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
                 <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">1</characteristic>
                 <characteristic name="Discipline" typeId="9692-df81-03cd-8583">7</characteristic>
-                <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">2</characteristic>
+                <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">1</characteristic>
               </characteristics>
               <comment>f</comment>
             </profile>
@@ -7662,7 +7662,7 @@ If they do, they must then discard one card from their Hand.</characteristic>
                   </conditionGroups>
                 </conditionGroup>
               </conditionGroups>
-              <comment>ironhide conditinal bolster</comment>
+              <comment>Autogyro conditinal bolster</comment>
             </modifier>
           </modifiers>
         </modifierGroup>

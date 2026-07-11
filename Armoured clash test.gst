@@ -76,6 +76,8 @@
     <categoryEntry name="Sub-Zero" id="bec1-3746-2d61-d9f8" hidden="false"/>
     <categoryEntry name="Sapper" id="b6ba-4c48-11fd-bf7f" hidden="false"/>
     <categoryEntry name="Sturdy" id="4a71-3055-d165-8d8f" hidden="false"/>
+    <categoryEntry name="Scuttler" id="0068-9baa-7dfc-6ddc" hidden="false"/>
+    <categoryEntry name="Peer" id="db03-411a-14d2-699a" hidden="false"/>
   </categoryEntries>
   <selectionEntries>
     <selectionEntry type="unit" import="true" name="Example Unit" hidden="true" id="afc1-a3d2-a345-3a0c">
@@ -674,6 +676,16 @@ If they do, they must then discard one card from their Hand.</characteristic>
       <characteristicTypes>
         <characteristicType name="Points" id="b745-879e-07e7-0580" kind="longText"/>
       </characteristicTypes>
+    </profileType>
+    <profileType name="Type" id="f396-5e56-907b-123a" hidden="false" sortIndex="4" kind="weapon">
+      <characteristicTypes>
+        <characteristicType name="Range" id="cb98-2460-8e29-0c43"/>
+        <characteristicType name="-" id="2d40-1fae-1b22-5bc1"/>
+        <characteristicType name="1" id="4200-e763-30c7-f005"/>
+        <characteristicType name="2" id="1ea9-2334-bb39-087d"/>
+        <characteristicType name="Qualities" id="9ce8-df79-3ef0-23c5"/>
+      </characteristicTypes>
+      <comment>weapons 1-2</comment>
     </profileType>
   </profileTypes>
   <sharedSelectionEntries>
