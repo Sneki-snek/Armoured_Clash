@@ -4334,7 +4334,7 @@ If they do, they must then discard one card from their Hand.</characteristic>
                 <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18">3</characteristic>
                 <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">8&quot;</characteristic>
                 <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
-                <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">4</characteristic>
+                <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">3</characteristic>
                 <characteristic name="Discipline" typeId="9692-df81-03cd-8583">6</characteristic>
                 <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
               </characteristics>
@@ -4348,7 +4348,7 @@ If they do, they must then discard one card from their Hand.</characteristic>
                 <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18">4</characteristic>
                 <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">8&quot;</characteristic>
                 <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
-                <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">4</characteristic>
+                <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">3</characteristic>
                 <characteristic name="Discipline" typeId="9692-df81-03cd-8583">6</characteristic>
                 <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
               </characteristics>
@@ -4362,7 +4362,7 @@ If they do, they must then discard one card from their Hand.</characteristic>
                 <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18">5</characteristic>
                 <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">8&quot;</characteristic>
                 <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
-                <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">4</characteristic>
+                <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">3</characteristic>
                 <characteristic name="Discipline" typeId="9692-df81-03cd-8583">6</characteristic>
                 <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
               </characteristics>

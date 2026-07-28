@@ -29,7 +29,7 @@
                     <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">4&quot;</characteristic>
                     <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
                     <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">1</characteristic>
-                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">8</characteristic>
+                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">7</characteristic>
                     <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">2</characteristic>
                   </characteristics>
                   <modifiers>
@@ -53,7 +53,7 @@
                     <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">4&quot;</characteristic>
                     <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
                     <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">1</characteristic>
-                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">8</characteristic>
+                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">7</characteristic>
                     <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">2</characteristic>
                   </characteristics>
                   <modifiers>
@@ -77,7 +77,7 @@
                     <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">4&quot;</characteristic>
                     <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
                     <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">1</characteristic>
-                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">8</characteristic>
+                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">7</characteristic>
                     <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">2</characteristic>
                   </characteristics>
                   <modifiers>
@@ -1499,7 +1499,7 @@
                     <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">4&quot;</characteristic>
                     <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
                     <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">1</characteristic>
-                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">8</characteristic>
+                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">7</characteristic>
                     <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">2</characteristic>
                   </characteristics>
                   <modifiers>
@@ -1523,7 +1523,7 @@
                     <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">4&quot;</characteristic>
                     <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
                     <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">1</characteristic>
-                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">8</characteristic>
+                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">7</characteristic>
                     <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">2</characteristic>
                   </characteristics>
                   <modifiers>
@@ -1547,7 +1547,7 @@
                     <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">4&quot;</characteristic>
                     <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
                     <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">1</characteristic>
-                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">8</characteristic>
+                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">7</characteristic>
                     <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">2</characteristic>
                   </characteristics>
                   <modifiers>
@@ -1650,7 +1650,7 @@
                     <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">4&quot;</characteristic>
                     <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
                     <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">1</characteristic>
-                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">8</characteristic>
+                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">7</characteristic>
                     <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">2</characteristic>
                   </characteristics>
                   <modifiers>
@@ -1674,7 +1674,7 @@
                     <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">4&quot;</characteristic>
                     <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
                     <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">1</characteristic>
-                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">8</characteristic>
+                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">7</characteristic>
                     <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">2</characteristic>
                   </characteristics>
                   <modifiers>
@@ -1698,7 +1698,7 @@
                     <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">4&quot;</characteristic>
                     <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
                     <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">1</characteristic>
-                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">8</characteristic>
+                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">7</characteristic>
                     <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">2</characteristic>
                   </characteristics>
                   <modifiers>
@@ -1739,7 +1739,7 @@
                     <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">4&quot;</characteristic>
                     <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
                     <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">1</characteristic>
-                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">8</characteristic>
+                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">7</characteristic>
                     <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">2</characteristic>
                   </characteristics>
                   <modifiers>
@@ -1763,7 +1763,7 @@
                     <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">4&quot;</characteristic>
                     <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
                     <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">1</characteristic>
-                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">8</characteristic>
+                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">7</characteristic>
                     <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">2</characteristic>
                   </characteristics>
                   <modifiers>
@@ -1787,7 +1787,7 @@
                     <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">4&quot;</characteristic>
                     <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
                     <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">1</characteristic>
-                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">8</characteristic>
+                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">7</characteristic>
                     <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">2</characteristic>
                   </characteristics>
                   <modifiers>
