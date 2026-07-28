@@ -4307,7 +4307,7 @@ If they do, they must then discard one card from their Hand.</characteristic>
       <profiles>
         <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="1533-c235-8ec1-404d" noindex="false">
           <characteristics>
-            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Adaptable Deployment, All-Out Attack (2), Flying, Regroup</characteristic>
+            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Adaptable Deployment, All-Out Attack (2), Durable, Flying, Regroup</characteristic>
           </characteristics>
           <modifiers>
             <modifier type="replace" value="Aerial Assault" field="daea-c58a-dc2c-ad5d" arg="Adaptable Deployment">
@@ -4706,7 +4706,7 @@ If they do, they must then discard one card from their Hand.</characteristic>
       <profiles>
         <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="08d0-4211-a5e1-e3fb" noindex="false">
           <characteristics>
-            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Adaptable Deployment, Capacity (3), Dynamic Entry (3”), Flying, Jump Ramp, Rapid Response, Regroup, Spacious</characteristic>
+            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Adaptable Deployment, Capacity (3), Durable, Dynamic Entry (3”), Flying, Jump Ramp, Rapid Response, Regroup, Spacious</characteristic>
           </characteristics>
           <modifiers>
             <modifier type="replace" value="Aerial Assault" field="daea-c58a-dc2c-ad5d" arg="Adaptable Deployment">
@@ -4733,7 +4733,7 @@ If they do, they must then discard one card from their Hand.</characteristic>
                 <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18">3</characteristic>
                 <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">8&quot;</characteristic>
                 <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
-                <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">4</characteristic>
+                <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">3</characteristic>
                 <characteristic name="Discipline" typeId="9692-df81-03cd-8583">6</characteristic>
                 <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
               </characteristics>
@@ -4747,7 +4747,7 @@ If they do, they must then discard one card from their Hand.</characteristic>
                 <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18">4</characteristic>
                 <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">8&quot;</characteristic>
                 <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
-                <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">4</characteristic>
+                <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">3</characteristic>
                 <characteristic name="Discipline" typeId="9692-df81-03cd-8583">6</characteristic>
                 <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
               </characteristics>
@@ -4761,7 +4761,7 @@ If they do, they must then discard one card from their Hand.</characteristic>
                 <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18">5</characteristic>
                 <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">8&quot;</characteristic>
                 <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
-                <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">4</characteristic>
+                <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">3</characteristic>
                 <characteristic name="Discipline" typeId="9692-df81-03cd-8583">6</characteristic>
                 <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
               </characteristics>
