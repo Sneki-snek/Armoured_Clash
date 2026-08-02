@@ -2100,7 +2100,7 @@
             </entryLink>
             <entryLink import="true" name="Full Strength ARMOUR" hidden="false" id="32d4-a2e6-c04d-8bcf" type="selectionEntry" targetId="4d2d-16e7-8945-d682" sortIndex="3">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="340"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="185"/>
               </costs>
               <infoLinks>
                 <infoLink name="Kavgaci ATV" id="caee-1489-c2a0-de37" hidden="false" type="profile" targetId="4066-2950-eab3-8a0f"/>
