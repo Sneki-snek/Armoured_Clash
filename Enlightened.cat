@@ -5795,6 +5795,18 @@
         <categoryLink name="Infantry" hidden="false" id="596b-f6db-d3e5-0da1" targetId="92f8-9d17-dd4d-a5ac" primary="true"/>
         <categoryLink name="Scuttler" hidden="false" id="fe2f-4eea-21f0-3976" targetId="0068-9baa-7dfc-6ddc" primary="false"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set-primary" value="763f-6d17-4a4b-c0df" field="category">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="force" childId="3354-eccd-443c-fdc5" shared="true" includeChildSelections="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="force" childId="dba7-afe0-49d9-35c2" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Aegis Support Creepers" hidden="false" id="91b5-3303-5907-db64">
       <profiles>
@@ -5906,7 +5918,7 @@
           <entryLinks>
             <entryLink import="true" name="Basic Inf/Cav" hidden="false" id="61d5-6db1-8508-2758" type="selectionEntry" targetId="b11e-812c-5712-6b6d" sortIndex="1">
               <infoLinks>
-                <infoLink name="Aegin Support Creepers" id="432b-47ce-7729-74bf" hidden="false" type="profile" targetId="7904-afac-0440-b032"/>
+                <infoLink name="Aegis Support Creepers" id="432b-47ce-7729-74bf" hidden="false" type="profile" targetId="7904-afac-0440-b032"/>
               </infoLinks>
               <costs>
                 <cost name="Points" typeId="e58e-982d-7630-5342" value="70"/>
@@ -5914,7 +5926,7 @@
             </entryLink>
             <entryLink import="true" name="Reinforced Inf/Cav" hidden="false" id="3f6e-33f4-613c-e216" type="selectionEntry" targetId="8eb2-2bee-e79d-b38e" sortIndex="2">
               <infoLinks>
-                <infoLink name="Aegin Support Creepers" id="6e88-9b6e-efe4-2f8f" hidden="false" type="profile" targetId="a7f7-eee2-8132-9cf8"/>
+                <infoLink name="Aegis Support Creepers" id="6e88-9b6e-efe4-2f8f" hidden="false" type="profile" targetId="a7f7-eee2-8132-9cf8"/>
               </infoLinks>
               <costs>
                 <cost name="Points" typeId="e58e-982d-7630-5342" value="120"/>
@@ -5922,7 +5934,7 @@
             </entryLink>
             <entryLink import="true" name="Full Strength Inf/Cav" hidden="false" id="7b73-356c-7db7-2f49" type="selectionEntry" targetId="533e-3463-cf89-7ba2" sortIndex="3">
               <infoLinks>
-                <infoLink name="Aegin Support Creepers" id="bae9-148b-db23-c3d4" hidden="false" type="profile" targetId="a8b6-c860-7ae8-34d7"/>
+                <infoLink name="Aegis Support Creepers" id="bae9-148b-db23-c3d4" hidden="false" type="profile" targetId="a8b6-c860-7ae8-34d7"/>
               </infoLinks>
               <costs>
                 <cost name="Points" typeId="e58e-982d-7630-5342" value="180"/>
@@ -5953,7 +5965,7 @@
           <entryLinks>
             <entryLink import="true" name="Basic CAVALRY" hidden="false" id="7777-8ca7-4fe3-42ea" type="selectionEntry" targetId="9c07-f8e7-5a52-f23c" sortIndex="1">
               <infoLinks>
-                <infoLink name="Aegin Support Creepers" id="a776-5ca0-28b1-2289" hidden="false" type="profile" targetId="7904-afac-0440-b032"/>
+                <infoLink name="Aegis Support Creepers" id="a776-5ca0-28b1-2289" hidden="false" type="profile" targetId="7904-afac-0440-b032"/>
               </infoLinks>
               <costs>
                 <cost name="Points" typeId="e58e-982d-7630-5342" value="70"/>
@@ -5961,7 +5973,7 @@
             </entryLink>
             <entryLink import="true" name="Reinforced CAVALRY" hidden="false" id="e41d-eba4-19d1-848e" type="selectionEntry" targetId="c7fa-7f7c-407f-a2b1" sortIndex="2">
               <infoLinks>
-                <infoLink name="Aegin Support Creepers" id="8b3b-480b-9f93-bc5b" hidden="false" type="profile" targetId="a7f7-eee2-8132-9cf8"/>
+                <infoLink name="Aegis Support Creepers" id="8b3b-480b-9f93-bc5b" hidden="false" type="profile" targetId="a7f7-eee2-8132-9cf8"/>
               </infoLinks>
               <costs>
                 <cost name="Points" typeId="e58e-982d-7630-5342" value="120"/>
@@ -5969,7 +5981,7 @@
             </entryLink>
             <entryLink import="true" name="Full Strength CAVALRY" hidden="false" id="99d4-1099-fde8-dd8a" type="selectionEntry" targetId="bead-c636-07d4-b5d6" sortIndex="3">
               <infoLinks>
-                <infoLink name="Aegin Support Creepers" id="7bc6-6064-1ab1-ee1c" hidden="false" type="profile" targetId="a8b6-c860-7ae8-34d7"/>
+                <infoLink name="Aegis Support Creepers" id="7bc6-6064-1ab1-ee1c" hidden="false" type="profile" targetId="a8b6-c860-7ae8-34d7"/>
               </infoLinks>
               <costs>
                 <cost name="Points" typeId="e58e-982d-7630-5342" value="180"/>
@@ -6100,7 +6112,7 @@
           <entryLinks>
             <entryLink import="true" name="Reinforced Arm/Art" hidden="false" id="0918-8638-c2d7-28c1" type="selectionEntry" targetId="9124-ea78-0445-af38" sortIndex="2">
               <infoLinks>
-                <infoLink name="Atlas Heavy Walker" id="9d92-f6e5-7ad0-c3c3" hidden="false" type="profile" targetId="c8e1-4db8-f52d-8a89"/>
+                <infoLink name="Atlas Heavy Assault Walker" id="9d92-f6e5-7ad0-c3c3" hidden="false" type="profile" targetId="c8e1-4db8-f52d-8a89"/>
               </infoLinks>
               <costs>
                 <cost name="Points" typeId="e58e-982d-7630-5342" value="220"/>
@@ -6108,7 +6120,7 @@
             </entryLink>
             <entryLink import="true" name="Full Strength Arm/Art" hidden="false" id="7505-6cde-bedd-76e0" type="selectionEntry" targetId="0447-bc45-62e6-b99c" sortIndex="3">
               <infoLinks>
-                <infoLink name="Atlas Heavy Walker" id="958d-029f-a215-93a2" hidden="false" type="profile" targetId="cf16-e498-d024-835b"/>
+                <infoLink name="Atlas Heavy Assault Walker" id="958d-029f-a215-93a2" hidden="false" type="profile" targetId="cf16-e498-d024-835b"/>
               </infoLinks>
               <costs>
                 <cost name="Points" typeId="e58e-982d-7630-5342" value="350"/>
@@ -6134,7 +6146,7 @@
           <entryLinks>
             <entryLink import="true" name="Reinforced ARMOUR" hidden="false" id="c207-dbfa-e6f4-481c" type="selectionEntry" targetId="f07f-93ae-0813-bad0" sortIndex="2">
               <infoLinks>
-                <infoLink name="Atlas Heavy Walker" id="6f7b-5fe5-bfe7-2ee4" hidden="false" type="profile" targetId="c8e1-4db8-f52d-8a89"/>
+                <infoLink name="Atlas Heavy Assault Walker" id="6f7b-5fe5-bfe7-2ee4" hidden="false" type="profile" targetId="c8e1-4db8-f52d-8a89"/>
               </infoLinks>
               <costs>
                 <cost name="Points" typeId="e58e-982d-7630-5342" value="220"/>
@@ -6142,7 +6154,7 @@
             </entryLink>
             <entryLink import="true" name="Full Strength ARMOUR" hidden="false" id="abc8-8552-819b-35df" type="selectionEntry" targetId="d304-75ab-abe2-7de9" sortIndex="3">
               <infoLinks>
-                <infoLink name="Atlas Heavy Walker" id="432a-f08a-0cd1-a670" hidden="false" type="profile" targetId="cf16-e498-d024-835b"/>
+                <infoLink name="Atlas Heavy Assault Walker" id="432a-f08a-0cd1-a670" hidden="false" type="profile" targetId="cf16-e498-d024-835b"/>
               </infoLinks>
               <costs>
                 <cost name="Points" typeId="e58e-982d-7630-5342" value="350"/>
@@ -6370,6 +6382,18 @@
         <categoryLink name="Light" hidden="false" id="daed-a125-d8d7-d129" targetId="default-category" primary="false"/>
         <categoryLink name="Cavalry" hidden="false" id="daa9-820b-3729-b031" targetId="d257-b36f-8e15-2d9b" primary="true"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set-primary" value="763f-6d17-4a4b-c0df" field="category">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="force" childId="3354-eccd-443c-fdc5" shared="true" includeChildSelections="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="force" childId="dba7-afe0-49d9-35c2" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Hyperion Heavy Battle Walker" hidden="false" id="4e57-16b0-cd75-73aa">
       <profiles>
@@ -6562,6 +6586,17 @@
         <categoryLink name="Armour" hidden="false" id="d776-e2d5-2abc-3854" targetId="2c1d-3a57-3871-f158" primary="true"/>
         <categoryLink name="Peer" hidden="false" id="4f57-d445-5836-9f8a" targetId="db03-411a-14d2-699a" primary="false"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set-primary" value="1a01-9a6d-4d44-aa8e" field="category">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="force" childId="3354-eccd-443c-fdc5" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Undertaker Automata Servitors" hidden="false" id="61b2-f9ac-2e17-bb99">
       <profiles>
@@ -6748,6 +6783,17 @@
         <categoryLink name="Heavy" hidden="false" id="a576-33a4-1833-ad82" targetId="6aad-4085-608f-dc2f" primary="false"/>
         <categoryLink name="Armour" hidden="false" id="fe7f-7ebb-3fe0-7793" targetId="2c1d-3a57-3871-f158" primary="true"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set-primary" value="1a01-9a6d-4d44-aa8e" field="category">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="force" childId="3354-eccd-443c-fdc5" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Selene Attack Rotors" hidden="false" id="5d3a-aa8c-f3d5-b002">
       <profiles>
