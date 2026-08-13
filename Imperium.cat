@@ -111,7 +111,7 @@
           <entryLinks>
             <entryLink import="true" name="Basic Commander" hidden="false" id="ab62-bda1-b7e7-5ad4" type="selectionEntry" targetId="39ea-c36b-805f-2a43" sortIndex="1">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="70"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="65"/>
               </costs>
               <infoLinks>
                 <infoLink name="Scion Grenadier command Platoon" id="ece4-60de-4ad1-c204" hidden="false" type="profile" targetId="300e-f8cd-bb3d-5d1f"/>
@@ -119,7 +119,7 @@
             </entryLink>
             <entryLink import="true" name="Reinforced Commander" hidden="false" id="b545-c45e-dbd3-f4ba" type="selectionEntry" targetId="bed2-fd04-05b0-0baa" sortIndex="2">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="100"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="90"/>
               </costs>
               <infoLinks>
                 <infoLink name="Scion Grenadier command Platoon" id="6faa-65dc-1dec-7290" hidden="false" type="profile" targetId="63e3-870c-ace9-9dc9"/>
@@ -127,7 +127,7 @@
             </entryLink>
             <entryLink import="true" name="Full Strength Commander" hidden="false" id="e4fc-fad6-e9b9-8867" type="selectionEntry" targetId="f138-7659-599a-eb64" sortIndex="3">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="130"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="120"/>
               </costs>
               <infoLinks>
                 <infoLink name="Scion Grenadier command Platoon" id="2521-58ca-a995-aecc" hidden="false" type="profile" targetId="23fd-8353-3bc1-31d0"/>
@@ -426,7 +426,7 @@
             </entryLink>
             <entryLink import="true" name="Reinforced INFANTRY" hidden="false" id="970d-dbb4-fd11-71ca" type="selectionEntry" targetId="ee6e-a5d5-c33d-0f6b" sortIndex="2">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="65"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="60"/>
               </costs>
               <infoLinks>
                 <infoLink name="Scion Grenadier Platoon" id="b822-6e21-6965-68e3" hidden="false" type="profile" targetId="5ea5-9ad6-be31-12dd"/>
@@ -434,7 +434,7 @@
             </entryLink>
             <entryLink import="true" name="Full Strength INFANTRY" hidden="false" id="41fa-3faa-a706-d607" type="selectionEntry" targetId="33d4-ec51-0793-0dfa" sortIndex="3">
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="95"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="90"/>
               </costs>
               <infoLinks>
                 <infoLink name="Scion Grenadier Platoon" id="3aee-f4b5-0f22-b4d2" hidden="false" type="profile" targetId="ad89-343b-9d64-9e2a"/>
@@ -2382,7 +2382,7 @@
                       <conditionGroups>
                         <conditionGroup type="and">
                           <conditions>
-                            <condition type="lessThan" value="1" field="selections" scope="f3a6-a03b-380f-caf7" childId="c065-83a0-9d0d-455f" shared="true" childName="Reinforced ARMOUR" includeChildSelections="true"/>
+                            <condition type="lessThan" value="1" field="selections" scope="f3a6-a03b-380f-caf7" childId="c065-83a0-9d0d-455f" shared="true" childName="Reinforced ARMOUR" includeChildSelections="true" includeChildForces="false"/>
                           </conditions>
                         </conditionGroup>
                       </conditionGroups>
@@ -3177,9 +3177,9 @@
                 <profile name="Ranged (Light)" typeId="18f4-5886-b9e5-059c" typeName="Type" hidden="false" id="13f8-70e8-52c4-75de">
                   <characteristics>
                     <characteristic name="Range" typeId="a374-7668-40e6-f109">-&quot;/18&quot;</characteristic>
-                    <characteristic name="9-11" typeId="0ce0-0ff9-2b4f-55e4">6</characteristic>
-                    <characteristic name="4-8" typeId="2b86-6835-da25-0f0b">10</characteristic>
-                    <characteristic name="0-3" typeId="769f-fcc5-f6e7-6c8f">16</characteristic>
+                    <characteristic name="10-11" typeId="0ce0-0ff9-2b4f-55e4">6</characteristic>
+                    <characteristic name="5-9" typeId="2b86-6835-da25-0f0b">10</characteristic>
+                    <characteristic name="0-4" typeId="769f-fcc5-f6e7-6c8f">16</characteristic>
                     <characteristic name="Qualities" typeId="2db9-d12e-585a-fe1f">Arc, Turret</characteristic>
                   </characteristics>
                 </profile>
@@ -3194,9 +3194,9 @@
                 <profile name="Melee" typeId="18f4-5886-b9e5-059c" typeName="Type" hidden="false" id="b86d-dfba-db3d-bc1c">
                   <characteristics>
                     <characteristic name="Range" typeId="a374-7668-40e6-f109">-</characteristic>
-                    <characteristic name="9-11" typeId="0ce0-0ff9-2b4f-55e4">7</characteristic>
-                    <characteristic name="4-8" typeId="2b86-6835-da25-0f0b">11</characteristic>
-                    <characteristic name="0-3" typeId="769f-fcc5-f6e7-6c8f">15</characteristic>
+                    <characteristic name="10-11" typeId="0ce0-0ff9-2b4f-55e4">7</characteristic>
+                    <characteristic name="5-9" typeId="2b86-6835-da25-0f0b">11</characteristic>
+                    <characteristic name="0-4" typeId="769f-fcc5-f6e7-6c8f">15</characteristic>
                     <characteristic name="Qualities" typeId="2db9-d12e-585a-fe1f">Devastating</characteristic>
                   </characteristics>
                 </profile>
@@ -3211,9 +3211,9 @@
                 <profile name="Ranged (Heavy)" typeId="18f4-5886-b9e5-059c" typeName="Type" hidden="false" id="4493-e30a-5a66-d846">
                   <characteristics>
                     <characteristic name="Range" typeId="a374-7668-40e6-f109">-&quot;/18&quot;</characteristic>
-                    <characteristic name="9-11" typeId="0ce0-0ff9-2b4f-55e4">4</characteristic>
-                    <characteristic name="4-8" typeId="2b86-6835-da25-0f0b">8</characteristic>
-                    <characteristic name="0-3" typeId="769f-fcc5-f6e7-6c8f">14</characteristic>
+                    <characteristic name="10-11" typeId="0ce0-0ff9-2b4f-55e4">4</characteristic>
+                    <characteristic name="5-9" typeId="2b86-6835-da25-0f0b">8</characteristic>
+                    <characteristic name="0-4" typeId="769f-fcc5-f6e7-6c8f">14</characteristic>
                     <characteristic name="Qualities" typeId="2db9-d12e-585a-fe1f">Arc, Turret</characteristic>
                   </characteristics>
                 </profile>
@@ -3228,9 +3228,9 @@
                 <profile name="Ranged (Aerial)" typeId="18f4-5886-b9e5-059c" typeName="Type" hidden="false" id="42df-192f-ae92-09ff">
                   <characteristics>
                     <characteristic name="Range" typeId="a374-7668-40e6-f109">3&quot;/8&quot;</characteristic>
-                    <characteristic name="9-11" typeId="0ce0-0ff9-2b4f-55e4">3</characteristic>
-                    <characteristic name="4-8" typeId="2b86-6835-da25-0f0b">5</characteristic>
-                    <characteristic name="0-3" typeId="769f-fcc5-f6e7-6c8f">7</characteristic>
+                    <characteristic name="10-11" typeId="0ce0-0ff9-2b4f-55e4">3</characteristic>
+                    <characteristic name="5-9" typeId="2b86-6835-da25-0f0b">5</characteristic>
+                    <characteristic name="0-4" typeId="769f-fcc5-f6e7-6c8f">7</characteristic>
                     <characteristic name="Qualities" typeId="2db9-d12e-585a-fe1f">Turret</characteristic>
                   </characteristics>
                 </profile>
@@ -3307,9 +3307,9 @@
                 <profile name="Ranged (Light)" typeId="18f4-5886-b9e5-059c" typeName="Type" hidden="false" id="13b0-8eb1-3d3a-c1ca">
                   <characteristics>
                     <characteristic name="Range" typeId="a374-7668-40e6-f109">8&quot;/18&quot;</characteristic>
-                    <characteristic name="9-11" typeId="0ce0-0ff9-2b4f-55e4">5</characteristic>
-                    <characteristic name="4-8" typeId="2b86-6835-da25-0f0b">8</characteristic>
-                    <characteristic name="0-3" typeId="769f-fcc5-f6e7-6c8f">12</characteristic>
+                    <characteristic name="10-11" typeId="0ce0-0ff9-2b4f-55e4">5</characteristic>
+                    <characteristic name="5-9" typeId="2b86-6835-da25-0f0b">8</characteristic>
+                    <characteristic name="0-4" typeId="769f-fcc5-f6e7-6c8f">12</characteristic>
                     <characteristic name="Qualities" typeId="2db9-d12e-585a-fe1f">Turret</characteristic>
                   </characteristics>
                 </profile>
@@ -3324,9 +3324,9 @@
                 <profile name="Melee" typeId="18f4-5886-b9e5-059c" typeName="Type" hidden="false" id="280c-d971-aec1-bae3">
                   <characteristics>
                     <characteristic name="Range" typeId="a374-7668-40e6-f109">-</characteristic>
-                    <characteristic name="9-11" typeId="0ce0-0ff9-2b4f-55e4">9(11)</characteristic>
-                    <characteristic name="4-8" typeId="2b86-6835-da25-0f0b">13(15)</characteristic>
-                    <characteristic name="0-3" typeId="769f-fcc5-f6e7-6c8f">17(19)</characteristic>
+                    <characteristic name="10-11" typeId="0ce0-0ff9-2b4f-55e4">9(11)</characteristic>
+                    <characteristic name="5-9" typeId="2b86-6835-da25-0f0b">13(15)</characteristic>
+                    <characteristic name="0-4" typeId="769f-fcc5-f6e7-6c8f">17(19)</characteristic>
                     <characteristic name="Qualities" typeId="2db9-d12e-585a-fe1f">Devastating, Wreckers</characteristic>
                   </characteristics>
                 </profile>
@@ -3341,9 +3341,9 @@
                 <profile name="Ranged (Heavy)" typeId="18f4-5886-b9e5-059c" typeName="Type" hidden="false" id="bdcf-a3ae-125a-9711">
                   <characteristics>
                     <characteristic name="Range" typeId="a374-7668-40e6-f109">8&quot;/22&quot;</characteristic>
-                    <characteristic name="9-11" typeId="0ce0-0ff9-2b4f-55e4">5</characteristic>
-                    <characteristic name="4-8" typeId="2b86-6835-da25-0f0b">7</characteristic>
-                    <characteristic name="0-3" typeId="769f-fcc5-f6e7-6c8f">9</characteristic>
+                    <characteristic name="10-11" typeId="0ce0-0ff9-2b4f-55e4">5</characteristic>
+                    <characteristic name="5-9" typeId="2b86-6835-da25-0f0b">7</characteristic>
+                    <characteristic name="0-4" typeId="769f-fcc5-f6e7-6c8f">9</characteristic>
                     <characteristic name="Qualities" typeId="2db9-d12e-585a-fe1f">Turret</characteristic>
                   </characteristics>
                 </profile>
@@ -3358,9 +3358,9 @@
                 <profile name="Ranged (Aerial)" typeId="18f4-5886-b9e5-059c" typeName="Type" hidden="false" id="b3e0-b80d-42de-966e">
                   <characteristics>
                     <characteristic name="Range" typeId="a374-7668-40e6-f109">3&quot;/8&quot;</characteristic>
-                    <characteristic name="9-11" typeId="0ce0-0ff9-2b4f-55e4">4</characteristic>
-                    <characteristic name="4-8" typeId="2b86-6835-da25-0f0b">6</characteristic>
-                    <characteristic name="0-3" typeId="769f-fcc5-f6e7-6c8f">8</characteristic>
+                    <characteristic name="10-11" typeId="0ce0-0ff9-2b4f-55e4">4</characteristic>
+                    <characteristic name="5-9" typeId="2b86-6835-da25-0f0b">6</characteristic>
+                    <characteristic name="0-4" typeId="769f-fcc5-f6e7-6c8f">8</characteristic>
                     <characteristic name="Qualities" typeId="2db9-d12e-585a-fe1f">Turret</characteristic>
                   </characteristics>
                 </profile>
@@ -3934,7 +3934,7 @@ If the chosen unit already has the Vanguard (X ) special rule it uses the highe
         <categoryLink name="Cavalry" hidden="false" id="029d-5a18-9052-2332" targetId="d257-b36f-8e15-2d9b">
           <constraints>
             <constraint type="max" value="4" field="selections" scope="force" shared="true" id="74d4-40bd-b90c-f52d" includeChildSelections="false"/>
-            <constraint type="min" value="2" field="selections" scope="force" shared="true" id="d78c-0d45-498f-5b53" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="force" shared="true" id="d78c-0d45-498f-5b53" includeChildSelections="false"/>
           </constraints>
         </categoryLink>
         <categoryLink name="Infantry" hidden="false" id="9b26-be1b-4725-fc3b" targetId="92f8-9d17-dd4d-a5ac">
