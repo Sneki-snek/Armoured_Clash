@@ -4631,8 +4631,8 @@
               <profiles>
                 <profile name="Kheshig Sky Cutter Wings" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="cb66-c94a-6d3a-c5f3">
                   <characteristics>
-                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Heavy</characteristic>
-                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">1</characteristic>
+                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Aerial</characteristic>
+                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">6</characteristic>
                     <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
                     <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
                     <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">10&quot;</characteristic>
@@ -4655,8 +4655,8 @@
               <profiles>
                 <profile name="Kheshig Sky Cutter Wings" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="8b68-31ff-5c53-3dd0">
                   <characteristics>
-                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Heavy</characteristic>
-                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">1</characteristic>
+                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Aerial</characteristic>
+                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">6</characteristic>
                     <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
                     <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
                     <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">10&quot;</characteristic>
@@ -4679,8 +4679,8 @@
               <profiles>
                 <profile name="Kheshig Sky Cutter Wings" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="82a4-4706-9120-137e">
                   <characteristics>
-                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Heavy</characteristic>
-                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">1</characteristic>
+                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Aerial</characteristic>
+                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">6</characteristic>
                     <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
                     <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
                     <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">10&quot;</characteristic>
