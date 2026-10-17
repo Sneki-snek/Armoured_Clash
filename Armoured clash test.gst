@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="sys-e850-e7dd-b6e5-f6c0" name="Armoured Clash" battleScribeVersion="2.03" revision="8" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem name="Armoured Clash" id="sys-e850-e7dd-b6e5-f6c0" battleScribeVersion="2.03" revision="8" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <categoryEntries>
     <categoryEntry name="Light" id="default-category"/>
     <categoryEntry name="Heavy" id="6aad-4085-608f-dc2f" hidden="false"/>
@@ -27,7 +27,7 @@
     <categoryEntry name="Infantry (c)" id="2d10-727d-0cfb-9c0f" hidden="false">
       <comment>For commanders, don&apos;t ask.</comment>
       <modifiers>
-        <modifier type="set" value="Infantry" field="name"/>
+        <modifier field="name" type="set" value="Infantry"/>
       </modifiers>
     </categoryEntry>
     <categoryEntry name="Boons" id="9588-4200-697f-615f" hidden="false"/>
@@ -39,7 +39,7 @@
     <categoryEntry name="Rotorcraft (c)" id="7631-aeb2-96eb-cddd" hidden="false">
       <comment>For Commanders, again...</comment>
       <modifiers>
-        <modifier type="set" value="Rotorcraft" field="name"/>
+        <modifier field="name" type="set" value="Rotorcraft"/>
       </modifiers>
     </categoryEntry>
     <categoryEntry name="Infantry/Armour" id="796d-5047-ce17-a6ab" hidden="false"/>
@@ -58,7 +58,7 @@
     <categoryEntry name="Armour (c)" id="fb51-77d5-9062-8c08" hidden="false">
       <comment>for Commanders</comment>
       <modifiers>
-        <modifier type="set" value="Armour" field="name"/>
+        <modifier field="name" type="set" value="Armour"/>
       </modifiers>
     </categoryEntry>
     <categoryEntry name="Parent" id="836d-480a-6f6e-598e" hidden="false"/>
@@ -78,11 +78,214 @@
     <categoryEntry name="Sturdy" id="4a71-3055-d165-8d8f" hidden="false"/>
     <categoryEntry name="Scuttler" id="0068-9baa-7dfc-6ddc" hidden="false"/>
     <categoryEntry name="Peer" id="db03-411a-14d2-699a" hidden="false"/>
+    <categoryEntry name="Ashigaru" id="b318-3d45-fe69-84ec" hidden="false"/>
+    <categoryEntry name="Samurai" id="b783-ae84-2301-2590" hidden="false"/>
   </categoryEntries>
+  <costTypes>
+    <costType name="Points" id="e58e-982d-7630-5342" defaultCostLimit="-1"/>
+  </costTypes>
+  <profileTypes>
+    <profileType name="Basic unit" id="54fb-c9ab-bd93-b093" hidden="false" sortIndex="2">
+      <characteristicTypes>
+        <characteristicType name="Target type" id="de47-7191-892f-3c71"/>
+        <characteristicType name="Size" id="eaf4-4c58-3d0c-1b66"/>
+        <characteristicType name="Models" id="3e5d-fadc-d9fb-6570"/>
+        <characteristicType name="VPR" id="bb79-114d-2dc7-ca18"/>
+        <characteristicType name="Speed" id="a1ff-3505-834d-23aa"/>
+        <characteristicType name="Defence" id="a389-3217-cc15-c1ef"/>
+        <characteristicType name="Damage limit" id="b2ff-c899-9816-a2bd"/>
+        <characteristicType name="Discipline" id="9692-df81-03cd-8583"/>
+        <characteristicType name="Break Limit" id="e0f3-cfb5-7ab1-549a"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType name="Special Rules" id="f593-22ac-8878-8d77" hidden="false" sortIndex="15">
+      <comment>Special Rules</comment>
+      <characteristicTypes>
+        <characteristicType name="Special Rules" id="daea-c58a-dc2c-ad5d"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType name="Type" id="94d7-2200-00d2-ae3f" hidden="false" kind="weapon" sortIndex="3">
+      <comment>weapons 6-18</comment>
+      <characteristicTypes>
+        <characteristicType name="Range" id="0faf-08e4-43a5-722d"/>
+        <characteristicType name="1-6" id="1dd1-b0ef-2521-5815"/>
+        <characteristicType name="7-12" id="1fbf-39ae-6b9b-6e84"/>
+        <characteristicType name="13-18" id="73e4-df9f-6b10-d276"/>
+        <characteristicType name="Qualities" id="8c1e-b7a3-2830-9b8b"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType name="Type" id="ae82-73aa-c9d6-d719" hidden="false" kind="weapon" sortIndex="4">
+      <comment>weapons 1-3</comment>
+      <characteristicTypes>
+        <characteristicType name="Range" id="c7d4-8837-db2a-853e"/>
+        <characteristicType name="1" id="d488-d433-55e3-87c0"/>
+        <characteristicType name="2" id="9869-9545-e597-5da6"/>
+        <characteristicType name="3" id="cc94-143d-b205-52e3"/>
+        <characteristicType name="Qualities" id="f973-0012-4bcd-1728"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType name="Type" id="344a-022d-aebf-7e7a" hidden="false" kind="weapon" sortIndex="5">
+      <comment>weapons 4-12</comment>
+      <characteristicTypes>
+        <characteristicType name="Range" id="db9e-9452-9fc5-3877"/>
+        <characteristicType name="1-4" id="94b3-2e14-1b71-6757"/>
+        <characteristicType name="5-8" id="f891-f62d-9222-6a4f"/>
+        <characteristicType name="9-12" id="df36-9d51-a316-8d54"/>
+        <characteristicType name="Qualities" id="9a3f-8a28-e735-e1eb"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType name="Type" id="055e-da65-5a34-6a56" hidden="false" kind="weapon" sortIndex="6">
+      <comment>weapons 5-15</comment>
+      <characteristicTypes>
+        <characteristicType name="Range" id="a4be-e6da-e81e-0ee5"/>
+        <characteristicType name="1-5" id="6c2b-399d-3913-0c86"/>
+        <characteristicType name="6-10" id="e030-39ed-b345-ffd8"/>
+        <characteristicType name="11-15" id="3341-bdc5-ce8f-a06f"/>
+        <characteristicType name="Qualities" id="e5a1-fc2f-d8b2-79b3"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType name="Type" id="7a22-daf6-b2f0-f622" hidden="false" kind="weapon" sortIndex="8">
+      <comment>weapons 2-6</comment>
+      <characteristicTypes>
+        <characteristicType name="Range" id="0d60-0078-7134-d302"/>
+        <characteristicType name="1-2" id="5043-ac06-9bc2-0585"/>
+        <characteristicType name="3-4" id="8394-18d6-22d8-e03c"/>
+        <characteristicType name="5-6" id="7a86-7632-65f7-3c3d"/>
+        <characteristicType name="Qualities" id="1569-2922-0e92-737b"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType name="Type" id="18f4-5886-b9e5-059c" hidden="false" kind="weapon" sortIndex="10">
+      <comment>weapons Behemoth 0-11</comment>
+      <characteristicTypes>
+        <characteristicType name="Range" id="a374-7668-40e6-f109"/>
+        <characteristicType name="10-11" id="0ce0-0ff9-2b4f-55e4"/>
+        <characteristicType name="5-9" id="2b86-6835-da25-0f0b"/>
+        <characteristicType name="0-4" id="769f-fcc5-f6e7-6c8f"/>
+        <characteristicType name="Qualities" id="2db9-d12e-585a-fe1f"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType name="Boons" id="3f77-4198-5794-9684" hidden="false" sortIndex="1">
+      <characteristicTypes>
+        <characteristicType name="Effect" id="b7f2-49d8-a49a-0b0f"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType name="Type" id="ab7a-1a7e-f58b-4565" hidden="false" kind="weapon" sortIndex="7">
+      <comment>weapons 8-24</comment>
+      <characteristicTypes>
+        <characteristicType name="Range" id="ae86-2a51-4bd0-5c8c"/>
+        <characteristicType name="1-8" id="a2ba-36af-bed3-a679"/>
+        <characteristicType name="9-16" id="085d-3a50-7d10-ef1b"/>
+        <characteristicType name="17-24" id="b6be-29a6-8c04-d4a7"/>
+        <characteristicType name="Qualities" id="ea86-3bb1-4fea-6f13"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType name="Type" id="e5cb-a327-9927-e1c2" hidden="false" kind="weapon" sortIndex="12">
+      <comment>weapons Behemoth 0-7</comment>
+      <characteristicTypes>
+        <characteristicType name="Range" id="441f-d21a-ef2b-2c8a"/>
+        <characteristicType name="6-7" id="695f-299c-7e58-f275"/>
+        <characteristicType name="3-5" id="e27c-135a-2199-2587"/>
+        <characteristicType name="0-2" id="7a70-c3bd-de13-ddd6"/>
+        <characteristicType name="Qualities" id="e2c3-64fe-0b86-9ca8"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType name="Type" id="ee3c-551f-76af-1003" hidden="false" kind="weapon" sortIndex="9">
+      <comment>weapons Behemoth 0-15</comment>
+      <characteristicTypes>
+        <characteristicType name="Range" id="2701-5c54-f68b-b5db"/>
+        <characteristicType name="10-15" id="af3b-7f79-4aa9-20d4"/>
+        <characteristicType name="5-9" id="4790-8f0a-37e7-12e9"/>
+        <characteristicType name="0-4" id="acef-aeb2-7abd-c306"/>
+        <characteristicType name="Qualities" id="0833-055a-302e-e350"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType name="Type" id="e268-4591-0098-0605" hidden="false" kind="weapon" sortIndex="11">
+      <comment>weapons Behemoth 0-8</comment>
+      <characteristicTypes>
+        <characteristicType name="Range" id="5bf6-fd07-7b49-fa88"/>
+        <characteristicType name="7-8" id="e53c-163c-99e4-0d11"/>
+        <characteristicType name="4-6" id="15cc-83fc-47e9-cbfc"/>
+        <characteristicType name="0-3" id="9457-e067-5c45-6dc7"/>
+        <characteristicType name="Qualities" id="e367-7cf4-db1a-9f8a"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType name="Type" id="49bd-938b-4cd1-be02" hidden="false" kind="weapon" sortIndex="13">
+      <comment>weapons Behemoth 0-6</comment>
+      <characteristicTypes>
+        <characteristicType name="Range" id="1d41-6aea-8eff-6c42"/>
+        <characteristicType name="5-6" id="03c2-7494-d471-434c"/>
+        <characteristicType name="3-4" id="28f5-0175-feef-38b6"/>
+        <characteristicType name="0-2" id="4ec6-ec07-b2fa-c22a"/>
+        <characteristicType name="Qualities" id="1126-81e3-c3b1-ae92"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType name="Type" id="b294-e6dd-21de-b304" hidden="false" kind="weapon" sortIndex="14">
+      <comment>weapons 1</comment>
+      <characteristicTypes>
+        <characteristicType name="Range" id="1ef4-25e1-dabb-4366"/>
+        <characteristicType name="1" id="47f8-07bb-9d00-11ff"/>
+        <characteristicType name="N/A" id="bb38-45b7-8bc6-5634"/>
+        <characteristicType name="N/A" id="172d-3b2f-afb6-9286"/>
+        <characteristicType name="Qualities" id="afc3-d5f4-dacf-4f41"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType name="Type" id="2168-d664-9ff5-f41e" hidden="false" kind="weapon" sortIndex="9">
+      <comment>weapons Behemoth 0-14</comment>
+      <characteristicTypes>
+        <characteristicType name="Range" id="a93b-2f17-358e-cf1e"/>
+        <characteristicType name="0-4" id="6cee-a120-eea9-d47b"/>
+        <characteristicType name="5-9" id="f2b4-e4ea-b118-b975"/>
+        <characteristicType name="10-14" id="d6d2-0ade-fe00-9b79"/>
+        <characteristicType name="Qualities" id="6f44-e99f-a993-281a"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType name="Command" id="005b-4054-e3d0-6001" hidden="false"/>
+    <profileType name="Type" id="e230-522c-9c1c-b6c3" hidden="false" kind="weapon">
+      <comment>Weapons Behemoth 1-18</comment>
+      <characteristicTypes>
+        <characteristicType name="Range" id="7385-1013-e06a-3c64"/>
+        <characteristicType name="16-17" id="3e72-48b6-96fe-f1ef"/>
+        <characteristicType name="7-15" id="1762-66d0-5133-73cd"/>
+        <characteristicType name="1-6" id="dedc-b012-91db-99d5"/>
+        <characteristicType name="Qualities" id="e5c1-9b5c-88b4-f622"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType name="Type" id="e61c-1b25-4e1c-6c5f" hidden="false" kind="weapon">
+      <comment>weapons Behemoth 0-12</comment>
+      <characteristicTypes>
+        <characteristicType name="Range" id="8ba6-5bb1-b105-70d8"/>
+        <characteristicType name="9-11" id="0064-34fd-a5cd-0192"/>
+        <characteristicType name="6-8" id="107e-f313-92b7-50d4"/>
+        <characteristicType name="1-5" id="6e13-ce8c-dd41-a94a"/>
+        <characteristicType name="Qualities" id="b4ec-07ab-cab6-fad0"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType name="Size" id="052d-5a2a-09fa-d9b8" hidden="false" kind="tag">
+      <characteristicTypes>
+        <characteristicType name="Points" id="b745-879e-07e7-0580" kind="longText"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType name="Type" id="f396-5e56-907b-123a" hidden="false" kind="weapon" sortIndex="4">
+      <comment>weapons 1-2</comment>
+      <characteristicTypes>
+        <characteristicType name="Range" id="cb98-2460-8e29-0c43"/>
+        <characteristicType name="-" id="2d40-1fae-1b22-5bc1"/>
+        <characteristicType name="1" id="4200-e763-30c7-f005"/>
+        <characteristicType name="2" id="1ea9-2334-bb39-087d"/>
+        <characteristicType name="Qualities" id="9ce8-df79-3ef0-23c5"/>
+      </characteristicTypes>
+    </profileType>
+  </profileTypes>
+  <publications>
+    <publication name="Sneki_Snek" id="9bca-dc9c-555f-6458" hidden="false" publisher="snekI_Snek" publisherUrl="https://github.com/Sneki-snek/Armoured_Clash"/>
+  </publications>
   <selectionEntries>
-    <selectionEntry type="unit" import="true" name="Example Unit" hidden="true" id="afc1-a3d2-a345-3a0c">
+    <selectionEntry name="Example Unit" id="afc1-a3d2-a345-3a0c" hidden="true" import="true" type="unit">
+      <constraints>
+        <constraint id="14c0-ade0-4e83-16eb" field="selections" includeChildSelections="true" scope="force" shared="true" type="max" value="1"/>
+      </constraints>
       <profiles>
-        <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="74e6-4883-80b6-b46c" noindex="false">
+        <profile name="Special Rules" id="74e6-4883-80b6-b46c" hidden="false" noindex="false" typeId="f593-22ac-8878-8d77" typeName="Special Rules">
           <characteristics>
             <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d"/>
           </characteristics>
@@ -91,7 +294,7 @@
       <selectionEntryGroups>
         <selectionEntryGroup name="Stats" id="ee31-ab1d-771f-0a07" hidden="true" sortIndex="2">
           <profiles>
-            <profile name="Example Unit" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="9381-1919-b35d-2d90">
+            <profile name="Example Unit" id="9381-1919-b35d-2d90" hidden="false" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit">
               <characteristics>
                 <characteristic name="Target type" typeId="de47-7191-892f-3c71"/>
                 <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66"/>
@@ -108,13 +311,13 @@
         </selectionEntryGroup>
         <selectionEntryGroup name="Weapons" id="9869-6e9a-3ec1-0b9d" hidden="false" sortIndex="1">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Ranged (Light)" hidden="false" id="27c6-cced-ad56-230b" sortIndex="1">
+            <selectionEntry name="Ranged (Light)" id="27c6-cced-ad56-230b" hidden="false" import="true" sortIndex="1" type="upgrade">
               <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7a1a-d824-b001-4de9" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ff56-4e5a-7935-09f1" automatic="true"/>
+                <constraint id="7a1a-d824-b001-4de9" automatic="true" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                <constraint id="ff56-4e5a-7935-09f1" automatic="true" field="selections" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
               <profiles>
-                <profile name="Ranged (Light)" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="597f-70a3-5151-e96b">
+                <profile name="Ranged (Light)" id="597f-70a3-5151-e96b" hidden="false" typeId="7a22-daf6-b2f0-f622" typeName="Type">
                   <characteristics>
                     <characteristic name="Range" typeId="0d60-0078-7134-d302"/>
                     <characteristic name="1-2" typeId="5043-ac06-9bc2-0585"/>
@@ -125,13 +328,13 @@
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Melee" hidden="false" id="3d83-5eda-f0a6-97b8" sortIndex="5">
+            <selectionEntry name="Melee" id="3d83-5eda-f0a6-97b8" hidden="false" import="true" sortIndex="5" type="upgrade">
               <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2c4c-8c20-9cf3-1304" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="846f-f2ee-918e-e26d" automatic="true"/>
+                <constraint id="2c4c-8c20-9cf3-1304" automatic="true" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                <constraint id="846f-f2ee-918e-e26d" automatic="true" field="selections" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
               <profiles>
-                <profile name="Melee" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="91be-0561-b98e-639b">
+                <profile name="Melee" id="91be-0561-b98e-639b" hidden="false" typeId="7a22-daf6-b2f0-f622" typeName="Type">
                   <characteristics>
                     <characteristic name="Range" typeId="0d60-0078-7134-d302"/>
                     <characteristic name="1-2" typeId="5043-ac06-9bc2-0585"/>
@@ -142,13 +345,13 @@
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Ranged (Light/Heavy)" hidden="false" id="7cd6-2cce-fdab-72e0" sortIndex="3">
+            <selectionEntry name="Ranged (Light/Heavy)" id="7cd6-2cce-fdab-72e0" hidden="false" import="true" sortIndex="3" type="upgrade">
               <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="30e2-86e1-a3ab-949c" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b0c0-aea4-822d-d6ca" automatic="true"/>
+                <constraint id="30e2-86e1-a3ab-949c" automatic="true" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                <constraint id="b0c0-aea4-822d-d6ca" automatic="true" field="selections" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
               <profiles>
-                <profile name="Ranged (Light/Heavy)" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="b46e-7652-5f22-14f0">
+                <profile name="Ranged (Light/Heavy)" id="b46e-7652-5f22-14f0" hidden="false" typeId="7a22-daf6-b2f0-f622" typeName="Type">
                   <characteristics>
                     <characteristic name="Range" typeId="0d60-0078-7134-d302"/>
                     <characteristic name="1-2" typeId="5043-ac06-9bc2-0585"/>
@@ -159,13 +362,13 @@
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Ranged (Heavy)" hidden="false" id="7adb-3191-63ce-68fe" sortIndex="2">
+            <selectionEntry name="Ranged (Heavy)" id="7adb-3191-63ce-68fe" hidden="false" import="true" sortIndex="2" type="upgrade">
               <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d971-1c48-2fec-a272" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="615c-1fc9-02bf-22a7" automatic="true"/>
+                <constraint id="d971-1c48-2fec-a272" automatic="true" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                <constraint id="615c-1fc9-02bf-22a7" automatic="true" field="selections" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
               <profiles>
-                <profile name="Ranged (Heavy)" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="f629-29cd-3618-a4a1">
+                <profile name="Ranged (Heavy)" id="f629-29cd-3618-a4a1" hidden="false" typeId="7a22-daf6-b2f0-f622" typeName="Type">
                   <characteristics>
                     <characteristic name="Range" typeId="0d60-0078-7134-d302"/>
                     <characteristic name="1-2" typeId="5043-ac06-9bc2-0585"/>
@@ -176,13 +379,13 @@
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Ranged (Aerial)" hidden="false" id="c685-2b5c-70d5-7873" sortIndex="4">
+            <selectionEntry name="Ranged (Aerial)" id="c685-2b5c-70d5-7873" hidden="false" import="true" sortIndex="4" type="upgrade">
               <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4c41-1ad6-2f6f-8c92" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="92df-617d-acdc-863f" automatic="true"/>
+                <constraint id="4c41-1ad6-2f6f-8c92" automatic="true" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                <constraint id="92df-617d-acdc-863f" automatic="true" field="selections" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
               <profiles>
-                <profile name="Ranged (Aerial)" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="ce7d-727b-dd01-59cf">
+                <profile name="Ranged (Aerial)" id="ce7d-727b-dd01-59cf" hidden="false" typeId="7a22-daf6-b2f0-f622" typeName="Type">
                   <characteristics>
                     <characteristic name="Range" typeId="0d60-0078-7134-d302"/>
                     <characteristic name="1-2" typeId="5043-ac06-9bc2-0585"/>
@@ -193,13 +396,30 @@
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Impact" hidden="false" id="46a7-2a38-5ddd-21c6" sortIndex="6">
+            <selectionEntry name="Impact" id="46a7-2a38-5ddd-21c6" hidden="false" import="true" sortIndex="6" type="upgrade">
               <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d02b-5b65-25cb-b125" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4192-35dd-5111-2f92" automatic="true"/>
+                <constraint id="d02b-5b65-25cb-b125" automatic="true" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                <constraint id="4192-35dd-5111-2f92" automatic="true" field="selections" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
               <profiles>
-                <profile name="Impact" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="105d-a95a-5518-23f3">
+                <profile name="Impact" id="105d-a95a-5518-23f3" hidden="false" typeId="7a22-daf6-b2f0-f622" typeName="Type">
+                  <characteristics>
+                    <characteristic name="Range" typeId="0d60-0078-7134-d302"/>
+                    <characteristic name="1-2" typeId="5043-ac06-9bc2-0585"/>
+                    <characteristic name="3-4" typeId="8394-18d6-22d8-e03c"/>
+                    <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d"/>
+                    <characteristic name="Qualities" typeId="1569-2922-0e92-737b"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry name="Ranged (Light/Aerial)" id="2f88-df51-71b9-637c" hidden="false" import="true" sortIndex="4" type="upgrade">
+              <constraints>
+                <constraint id="54c4-676f-8dd8-01eb" automatic="true" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                <constraint id="d092-9e27-cf3e-1b47" automatic="true" field="selections" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <profiles>
+                <profile name="Ranged (Light/Aerial)" id="3f40-ca06-f494-80bc" hidden="false" typeId="7a22-daf6-b2f0-f622" typeName="Type">
                   <characteristics>
                     <characteristic name="Range" typeId="0d60-0078-7134-d302"/>
                     <characteristic name="1-2" typeId="5043-ac06-9bc2-0585"/>
@@ -213,30 +433,36 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <constraints>
-        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="14c0-ade0-4e83-16eb" includeChildSelections="true"/>
-      </constraints>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Boons and bonuses" hidden="true" id="208a-7f3a-d20e-5354">
+    <selectionEntry name="Boons and bonuses" id="208a-7f3a-d20e-5354" hidden="true" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink name="Boons" id="b21a-c187-210f-fea5" hidden="false" primary="true" targetId="9588-4200-697f-615f"/>
+      </categoryLinks>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Ready For Anything" hidden="false" id="d3f2-7f82-dfd2-ec6c" sortIndex="3">
+        <selectionEntry name="Ready For Anything" id="d3f2-7f82-dfd2-ec6c" hidden="false" import="true" sortIndex="3" type="upgrade">
+          <constraints>
+            <constraint id="f7f9-8e83-dbba-87ab" automatic="false" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
+          </constraints>
           <costs>
             <cost name="Points" typeId="e58e-982d-7630-5342" value="20"/>
           </costs>
           <profiles>
-            <profile name="Ready For Anything" typeId="3f77-4198-5794-9684" typeName="Boons" hidden="false" id="c99c-3b92-2541-d2f9">
+            <profile name="Ready For Anything" id="c99c-3b92-2541-d2f9" hidden="false" typeId="3f77-4198-5794-9684" typeName="Boons">
               <characteristics>
                 <characteristic name="Effect" typeId="b7f2-49d8-a49a-0b0f">A single unit in the General’s Force that has been deployed at the start of the Clash begins the Clash with the On Lookout status.</characteristic>
               </characteristics>
             </profile>
           </profiles>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f7f9-8e83-dbba-87ab" automatic="false"/>
-          </constraints>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Countercharge" hidden="false" id="f982-47f6-acaa-698b" sortIndex="5">
+        <selectionEntry name="Countercharge" id="f982-47f6-acaa-698b" hidden="false" import="true" sortIndex="5" type="upgrade">
+          <constraints>
+            <constraint id="0916-2577-8f9c-b7fe" automatic="false" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
+          </constraints>
+          <costs>
+            <cost name="Points" typeId="e58e-982d-7630-5342" value="30"/>
+          </costs>
           <profiles>
-            <profile name="Countercharge" typeId="3f77-4198-5794-9684" typeName="Boons" hidden="false" id="9082-7d0d-a66f-fdec">
+            <profile name="Countercharge" id="9082-7d0d-a66f-fdec" hidden="false" typeId="3f77-4198-5794-9684" typeName="Boons">
               <characteristics>
                 <characteristic name="Effect" typeId="b7f2-49d8-a49a-0b0f">Once per Round, the General can issue this Special Command to one of their units that has the On Lookout status, in place of declaring Opportunity Fire.
 
@@ -255,16 +481,16 @@ If the unit is unable to end its Charge manoeuvre in contact with the active en
               </characteristics>
             </profile>
           </profiles>
-          <costs>
-            <cost name="Points" typeId="e58e-982d-7630-5342" value="30"/>
-          </costs>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0916-2577-8f9c-b7fe" automatic="false"/>
-          </constraints>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Headlong Rush" hidden="false" id="a625-4968-a3e1-667a" sortIndex="4">
+        <selectionEntry name="Headlong Rush" id="a625-4968-a3e1-667a" hidden="false" import="true" sortIndex="4" type="upgrade">
+          <constraints>
+            <constraint id="30e9-9a1a-7fd5-2eb3" automatic="false" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
+          </constraints>
+          <costs>
+            <cost name="Points" typeId="e58e-982d-7630-5342" value="20"/>
+          </costs>
           <profiles>
-            <profile name="Headlong Rush" typeId="3f77-4198-5794-9684" typeName="Boons" hidden="false" id="3326-4d38-b8b2-5cbf">
+            <profile name="Headlong Rush" id="3326-4d38-b8b2-5cbf" hidden="false" typeId="3f77-4198-5794-9684" typeName="Boons">
               <characteristics>
                 <characteristic name="Effect" typeId="b7f2-49d8-a49a-0b0f">Once per Round, the General can issue this Special Command to an Armour unit at the start of its Activation.
 
@@ -273,16 +499,16 @@ If the Command is successfully issued, this unit treats all Difficult Terrain a
               </characteristics>
             </profile>
           </profiles>
-          <costs>
-            <cost name="Points" typeId="e58e-982d-7630-5342" value="20"/>
-          </costs>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="30e9-9a1a-7fd5-2eb3" automatic="false"/>
-          </constraints>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Yee-Haw!" hidden="false" id="ea41-45dd-bad3-6a39" sortIndex="6">
+        <selectionEntry name="Yee-Haw!" id="ea41-45dd-bad3-6a39" hidden="false" import="true" sortIndex="6" type="upgrade">
+          <constraints>
+            <constraint id="482b-3c30-2a67-98ab" automatic="false" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
+          </constraints>
+          <costs>
+            <cost name="Points" typeId="e58e-982d-7630-5342" value="35"/>
+          </costs>
           <profiles>
-            <profile name="Yee-Haw!" typeId="3f77-4198-5794-9684" typeName="Boons" hidden="false" id="895c-d218-b69d-dfa4">
+            <profile name="Yee-Haw!" id="895c-d218-b69d-dfa4" hidden="false" typeId="3f77-4198-5794-9684" typeName="Boons">
               <characteristics>
                 <characteristic name="Effect" typeId="b7f2-49d8-a49a-0b0f">Once per Round, the General can issue a Special Command to a Union Infantry or Cavalry unit after rolling its dice during a Melee Attack.
 
@@ -291,16 +517,36 @@ If successfully issued, the unit’s General may re-roll any Blank results roll
               </characteristics>
             </profile>
           </profiles>
-          <costs>
-            <cost name="Points" typeId="e58e-982d-7630-5342" value="35"/>
-          </costs>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="482b-3c30-2a67-98ab" automatic="false"/>
-          </constraints>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Battlegroup Bonus:" hidden="false" id="00e2-da0e-1875-0db7" sortIndex="1">
+        <selectionEntry name="Battlegroup Bonus:" id="00e2-da0e-1875-0db7" hidden="false" import="true" sortIndex="1" type="upgrade">
+          <constraints>
+            <constraint id="63c4-f065-9944-bd14" field="selections" scope="parent" shared="true" type="max" value="1"/>
+            <constraint id="06bc-6d54-ae69-a27a" field="selections" scope="parent" shared="true" type="min" value="1"/>
+          </constraints>
+          <modifiers>
+            <modifier field="name" type="append" value="Stake A Claim">
+              <conditions>
+                <condition childId="9f8e-49ab-64b9-f4d4" field="selections" includeChildSelections="false" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+              </conditions>
+            </modifier>
+            <modifier field="name" type="append" value="Search &amp; Destroy">
+              <conditions>
+                <condition childId="de5c-0287-e275-8456" field="selections" includeChildSelections="false" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+              </conditions>
+            </modifier>
+            <modifier field="name" type="append" value="Give &apos;Em Hell!">
+              <conditions>
+                <condition childId="84ba-b491-5e71-9b8e" field="selections" includeChildSelections="false" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+              </conditions>
+            </modifier>
+            <modifier field="name" type="append" value="Facts On The Ground">
+              <conditions>
+                <condition childId="cdd3-a7b7-ef0b-f1a7" field="selections" includeChildSelections="false" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <profiles>
-            <profile name="Give &apos;Em Hell! (Command)" typeId="3f77-4198-5794-9684" typeName="Boons" hidden="false" id="e976-b0ed-2aa2-4708">
+            <profile name="Give &apos;Em Hell! (Command)" id="e976-b0ed-2aa2-4708" hidden="false" typeId="3f77-4198-5794-9684" typeName="Boons">
               <characteristics>
                 <characteristic name="Effect" typeId="b7f2-49d8-a49a-0b0f">This Battlegroup’s General can issue this Special Command to a Union unit at the start of its Attack or Engage step.
 
@@ -314,14 +560,14 @@ If the Command is successfully issued, the unit uses its Attack or EngageStep to
 Then, the attacking unit immediately gains the Suppressed status.</characteristic>
               </characteristics>
               <modifiers>
-                <modifier type="set" value="true" field="hidden">
+                <modifier field="hidden" type="set" value="true">
                   <conditions>
-                    <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="84ba-b491-5e71-9b8e" shared="true" includeChildSelections="false"/>
+                    <condition childId="84ba-b491-5e71-9b8e" field="selections" includeChildSelections="false" scope="ancestor" shared="true" type="notInstanceOf" value="1"/>
                   </conditions>
                 </modifier>
               </modifiers>
             </profile>
-            <profile name="Search &amp; Destroy" typeId="3f77-4198-5794-9684" typeName="Boons" hidden="false" id="9608-9ed4-d790-5009">
+            <profile name="Search &amp; Destroy" id="9608-9ed4-d790-5009" hidden="false" typeId="3f77-4198-5794-9684" typeName="Boons">
               <characteristics>
                 <characteristic name="Effect" typeId="b7f2-49d8-a49a-0b0f">When a Union unit Annihilates an enemy unit, this Battlegroup’s General can choose to discard a Command &amp; Conquest Card from their hand.
 
@@ -335,14 +581,14 @@ If they do, they score;
 If they do this, they cannot claim any Conquest Objectives for Annihilating the unit.</characteristic>
               </characteristics>
               <modifiers>
-                <modifier type="set" value="true" field="hidden">
+                <modifier field="hidden" type="set" value="true">
                   <conditions>
-                    <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="de5c-0287-e275-8456" shared="true" includeChildSelections="false"/>
+                    <condition childId="de5c-0287-e275-8456" field="selections" includeChildSelections="false" scope="ancestor" shared="true" type="notInstanceOf" value="1"/>
                   </conditions>
                 </modifier>
               </modifiers>
             </profile>
-            <profile name="Stake A Claim (Command)" typeId="3f77-4198-5794-9684" typeName="Boons" hidden="false" id="7f8f-0026-1b2b-c9b0">
+            <profile name="Stake A Claim (Command)" id="7f8f-0026-1b2b-c9b0" hidden="false" typeId="3f77-4198-5794-9684" typeName="Boons">
               <characteristics>
                 <characteristic name="Effect" typeId="b7f2-49d8-a49a-0b0f">This Battlegroup’s General can issue this Special Command to a Union Infantry or Cavalry at the start of the End Phase.
 
@@ -350,393 +596,165 @@ If they do this, they cannot claim any Conquest Objectives for Annihilating the 
 If the Command is successfully issued, the unit ignores the presence of enemy units when determining whether it is controlling a Strategic Objective for the duration of the phase.</characteristic>
               </characteristics>
               <modifiers>
-                <modifier type="set" value="true" field="hidden">
+                <modifier field="hidden" type="set" value="true">
                   <conditions>
-                    <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="9f8e-49ab-64b9-f4d4" shared="true" includeChildSelections="false"/>
+                    <condition childId="9f8e-49ab-64b9-f4d4" field="selections" includeChildSelections="false" scope="ancestor" shared="true" type="notInstanceOf" value="1"/>
                   </conditions>
                 </modifier>
               </modifiers>
             </profile>
-            <profile name="Facts On The Ground" typeId="3f77-4198-5794-9684" typeName="Boons" hidden="false" id="0a5d-0507-1ac5-52d8">
+            <profile name="Facts On The Ground" id="0a5d-0507-1ac5-52d8" hidden="false" typeId="3f77-4198-5794-9684" typeName="Boons">
               <characteristics>
                 <characteristic name="Effect" typeId="b7f2-49d8-a49a-0b0f">All units in this Force with the Carriage trait gain the Forward special rule.</characteristic>
               </characteristics>
               <modifiers>
-                <modifier type="set" value="true" field="hidden">
+                <modifier field="hidden" type="set" value="true">
                   <conditions>
-                    <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="cdd3-a7b7-ef0b-f1a7" shared="true" includeChildSelections="false"/>
+                    <condition childId="cdd3-a7b7-ef0b-f1a7" field="selections" includeChildSelections="false" scope="ancestor" shared="true" type="notInstanceOf" value="1"/>
                   </conditions>
                 </modifier>
               </modifiers>
             </profile>
           </profiles>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="63c4-f065-9944-bd14"/>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="06bc-6d54-ae69-a27a"/>
-          </constraints>
-          <modifiers>
-            <modifier type="append" value="Stake A Claim" field="name">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="9f8e-49ab-64b9-f4d4" shared="true" includeChildSelections="false"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" value="Search &amp; Destroy" field="name">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="de5c-0287-e275-8456" shared="true" includeChildSelections="false"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" value="Give &apos;Em Hell!" field="name">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="84ba-b491-5e71-9b8e" shared="true" includeChildSelections="false"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" value="Facts On The Ground" field="name">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="cdd3-a7b7-ef0b-f1a7" shared="true" includeChildSelections="false"/>
-              </conditions>
-            </modifier>
-          </modifiers>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Forlorn Hope" hidden="false" id="66e0-4d25-a73c-a410" sortIndex="2">
+        <selectionEntry name="Forlorn Hope" id="66e0-4d25-a73c-a410" hidden="false" import="true" sortIndex="2" type="upgrade">
+          <constraints>
+            <constraint id="10b6-604f-f222-363a" automatic="false" field="selections" includeChildSelections="true" scope="force" shared="true" type="max" value="1"/>
+          </constraints>
+          <costs>
+            <cost name="Points" typeId="e58e-982d-7630-5342" value="15"/>
+          </costs>
           <profiles>
-            <profile name="Forlorn Hope" typeId="3f77-4198-5794-9684" typeName="Boons" hidden="false" id="082a-7e19-3b50-67e3">
+            <profile name="Forlorn Hope" id="082a-7e19-3b50-67e3" hidden="false" typeId="3f77-4198-5794-9684" typeName="Boons">
               <characteristics>
                 <characteristic name="Effect" typeId="b7f2-49d8-a49a-0b0f">A single unit in the General’s Force that has been deployed at the start of the Clash gains the Vanguard (X”) special rule, with an (X) value 2” higher than its Speed. (For example, a unit with Speed 6” would gain the Vanguard (8”) special rule.)
 If the chosen unit already has the Vanguard (X ) special rule it uses the highest (X) value of the two available.</characteristic>
               </characteristics>
             </profile>
           </profiles>
-          <costs>
-            <cost name="Points" typeId="e58e-982d-7630-5342" value="15"/>
-          </costs>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="10b6-604f-f222-363a" automatic="false"/>
-          </constraints>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Headstrong Commander" hidden="false" id="d19c-7d48-6db2-45d2" sortIndex="7">
+        <selectionEntry name="Headstrong Commander" id="d19c-7d48-6db2-45d2" hidden="false" import="true" sortIndex="7" type="upgrade">
+          <constraints>
+            <constraint id="5acb-a3e2-5587-dc53" automatic="false" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
+          </constraints>
           <costs>
             <cost name="Points" typeId="e58e-982d-7630-5342" value="45"/>
           </costs>
           <profiles>
-            <profile name="Headstrong Commander" typeId="3f77-4198-5794-9684" typeName="Boons" hidden="false" id="d435-6075-fbb0-3904">
+            <profile name="Headstrong Commander" id="d435-6075-fbb0-3904" hidden="false" typeId="3f77-4198-5794-9684" typeName="Boons">
               <characteristics>
                 <characteristic name="Effect" typeId="b7f2-49d8-a49a-0b0f">During the Draw Cards step of each Ready Phase, after drawing cards from their Command &amp; Conquest deck, the General can choose to draw one additional card and add it to their Hand.
 If they do, they must then discard one card from their Hand.</characteristic>
               </characteristics>
             </profile>
           </profiles>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5acb-a3e2-5587-dc53" automatic="false"/>
-          </constraints>
         </selectionEntry>
       </selectionEntries>
+    </selectionEntry>
+    <selectionEntry name="Size" id="0a52-a226-9ffd-2ea3" hidden="false" import="true" sortIndex="0" type="upgrade">
       <categoryLinks>
-        <categoryLink name="Boons" hidden="false" id="b21a-c187-210f-fea5" targetId="9588-4200-697f-615f" primary="true"/>
+        <categoryLink name="Boons" id="ab2b-62f0-c30a-5183" hidden="false" primary="true" targetId="9588-4200-697f-615f"/>
       </categoryLinks>
       <constraints>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4d14-1433-b54e-f386" automatic="true"/>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="11fc-1135-e1ac-99dc"/>
+        <constraint id="9408-c66a-3e0d-d982" automatic="true" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
       </constraints>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Size" hidden="false" id="0a52-a226-9ffd-2ea3" sortIndex="0">
-      <categoryLinks>
-        <categoryLink name="Boons" hidden="false" id="ab2b-62f0-c30a-5183" targetId="9588-4200-697f-615f" primary="true"/>
-      </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Size" id="0da7-e7c7-bfff-87fc" hidden="false">
+          <constraints>
+            <constraint id="16a9-f860-7029-4e08" automatic="true" field="selections" includeChildForces="false" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+            <constraint id="2596-a570-311e-5abc" automatic="true" field="selections" includeChildForces="false" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+          </constraints>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Skirmish" hidden="false" id="386f-773d-5fda-7090" sortIndex="1">
+            <selectionEntry name="Skirmish" id="386f-773d-5fda-7090" hidden="false" import="true" sortIndex="1" type="upgrade">
               <profiles>
-                <profile name="Skirmish" typeId="052d-5a2a-09fa-d9b8" typeName="Size" hidden="false" id="d06f-9791-9866-1308">
+                <profile name="Skirmish" id="d06f-9791-9866-1308" hidden="false" typeId="052d-5a2a-09fa-d9b8" typeName="Size">
                   <characteristics>
                     <characteristic name="Points" typeId="b745-879e-07e7-0580">500-1500</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Battle" hidden="false" id="c986-901f-e13e-cdb4" sortIndex="2">
+            <selectionEntry name="Battle" id="c986-901f-e13e-cdb4" hidden="false" import="true" sortIndex="2" type="upgrade">
               <profiles>
-                <profile name="Battle" typeId="052d-5a2a-09fa-d9b8" typeName="Size" hidden="false" id="f2ae-cde5-44ab-e47b">
+                <profile name="Battle" id="f2ae-cde5-44ab-e47b" hidden="false" typeId="052d-5a2a-09fa-d9b8" typeName="Size">
                   <characteristics>
                     <characteristic name="Points" typeId="b745-879e-07e7-0580">1500-2500</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Cataclysm" hidden="false" id="6f24-75da-1167-950f" sortIndex="3">
+            <selectionEntry name="Cataclysm" id="6f24-75da-1167-950f" hidden="false" import="true" sortIndex="3" type="upgrade">
               <profiles>
-                <profile name="Cataclysm" typeId="052d-5a2a-09fa-d9b8" typeName="Size" hidden="false" id="5203-73e5-1450-f835">
+                <profile name="Cataclysm" id="5203-73e5-1450-f835" hidden="false" typeId="052d-5a2a-09fa-d9b8" typeName="Size">
                   <characteristics>
                     <characteristic name="Points" typeId="b745-879e-07e7-0580">2500-4000</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Unbound" hidden="false" id="3f68-3163-6aa2-bae0" sortIndex="0">
+            <selectionEntry name="Unbound" id="3f68-3163-6aa2-bae0" hidden="false" import="true" sortIndex="0" type="upgrade">
+              <constraints>
+                <constraint id="c3ca-2692-e760-4161" automatic="true" field="selections" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
               <profiles>
-                <profile name="Unbound" typeId="052d-5a2a-09fa-d9b8" typeName="Size" hidden="false" id="c39d-72c2-7b16-23fc">
+                <profile name="Unbound" id="c39d-72c2-7b16-23fc" hidden="false" typeId="052d-5a2a-09fa-d9b8" typeName="Size">
                   <characteristics>
                     <characteristic name="Points" typeId="b745-879e-07e7-0580"/>
                   </characteristics>
                 </profile>
               </profiles>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c3ca-2692-e760-4161" automatic="true"/>
-              </constraints>
             </selectionEntry>
           </selectionEntries>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="16a9-f860-7029-4e08" includeChildSelections="false" includeChildForces="false" automatic="true"/>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2596-a570-311e-5abc" includeChildSelections="false" includeChildForces="false" automatic="true"/>
-          </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <constraints>
-        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="9408-c66a-3e0d-d982" includeChildSelections="true" includeChildForces="true" automatic="true"/>
-      </constraints>
     </selectionEntry>
   </selectionEntries>
-  <profileTypes>
-    <profileType name="Basic unit" id="54fb-c9ab-bd93-b093" hidden="false" sortIndex="2">
-      <characteristicTypes>
-        <characteristicType name="Target type" id="de47-7191-892f-3c71"/>
-        <characteristicType name="Size" id="eaf4-4c58-3d0c-1b66"/>
-        <characteristicType name="Models" id="3e5d-fadc-d9fb-6570"/>
-        <characteristicType name="VPR" id="bb79-114d-2dc7-ca18"/>
-        <characteristicType name="Speed" id="a1ff-3505-834d-23aa"/>
-        <characteristicType name="Defence" id="a389-3217-cc15-c1ef"/>
-        <characteristicType name="Damage limit" id="b2ff-c899-9816-a2bd"/>
-        <characteristicType name="Discipline" id="9692-df81-03cd-8583"/>
-        <characteristicType name="Break Limit" id="e0f3-cfb5-7ab1-549a"/>
-      </characteristicTypes>
-    </profileType>
-    <profileType name="Special Rules" id="f593-22ac-8878-8d77" hidden="false" sortIndex="15">
-      <characteristicTypes>
-        <characteristicType name="Special Rules" id="daea-c58a-dc2c-ad5d"/>
-      </characteristicTypes>
-      <comment>Special Rules</comment>
-    </profileType>
-    <profileType name="Type" id="94d7-2200-00d2-ae3f" hidden="false" sortIndex="3" kind="weapon">
-      <characteristicTypes>
-        <characteristicType name="Range" id="0faf-08e4-43a5-722d"/>
-        <characteristicType name="1-6" id="1dd1-b0ef-2521-5815"/>
-        <characteristicType name="7-12" id="1fbf-39ae-6b9b-6e84"/>
-        <characteristicType name="13-18" id="73e4-df9f-6b10-d276"/>
-        <characteristicType name="Qualities" id="8c1e-b7a3-2830-9b8b"/>
-      </characteristicTypes>
-      <comment>weapons 6-18</comment>
-    </profileType>
-    <profileType name="Type" id="ae82-73aa-c9d6-d719" hidden="false" sortIndex="4" kind="weapon">
-      <characteristicTypes>
-        <characteristicType name="Range" id="c7d4-8837-db2a-853e"/>
-        <characteristicType name="1" id="d488-d433-55e3-87c0"/>
-        <characteristicType name="2" id="9869-9545-e597-5da6"/>
-        <characteristicType name="3" id="cc94-143d-b205-52e3"/>
-        <characteristicType name="Qualities" id="f973-0012-4bcd-1728"/>
-      </characteristicTypes>
-      <comment>weapons 1-3</comment>
-    </profileType>
-    <profileType name="Type" id="344a-022d-aebf-7e7a" hidden="false" sortIndex="5" kind="weapon">
-      <characteristicTypes>
-        <characteristicType name="Range" id="db9e-9452-9fc5-3877"/>
-        <characteristicType name="1-4" id="94b3-2e14-1b71-6757"/>
-        <characteristicType name="5-8" id="f891-f62d-9222-6a4f"/>
-        <characteristicType name="9-12" id="df36-9d51-a316-8d54"/>
-        <characteristicType name="Qualities" id="9a3f-8a28-e735-e1eb"/>
-      </characteristicTypes>
-      <comment>weapons 4-12</comment>
-    </profileType>
-    <profileType name="Type" id="055e-da65-5a34-6a56" hidden="false" sortIndex="6" kind="weapon">
-      <characteristicTypes>
-        <characteristicType name="Range" id="a4be-e6da-e81e-0ee5"/>
-        <characteristicType name="1-5" id="6c2b-399d-3913-0c86"/>
-        <characteristicType name="6-10" id="e030-39ed-b345-ffd8"/>
-        <characteristicType name="11-15" id="3341-bdc5-ce8f-a06f"/>
-        <characteristicType name="Qualities" id="e5a1-fc2f-d8b2-79b3"/>
-      </characteristicTypes>
-      <comment>weapons 5-15</comment>
-    </profileType>
-    <profileType name="Type" id="7a22-daf6-b2f0-f622" hidden="false" sortIndex="8" kind="weapon">
-      <characteristicTypes>
-        <characteristicType name="Range" id="0d60-0078-7134-d302"/>
-        <characteristicType name="1-2" id="5043-ac06-9bc2-0585"/>
-        <characteristicType name="3-4" id="8394-18d6-22d8-e03c"/>
-        <characteristicType name="5-6" id="7a86-7632-65f7-3c3d"/>
-        <characteristicType name="Qualities" id="1569-2922-0e92-737b"/>
-      </characteristicTypes>
-      <comment>weapons 2-6</comment>
-    </profileType>
-    <profileType name="Type" id="18f4-5886-b9e5-059c" hidden="false" sortIndex="10" kind="weapon">
-      <characteristicTypes>
-        <characteristicType name="Range" id="a374-7668-40e6-f109"/>
-        <characteristicType name="10-11" id="0ce0-0ff9-2b4f-55e4"/>
-        <characteristicType name="5-9" id="2b86-6835-da25-0f0b"/>
-        <characteristicType name="0-4" id="769f-fcc5-f6e7-6c8f"/>
-        <characteristicType name="Qualities" id="2db9-d12e-585a-fe1f"/>
-      </characteristicTypes>
-      <comment>weapons Behemoth 0-11</comment>
-    </profileType>
-    <profileType name="Boons" id="3f77-4198-5794-9684" hidden="false" sortIndex="1">
-      <characteristicTypes>
-        <characteristicType name="Effect" id="b7f2-49d8-a49a-0b0f"/>
-      </characteristicTypes>
-    </profileType>
-    <profileType name="Type" id="ab7a-1a7e-f58b-4565" hidden="false" sortIndex="7" kind="weapon">
-      <characteristicTypes>
-        <characteristicType name="Range" id="ae86-2a51-4bd0-5c8c"/>
-        <characteristicType name="1-8" id="a2ba-36af-bed3-a679"/>
-        <characteristicType name="9-16" id="085d-3a50-7d10-ef1b"/>
-        <characteristicType name="17-24" id="b6be-29a6-8c04-d4a7"/>
-        <characteristicType name="Qualities" id="ea86-3bb1-4fea-6f13"/>
-      </characteristicTypes>
-      <comment>weapons 8-24</comment>
-    </profileType>
-    <profileType name="Type" id="e5cb-a327-9927-e1c2" hidden="false" sortIndex="12" kind="weapon">
-      <characteristicTypes>
-        <characteristicType name="Range" id="441f-d21a-ef2b-2c8a"/>
-        <characteristicType name="6-7" id="695f-299c-7e58-f275"/>
-        <characteristicType name="3-5" id="e27c-135a-2199-2587"/>
-        <characteristicType name="0-2" id="7a70-c3bd-de13-ddd6"/>
-        <characteristicType name="Qualities" id="e2c3-64fe-0b86-9ca8"/>
-      </characteristicTypes>
-      <comment>weapons Behemoth 0-7</comment>
-    </profileType>
-    <profileType name="Type" id="ee3c-551f-76af-1003" hidden="false" sortIndex="9" kind="weapon">
-      <characteristicTypes>
-        <characteristicType name="Range" id="2701-5c54-f68b-b5db"/>
-        <characteristicType name="10-15" id="af3b-7f79-4aa9-20d4"/>
-        <characteristicType name="5-9" id="4790-8f0a-37e7-12e9"/>
-        <characteristicType name="0-4" id="acef-aeb2-7abd-c306"/>
-        <characteristicType name="Qualities" id="0833-055a-302e-e350"/>
-      </characteristicTypes>
-      <comment>weapons Behemoth 0-15</comment>
-    </profileType>
-    <profileType name="Type" id="e268-4591-0098-0605" hidden="false" sortIndex="11" kind="weapon">
-      <characteristicTypes>
-        <characteristicType name="Range" id="5bf6-fd07-7b49-fa88"/>
-        <characteristicType name="7-8" id="e53c-163c-99e4-0d11"/>
-        <characteristicType name="4-6" id="15cc-83fc-47e9-cbfc"/>
-        <characteristicType name="0-3" id="9457-e067-5c45-6dc7"/>
-        <characteristicType name="Qualities" id="e367-7cf4-db1a-9f8a"/>
-      </characteristicTypes>
-      <comment>weapons Behemoth 0-8</comment>
-    </profileType>
-    <profileType name="Type" id="49bd-938b-4cd1-be02" hidden="false" sortIndex="13" kind="weapon">
-      <characteristicTypes>
-        <characteristicType name="Range" id="1d41-6aea-8eff-6c42"/>
-        <characteristicType name="5-6" id="03c2-7494-d471-434c"/>
-        <characteristicType name="3-4" id="28f5-0175-feef-38b6"/>
-        <characteristicType name="0-2" id="4ec6-ec07-b2fa-c22a"/>
-        <characteristicType name="Qualities" id="1126-81e3-c3b1-ae92"/>
-      </characteristicTypes>
-      <comment>weapons Behemoth 0-6</comment>
-    </profileType>
-    <profileType name="Type" id="b294-e6dd-21de-b304" hidden="false" sortIndex="14" kind="weapon">
-      <characteristicTypes>
-        <characteristicType name="Range" id="1ef4-25e1-dabb-4366"/>
-        <characteristicType name="1" id="47f8-07bb-9d00-11ff"/>
-        <characteristicType name="N/A" id="bb38-45b7-8bc6-5634"/>
-        <characteristicType name="N/A" id="172d-3b2f-afb6-9286"/>
-        <characteristicType name="Qualities" id="afc3-d5f4-dacf-4f41"/>
-      </characteristicTypes>
-      <comment>weapons 1</comment>
-    </profileType>
-    <profileType name="Type" id="2168-d664-9ff5-f41e" hidden="false" sortIndex="9" kind="weapon">
-      <characteristicTypes>
-        <characteristicType name="Range" id="a93b-2f17-358e-cf1e"/>
-        <characteristicType name="0-4" id="6cee-a120-eea9-d47b"/>
-        <characteristicType name="5-9" id="f2b4-e4ea-b118-b975"/>
-        <characteristicType name="10-14" id="d6d2-0ade-fe00-9b79"/>
-        <characteristicType name="Qualities" id="6f44-e99f-a993-281a"/>
-      </characteristicTypes>
-      <comment>weapons Behemoth 0-14</comment>
-    </profileType>
-    <profileType name="Command" id="005b-4054-e3d0-6001" hidden="false"/>
-    <profileType name="Type" id="e230-522c-9c1c-b6c3" hidden="false" kind="weapon">
-      <comment>Weapons Behemoth 1-18</comment>
-      <characteristicTypes>
-        <characteristicType name="Range" id="7385-1013-e06a-3c64"/>
-        <characteristicType name="16-17" id="3e72-48b6-96fe-f1ef"/>
-        <characteristicType name="7-15" id="1762-66d0-5133-73cd"/>
-        <characteristicType name="1-6" id="dedc-b012-91db-99d5"/>
-        <characteristicType name="Qualities" id="e5c1-9b5c-88b4-f622"/>
-      </characteristicTypes>
-    </profileType>
-    <profileType name="Type" id="e61c-1b25-4e1c-6c5f" hidden="false" kind="weapon">
-      <characteristicTypes>
-        <characteristicType name="Range" id="8ba6-5bb1-b105-70d8"/>
-        <characteristicType name="9-11" id="0064-34fd-a5cd-0192"/>
-        <characteristicType name="6-8" id="107e-f313-92b7-50d4"/>
-        <characteristicType name="1-5" id="6e13-ce8c-dd41-a94a"/>
-        <characteristicType name="Qualities" id="b4ec-07ab-cab6-fad0"/>
-      </characteristicTypes>
-      <comment>weapons Behemoth 0-12</comment>
-    </profileType>
-    <profileType name="Size" id="052d-5a2a-09fa-d9b8" hidden="false" kind="tag">
-      <characteristicTypes>
-        <characteristicType name="Points" id="b745-879e-07e7-0580" kind="longText"/>
-      </characteristicTypes>
-    </profileType>
-    <profileType name="Type" id="f396-5e56-907b-123a" hidden="false" sortIndex="4" kind="weapon">
-      <characteristicTypes>
-        <characteristicType name="Range" id="cb98-2460-8e29-0c43"/>
-        <characteristicType name="-" id="2d40-1fae-1b22-5bc1"/>
-        <characteristicType name="1" id="4200-e763-30c7-f005"/>
-        <characteristicType name="2" id="1ea9-2334-bb39-087d"/>
-        <characteristicType name="Qualities" id="9ce8-df79-3ef0-23c5"/>
-      </characteristicTypes>
-      <comment>weapons 1-2</comment>
-    </profileType>
-  </profileTypes>
   <sharedSelectionEntries>
-    <selectionEntry type="upgrade" import="true" name="Basic" hidden="false" id="f088-e6d4-8fe3-0f3e"/>
-    <selectionEntry type="upgrade" import="true" name="Reinforced" hidden="false" id="85c2-43ee-a668-834f"/>
-    <selectionEntry type="upgrade" import="true" name="Full Strength" hidden="false" id="e86e-71e1-9396-5526"/>
-    <selectionEntry type="upgrade" import="true" name="Full Strength Template" hidden="false" id="f64b-948c-ff29-aa08" sortIndex="0">
+    <selectionEntry name="Basic" id="f088-e6d4-8fe3-0f3e" hidden="false" import="true" type="upgrade"/>
+    <selectionEntry name="Reinforced" id="85c2-43ee-a668-834f" hidden="false" import="true" type="upgrade"/>
+    <selectionEntry name="Full Strength" id="e86e-71e1-9396-5526" hidden="false" import="true" type="upgrade"/>
+    <selectionEntry name="Full Strength Template" id="f64b-948c-ff29-aa08" hidden="false" import="true" sortIndex="0" type="upgrade">
       <constraints>
-        <constraint type="max" value="-1" field="selections" scope="force" shared="true" id="3971-497a-b31c-6b4a" includeChildSelections="true"/>
+        <constraint id="3971-497a-b31c-6b4a" field="selections" includeChildSelections="true" scope="force" shared="true" type="max" value="-1"/>
       </constraints>
-      <modifiers>
-        <modifier type="set" value="Full Strength" field="name"/>
-      </modifiers>
       <modifierGroups>
         <modifierGroup type="and">
           <modifiers>
-            <modifier type="set" value="0" field="3971-497a-b31c-6b4a">
-              <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="roster" childId="386f-773d-5fda-7090" shared="true" includeChildSelections="true" includeChildForces="true"/>
-              </conditions>
+            <modifier field="3971-497a-b31c-6b4a" type="set" value="0">
               <comment>Skirmish selection</comment>
+              <conditions>
+                <condition childId="386f-773d-5fda-7090" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
+              </conditions>
             </modifier>
-            <modifier type="set" value="1" field="3971-497a-b31c-6b4a">
+            <modifier field="3971-497a-b31c-6b4a" type="set" value="1">
               <comment>Faction group has 1 inf Stars - battle</comment>
               <conditionGroups>
                 <conditionGroup type="and">
                   <conditions>
-                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="c986-901f-e13e-cdb4" shared="true" includeChildSelections="true" includeChildForces="true" sortIndex="2"/>
-                    <condition type="instanceOf" value="1" field="forces" scope="force" childId="c386-2b5e-ec49-5d18" shared="true" includeChildSelections="true" sortIndex="1"/>
+                    <condition childId="c986-901f-e13e-cdb4" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" sortIndex="2" type="atLeast" value="1"/>
+                    <condition childId="c386-2b5e-ec49-5d18" field="forces" includeChildSelections="true" scope="force" shared="true" sortIndex="1" type="instanceOf" value="1"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
             </modifier>
-            <modifier type="set" value="0" field="3971-497a-b31c-6b4a">
+            <modifier field="3971-497a-b31c-6b4a" type="set" value="0">
               <comment>L&apos;aigles has zero inf Stars - Battle</comment>
               <conditionGroups>
                 <conditionGroup type="and">
                   <conditions>
-                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="c986-901f-e13e-cdb4" shared="true" includeChildSelections="true" includeChildForces="true" sortIndex="2"/>
-                    <condition type="instanceOf" value="1" field="forces" scope="force" childId="76dc-9282-c45b-5c5d" shared="true" includeChildSelections="true" sortIndex="1"/>
+                    <condition childId="c986-901f-e13e-cdb4" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" sortIndex="2" type="atLeast" value="1"/>
+                    <condition childId="76dc-9282-c45b-5c5d" field="forces" includeChildSelections="true" scope="force" shared="true" sortIndex="1" type="instanceOf" value="1"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
             </modifier>
-            <modifier type="set" value="2" field="3971-497a-b31c-6b4a">
+            <modifier field="3971-497a-b31c-6b4a" type="set" value="2">
               <comment>Conclave has 2 inf Stars - battle</comment>
               <conditionGroups>
                 <conditionGroup type="and">
                   <conditions>
-                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="c986-901f-e13e-cdb4" shared="true" includeChildSelections="true" includeChildForces="true" sortIndex="2"/>
-                    <condition type="instanceOf" value="1" field="forces" scope="force" childId="b798-a1db-b4f8-a89f" shared="true" includeChildSelections="true" sortIndex="1"/>
+                    <condition childId="c986-901f-e13e-cdb4" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" sortIndex="2" type="atLeast" value="1"/>
+                    <condition childId="b798-a1db-b4f8-a89f" field="forces" includeChildSelections="true" scope="force" shared="true" sortIndex="1" type="instanceOf" value="1"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -744,103 +762,100 @@ If they do, they must then discard one card from their Hand.</characteristic>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Reinforced Template" hidden="false" id="7bd5-f73b-2881-9f96" sortIndex="0">
-      <constraints>
-        <constraint type="max" value="-1" field="selections" scope="force" shared="true" id="5438-e713-49dd-188b" includeChildSelections="true"/>
-      </constraints>
       <modifiers>
-        <modifier type="set" value="Reinforced" field="name"/>
+        <modifier field="name" type="set" value="Full Strength"/>
       </modifiers>
+    </selectionEntry>
+    <selectionEntry name="Reinforced Template" id="7bd5-f73b-2881-9f96" hidden="false" import="true" sortIndex="0" type="upgrade">
+      <constraints>
+        <constraint id="5438-e713-49dd-188b" field="selections" includeChildSelections="true" scope="force" shared="true" type="max" value="-1"/>
+      </constraints>
       <modifierGroups>
         <modifierGroup type="and">
           <modifiers>
-            <modifier type="set" value="0" field="5438-e713-49dd-188b">
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="386f-773d-5fda-7090" shared="true" includeChildSelections="true" includeChildForces="true" sortIndex="2"/>
-                    <condition type="instanceOf" value="1" field="forces" scope="force" childId="76dc-9282-c45b-5c5d" shared="true" includeChildSelections="true" sortIndex="1"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
+            <modifier field="5438-e713-49dd-188b" type="set" value="0">
               <comment>L&apos;aigles has zero inf Stars - skirmish</comment>
-            </modifier>
-            <modifier type="set" value="1" field="5438-e713-49dd-188b">
               <conditionGroups>
                 <conditionGroup type="and">
                   <conditions>
-                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="386f-773d-5fda-7090" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                    <condition type="instanceOf" value="1" field="selections" scope="force" childId="c386-2b5e-ec49-5d18" shared="true" includeChildSelections="true"/>
+                    <condition childId="386f-773d-5fda-7090" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" sortIndex="2" type="atLeast" value="1"/>
+                    <condition childId="76dc-9282-c45b-5c5d" field="forces" includeChildSelections="true" scope="force" shared="true" sortIndex="1" type="instanceOf" value="1"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
+            </modifier>
+            <modifier field="5438-e713-49dd-188b" type="set" value="1">
               <comment>Faction group has 1 inf Stars - skirmish</comment>
-            </modifier>
-            <modifier type="set" value="2" field="5438-e713-49dd-188b">
               <conditionGroups>
                 <conditionGroup type="and">
                   <conditions>
-                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="386f-773d-5fda-7090" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                    <condition type="instanceOf" value="1" field="selections" scope="force" childId="b798-a1db-b4f8-a89f" shared="true" includeChildSelections="true"/>
+                    <condition childId="386f-773d-5fda-7090" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
+                    <condition childId="c386-2b5e-ec49-5d18" field="selections" includeChildSelections="true" scope="force" shared="true" type="instanceOf" value="1"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
+            </modifier>
+            <modifier field="5438-e713-49dd-188b" type="set" value="2">
               <comment>Conclave has 2 inf Stars - Skirmish</comment>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition childId="386f-773d-5fda-7090" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
+                    <condition childId="b798-a1db-b4f8-a89f" field="selections" includeChildSelections="true" scope="force" shared="true" type="instanceOf" value="1"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Basic Template" hidden="false" id="e65d-86b3-ce19-0c6a" sortIndex="0">
       <modifiers>
-        <modifier type="set" value="Basic" field="name"/>
+        <modifier field="name" type="set" value="Reinforced"/>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry name="Basic Template" id="e65d-86b3-ce19-0c6a" hidden="false" import="true" sortIndex="0" type="upgrade">
+      <modifiers>
+        <modifier field="name" type="set" value="Basic"/>
       </modifiers>
     </selectionEntry>
   </sharedSelectionEntries>
-  <costTypes>
-    <costType name="Points" id="e58e-982d-7630-5342" defaultCostLimit="-1"/>
-  </costTypes>
-  <publications>
-    <publication name="Sneki_Snek" id="9bca-dc9c-555f-6458" hidden="false" publisherUrl="https://github.com/Sneki-snek/Armoured_Clash" publisher="snekI_Snek"/>
-  </publications>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Weapons" id="90d4-bf3f-b4ee-58f1" hidden="false">
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Ranged (Light)" hidden="false" id="52fb-c2ee-538d-2155" sortIndex="1">
+        <selectionEntry name="Ranged (Light)" id="52fb-c2ee-538d-2155" hidden="false" import="true" sortIndex="1" type="upgrade">
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="95b6-aae0-4af3-e6aa" automatic="true"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4bc3-6981-3d3d-8514" automatic="true"/>
+            <constraint id="95b6-aae0-4af3-e6aa" automatic="true" field="selections" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="4bc3-6981-3d3d-8514" automatic="true" field="selections" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Melee" hidden="false" id="be3b-ccfb-408a-66d2" sortIndex="5">
+        <selectionEntry name="Melee" id="be3b-ccfb-408a-66d2" hidden="false" import="true" sortIndex="5" type="upgrade">
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8f04-2659-c8ae-a8c4" automatic="true"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0148-a285-d74e-bc07" automatic="true"/>
+            <constraint id="8f04-2659-c8ae-a8c4" automatic="true" field="selections" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="0148-a285-d74e-bc07" automatic="true" field="selections" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Ranged (Light/Heavy)" hidden="false" id="6e44-84fe-2d4f-9153" sortIndex="3">
+        <selectionEntry name="Ranged (Light/Heavy)" id="6e44-84fe-2d4f-9153" hidden="false" import="true" sortIndex="3" type="upgrade">
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4705-9fcd-043d-2b96" automatic="true"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="efe4-ffd6-772e-df5d" automatic="true"/>
+            <constraint id="4705-9fcd-043d-2b96" automatic="true" field="selections" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="efe4-ffd6-772e-df5d" automatic="true" field="selections" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Ranged (Heavy)" hidden="false" id="a038-b3e0-ba0e-6c35" sortIndex="2">
+        <selectionEntry name="Ranged (Heavy)" id="a038-b3e0-ba0e-6c35" hidden="false" import="true" sortIndex="2" type="upgrade">
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e486-dd06-4188-629a" automatic="true"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="40f2-d3a9-08e4-29b4" automatic="true"/>
+            <constraint id="e486-dd06-4188-629a" automatic="true" field="selections" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="40f2-d3a9-08e4-29b4" automatic="true" field="selections" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Ranged (Aerial)" hidden="false" id="cc52-8716-b7fa-b484" sortIndex="4">
+        <selectionEntry name="Ranged (Aerial)" id="cc52-8716-b7fa-b484" hidden="false" import="true" sortIndex="4" type="upgrade">
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d671-4aa3-915c-b064" automatic="true"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="eae3-2c94-147f-562b" automatic="true"/>
+            <constraint id="d671-4aa3-915c-b064" automatic="true" field="selections" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="eae3-2c94-147f-562b" automatic="true" field="selections" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Impact" hidden="false" id="1898-8580-b957-fe4a" sortIndex="6">
+        <selectionEntry name="Impact" id="1898-8580-b957-fe4a" hidden="false" import="true" sortIndex="6" type="upgrade">
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5907-23ca-8b64-2bad" automatic="true"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5fa6-6197-d302-73ee" automatic="true"/>
+            <constraint id="5907-23ca-8b64-2bad" automatic="true" field="selections" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="5fa6-6197-d302-73ee" automatic="true" field="selections" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
         </selectionEntry>
       </selectionEntries>

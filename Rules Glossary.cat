@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="true" id="4257-4b3f-e0ad-dea3" name="Rules Glossary" gameSystemId="sys-e850-e7dd-b6e5-f6c0" gameSystemRevision="1" revision="3" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue name="Rules Glossary" id="4257-4b3f-e0ad-dea3" battleScribeVersion="2.03" gameSystemId="sys-e850-e7dd-b6e5-f6c0" gameSystemRevision="1" library="true" revision="3" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedRules>
     <rule name="All-Out Attack" id="71e9-1759-fb9b-a065" hidden="false">
       <description>In this unit’s Attack Step it can make an All-Out Attack instead of attacking normally.
@@ -175,8 +175,9 @@ The Spotting unit then loses its On Lookout status.</description>
       <description>If this unit does not make an Attack during its Activation, it automatically gains the On Lookout status at the end of the Activation.
 
 
-Note: This means that the unit could, for example, make a Double Time manoeuvre, or an Advance manoeuvre and a Take Cover Special Action, and still gain the On Lookout status. 
+**Note:** This means that the unit could, for example, make a Double Time manoeuvre, or an Advance manoeuvre and a Take Cover Special Action, and still gain the On Lookout status. 
 Any rules which prevent the unit from gaining the On Lookout status still prevent it from doing so.</description>
+      <alias>Stalker</alias>
     </rule>
     <rule name="Tail Gunner" id="4190-9dcd-d38e-e1b3" hidden="false" publicationId="18e3-7a99-b38b-66f2">
       <description>If an Intercept special command is issued to this unit, treat the Command &amp; Conquest Card’s Value as 1 point higher, to a maximum of 12.
@@ -190,7 +191,12 @@ higher, to a maximum of 12.</description>
 Note: If both Forces contain units with this Special Rule, the General who finished deploying first moves their units, then the other General moves their units.</description>
     </rule>
     <rule name="Devastating" id="3769-dd1f-3cc2-f7c4" hidden="false">
-      <description>In the Apply Damage step of resolving this attack, if any excess Hits are discarded, the target unit suffers one additional point of Damage.</description>
+      <description>In the Apply Damage step of this attack, if any excess Hits are discarded, the target unit suffers one additional point of Damage.
+
+
+This weapon quality might sometimes be followed by a bracketed Trait; for example, Devastating (Heavy). If that is the case, this weapon quality only comes into effect against units with the bracketed Trait.
+If a unit has multiple versions of this same weapon quality during an Attack Action, this General can choose which one to use.</description>
+      <alias>Devatasting </alias>
     </rule>
     <rule name="Indirect" id="bc43-bf9f-ea18-405d" hidden="false">
       <description>This attack cannot target units that are within its Short Range.
@@ -831,6 +837,12 @@ Status Token. &lt;/td&gt;
   &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;</description>
+    </rule>
+    <rule name="Sweeping" id="ad39-712c-ae76-831b" hidden="false">
+      <description>An attack with this Quality cannot be used to make Opportunity Fire.
+In the Choose a Target step of this attack, this General can declare that this attack will be Sweeping. If they do so, then every unit the active unit can confirm Target Acquisition on, friend or foe, is targeted by this attack.
+Resolve the Determine Combat Rating, Roll Attack Pool, and Check for Suppression steps for each target unit in turn.
+Each of these is treated as a separate attack for the purposes of Special Rules and Commands.</description>
     </rule>
   </sharedRules>
 </catalogue>
